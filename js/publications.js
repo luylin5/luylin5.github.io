@@ -23,8 +23,8 @@
 
   const isFirst = (p) => names.includes(p.authors[0]);
   const isCoFirst = (p) => (p.equal || []).some((i) => names.includes(p.authors[i]));
-  const roleTag = (p) => isCoFirst(p) ? '<span class="tag">Co-first author</span>'
-    : isFirst(p) ? '<span class="tag">First author</span>' : "";
+  // co-first authorship is already shown by † on the names, so it gets no extra tag
+  const roleTag = (p) => isFirst(p) && !isCoFirst(p) ? '<span class="tag">First author</span>' : "";
   const link = (p) => `https://doi.org/${p.doi}`;
 
   // Selected
@@ -36,7 +36,7 @@
         <div>
           <h3><a href="${link(p)}" target="_blank" rel="noopener">${p.title}</a></h3>
           <p class="authors">${authorsHTML(p)}</p>
-          <p class="venue">${citeHTML(p)}${isCoFirst(p) ? " " + roleTag(p) : ""}${p.note ? ` <span class="tag">${esc(p.note)}</span>` : ""}</p>
+          <p class="venue">${citeHTML(p)}${p.note ? ` <span class="tag">${esc(p.note)}</span>` : ""}</p>
         </div>
       </li>`).join("");
   }
