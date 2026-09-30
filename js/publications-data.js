@@ -1,6 +1,6 @@
 // Publications, generated from Google Scholar + Crossref (DOIs verified).
 // Edit freely: `selected: true` puts a paper in "Selected Publications";
-// add `note: "Cover"`, `equal: [0,1]` (indices of co-first authors) or `corresponding: [5]` as needed.
+// add `note: "Cover"`, `equal: [0,1]` (indices of co-first authors, shown with †) or `corresponding: [5]` as needed.
 window.MY_NAMES = ["Yu-Lin Lu", "Yulin Lu"];
 window.PUBLICATIONS = [
   {
@@ -376,7 +376,8 @@ window.PUBLICATIONS = [
     "pages": "21677-21688",
     "equal": [
       0,
-      1
+      1,
+      2
     ],
     "selected": true
   },
@@ -399,7 +400,11 @@ window.PUBLICATIONS = [
     "venue": "ACS Catal.",
     "volume": "14",
     "pages": "94-103",
-    "selected": true
+    "selected": true,
+    "equal": [
+      0,
+      1
+    ]
   },
   {
     "title": "Stereochemical Control of Redox Co<sup>II</sup>/Co<sup>III</sup>-Cages with Switchable Cotton Effects Based on Labile-Static States",

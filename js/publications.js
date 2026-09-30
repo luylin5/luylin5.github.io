@@ -7,7 +7,7 @@
   function authorsHTML(p) {
     return p.authors.map((a, i) => {
       let s = esc(a);
-      if ((p.equal || []).includes(i)) s += "*";
+      if ((p.equal || []).includes(i)) s += "<sup>†</sup>";
       if ((p.corresponding || []).includes(i)) s += "<sup>✉</sup>";
       return names.includes(a) ? `<b>${s}</b>` : s;
     }).join(", ");
@@ -22,9 +22,9 @@
   }
 
   const isFirst = (p) => names.includes(p.authors[0]);
-  const isCoFirst = (p) => !isFirst(p) && (p.equal || []).some((i) => names.includes(p.authors[i]));
-  const roleTag = (p) => isFirst(p) ? '<span class="tag">First author</span>'
-    : isCoFirst(p) ? '<span class="tag">Co-first author</span>' : "";
+  const isCoFirst = (p) => (p.equal || []).some((i) => names.includes(p.authors[i]));
+  const roleTag = (p) => isCoFirst(p) ? '<span class="tag">Co-first author</span>'
+    : isFirst(p) ? '<span class="tag">First author</span>' : "";
   const link = (p) => `https://doi.org/${p.doi}`;
 
   // Selected
