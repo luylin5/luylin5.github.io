@@ -17,6 +17,7 @@
       <a href="#about">About</a>
       <a href="#news">News</a>
       <a href="#publications">Publications</a>
+      <a href="#tools">Tools</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
@@ -82,6 +83,50 @@
       </details>
       <p class="muted">Full, up-to-date list on
         <a href="https://scholar.google.com/citations?user=-yCWFqsAAAAJ" target="_blank" rel="noopener">Google Scholar</a>.</p>
+    </section>
+    <!-- ============ Tools ============ -->
+    <section id="tools" class="wrap section">
+      <h2>Tools</h2>
+      <p class="muted">Software I develop for everyday lab work. Free and open source.</p>
+
+      <article class="tool">
+        <header class="tool-head">
+          <img class="tool-icon" src="images/tools/xstack-icon.png" alt="" width="56" height="56">
+          <div>
+            <h3>xStack <span class="tool-sub">PXRD Viewer</span></h3>
+            <p class="tool-meta">v1.5 · Windows 10/11 (64-bit) · MIT License</p>
+          </div>
+        </header>
+
+        <p class="tool-desc">
+          A desktop app for viewing, stacking and comparing powder X-ray diffraction patterns —
+          from raw instrument files to publication-ready figures in a few clicks.
+        </p>
+
+        <figure class="tool-shot">
+          <img src="images/tools/xstack-preview.webp" alt="xStack main window with three stacked PXRD patterns, file browser and display settings" loading="lazy" width="1440" height="940">
+          <figcaption>Main window (synthetic example data).</figcaption>
+        </figure>
+
+        <ul class="tool-features">
+          <li><b>Batch import</b> by drag &amp; drop — two-column text (.xy, .xye, .dat, .csv …), Bruker / Rigaku .raw and .xrdml.</li>
+          <li><b>Stacked or overlay</b> plots with per-curve scale, offset, colour and labels; live normalisation to the visible 2θ range.</li>
+          <li><b>Processing</b> — Savitzky–Golay, moving-average and Gaussian smoothing, arPLS background subtraction, with live preview.</li>
+          <li><b>Peak analysis</b> — positions, d-spacings, FWHM and Scherrer crystallite-size estimates.</li>
+          <li><b>Export</b> SVG / PNG / CSV or copy straight to the clipboard; save editable <code>.pxrdproj</code> sessions.</li>
+          <li><b>Undo</b> up to 30 steps; processing never overwrites your source files.</li>
+        </ul>
+
+        <div class="tool-actions">
+          <a class="btn btn-primary" href="https://github.com/luylin5/xStack/releases/download/PXRD/xStack-1.5-Setup.exe">Download installer <span>66 MB</span></a>
+          <a class="btn" href="https://github.com/luylin5/xStack/releases/download/PXRD/xStack-1.5-Portable.exe">Portable .exe <span>100 MB</span></a>
+          <a class="btn btn-ghost" href="https://github.com/luylin5/xStack" target="_blank" rel="noopener">Source &amp; docs on GitHub →</a>
+        </div>
+        <p class="tool-note">
+          The installer needs no admin rights. Builds are not code-signed, so Windows SmartScreen may ask
+          you to confirm (“More info → Run anyway”).
+        </p>
+      </article>
     </section>
   </main>
 
