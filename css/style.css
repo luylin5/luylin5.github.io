@@ -103,9 +103,13 @@ h1 { font: 500 clamp(44px, 7vw, 76px)/1.05 var(--serif); margin: 12px 0 18px; le
 h2 { font: 500 30px/1.2 var(--serif); margin: 0 0 20px; }
 .prose p { margin: 0 0 14px; }
 
-.news { list-style: none; padding: 0; margin: 0; }
-.news li { display: grid; grid-template-columns: 80px 1fr; gap: 12px; padding: 8px 0; border-top: 1px solid var(--line); }
-.news time { color: var(--muted); font-variant-numeric: tabular-nums; font-size: 14px; padding-top: 1px; }
+.cv { display: grid; gap: 22px; margin-top: 28px; }
+.cv h3 { font: 500 13px var(--sans); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin: 0 0 8px; }
+.timeline { list-style: none; padding: 0; margin: 0; font-size: 14.5px; line-height: 1.5; }
+.timeline li { display: grid; grid-template-columns: 110px 1fr; gap: 10px; padding: 10px 0; border-top: 1px solid var(--line); }
+.timeline time { color: var(--muted); font-variant-numeric: tabular-nums; font-size: 13.5px; padding-top: 1px; }
+.timeline b { font-weight: 600; }
+.timeline .muted { font-size: 13.5px; }
 
 .pubs { list-style: none; padding: 0; margin: 0; }
 .pub { display: grid; grid-template-columns: 132px 1fr; gap: 22px; padding: 18px 0; border-top: 1px solid var(--line); }
@@ -192,7 +196,7 @@ h1 .cn { font-size: .42em; color: var(--muted); font-weight: 400; margin-left: .
   .hero { flex-direction: column; align-items: flex-start; gap: 20px; padding-top: 6vh; }
   .hero-photo { width: 120px; height: 120px; border-radius: 18px; }
   .nav nav { gap: 14px; }
-  .nav nav a:nth-child(1), .nav nav a:nth-child(2) { display: none; }
+  .nav nav a:nth-child(1) { display: none; }
   .tool { padding: 18px; }
   .pub { grid-template-columns: 1fr; gap: 8px; }
   .pub-badge { flex-direction: row; gap: 8px; padding: 4px 10px; justify-self: start; }
