@@ -1,13 +1,14 @@
 // 3D "floating cards" gallery: cards sit on a slowly rotating cylinder seen from outside.
 // Cards swinging to the front come closer (bigger) and into focus; those going round the
 // sides/back shrink, blur and fade. Drag, scroll or move the mouse to steer.
+// Items (js/gallery-data.js) can be images or muted looping videos of any aspect ratio.
 (() => {
   const stage = document.querySelector("[data-gallery]");
   const items = window.GALLERY_ITEMS || [];
   if (!stage || !items.length) return;
 
   const TAU = Math.PI * 2;
-  const BANDS = 3;          // horizontal rows of cards
+  const BANDS = 2;          // horizontal rows of cards
   const PER_BAND = 12;      // cards per row around the full circle
   const COUNT = BANDS * PER_BAND;
   const BASE_SPEED = 0.045; // rad/s idle rotation
@@ -18,28 +19,55 @@
   const R = 900;       // cylinder radius
   const D = 1650;      // camera distance from cylinder axis (outside the cylinder)
   const FRONT = D - R;  // depth of a card dead-centre in front: sharpest & biggest
+  const CARD_AREA = 300 * 200; // every card has about the same area, whatever its shape
 
   let seed = 11;
   const rand = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
 
   const cards = [];
+  let tallest = 0;
   for (let i = 0; i < COUNT; i++) {
     const band = i % BANDS;
     const k = Math.floor(i / BANDS);
-    const item = items[(k * BANDS + band * 5) % items.length];
+    // shift each row so neighbouring cards (across and between rows) differ
+    const item = items[(k + band * Math.ceil(items.length / 2)) % items.length];
+    const aspect = item.aspect || 1.5;
+    const w = Math.sqrt(CARD_AREA * aspect), h = w / aspect;
+    tallest = Math.max(tallest, h);
+
     const el = document.createElement("button");
     el.type = "button";
-    el.className = "g-card";
-    el.setAttribute("aria-label", item.title || "Photo");
-    el.innerHTML = `<img src="${item.src}" alt="" decoding="async" draggable="false"><span class="g-cap"></span>`;
-    el.querySelector(".g-cap").textContent = item.title || "";
+    el.className = item.type === "video" ? "g-card g-video" : "g-card";
+    el.setAttribute("aria-label", item.title || "Gallery item");
+    let video = null;
+    if (item.type === "video") {
+      video = document.createElement("video");
+      video.muted = true;
+      video.loop = true;
+      video.playsInline = true;
+      video.preload = "none";
+      if (item.poster) video.poster = item.poster;
+      el.appendChild(video);
+    } else {
+      const img = document.createElement("img");
+      img.src = item.src;
+      img.alt = "";
+      img.decoding = "async";
+      img.draggable = false;
+      el.appendChild(img);
+    }
+    const cap = document.createElement("span");
+    cap.className = "g-cap";
+    cap.textContent = item.title || "";
+    el.appendChild(cap);
     stage.appendChild(el);
+
     const c = {
-      el, item,
+      el, item, video, w, h, playing: false,
       a: (k / PER_BAND) * TAU + band * (TAU / PER_BAND / BANDS) + (rand() - 0.5) * 0.12,
       r: 0.94 + rand() * 0.12,
-      y: (band - (BANDS - 1) / 2) + (rand() - 0.5) * 0.25,
-      s: 0.85 + rand() * 0.25,
+      y: (band - (BANDS - 1) / 2) + (rand() - 0.5) * 0.12,
+      s: 0.9 + rand() * 0.18,
       hover: 0, blur: -1, op: -1, z: -1,
     };
     el.addEventListener("pointerenter", () => (hovered = c));
@@ -49,22 +77,20 @@
     el.addEventListener("click", () => { if (!dragMoved) openLightbox(item); });
     cards.push(c);
   }
+  const bandGap = tallest * 1.22; // rows never overlap, even for tall covers
 
   // ---- layout ----
-  let unit = 1, cardW = 260, cardH = 173, bandGap = 250;
+  let unit = 1;
   function resize() {
-    const w = stage.clientWidth;
-    unit = Math.max(0.5, Math.min(1.25, w / 1200));
+    const w = stage.clientWidth, h = stage.clientHeight;
+    unit = Math.max(0.45, Math.min(1.25, w / 1200, h / 860));
     stage.style.perspective = P * unit + "px";
-    cardW = 260 * unit;
-    cardH = cardW * 0.665;
-    // rows spaced so the front (magnified) cards fill ~62% of the stage height
-    bandGap = (stage.clientHeight * 0.31) / (P / FRONT) / unit;
     for (const c of cards) {
-      c.el.style.width = cardW + "px";
-      c.el.style.height = cardH + "px";
-      c.el.style.marginLeft = -cardW / 2 + "px";
-      c.el.style.marginTop = -cardH / 2 + "px";
+      const cw = c.w * unit, ch = c.h * unit;
+      c.el.style.width = cw + "px";
+      c.el.style.height = ch + "px";
+      c.el.style.marginLeft = -cw / 2 + "px";
+      c.el.style.marginTop = -ch / 2 + "px";
     }
   }
   addEventListener("resize", resize);
@@ -106,9 +132,24 @@
     lastScroll = scrollY;
   }, { passive: true });
 
-  // only animate while visible
+  // only animate (and play videos) while visible
   let visible = true;
-  new IntersectionObserver(([e]) => (visible = e.isIntersecting)).observe(stage);
+  new IntersectionObserver(([e]) => {
+    visible = e.isIntersecting;
+    if (!visible) for (const c of cards) setPlaying(c, false);
+  }).observe(stage);
+
+  // Videos only play while their card faces the front, so at most a few decode at once.
+  function setPlaying(c, on) {
+    if (!c.video || c.playing === on) return;
+    c.playing = on;
+    if (on) {
+      if (!c.video.src) c.video.src = c.item.preview || c.item.src;
+      c.video.play().catch(() => {});
+    } else {
+      c.video.pause();
+    }
+  }
 
   // ---- render loop ----
   let prev = performance.now();
@@ -162,6 +203,7 @@
         c.op = op;
       }
       if (zi !== c.z) { el.style.zIndex = zi; c.z = zi; }
+      if (c.video && !reduceMotion) setPlaying(c, cos > 0.35);
     }
   }
 
@@ -170,12 +212,27 @@
 
   // ---- lightbox ----
   const lb = document.querySelector(".lightbox");
+  if (!lb) return;
+  const lbImg = lb.querySelector("img");
+  const lbVideo = lb.querySelector("video");
+  const lbLink = lb.querySelector(".lb-link");
   function openLightbox(item) {
-    if (!lb) return;
-    lb.querySelector("img").src = item.src;
+    const isVideo = item.type === "video";
+    lbImg.hidden = isVideo;
+    lbVideo.hidden = !isVideo;
+    if (isVideo) {
+      lbVideo.src = item.src;
+      lbVideo.poster = item.poster || "";
+      lbVideo.play().catch(() => {});
+    } else {
+      lbImg.src = item.src;
+    }
     lb.querySelector("h3").textContent = item.title || "";
     lb.querySelector("p").textContent = item.caption || "";
+    lbLink.hidden = !item.link;
+    if (item.link) lbLink.href = item.link;
     lb.showModal();
   }
-  lb?.addEventListener("click", (e) => { if (e.target === lb) lb.close(); });
+  lb.addEventListener("close", () => { lbVideo.pause(); lbVideo.removeAttribute("src"); lbVideo.load(); });
+  lb.addEventListener("click", (e) => { if (e.target === lb) lb.close(); });
 })();
