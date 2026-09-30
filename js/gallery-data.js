@@ -65,4 +65,16 @@ window.GALLERY_ITEMS = [
     title: "Cage model in 3D",
     caption: "Space-filling model of a metal–organic cage.",
   },
+  {
+    src: "images/gallery/cage-q10.webp",
+    aspect: 1200 / 1173,
+    title: "Cage structure",
+    caption: "",
+  },
+  {
+    src: "images/gallery/cage-phen-surface.webp",
+    aspect: 1200 / 1193,
+    title: "Cage surface with guests",
+    caption: "",
+  },
 ];
