@@ -143,7 +143,12 @@ window.PUBLICATIONS = [
     "doi": "10.1021/jacs.5c03074",
     "venue": "J. Am. Chem. Soc.",
     "volume": "147",
-    "pages": "13008-13016"
+    "pages": "13008-13016",
+    "equal": [
+      0,
+      1
+    ],
+    "selected": true
   },
   {
     "title": "Enantioselective dearomative ortho-cycloaddition transformation of unactivated arenes by cage-confined visible-light photocatalysis",
@@ -290,7 +295,12 @@ window.PUBLICATIONS = [
     "doi": "10.1002/anie.202315053",
     "venue": "Angew. Chem. Int. Ed.",
     "volume": "63",
-    "pages": "e202315053"
+    "pages": "e202315053",
+    "equal": [
+      0,
+      1
+    ],
+    "selected": true
   },
   {
     "title": "Enantioselective [2+2] Cross-Photocycloaddition Enabled by a Chiral Cage Reactor via Multilevel-Selectivity Control",
@@ -363,7 +373,12 @@ window.PUBLICATIONS = [
     "doi": "10.1021/jacs.4c05758",
     "venue": "J. Am. Chem. Soc.",
     "volume": "146",
-    "pages": "21677-21688"
+    "pages": "21677-21688",
+    "equal": [
+      0,
+      1
+    ],
+    "selected": true
   },
   {
     "title": "Anion-Mediated Allosteric Catalysis of [2 + 2] Photocycloaddition Based on a Flexible Metallo-Amine Cage for High Diastereoselectivity",

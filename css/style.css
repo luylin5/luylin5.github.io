@@ -37,7 +37,12 @@ a:hover { color: var(--accent); text-decoration-color: currentColor; }
 .nav nav a:hover { color: var(--ink); }
 
 /* ---------- hero ---------- */
-.hero { padding-top: 12vh; padding-bottom: 2vh; }
+.hero { max-width: 900px; padding-top: 12vh; padding-bottom: 2vh; display: flex; flex-direction: row-reverse; align-items: center; gap: 40px; }
+.hero-text { flex: 1; min-width: 0; }
+.hero-photo {
+  flex: none; width: 220px; height: 220px; object-fit: cover; object-position: 50% 35%;
+  border-radius: 24px; box-shadow: 0 22px 44px -24px rgba(40, 30, 20, .5);
+}
 .eyebrow { font-size: 13px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin: 0; }
 h1 { font: 500 clamp(44px, 7vw, 76px)/1.05 var(--serif); margin: 12px 0 18px; letter-spacing: -0.02em; }
 .lede { font: 400 21px/1.55 var(--serif); margin: 0; max-width: 620px; }
@@ -181,6 +186,8 @@ h1 .cn { font-size: .42em; color: var(--muted); font-weight: 400; margin-left: .
 }
 
 @media (max-width: 640px) {
+  .hero { flex-direction: column; align-items: flex-start; gap: 20px; padding-top: 6vh; }
+  .hero-photo { width: 120px; height: 120px; border-radius: 18px; }
   .nav nav { gap: 14px; }
   .nav nav a:nth-child(1), .nav nav a:nth-child(2) { display: none; }
   .tool { padding: 18px; }

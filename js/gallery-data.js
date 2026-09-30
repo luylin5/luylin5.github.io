@@ -37,4 +37,24 @@ window.GALLERY_ITEMS = [
     title: "Cover · ChemComm 2025",
     caption: "Feature article: Self-assembly under continuous flow conditions (Slater et al.). ChemComm, Vol. 61, Issue 56.",
   },
+  {
+    src: "images/gallery/cage-co-labile-static.webp",
+    aspect: 1400 / 845,
+    title: "Labile ⇄ static Co cages",
+    caption: "Redox switching between Co(II) and Co(III) switches Co₈Pd₆ cages from labile to static. J. Am. Chem. Soc. 2024.",
+    link: "https://doi.org/10.1021/jacs.4c06102",
+  },
+  {
+    src: "images/gallery/cage-multipocket.webp",
+    aspect: 1400 / 788,
+    title: "Multipocket cage",
+    caption: "A multipocket metal–organic cage that binds high-order bulky and drug guests. J. Am. Chem. Soc. 2024.",
+    link: "https://doi.org/10.1021/jacs.4c05758",
+  },
+  {
+    src: "images/gallery/cage-structure.webp",
+    aspect: 342 / 374,
+    title: "Metal–organic cage",
+    caption: "",
+  },
 ];

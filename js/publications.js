@@ -22,6 +22,9 @@
   }
 
   const isFirst = (p) => names.includes(p.authors[0]);
+  const isCoFirst = (p) => !isFirst(p) && (p.equal || []).some((i) => names.includes(p.authors[i]));
+  const roleTag = (p) => isFirst(p) ? '<span class="tag">First author</span>'
+    : isCoFirst(p) ? '<span class="tag">Co-first author</span>' : "";
   const link = (p) => `https://doi.org/${p.doi}`;
 
   // Selected
@@ -33,7 +36,7 @@
         <div>
           <h3><a href="${link(p)}" target="_blank" rel="noopener">${p.title}</a></h3>
           <p class="authors">${authorsHTML(p)}</p>
-          <p class="venue">${citeHTML(p)}${p.note ? ` <span class="tag">${esc(p.note)}</span>` : ""}</p>
+          <p class="venue">${citeHTML(p)}${isCoFirst(p) ? " " + roleTag(p) : ""}${p.note ? ` <span class="tag">${esc(p.note)}</span>` : ""}</p>
         </div>
       </li>`).join("");
   }
@@ -48,7 +51,7 @@
       <ol class="pub-list">
         ${pubs.filter((p) => p.year === y).map((p) => `
           <li value="${n--}">
-            <a class="pub-title" href="${link(p)}" target="_blank" rel="noopener">${p.title}</a>${isFirst(p) ? ' <span class="tag">First author</span>' : ""}
+            <a class="pub-title" href="${link(p)}" target="_blank" rel="noopener">${p.title}</a>${roleTag(p) ? " " + roleTag(p) : ""}
             <div class="authors">${authorsHTML(p)}</div>
             <div class="venue">${citeHTML(p)}</div>
           </li>`).join("")}
