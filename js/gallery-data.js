@@ -57,4 +57,12 @@ window.GALLERY_ITEMS = [
     title: "Metal–organic cage",
     caption: "",
   },
+  {
+    src: "images/gallery/cage-rotation.mp4",
+    poster: "images/gallery/cage-rotation-poster.webp",
+    type: "video",
+    aspect: 1,
+    title: "Cage model in 3D",
+    caption: "Space-filling model of a metal–organic cage.",
+  },
 ];
