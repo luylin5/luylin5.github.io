@@ -9,7 +9,7 @@
 
   const TAU = Math.PI * 2;
   const BANDS = 2;          // horizontal rows of cards
-  const PER_BAND = 12;      // cards per row around the full circle
+  const PER_BAND = 8;       // cards per row around the full circle
   const COUNT = BANDS * PER_BAND;
   const BASE_SPEED = 0.045; // rad/s idle rotation
   const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -17,9 +17,11 @@
   // Geometry in "design px" (1200px-wide stage), scaled by `unit`.
   const P = 1000;      // CSS perspective
   const R = 900;       // cylinder radius
-  const D = 1650;      // camera distance from cylinder axis (outside the cylinder)
+  const D = 1500;      // camera distance from cylinder axis (outside the cylinder)
   const FRONT = D - R;  // depth of a card dead-centre in front: sharpest & biggest
   const CARD_AREA = 300 * 200; // every card has about the same area, whatever its shape
+  const FRONT_BOOST = 0.3;  // extra magnification for the card passing dead-centre
+  const HOVER_SCALE = 0.35; // extra magnification under the pointer
 
   let seed = 11;
   const rand = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
@@ -83,7 +85,10 @@
   let unit = 1;
   function resize() {
     const w = stage.clientWidth, h = stage.clientHeight;
-    unit = Math.max(0.45, Math.min(1.25, w / 1200, h / 860));
+    // fit the tallest, fully magnified front card (top row) inside the stage
+    // (row offset incl. jitter + half card at max random scale and boost), with a little margin
+    const frontHalf = (bandGap * 0.56 + tallest * 0.5 * 1.08 * (1 + FRONT_BOOST)) * (P / FRONT);
+    unit = Math.max(0.4, Math.min(1.25, w / 1200, (h / 2) * 0.94 / frontHalf));
     stage.style.perspective = P * unit + "px";
     for (const c of cards) {
       const cw = c.w * unit, ch = c.h * unit;
@@ -158,7 +163,7 @@
     prev = now;
     if (visible) {
       if (!dragging) {
-        const target = hovered ? BASE_SPEED * 0.15 : BASE_SPEED;
+        const target = hovered ? 0 : BASE_SPEED;
         vel += (target - vel) * Math.min(1, dt * 2.2); // ease back to idle speed
         rot += vel * dt;
       }
@@ -179,9 +184,13 @@
       c.hover += ((hovered === c ? 1 : 0) - c.hover) * Math.min(1, dt * 8);
 
       const x = r * Math.sin(a) * unit;
-      const y = (c.y * bandGap + pitch) * unit;
+      // a hovered card drifts towards the vertical centre so its zoom never clips
+      const y = (c.y * bandGap * (1 - 0.45 * c.hover) + pitch) * unit;
       const z = (P - depth) * unit;
-      const s = c.s * (1 + c.hover * 0.06);
+      // smooth bump as the card passes the front (cos → 1)
+      const f = Math.min(1, Math.max(0, (cos - 0.75) / 0.25));
+      const boost = 1 + FRONT_BOOST * f * f * (3 - 2 * f);
+      const s = c.s * boost * (1 + c.hover * HOVER_SCALE);
       // front half faces outward (towards camera); back half is turned to face
       // the camera through the cylinder, so it never shows its back side
       const ry = cos >= 0 ? a : a + Math.PI;
@@ -194,7 +203,7 @@
       blur = Math.round(blur * 2) / 2;
       let op = 1 - 0.82 * Math.pow(Math.min(1, t), 0.85);
       op = Math.round(op * 50) / 50;
-      const zi = Math.round(5000 - depth);
+      const zi = c.hover > 0.05 ? 9000 : Math.round(5000 - depth);
 
       if (blur !== c.blur) { el.style.filter = blur ? `blur(${blur}px)` : "none"; c.blur = blur; }
       if (op !== c.op) {

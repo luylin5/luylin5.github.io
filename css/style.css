@@ -47,8 +47,8 @@ h1 { font: 500 clamp(44px, 7vw, 76px)/1.05 var(--serif); margin: 12px 0 18px; le
 .gallery { position: relative; }
 .gallery-stage {
   position: relative;
-  height: min(78vh, 760px);
-  min-height: 420px;
+  height: min(84vh, 820px);
+  min-height: 440px;
   overflow: hidden;
   cursor: grab;
   touch-action: pan-y;
