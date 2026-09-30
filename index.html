@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yu-Lin Lu (鲁玉麟)</title>
+  <meta name="description" content="Yu-Lin Lu — supramolecular chemistry, self-assembly and crystal engineering. University of Liverpool.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="nav-name" href="#top">Yu-Lin Lu</a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#news">News</a>
+      <a href="#publications">Publications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- ============ Hero ============ -->
+    <section class="hero wrap">
+      <p class="eyebrow">Postdoctoral Research Associate · University of Liverpool</p>
+      <h1>Yu-Lin Lu <span class="cn">鲁玉麟</span></h1>
+      <p class="lede">
+        I work on <em>supramolecular chemistry</em>, <em>self-assembly</em> and
+        <em>crystal engineering</em> — from functional metal–organic cages to porous molecular crystals.
+      </p>
+      <p class="links">
+        <a href="mailto:you@university.edu">Email</a>
+        <a href="https://scholar.google.com/citations?user=-yCWFqsAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+        <a href="https://orcid.org/0000-0001-9846-8127" target="_blank" rel="noopener">ORCID</a>
+        <a href="#">GitHub</a>
+        <a href="#">CV (PDF)</a>
+      </p>
+    </section>
+
+    <!-- ============ 3D rotating gallery ============ -->
+    <!-- Images/captions live in js/gallery-data.js -->
+    <section class="gallery" aria-label="Photo gallery">
+      <div class="gallery-stage" data-gallery></div>
+      <p class="gallery-hint">Drag or scroll to spin · click a photo to enlarge</p>
+    </section>
+
+    <!-- ============ About ============ -->
+    <section id="about" class="wrap section">
+      <h2>About</h2>
+      <div class="prose">
+        <p>
+          I am a PhD candidate at <a href="#">Your University</a>, advised by
+          <a href="#">Prof. Advisor</a>. My research focuses on …
+        </p>
+        <p>
+          Before that, I received my B.S. from … . I am broadly interested in …
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ News ============ -->
+    <section id="news" class="wrap section">
+      <h2>News</h2>
+      <ul class="news">
+        <li><time>2026.09</time><span>Paper accepted at <strong>Conference 2026</strong>.</span></li>
+        <li><time>2026.06</time><span>Gave a talk at … Workshop.</span></li>
+        <li><time>2026.03</time><span>Received the … Fellowship.</span></li>
+      </ul>
+    </section>
+
+    <!-- ============ Publications ============ -->
+    <!-- Data lives in js/publications-data.js -->
+    <section id="publications" class="wrap section">
+      <h2>Selected Publications</h2>
+      <ol class="pubs" id="pub-selected"></ol>
+
+      <details class="pub-all">
+        <summary>All publications (<span id="pub-count"></span>)</summary>
+        <div id="pub-all"></div>
+      </details>
+      <p class="muted">Full, up-to-date list on
+        <a href="https://scholar.google.com/citations?user=-yCWFqsAAAAJ" target="_blank" rel="noopener">Google Scholar</a>.</p>
+    </section>
+  </main>
+
+  <footer id="contact" class="wrap footer">
+    <p>you@university.edu · Room 000, Building, Your University</p>
+    <p class="muted">Last updated Sep 2026</p>
+  </footer>
+
+  <dialog class="lightbox" aria-label="Photo">
+    <form method="dialog"><button class="lb-close" aria-label="Close">×</button></form>
+    <img alt="">
+    <div class="lb-text"><h3></h3><p></p></div>
+  </dialog>
+
+  <script src="js/gallery-data.js"></script>
+  <script src="js/gallery.js"></script>
+  <script src="js/publications-data.js"></script>
+  <script src="js/publications.js"></script>
+</body>
+</html>
