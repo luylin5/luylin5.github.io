@@ -116,6 +116,8 @@
   // focus: the card brought to the centre. `pending` waits a moment (hover intent) so
   // merely sweeping the mouse across the ring doesn't yank it around.
   let focused = null, pending = null, pendingSince = 0, settled = true;
+  // set when the pointer *moves* off the focused card; focus is released shortly after
+  let awaySince = 0;
 
   function onEnter(c, e) {
     if (dragging || e.pointerType === "touch") return;
@@ -124,13 +126,19 @@
   }
   function focusCard(c) {
     focused = c;
+    awaySince = 0;
     pending = null;
     settled = false;
     yawT = 0;
   }
-  const release = () => { focused = null; pending = null; };
+  const release = () => { focused = null; pending = null; awaySince = 0; };
 
   stage.addEventListener("pointermove", (e) => {
+    if (focused && !dragging) {
+      const over = e.target.closest?.(".g-card") === focused.el;
+      if (over) awaySince = 0;
+      else if (!awaySince) awaySince = performance.now();
+    }
     const b = stage.getBoundingClientRect();
     if (!focused) {
       yawT = ((e.clientX - b.left) / b.width - 0.5) * 0.14;
@@ -192,6 +200,8 @@
       // hover intent: switch focus once the pointer has rested on a card briefly,
       // and not while the previous card is still swinging in
       if (pending && pending !== focused && settled && now - pendingSince > 90) focusCard(pending);
+      // pointer moved away from the focused card: let the ring spin again
+      else if (focused && settled && awaySince && now - awaySince > 200) release();
 
       if (focused) {
         // swing the focused card to dead-centre along the shortest way round
@@ -201,7 +211,7 @@
         vel = 0;
         if (Math.abs(diff) < 0.02) settled = true;
       } else if (!dragging) {
-        vel += (BASE_SPEED - vel) * Math.min(1, dt * 2.2); // ease back to idle speed
+        vel += (BASE_SPEED - vel) * Math.min(1, dt * 4); // ease back to idle speed
         rot += vel * dt;
         settled = true;
       }
