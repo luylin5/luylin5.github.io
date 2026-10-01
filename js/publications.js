@@ -70,7 +70,7 @@
   const sel = document.getElementById("pub-selected");
   if (sel) {
     sel.innerHTML = pubs.filter((p) => p.selected).map((p) => `
-      <li class="pub">
+      <li class="pub" data-doi="${p.doi}">
         ${p.toc
           ? `<button type="button" class="pub-toc" data-i="${pubs.indexOf(p)}" aria-label="Enlarge graphic"><img src="${p.toc}" alt="" loading="lazy"></button>`
           : `<div class="pub-badge"><span>${esc(p.venue)}</span><span>${p.year}</span></div>`}

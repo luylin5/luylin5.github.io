@@ -47,8 +47,7 @@
     },
   ];
 
-  const METALS = ["Zn", "Pd", "Ru", "Fe", "Co", "Ni", "Os", "Pt", "Cu"];
-  const MODELS = { stick: "Stick", ballstick: "Ball & stick", sphere: "Space-filling", line: "Wireframe" };
+  const { styleFor, decorate, drawBox, modelOptions } = window.Mol3D;
   const cache = {};
   const loadText = (url) => (cache[url] ??= fetch(url).then((r) => r.text()));
 
@@ -61,16 +60,6 @@
       if (inAtoms && line.trim()) out.push(+line.trim().split(/\s+/)[6]);
     }
     return out;
-  }
-
-  function styleFor(kind, colorscheme) {
-    const c = colorscheme ? { colorscheme } : {};
-    switch (kind) {
-      case "ballstick": return { stick: { radius: 0.12, ...c }, sphere: { scale: 0.24, ...c } };
-      case "sphere": return { sphere: { scale: 1.0, ...c } };
-      case "line": return { line: { linewidth: 1.5, ...c } };
-      default: return { stick: { radius: 0.14, ...c } };
-    }
   }
 
   // ---- one card ----
@@ -87,7 +76,7 @@
         `<button type="button" data-v="${i}" aria-selected="${i === 0}">${v.label}</button>`).join("")}</div>` : ""}
       <div class="st-viewer"></div>
       <div class="st-controls">
-        <select class="st-model" aria-label="Model">${Object.entries(MODELS).map(([k, l]) => `<option value="${k}">${l}</option>`).join("")}</select>
+        <select class="st-model" aria-label="Model">${modelOptions()}</select>
         <label><input type="checkbox" class="st-h"> H</label>
         ${v0.guests ? `<label><input type="checkbox" class="st-guests" checked> Guests</label>` : ""}
         ${v0.extras ? `<label><input type="checkbox" class="st-extras"> Ions</label>` : ""}
@@ -108,11 +97,7 @@
       viewer.setStyle({ ...noH }, styleFor(kind));
       if (view.guests && ctl.guests?.checked) viewer.setStyle({ resi: view.guests, ...noH }, styleFor(kind, view.guestColor));
       if (view.extras && !ctl.extras?.checked) viewer.setStyle({ resi: view.extras }, {});
-      // in stick / wireframe modes, mark metal centres and halide ions with small spheres
-      if (kind === "stick" || kind === "line") {
-        viewer.addStyle({ elem: METALS }, { sphere: { scale: 0.32 } });
-        viewer.addStyle({ predicate: (a) => a.elem === "Cl" && !a.bonds.length }, { sphere: { scale: 0.45 } });
-      }
+      decorate(viewer, kind);
       drawShapes();
     }
 
@@ -133,11 +118,7 @@
       }
       if (view.cell && ctl.cell.checked) {
         const p = JSON.parse(await loadText(view.cell)).cellCorners.map(([x, y, z]) => ({ x, y, z }));
-        // corners are ordered (i,j,k) ∈ {0,1}³ → edges join corners differing in one bit
-        for (let a = 0; a < 8; a++) for (const bit of [1, 2, 4]) {
-          const b = a ^ bit;
-          if (a < b) shapes.push(viewer.addCylinder({ start: p[a], end: p[b], radius: 0.08, color: "#8a857b" }));
-        }
+        shapes.push(...drawBox(viewer, p));
       }
       viewer.render();
     }
@@ -201,11 +182,9 @@
   const io = new IntersectionObserver(([e]) => {
     if (!e.isIntersecting) return;
     io.disconnect();
-    const s = document.createElement("script");
-    s.src = "js/vendor/3Dmol-min.js";
-    s.onload = start;
-    s.onerror = () => { grid.insertAdjacentHTML("beforebegin", '<p class="muted">The 3D viewer could not be loaded.</p>'); };
-    document.head.appendChild(s);
+    window.Mol3D.load().then(start, () => {
+      grid.insertAdjacentHTML("beforebegin", '<p class="muted">The 3D viewer could not be loaded.</p>');
+    });
   }, { rootMargin: "300px" });
   io.observe(root);
 })();

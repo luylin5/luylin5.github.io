@@ -1,0 +1,20 @@
+{
+ "10.1038/s41557-026-02248-w": [
+  {
+   "ccdc": 2515985,
+   "label": "n-Heptane@TAHPMe·N₁₂Cl₁₂",
+   "sg": "R -3 c",
+   "cell": [
+    32.322,
+    32.322,
+    43.436,
+    90.0,
+    90.0,
+    120.0
+   ],
+   "atoms": 1728,
+   "data": "structures/cif/2515985.json",
+   "cif": "structures/cif/2515985.cif"
+  }
+ ]
+}
