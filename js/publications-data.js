@@ -1,6 +1,6 @@
 // Publications, generated from Google Scholar + Crossref (DOIs verified).
 // Edit freely: `selected: true` puts a paper in "Selected Publications";
-// add `note: "Cover"`, `equal: [0,1]` (indices of co-first authors, shown with †) or `corresponding: [5]` as needed.
+// `toc` = graphic shown beside a selected paper; add `note: "Cover"`, `equal: [0,1]` (indices of co-first authors, shown with †) or `corresponding: [5]` as needed.
 window.MY_NAMES = ["Yu-Lin Lu", "Yulin Lu"];
 window.PUBLICATIONS = [
   {
@@ -84,7 +84,8 @@ window.PUBLICATIONS = [
     "year": 2026,
     "doi": "10.1038/s41557-026-02248-w",
     "venue": "Nat. Chem.",
-    "selected": true
+    "selected": true,
+    "toc": "images/toc/natchem-2026.webp"
   },
   {
     "title": "Conjugated Shape Persistent Heterocycle Macrocycles for Sacrificial Photocatalytic Hydrogen Evolution",
@@ -148,7 +149,8 @@ window.PUBLICATIONS = [
       0,
       1
     ],
-    "selected": true
+    "selected": true,
+    "toc": "images/toc/jacs-2025-cascade.webp"
   },
   {
     "title": "Enantioselective dearomative ortho-cycloaddition transformation of unactivated arenes by cage-confined visible-light photocatalysis",
@@ -275,7 +277,8 @@ window.PUBLICATIONS = [
     "venue": "Acc. Chem. Res.",
     "volume": "57",
     "pages": "3277-3291",
-    "selected": true
+    "selected": true,
+    "toc": "images/toc/accounts-2024.webp"
   },
   {
     "title": "Dynamic Stereochemistry of M<sub>8</sub>Pd<sub>6</sub> Supramolecular Cages Based on Metal-Center Lability for Differential Chiral Induction, Resolution, and Recognition",
@@ -300,7 +303,8 @@ window.PUBLICATIONS = [
       0,
       1
     ],
-    "selected": true
+    "selected": true,
+    "toc": "images/toc/angew-2024-m8pd6.webp"
   },
   {
     "title": "Enantioselective [2+2] Cross-Photocycloaddition Enabled by a Chiral Cage Reactor via Multilevel-Selectivity Control",
@@ -379,7 +383,8 @@ window.PUBLICATIONS = [
       1,
       2
     ],
-    "selected": true
+    "selected": true,
+    "toc": "images/toc/jacs-2024-multipocket.webp"
   },
   {
     "title": "Anion-Mediated Allosteric Catalysis of [2 + 2] Photocycloaddition Based on a Flexible Metallo-Amine Cage for High Diastereoselectivity",
@@ -404,7 +409,8 @@ window.PUBLICATIONS = [
     "equal": [
       0,
       1
-    ]
+    ],
+    "toc": "images/toc/acscatal-2024.webp"
   },
   {
     "title": "Stereochemical Control of Redox Co<sup>II</sup>/Co<sup>III</sup>-Cages with Switchable Cotton Effects Based on Labile-Static States",
@@ -427,7 +433,8 @@ window.PUBLICATIONS = [
     "venue": "J. Am. Chem. Soc.",
     "volume": "146",
     "pages": "20414-20424",
-    "selected": true
+    "selected": true,
+    "toc": "images/toc/jacs-2024-co.webp"
   },
   {
     "title": "Anion-induced differential assembly and structural transformation of supramolecular coordination cages",
@@ -529,7 +536,8 @@ window.PUBLICATIONS = [
     "venue": "Chem",
     "volume": "9",
     "pages": "2144-2160",
-    "selected": true
+    "selected": true,
+    "toc": "images/toc/chem-2023.webp"
   },
   {
     "title": "Ultrathin two-dimensional porphyrinic metal-organic framework nanosheets induced by the axial aryl substituent",
@@ -578,7 +586,8 @@ window.PUBLICATIONS = [
     "venue": "J. Am. Chem. Soc.",
     "volume": "144",
     "pages": "8778-8788",
-    "selected": true
+    "selected": true,
+    "toc": "images/toc/jacs-2022-fe4l6.webp"
   },
   {
     "title": "Creating Dynamic Nanospaces in Solution by Cationic Cages as Multirole Catalytic Platform for Unconventional C(sp)−H Activation Beyond Enzyme Mimics",

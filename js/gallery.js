@@ -293,6 +293,7 @@
     if (item.link) lbLink.href = item.link;
     lb.showModal();
   }
+  window.openLightbox = openLightbox; // reused by the publication TOC graphics
   lb.addEventListener("close", () => { lbVideo.pause(); lbVideo.removeAttribute("src"); lbVideo.load(); });
   lb.addEventListener("click", (e) => { if (e.target === lb) lb.close(); });
 })();

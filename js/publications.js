@@ -32,7 +32,9 @@
   if (sel) {
     sel.innerHTML = pubs.filter((p) => p.selected).map((p) => `
       <li class="pub">
-        <div class="pub-badge"><span>${esc(p.venue)}</span><span>${p.year}</span></div>
+        ${p.toc
+          ? `<button type="button" class="pub-toc" data-i="${pubs.indexOf(p)}" aria-label="Enlarge graphic"><img src="${p.toc}" alt="" loading="lazy"></button>`
+          : `<div class="pub-badge"><span>${esc(p.venue)}</span><span>${p.year}</span></div>`}
         <div>
           <h3><a href="${link(p)}" target="_blank" rel="noopener">${p.title}</a></h3>
           <p class="authors">${authorsHTML(p)}</p>
@@ -40,6 +42,19 @@
         </div>
       </li>`).join("");
   }
+
+  // click a TOC graphic to enlarge it (lightbox lives in gallery.js)
+  sel?.addEventListener("click", (e) => {
+    const btn = e.target.closest(".pub-toc");
+    if (!btn) return;
+    const p = pubs[+btn.dataset.i];
+    const plain = (h) => h.replace(/<[^>]+>/g, "");
+    if (window.openLightbox) {
+      window.openLightbox({ src: p.toc, title: plain(p.title), caption: `${plain(p.venue)} ${p.year}`, link: link(p) });
+    } else {
+      window.open(link(p), "_blank", "noopener");
+    }
+  });
 
   // Full list, grouped by year
   const all = document.getElementById("pub-all");
