@@ -132,12 +132,12 @@
       <h2>Tools</h2>
       <p class="muted">Software I develop for everyday lab work. Free and open source.</p>
 
-      <article class="tool">
+      <article class="tool" data-github-release="luylin5/xStack">
         <header class="tool-head">
           <img class="tool-icon" src="images/tools/xstack-icon.png" alt="" width="56" height="56">
           <div>
             <h3>xStack <span class="tool-sub">PXRD Viewer</span></h3>
-            <p class="tool-meta">v1.5 · Windows 10/11 (64-bit) · MIT License</p>
+            <p class="tool-meta"><span data-release="version">v1.6</span> · Windows 10/11 (64-bit) · MIT License<span data-release="date"></span></p>
           </div>
         </header>
 
@@ -161,9 +161,10 @@
         </ul>
 
         <div class="tool-actions">
-          <a class="btn btn-primary" href="https://github.com/luylin5/xStack/releases/download/PXRD/xStack-1.5-Setup.exe">Download installer <span>66 MB</span></a>
-          <a class="btn" href="https://github.com/luylin5/xStack/releases/download/PXRD/xStack-1.5-Portable.exe">Portable .exe <span>100 MB</span></a>
+          <a class="btn btn-primary" data-asset="Setup" href="https://github.com/luylin5/xStack/releases/download/v1.6/xStack-1.6-Setup.exe">Download installer <span>65 MB</span></a>
+          <a class="btn" data-asset="Portable" href="https://github.com/luylin5/xStack/releases/download/v1.6/xStack-1.6-Portable.exe">Portable .exe <span>97 MB</span></a>
           <a class="btn btn-ghost" href="https://github.com/luylin5/xStack" target="_blank" rel="noopener">Source &amp; docs on GitHub →</a>
+          <a class="btn btn-ghost" data-release="notes" href="https://github.com/luylin5/xStack/releases/latest" target="_blank" rel="noopener">What's new →</a>
         </div>
         <p class="tool-note">
           The installer needs no admin rights. Builds are not code-signed, so Windows SmartScreen may ask
@@ -192,5 +193,6 @@
   <script src="js/mol3d.js"></script>
   <script src="js/cif-viewer.js"></script>
   <script src="js/structures.js"></script>
+  <script src="js/releases.js"></script>
 </body>
 </html>
