@@ -21,10 +21,6 @@
     return s;
   }
 
-  const isFirst = (p) => names.includes(p.authors[0]);
-  const isCoFirst = (p) => (p.equal || []).some((i) => names.includes(p.authors[i]));
-  // co-first authorship is already shown by † on the names, so it gets no extra tag
-  const roleTag = (p) => isFirst(p) && !isCoFirst(p) ? '<span class="tag">First author</span>' : "";
   const link = (p) => `https://doi.org/${p.doi}`;
   const linksHTML = (p) => `<span class="pub-links">${p.pdf ? `<a href="${p.pdf}" target="_blank" rel="noopener">PDF</a>` : ""}<a href="${link(p)}" target="_blank" rel="noopener">DOI</a><button type="button" class="cite" data-i="${pubs.indexOf(p)}">Cite</button></span>`;
 
@@ -110,7 +106,7 @@
       <ol class="pub-list">
         ${pubs.filter((p) => p.year === y).map((p) => `
           <li value="${n--}">
-            <a class="pub-title" href="${link(p)}" target="_blank" rel="noopener">${p.title}</a>${roleTag(p) ? " " + roleTag(p) : ""}
+            <a class="pub-title" href="${link(p)}" target="_blank" rel="noopener">${p.title}</a>
             <div class="authors">${authorsHTML(p)}</div>
             <div class="venue">${citeHTML(p)} ${linksHTML(p)}</div>
           </li>`).join("")}
