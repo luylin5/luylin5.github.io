@@ -10,3 +10,7 @@ images/gallery/*.png
 images/gallery/Media1.mp4
 images/profile/
 pdf/
+
+# source structure files (the CIF embeds hkl/res data) — only structures/web/ is published
+structures/*.cif
+structures/*.mol2

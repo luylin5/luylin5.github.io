@@ -5,6 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Yu-Lin Lu (鲁玉麟)</title>
   <meta name="description" content="Yu-Lin Lu — supramolecular chemistry, self-assembly and crystal engineering. University of Liverpool.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <meta name="theme-color" content="#f8f7f4">
+  <link rel="canonical" href="https://luylin5.github.io/">
+  <!-- social preview card (WeChat / Twitter / Slack / LinkedIn) -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Yu-Lin Lu">
+  <meta property="og:title" content="Yu-Lin Lu (鲁玉麟) · University of Liverpool">
+  <meta property="og:description" content="Postdoctoral Research Associate working on supramolecular chemistry, self-assembly and crystal engineering — metal–organic cages and porous molecular crystals.">
+  <meta property="og:url" content="https://luylin5.github.io/">
+  <meta property="og:image" content="https://luylin5.github.io/images/og-card.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Yu-Lin Lu — Postdoctoral Research Associate, University of Liverpool">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta itemprop="image" content="https://luylin5.github.io/images/og-card.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -16,6 +33,7 @@
     <nav>
       <a href="#about">About</a>
       <a href="#publications">Publications</a>
+      <a href="#structures">Structures</a>
       <a href="#tools">Tools</a>
       <a href="#contact">Contact</a>
     </nav>
@@ -101,6 +119,29 @@
       <p class="muted"><sup>†</sup> Equal contribution. Full, up-to-date list on
         <a href="https://scholar.google.com/citations?user=-yCWFqsAAAAJ" target="_blank" rel="noopener">Google Scholar</a>.</p>
     </section>
+    <!-- ============ Structures (3D viewer) ============ -->
+    <!-- Structure list/captions live in js/structures.js; files in structures/web/ -->
+    <section id="structures" class="wrap section" data-structures>
+      <h2>Structures</h2>
+      <p class="muted">Single-crystal structures from my work — drag to rotate, scroll to zoom.</p>
+      <div class="st-card">
+        <div class="st-tabs" role="tablist" aria-label="Structures"></div>
+        <div class="st-viewer" aria-label="3D structure viewer"></div>
+        <div class="st-controls">
+          <label>Model
+            <select class="st-model"></select>
+          </label>
+          <label><input type="checkbox" class="st-h"> Hydrogens</label>
+          <label><input type="checkbox" class="st-guests" checked> Highlight guests</label>
+          <label><input type="checkbox" class="st-extras"> Counter-ions &amp; solvent</label>
+          <label><input type="checkbox" class="st-cell" checked> Unit cell</label>
+          <label><input type="checkbox" class="st-spin" checked> Spin</label>
+          <button type="button" class="st-reset">Reset view</button>
+        </div>
+        <p class="st-caption"></p>
+      </div>
+    </section>
+
     <!-- ============ Tools ============ -->
     <section id="tools" class="wrap section">
       <h2>Tools</h2>
@@ -163,5 +204,6 @@
   <script src="js/gallery.js"></script>
   <script src="js/publications-data.js"></script>
   <script src="js/publications.js"></script>
+  <script src="js/structures.js"></script>
 </body>
 </html>

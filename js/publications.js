@@ -26,7 +26,49 @@
   // co-first authorship is already shown by † on the names, so it gets no extra tag
   const roleTag = (p) => isFirst(p) && !isCoFirst(p) ? '<span class="tag">First author</span>' : "";
   const link = (p) => `https://doi.org/${p.doi}`;
-  const linksHTML = (p) => `<span class="pub-links">${p.pdf ? `<a href="${p.pdf}" target="_blank" rel="noopener">PDF</a>` : ""}<a href="${link(p)}" target="_blank" rel="noopener">DOI</a></span>`;
+  const linksHTML = (p) => `<span class="pub-links">${p.pdf ? `<a href="${p.pdf}" target="_blank" rel="noopener">PDF</a>` : ""}<a href="${link(p)}" target="_blank" rel="noopener">DOI</a><button type="button" class="cite" data-i="${pubs.indexOf(p)}">Cite</button></span>`;
+
+  // BibTeX built from the data file: "Given Family" → "Family, Given"; <sub>/<sup> → LaTeX
+  function bibtex(p) {
+    const tex = (h) => h.replace(/<sub>(.*?)<\/sub>/g, "$$_{$1}$$").replace(/<sup>(.*?)<\/sup>/g, "$$^{$1}$$")
+      .replace(/<[^>]+>/g, "").replace(/&amp;/g, "\\&");
+    const family = (a) => a.trim().split(/\s+/).pop();
+    const authors = p.authors.map((a) => {
+      const parts = a.trim().split(/\s+/);
+      return parts.length > 1 ? `${parts.pop()}, ${parts.join(" ")}` : a;
+    }).join(" and ");
+    const firstWord = tex(p.title).replace(/[^A-Za-z ]/g, "").split(" ").find((w) => w.length > 3) || "paper";
+    const key = (family(p.authors[0]) + p.year + firstWord).replace(/[^A-Za-z0-9]/g, "");
+    const isBook = /chapter/i.test(p.venue);
+    const fields = [
+      ["author", authors],
+      ["title", `{${tex(p.title)}}`],
+      [isBook ? "booktitle" : "journal", tex(p.venue).replace(/^Book chapter in /, "").replace(/, World Scientific$/, "")],
+      ["year", p.year],
+      ["volume", p.volume],
+      ["pages", p.pages && String(p.pages).replace("-", "--")],
+      ["doi", p.doi],
+    ].filter(([, v]) => v);
+    const body = fields.map(([k, v]) => `  ${k} = {${v}}`).join(",\n");
+    return `@${isBook ? "incollection" : "article"}{${key},\n${body}\n}`;
+  }
+
+  async function copyCite(btn) {
+    const text = bibtex(pubs[+btn.dataset.i]);
+    try {
+      await navigator.clipboard.writeText(text);
+      btn.textContent = "Copied ✓";
+    } catch {
+      // clipboard blocked: show the BibTeX so it can be copied by hand
+      window.prompt("BibTeX (copy with Ctrl+C):", text);
+    }
+    btn.classList.add("done");
+    setTimeout(() => { btn.textContent = "Cite"; btn.classList.remove("done"); }, 1600);
+  }
+  document.addEventListener("click", (e) => {
+    const btn = e.target.closest("#publications .cite");
+    if (btn) copyCite(btn);
+  });
 
   // Selected
   const sel = document.getElementById("pub-selected");
@@ -70,7 +112,7 @@
           <li value="${n--}">
             <a class="pub-title" href="${link(p)}" target="_blank" rel="noopener">${p.title}</a>${roleTag(p) ? " " + roleTag(p) : ""}
             <div class="authors">${authorsHTML(p)}</div>
-            <div class="venue">${citeHTML(p)}${p.pdf ? " " + linksHTML(p) : ""}</div>
+            <div class="venue">${citeHTML(p)} ${linksHTML(p)}</div>
           </li>`).join("")}
       </ol>`).join("");
     const count = document.getElementById("pub-count");
