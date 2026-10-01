@@ -26,6 +26,7 @@
   // co-first authorship is already shown by † on the names, so it gets no extra tag
   const roleTag = (p) => isFirst(p) && !isCoFirst(p) ? '<span class="tag">First author</span>' : "";
   const link = (p) => `https://doi.org/${p.doi}`;
+  const linksHTML = (p) => `<span class="pub-links">${p.pdf ? `<a href="${p.pdf}" target="_blank" rel="noopener">PDF</a>` : ""}<a href="${link(p)}" target="_blank" rel="noopener">DOI</a></span>`;
 
   // Selected
   const sel = document.getElementById("pub-selected");
@@ -39,6 +40,7 @@
           <h3><a href="${link(p)}" target="_blank" rel="noopener">${p.title}</a></h3>
           <p class="authors">${authorsHTML(p)}</p>
           <p class="venue">${citeHTML(p)}${p.note ? ` <span class="tag">${esc(p.note)}</span>` : ""}</p>
+          <p>${linksHTML(p)}</p>
         </div>
       </li>`).join("");
   }
@@ -68,7 +70,7 @@
           <li value="${n--}">
             <a class="pub-title" href="${link(p)}" target="_blank" rel="noopener">${p.title}</a>${roleTag(p) ? " " + roleTag(p) : ""}
             <div class="authors">${authorsHTML(p)}</div>
-            <div class="venue">${citeHTML(p)}</div>
+            <div class="venue">${citeHTML(p)}${p.pdf ? " " + linksHTML(p) : ""}</div>
           </li>`).join("")}
       </ol>`).join("");
     const count = document.getElementById("pub-count");

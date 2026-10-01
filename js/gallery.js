@@ -261,6 +261,11 @@
         c.op = op;
       }
       if (zi !== c.z) { el.style.zIndex = zi; c.z = zi; }
+      // only cards near the front can be hovered/clicked; side and back cards let the
+      // pointer pass through to the stage (so dragging still works over them)
+      const hit = cos > 0.55 || focused === c;
+      if (hit !== c.hit) { el.style.pointerEvents = hit ? "auto" : "none"; c.hit = hit; }
+      if (!hit && pending === c) pending = null;
       const isF = focused === c;
       if (isF !== c.isF) { el.classList.toggle("is-focused", isF); c.isF = isF; }
       if (c.video && !reduceMotion) setPlaying(c, cos > 0.35);
