@@ -31,6 +31,19 @@
     let panel = li.querySelector(".cif-panel");
     const open = btn.getAttribute("aria-expanded") !== "true";
     btn.setAttribute("aria-expanded", open);
+    if (open) {
+      // only one paper's structures at a time: collapse any other open panel
+      let closedAbove = false;
+      for (const other of list.querySelectorAll('.cif-toggle[aria-expanded="true"]')) {
+        if (other === btn) continue;
+        other.setAttribute("aria-expanded", "false");
+        const p = other.closest("li").querySelector(".cif-panel");
+        if (p) p.hidden = true;
+        if (other.compareDocumentPosition(btn) & Node.DOCUMENT_POSITION_FOLLOWING) closedAbove = true;
+      }
+      // a panel collapsing above this paper shifts the page up: keep this paper in view
+      if (closedAbove) li.scrollIntoView({ block: "start" });
+    }
     if (panel) { panel.hidden = !open; return; } // hidden cards stop intersecting → viewers released
 
     panel = document.createElement("div");
@@ -45,7 +58,6 @@
         grid.appendChild(card.el);
         nearViewport.observe(card.el);
       }
-      panel.scrollIntoView({ behavior: "smooth", block: "nearest" });
     }, () => { grid.textContent = "The 3D viewer could not be loaded."; });
   }
 
