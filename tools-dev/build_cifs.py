@@ -175,12 +175,35 @@ def unit_cell(block):
     return st, els[sel], cart[sel], new[bonds[keep_b]], orth
 
 
+HEADER = """#######################################################################
+#
+# This file contains crystal structure data downloaded from the
+# Cambridge Structural Database (CSD) hosted by the Cambridge
+# Crystallographic Data Centre (CCDC).
+#
+# Full information about CCDC data access policies and citation
+# guidelines are available at http://www.ccdc.cam.ac.uk/access/V1
+#
+# Audit and citation data items may have been added by the CCDC.
+# Please retain this information to preserve the provenance of
+# this file and to allow appropriate attribution of the data.
+#
+# Shortened for this website: the embedded SHELX .res/.fab files and the
+# Olex2 refinement description were removed; all crystallographic data are
+# unchanged. The complete entry is available from the CCDC (see the
+# deposition number below).
+#
+#######################################################################
+
+"""
+
+
 def clean_block_text(block):
     for tag in STRIP:
         it = block.find_pair_item(tag)
         if it is not None: it.erase()
     doc = gemmi.cif.Document(); doc.add_copied_block(block)
-    return doc.as_string()
+    return HEADER + doc.as_string()
 
 
 def main():
