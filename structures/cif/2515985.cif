@@ -1,29 +1,33 @@
 data_tahpme_n12cl12_heptane
+_audit_block_doi 10.5517/ccdc.csd.cc2qg2t3
+_database_code_depnum_ccdc_archive 'CCDC 2515985'
+
+loop_
+_citation_id
+_citation_doi
+_citation_year
+1 10.1038/s41557-026-02248-w 2026
+2 10.26434/chemrxiv.15000159/v1 2026
+
+loop_
+_audit_author_name
+_audit_author_address
+'Yulin Lu'
+;University of Liverpool
+United Kingdom
+;
+
+_audit_update_record
+;
+2025-12-14 deposited with the CCDC.	2026-10-01 downloaded from the CCDC.
+;
 _audit_creation_date 2025-10-22
 _audit_creation_method
 ;
 Olex2 1.3
 (compiled 2020.11.12 svn.r5f609507 for OlexSys, GUI svn.r6408)
 ;
-_shelx_SHELXL_version_number '2014/7'
-_audit_contact_author_address ?
-_audit_contact_author_email ?
-_audit_contact_author_name ''
-_audit_contact_author_phone ?
-_publ_contact_author_id_orcid ?
-_publ_section_references
-;
-D. Kratzert, I. Krossing, (2018), J. Appl. Cryst. 51, 928-934. 
-
-Dolomanov, O.V., Bourhis, L.J., Gildea, R.J, Howard, J.A.K. & Puschmann, H.
- (2009), J. Appl. Cryst. 42, 339-341.
-
-Kratzert, D., Holstein, J.J. & Krossing, I. (2015). J. Appl. Cryst. 48, 933-938.
-
-Sheldrick, G.M. (2015). Acta Cryst. A71, 3-8.
-
-Sheldrick, G.M. (2015). Acta Cryst. C71, 3-8.
-;
+_shelx_SHELXL_version_number 2014/7
 _chemical_name_common ?
 _chemical_name_systematic ?
 _chemical_formula_moiety '4(Cl), C42 H46 N4, C7 H16'
@@ -38,10 +42,10 @@ _atom_type_description
 _atom_type_scat_dispersion_real
 _atom_type_scat_dispersion_imag
 _atom_type_scat_source
-'C' 'C' 0.0181 0.0091 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
-'H' 'H' 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
-'Cl' 'Cl' 0.3639 0.7018 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
-'N' 'N' 0.0311 0.0180 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+C C 0.0181 0.0091 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Cl Cl 0.3639 0.7018 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+N N 0.0311 0.0180 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
 
 _shelx_space_group_comment
 ;
@@ -50,7 +54,7 @@ by the following loop, which should always be used as a source of
 symmetry information in preference to the above space-group names.
 They are only intended as comments.
 ;
-_space_group_crystal_system 'trigonal'
+_space_group_crystal_system trigonal
 _space_group_IT_number 167
 _space_group_name_H-M_alt 'R -3 c'
 _space_group_name_Hall '-R 3 2"c'
@@ -161,7 +165,7 @@ _diffrn_measurement_details
 List of Runs (angles in degrees, time in seconds):
 
   # Type    Start    End  Width  t~exp~   \w     \q     \k     \f   Frames
---------------------------------------------------------------------------
+#--------------------------------------------------------------------------
   1  \w    -65.00 -22.00   0.50   10.00    --  -87.64  60.00 -68.00   86
   2  \w     33.00 103.00   0.50   10.00    --   92.73 -91.00 161.00  140
   3  \w     90.00 156.00   0.50   10.00    --   92.73  47.00  97.00  132
@@ -245,7 +249,7 @@ _refine_ls_weighting_details 'w=1/[\s^2^(Fo^2^)+(0.2000P)^2^] where P=(Fo^2^+2Fc
 _refine_ls_weighting_scheme calc
 _refine_ls_wR_factor_gt 0.2775
 _refine_ls_wR_factor_ref 0.3089
-_refine_special_details ?
+_refine_special_details SQUEEZE
 _atom_sites_solution_hydrogens geom
 _atom_sites_solution_primary dual
 _atom_sites_solution_secondary ?

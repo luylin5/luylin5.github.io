@@ -1,0 +1,4640 @@
+data_moc_68_pf6_phenanthrene
+_audit_block_doi 10.5517/ccdc.csd.cc2l7p1l
+_database_code_depnum_ccdc_archive 'CCDC 2390659'
+
+loop_
+_citation_id
+_citation_doi
+_citation_year
+1 10.1021/jacs.5c03074 2025
+
+loop_
+_audit_author_name
+_audit_author_address
+'Yu-Lin Lu'
+;Sun Yat sen University
+China
+;
+
+_audit_update_record
+;
+2024-10-14 deposited with the CCDC.	2026-10-01 downloaded from the CCDC.
+;
+_vrf_THETM01_moc_68_pf6_phenanthrene
+;
+PROBLEM: The value of sine(theta_max)/wavelength is less than 0.550
+RESPONSE: Although we have used Cu radiation, long exposure time,
+and best crystal obtained to collect the best data set. The crystals immediately
+lost solvent after removal from the mother liquor. The weak diffraction makes
+the reflection in the high angle not complete.
+;
+_audit_creation_date 2024-10-13
+_audit_creation_method
+;
+Olex2 1.3
+(compiled 2020.11.12 svn.r5f609507 for OlexSys, GUI svn.r6408)
+;
+_shelx_SHELXL_version_number 2018/3
+_chemical_name_common ?
+_chemical_name_systematic ?
+_chemical_formula_moiety '2(C264 H228 N64 Ru4), 6(C14 H10), 15(F6 P), 16(H2 O)'
+_chemical_formula_sum 'C612 H548 F90 N128 O16 P15 Ru8'
+_chemical_formula_weight 12934.86
+_chemical_melting_point ?
+
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C C 0.0181 0.0091 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+F F 0.0727 0.0534 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+N N 0.0311 0.0180 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0492 0.0322 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+P P 0.2955 0.4335 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ru Ru 0.0552 3.2960 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+
+_shelx_space_group_comment
+;
+The symmetry employed for this shelxl refinement is uniquely defined
+by the following loop, which should always be used as a source of
+symmetry information in preference to the above space-group names.
+They are only intended as comments.
+;
+_space_group_crystal_system monoclinic
+_space_group_IT_number 15
+_space_group_name_H-M_alt 'I 1 2/a 1'
+_space_group_name_Hall '-I 2ya'
+
+loop_
+_space_group_symop_operation_xyz
+'x, y, z'
+'-x+1/2, y, -z'
+'x+1/2, y+1/2, z+1/2'
+'-x+1, y+1/2, -z+1/2'
+'-x, -y, -z'
+'x-1/2, -y, z'
+'-x+1/2, -y+1/2, -z+1/2'
+'x, -y+1/2, z+1/2'
+
+_cell_length_a 46.2364(6)
+_cell_length_b 41.9455(5)
+_cell_length_c 43.6011(6)
+_cell_angle_alpha 90
+_cell_angle_beta 92.6180(10)
+_cell_angle_gamma 90
+_cell_volume 84472.1(19)
+_cell_formula_units_Z 4
+_cell_measurement_reflns_used 21748
+_cell_measurement_temperature 150.00(10)
+_cell_measurement_theta_max 40.5530
+_cell_measurement_theta_min 2.0970
+_shelx_estimated_absorpt_T_max 0.961
+_shelx_estimated_absorpt_T_min 0.825
+_exptl_absorpt_coefficient_mu 1.995
+_exptl_absorpt_correction_T_max 1.00000
+_exptl_absorpt_correction_T_min 0.57207
+_exptl_absorpt_correction_type multi-scan
+_exptl_absorpt_process_details
+;
+CrysAlisPro 1.171.42.84a (Rigaku Oxford Diffraction, 2023)
+Empirical absorption correction using spherical harmonics,
+implemented in SCALE3 ABSPACK scaling algorithm.
+;
+_exptl_absorpt_special_details ?
+_exptl_crystal_colour 'clear reddish orange'
+_exptl_crystal_colour_lustre clear
+_exptl_crystal_colour_modifier reddish
+_exptl_crystal_colour_primary orange
+_exptl_crystal_density_diffrn 1.017
+_exptl_crystal_density_meas ?
+_exptl_crystal_density_method ?
+_exptl_crystal_description block
+_exptl_crystal_F_000 26524
+_exptl_crystal_size_max 0.1
+_exptl_crystal_size_mid 0.02
+_exptl_crystal_size_min 0.02
+_exptl_transmission_factor_max ?
+_exptl_transmission_factor_min ?
+_diffrn_reflns_av_R_equivalents 0.0699
+_diffrn_reflns_av_unetI/netI 0.0754
+_diffrn_reflns_Laue_measured_fraction_full 0.961
+_diffrn_reflns_Laue_measured_fraction_max 0.961
+_diffrn_reflns_limit_h_max 38
+_diffrn_reflns_limit_h_min -39
+_diffrn_reflns_limit_k_max 35
+_diffrn_reflns_limit_k_min -35
+_diffrn_reflns_limit_l_max 32
+_diffrn_reflns_limit_l_min -36
+_diffrn_reflns_number 104230
+_diffrn_reflns_point_group_measured_fraction_full 0.961
+_diffrn_reflns_point_group_measured_fraction_max 0.961
+_diffrn_reflns_theta_full 41.196
+_diffrn_reflns_theta_max 41.196
+_diffrn_reflns_theta_min 1.913
+_diffrn_ambient_environment N~2~
+_diffrn_ambient_temperature 150.00(10)
+_diffrn_detector 'Hybrid Pixel Array Detector'
+_diffrn_detector_area_resol_mean 10.0000
+_diffrn_detector_type HyPix
+_diffrn_measured_fraction_theta_full 0.961
+_diffrn_measured_fraction_theta_max 0.961
+_diffrn_measurement_details
+;
+List of Runs (angles in degrees, time in seconds):
+
+  # Type    Start    End  Width  t~exp~   \w     \q     \k     \f   Frames
+#--------------------------------------------------------------------------
+  1  \w     49.00 105.00   1.00    3.00    --   32.09 178.00-180.00   56
+  2  \w     16.00 104.00   1.00    3.00    --   32.09  57.00   0.00   88
+  3  \w     11.00  91.00   1.00    3.00    --   32.09  71.00 160.00   80
+  4  \w    -33.00  53.00   1.00    3.00    --   32.09 -71.00  30.00   86
+  5  \w    -43.00  28.00   1.00    3.00    --   32.09 -19.00-120.00   71
+  6  \w   -103.00 -23.00   1.00    3.00    --  -32.41 -38.00-120.00   80
+  7  \w    -85.00 -10.00   1.00    3.00    --  -32.41 -77.00-150.00   75
+;
+_diffrn_measurement_device 'four-circle diffractometer'
+_diffrn_measurement_device_type 'XtaLAB Synergy R, DW system, HyPix'
+_diffrn_measurement_method '\w scans'
+_diffrn_orient_matrix_type 'CrysAlisPro convention (1999,Acta A55,543-557)'
+_diffrn_orient_matrix_UB_11 0.0236180000
+_diffrn_orient_matrix_UB_12 -0.0029928000
+_diffrn_orient_matrix_UB_13 -0.0236435000
+_diffrn_orient_matrix_UB_21 0.0157233000
+_diffrn_orient_matrix_UB_22 0.0291656000
+_diffrn_orient_matrix_UB_23 0.0143206000
+_diffrn_orient_matrix_UB_31 0.0175433000
+_diffrn_orient_matrix_UB_32 -0.0220995000
+_diffrn_orient_matrix_UB_33 0.0220785000
+_diffrn_radiation_monochromator mirror
+_diffrn_radiation_probe x-ray
+_diffrn_radiation_type 'Cu K\a'
+_diffrn_radiation_wavelength 1.54184
+_diffrn_source 'Rotating-anode X-ray tube'
+_diffrn_source_type 'Rigaku (Cu) X-ray Source'
+_reflns_Friedel_coverage 0.000
+_reflns_Friedel_fraction_full .
+_reflns_Friedel_fraction_max .
+_reflns_number_gt 16854
+_reflns_number_total 26498
+_reflns_odcompleteness_completeness 99.80
+_reflns_odcompleteness_iscentric 1
+_reflns_odcompleteness_theta 39.93
+_reflns_special_details
+;
+ Reflections were merged by SHELXL according to the crystal
+ class for the calculation of statistics and refinement.
+ 
+ Structure factors included contributions from the .fab file.
+ 
+ _reflns_Friedel_fraction is defined as the number of unique
+ Friedel pairs measured divided by the number that would be
+ possible theoretically, ignoring centric projections and
+ systematic absences.
+;
+_reflns_threshold_expression 'I > 2\s(I)'
+_computing_cell_refinement 'CrysAlisPro 1.171.42.84a (Rigaku OD, 2023)'
+_computing_data_collection 'CrysAlisPro 1.171.42.84a (Rigaku OD, 2023)'
+_computing_data_reduction 'CrysAlisPro 1.171.42.84a (Rigaku OD, 2023)'
+_computing_molecular_graphics 'Olex2 1.3 (Dolomanov et al., 2009)'
+_computing_publication_material 'Olex2 1.3 (Dolomanov et al., 2009)'
+_computing_structure_refinement 'XL  (Sheldrick, 2008)'
+_computing_structure_solution 'SHELXT 2014/5 (Sheldrick, 2014)'
+_refine_diff_density_max 0.617
+_refine_diff_density_min -0.630
+_refine_diff_density_rms 0.101
+_refine_ls_extinction_coef .
+_refine_ls_extinction_method none
+_refine_ls_goodness_of_fit_ref 1.030
+_refine_ls_hydrogen_treatment mixed
+_refine_ls_matrix_type full
+_refine_ls_number_parameters 3763
+_refine_ls_number_reflns 26498
+_refine_ls_number_restraints 6248
+_refine_ls_R_factor_all 0.1383
+_refine_ls_R_factor_gt 0.0972
+_refine_ls_restrained_S_all 1.029
+_refine_ls_shift/su_max 0.003
+_refine_ls_shift/su_mean 0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details 'w=1/[\s^2^(Fo^2^)+(0.1999P)^2^+1040.7792P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme calc
+_refine_ls_wR_factor_gt 0.2908
+_refine_ls_wR_factor_ref 0.3266
+_refine_special_details SQUEEZE
+_atom_sites_solution_hydrogens mixed
+_atom_sites_solution_primary dual
+_atom_sites_solution_secondary ?
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_site_symmetry_order
+_atom_site_calc_flag
+_atom_site_refinement_flags_posn
+_atom_site_refinement_flags_adp
+_atom_site_refinement_flags_occupancy
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Ru3 Ru 0.55491(3) 0.57241(3) 0.34128(3) 0.0578(5) Uani 1 1 d . . . . .
+Ru2 Ru 0.43992(3) 0.57626(3) 0.14775(3) 0.0587(5) Uani 1 1 d . . . . .
+Ru1 Ru 0.40888(3) 0.73389(3) 0.30600(3) 0.0581(5) Uani 1 1 d . . . . .
+Ru4 Ru 0.58989(3) 0.73690(3) 0.19800(3) 0.0626(5) Uani 1 1 d . . . . .
+P1 P 0.49815(10) 0.65552(9) 0.24767(11) 0.0564(14) Uani 1 1 d . . . . .
+P4 P 0.750000 0.5693(2) 0.000000 0.111(3) Uani 1 2 d S TU P . .
+P6 P 0.66127(15) 0.48211(16) 0.34524(18) 0.123(2) Uani 1 1 d . U . . .
+P8 P 0.4624(2) 0.64822(18) 0.40462(18) 0.146(3) Uani 1 1 d . . . . .
+P2 P 0.33973(16) 0.6582(2) 0.2021(2) 0.137(3) Uani 1 1 d . . . . .
+P5 P 0.6821(2) 0.8236(2) 0.2610(2) 0.166(3) Uani 1 1 d . . . . .
+P3 P 0.5136(2) 0.4573(2) 0.4164(2) 0.162(3) Uani 1 1 d . . . . .
+P7 P 0.4828(2) 0.4549(3) 0.0687(3) 0.183(3) Uani 1 1 d . . . . .
+N13C N 0.45229(15) 0.74167(19) 0.3158(2) 0.049(3) Uani 1 1 d G U . . .
+C40C C 0.45935(18) 0.7468(2) 0.34675(19) 0.049(4) Uani 1 1 d G U . . .
+C41C C 0.4879(2) 0.7526(2) 0.35644(16) 0.048(3) Uani 1 1 d G U . . .
+C42C C 0.50944(15) 0.7533(2) 0.3352(2) 0.050(4) Uani 1 1 d G U . . .
+H42C H 0.528964 0.757249 0.341825 0.060 Uiso 1 1 calc R U . . .
+C43C C 0.50238(18) 0.7481(2) 0.3043(2) 0.055(4) Uani 1 1 d G U . . .
+H43C H 0.517080 0.748583 0.289749 0.066 Uiso 1 1 calc R U . . .
+C44C C 0.4738(2) 0.7423(2) 0.29457(16) 0.052(4) Uani 1 1 d G U . . .
+H44C H 0.468980 0.738813 0.273433 0.063 Uiso 1 1 calc R U . . .
+F6 F 0.5053(2) 0.6572(3) 0.2133(2) 0.114(4) Uani 1 1 d . . . . .
+N12D N 0.5358(3) 0.5640(3) 0.3818(3) 0.058(3) Uani 1 1 d . U . . .
+N12B N 0.5709(2) 0.5770(3) 0.2984(3) 0.050(3) Uani 1 1 d . U . . .
+N15B N 0.4817(3) 0.5679(2) 0.1638(3) 0.049(3) Uani 1 1 d . U . . .
+F8 F 0.4902(2) 0.6521(3) 0.2818(2) 0.127(4) Uani 1 1 d . . . . .
+N13A N 0.4121(2) 0.7324(3) 0.2595(3) 0.055(3) Uani 1 1 d . U . . .
+N12C N 0.5865(2) 0.7315(3) 0.2450(3) 0.053(3) Uani 1 1 d . U . . .
+N16A N 0.5473(3) 0.7446(3) 0.1893(3) 0.053(3) Uani 1 1 d . U . . .
+N11D N 0.5138(2) 0.5649(2) 0.3253(3) 0.048(3) Uani 1 1 d . U . . .
+N6D N 0.3863(2) 0.5027(3) 0.2663(3) 0.057(3) Uani 1 1 d . U . . .
+H6D H 0.383026 0.514132 0.282712 0.069 Uiso 1 1 calc R U . . .
+F10 F 0.4669(2) 0.6487(3) 0.2380(3) 0.126(4) Uani 1 1 d . . . . .
+N14D N 0.4238(2) 0.5777(3) 0.1901(3) 0.053(3) Uani 1 1 d . U . . .
+N11A N 0.4461(3) 0.6256(3) 0.1439(3) 0.055(3) Uani 1 1 d . U . . .
+N10D N 0.4371(3) 0.5380(3) 0.4155(3) 0.062(3) Uani 1 1 d . U . . .
+H10D H 0.438246 0.537681 0.435673 0.075 Uiso 1 1 calc R U . . .
+N6B N 0.5562(3) 0.5408(3) 0.0720(3) 0.061(3) Uani 1 1 d . U . . .
+H6B H 0.554732 0.539038 0.051900 0.074 Uiso 1 1 calc R U . . .
+N9D N 0.4189(3) 0.5368(3) 0.3681(3) 0.053(3) Uani 1 1 d D U . . .
+N15A N 0.5899(3) 0.7471(3) 0.1521(3) 0.058(3) Uani 1 1 d . U . . .
+N8D N 0.3449(3) 0.5938(3) 0.3130(3) 0.062(3) Uani 1 1 d D U . . .
+N16C N 0.5503(3) 0.6206(3) 0.3492(3) 0.055(3) Uani 1 1 d . U . . .
+N10B N 0.6114(3) 0.5087(3) 0.2186(3) 0.062(4) Uani 1 1 d D U . . .
+N15D N 0.3654(3) 0.7215(3) 0.3005(3) 0.066(4) Uani 1 1 d . U . . .
+F12 F 0.5307(2) 0.6608(3) 0.2561(3) 0.123(4) Uani 1 1 d . . . . .
+F14 F 0.750000 0.5332(3) 0.000000 0.130(6) Uani 1 2 d S T P . .
+N16D N 0.4112(3) 0.6846(3) 0.3111(3) 0.054(3) Uani 1 1 d . U . . .
+N5C N 0.51783(17) 0.7630(2) 0.4052(2) 0.058(3) Uani 1 1 d DG U . . .
+C34C C 0.4918(2) 0.7572(2) 0.38756(17) 0.049(3) Uani 1 1 d G U . . .
+C33C C 0.46861(16) 0.7570(2) 0.4078(2) 0.063(4) Uani 1 1 d G U . . .
+N6C N 0.4803(2) 0.7628(2) 0.43800(19) 0.070(3) Uani 1 1 d G U . . .
+H6C H 0.470454 0.763913 0.454754 0.084 Uiso 1 1 calc R U . . .
+C32C C 0.5107(2) 0.7665(2) 0.43637(19) 0.062(4) Uani 1 1 d G U . . .
+N9C N 0.6063(3) 0.7070(3) 0.4007(3) 0.059(3) Uani 1 1 d . U . . .
+H9C H 0.595709 0.724352 0.398841 0.071 Uiso 1 1 calc R U . . .
+N13D N 0.4297(3) 0.5284(3) 0.1543(3) 0.058(3) Uani 1 1 d . U . . .
+N5B N 0.5756(3) 0.5435(3) 0.1198(3) 0.060(3) Uani 1 1 d . U . . .
+H5B H 0.588568 0.543834 0.135223 0.072 Uiso 1 1 calc R U . . .
+N16B N 0.4587(3) 0.5689(3) 0.1060(3) 0.062(3) Uani 1 1 d . U . . .
+N14B N 0.5865(3) 0.6891(3) 0.1874(3) 0.064(4) Uani 1 1 d . U . . .
+N5D N 0.3891(3) 0.4621(3) 0.2351(3) 0.061(3) Uani 1 1 d . U . . .
+H5D H 0.387916 0.442802 0.227267 0.073 Uiso 1 1 calc R U . . .
+N14A N 0.4031(3) 0.7817(3) 0.2952(3) 0.059(3) Uani 1 1 d . U . . .
+N11C N 0.5948(3) 0.7838(3) 0.2125(3) 0.064(4) Uani 1 1 d . U . . .
+N12A N 0.4012(3) 0.5892(3) 0.1275(3) 0.057(3) Uani 1 1 d . U . . .
+F16 F 0.5028(3) 0.6191(3) 0.2469(3) 0.155(5) Uani 1 1 d . . . . .
+N9A N 0.4114(2) 0.8066(2) 0.1710(2) 0.070(4) Uani 1 1 d DG U . . .
+C54A C 0.4060(3) 0.8399(2) 0.1712(2) 0.075(5) Uani 1 1 d G U . . .
+N10A N 0.4014(2) 0.84918(17) 0.2019(2) 0.079(4) Uani 1 1 d G U . . .
+H10A H 0.397569 0.868603 0.208188 0.095 Uiso 1 1 calc R U . . .
+C56A C 0.4040(2) 0.8216(2) 0.22070(18) 0.061(4) Uani 1 1 d G U . . .
+C55A C 0.4102(2) 0.79527(17) 0.2016(3) 0.068(4) Uani 1 1 d G U . . .
+N7C N 0.5906(3) 0.8002(3) 0.3374(3) 0.065(4) Uani 1 1 d D U . . .
+N15C N 0.5939(2) 0.5827(3) 0.3618(3) 0.058(3) Uani 1 1 d . U . . .
+N7D N 0.3057(3) 0.6247(3) 0.3039(3) 0.088(4) Uani 1 1 d . U . . .
+H7D H 0.287483 0.630480 0.300689 0.106 Uiso 1 1 calc R U . . .
+N11B N 0.5643(2) 0.5259(3) 0.3318(3) 0.057(3) Uani 1 1 d . U . . .
+N9B N 0.6062(3) 0.4652(3) 0.2478(3) 0.070(4) Uani 1 1 d . U . . .
+H9B H 0.606676 0.445292 0.254264 0.084 Uiso 1 1 calc R U . . .
+N1B N 0.7402(3) 0.4273(3) 0.0779(3) 0.071(4) Uani 1 1 d . U . . .
+N2B N 0.6915(3) 0.4089(3) 0.1176(3) 0.066(4) Uani 1 1 d D U . . .
+H2B H 0.7010(4) 0.4044(5) 0.1357(3) 0.079 Uiso 1 1 d D U . . .
+N5A N 0.3906(3) 0.7187(3) 0.1057(3) 0.078(4) Uani 1 1 d D U . . .
+N10C N 0.6425(3) 0.6749(3) 0.4126(3) 0.068(4) Uani 1 1 d . U . . .
+H10C H 0.659379 0.668115 0.420123 0.081 Uiso 1 1 calc R U . . .
+N8A N 0.5174(3) 0.7767(3) 0.0694(3) 0.072(4) Uani 1 1 d . U . . .
+H8A H 0.527008 0.779675 0.052668 0.087 Uiso 1 1 calc R U . . .
+C63D C 0.4654(3) 0.5513(3) 0.3407(3) 0.042(3) Uani 1 1 d . U . . .
+C13D C 0.4047(3) 0.5467(3) 0.2321(4) 0.053(4) Uani 1 1 d . U . . .
+C63B C 0.5838(3) 0.4903(3) 0.2927(4) 0.058(4) Uani 1 1 d . U . . .
+N13B N 0.6335(3) 0.7256(3) 0.2009(3) 0.079(4) Uani 1 1 d . U . . .
+C18A C 0.5386(4) 0.7518(3) 0.1593(4) 0.056(4) Uani 1 1 d . U . . .
+N7B N 0.6534(3) 0.5995(3) 0.1697(3) 0.076(4) Uani 1 1 d D U . . .
+C19B C 0.5297(3) 0.5549(3) 0.1470(4) 0.053(4) Uani 1 1 d . U . . .
+C41A C 0.4217(3) 0.6736(3) 0.1269(3) 0.052(4) Uani 1 1 d . U . . .
+C22B C 0.4930(3) 0.5677(3) 0.1917(4) 0.051(4) Uani 1 1 d . U . . .
+H22B H 0.480154 0.571078 0.207797 0.061 Uiso 1 1 calc R U . . .
+C57B C 0.5920(3) 0.5485(4) 0.2554(4) 0.055(4) Uani 1 1 d . U . . .
+F18 F 0.4925(3) 0.6925(3) 0.2494(3) 0.145(5) Uani 1 1 d . . . . .
+C56D C 0.4596(3) 0.5443(3) 0.3955(4) 0.050(4) Uani 1 1 d . U . . .
+N8B N 0.6925(3) 0.6302(3) 0.1798(3) 0.089(4) Uani 1 1 d . U . . .
+H8B H 0.710668 0.636135 0.182532 0.107 Uiso 1 1 calc R U . . .
+C61D C 0.5064(3) 0.5572(3) 0.3790(4) 0.046(3) Uani 1 1 d . U . . .
+C11B C 0.5466(3) 0.5488(3) 0.1205(4) 0.055(4) Uani 1 1 d . U . . .
+C64D C 0.4553(3) 0.5506(3) 0.3102(3) 0.051(4) Uani 1 1 d . U . . .
+H64D H 0.435920 0.544708 0.304663 0.061 Uiso 1 1 calc R U . . .
+N2C N 0.6247(3) 0.8980(3) 0.4704(3) 0.087(4) Uani 1 1 d D U . . .
+H2CA H 0.641657 0.901136 0.460933 0.105 Uiso 1 1 calc R U . . .
+H2CB H 0.623480 0.876902 0.474953 0.105 Uiso 1 1 calc DR U . . .
+C57D C 0.4900(3) 0.5511(3) 0.4042(4) 0.052(4) Uani 1 1 d . U . . .
+C11A C 0.5071(4) 0.7656(3) 0.1171(4) 0.059(4) Uani 1 1 d . U . . .
+C55C C 0.5989(3) 0.6770(4) 0.3887(4) 0.058(4) Uani 1 1 d . U . . .
+C12D C 0.3970(3) 0.5142(3) 0.2397(4) 0.050(4) Uani 1 1 d . U . . .
+C19C C 0.5957(3) 0.8190(3) 0.2574(4) 0.054(4) Uani 1 1 d . U . . .
+F20 F 0.6359(3) 0.4844(3) 0.3686(4) 0.171(5) Uani 1 1 d . U . . .
+N4B N 0.6996(3) 0.4717(3) 0.0483(3) 0.079(4) Uani 1 1 d . U . . .
+H4BA H 0.701400 0.469430 0.069064 0.095 Uiso 1 1 calc R U . . .
+H4BB H 0.685517 0.458192 0.041084 0.095 Uiso 1 1 calc R U . . .
+C56C C 0.5741(3) 0.6659(3) 0.3727(3) 0.050(4) Uani 1 1 d . U . . .
+C55D C 0.4476(3) 0.5445(3) 0.3669(4) 0.044(3) Uani 1 1 d . U . . .
+C39B C 0.6378(4) 0.6940(4) 0.1932(4) 0.071(4) Uani 1 1 d . U . . .
+C18B C 0.5007(3) 0.5616(3) 0.1411(4) 0.045(3) Uani 1 1 d . U . . .
+F22 F 0.6802(3) 0.5054(3) 0.3671(3) 0.158(5) Uani 1 1 d . U . . .
+C12B C 0.5341(4) 0.5473(3) 0.0912(4) 0.057(4) Uani 1 1 d . U . . .
+F24 F 0.6432(3) 0.4583(3) 0.3249(4) 0.178(6) Uani 1 1 d . . . . .
+C17D C 0.4150(3) 0.5495(3) 0.2021(4) 0.048(4) Uani 1 1 d . U . . .
+N7A N 0.4819(3) 0.7732(3) 0.1002(3) 0.065(3) Uani 1 1 d . U . . .
+H7A H 0.464474 0.773800 0.107365 0.078 Uiso 1 1 calc R U . . .
+C40B C 0.6135(3) 0.6752(4) 0.1855(3) 0.056(4) Uani 1 1 d . U . . .
+C41D C 0.3815(4) 0.6378(4) 0.3124(4) 0.067(4) Uani 1 1 d . U . . .
+C34D C 0.3536(3) 0.6249(3) 0.3103(4) 0.057(4) Uani 1 1 d . U . . .
+N8C N 0.5970(3) 0.8447(3) 0.3099(3) 0.072(4) Uani 1 1 d . U . . .
+H8C H 0.599576 0.864679 0.304673 0.086 Uiso 1 1 calc R U . . .
+C21A C 0.4967(4) 0.7496(3) 0.2008(4) 0.064(4) Uani 1 1 d . U . . .
+H21A H 0.482179 0.747440 0.215399 0.077 Uiso 1 1 calc R U . . .
+C61C C 0.6221(3) 0.6569(4) 0.3963(4) 0.055(4) Uani 1 1 d . U . . .
+C44A C 0.4697(3) 0.6417(4) 0.1538(3) 0.055(4) Uani 1 1 d . U . . .
+H44A H 0.485662 0.630954 0.163573 0.066 Uiso 1 1 calc R U . . .
+C35D C 0.3312(4) 0.6785(4) 0.3010(4) 0.069(4) Uani 1 1 d . U . . .
+C35A C 0.3716(3) 0.6340(4) 0.1093(4) 0.059(4) Uani 1 1 d . U . . .
+C16D C 0.4202(3) 0.6036(4) 0.2083(4) 0.063(4) Uani 1 1 d . U . . .
+H16D H 0.426337 0.623814 0.201128 0.076 Uiso 1 1 calc R U . . .
+C66A C 0.4170(3) 0.7071(3) 0.2418(4) 0.052(4) Uani 1 1 d . U . . .
+H66A H 0.419150 0.686779 0.251359 0.062 Uiso 1 1 calc R U . . .
+C62D C 0.4938(3) 0.5575(3) 0.3487(3) 0.041(3) Uani 1 1 d . U . . .
+C19A C 0.5105(4) 0.7596(3) 0.1496(4) 0.056(4) Uani 1 1 d . U . . .
+F26 F 0.6870(3) 0.4796(3) 0.3232(3) 0.163(5) Uani 1 1 d . U . . .
+C19D C 0.4108(3) 0.4914(3) 0.1912(4) 0.054(4) Uani 1 1 d . U . . .
+C57A C 0.4014(3) 0.8179(4) 0.2524(4) 0.065(4) Uani 1 1 d . U . . .
+N4C N 0.5986(3) 0.8310(3) 0.5339(3) 0.080(4) Uani 1 1 d . U . . .
+H4CA H 0.583011 0.844174 0.532648 0.096 Uiso 1 1 calc R U . . .
+H4CB H 0.608840 0.833777 0.516766 0.096 Uiso 1 1 calc R U . . .
+C33A C 0.3964(4) 0.6876(4) 0.1137(4) 0.061(4) Uani 1 1 d . U . . .
+C20B C 0.5406(3) 0.5556(3) 0.1781(4) 0.056(4) Uani 1 1 d . U . . .
+H20B H 0.560291 0.551169 0.183444 0.068 Uiso 1 1 calc R U . . .
+C12C C 0.5942(3) 0.8186(3) 0.2898(4) 0.055(4) Uani 1 1 d . U . . .
+C60B C 0.5739(3) 0.6044(4) 0.2826(4) 0.057(4) Uani 1 1 d . U . . .
+H60B H 0.568185 0.623922 0.291594 0.068 Uiso 1 1 calc R U . . .
+C10D C 0.3816(3) 0.4711(4) 0.2633(4) 0.059(4) Uani 1 1 d . U . . .
+C40A C 0.4223(3) 0.6407(4) 0.1315(3) 0.049(4) Uani 1 1 d . U . . .
+C60C C 0.5735(3) 0.6335(3) 0.3644(3) 0.046(4) Uani 1 1 d . U . . .
+C20D C 0.4135(3) 0.4665(4) 0.1692(4) 0.063(4) Uani 1 1 d . U . . .
+H20D H 0.407364 0.445389 0.173236 0.076 Uiso 1 1 calc R U . . .
+C8C C 0.5969(3) 0.8514(2) 0.3667(2) 0.065(4) Uani 1 1 d G U . . .
+C9C C 0.6052(2) 0.8832(2) 0.3660(2) 0.079(5) Uani 1 1 d G U . . .
+H9CA H 0.610290 0.892710 0.347225 0.095 Uiso 1 1 calc R U . . .
+C5C C 0.6061(2) 0.90116(18) 0.3928(3) 0.079(5) Uani 1 1 d G U . . .
+H5C H 0.611789 0.922913 0.392391 0.095 Uiso 1 1 calc R U . . .
+C4C C 0.5987(2) 0.8873(2) 0.4203(2) 0.071(4) Uani 1 1 d G U . . .
+C6C C 0.5904(3) 0.8554(2) 0.4210(2) 0.083(5) Uani 1 1 d G U . . .
+H6CA H 0.585281 0.845957 0.439802 0.099 Uiso 1 1 calc DR U . . .
+C7C C 0.5895(3) 0.83751(18) 0.3942(2) 0.099(6) Uani 1 1 d G U . . .
+H7C H 0.583782 0.815752 0.394635 0.119 Uiso 1 1 calc R U . . .
+C39A C 0.3969(3) 0.6224(4) 0.1234(4) 0.066(4) Uani 1 1 d . U . . .
+C62C C 0.6225(3) 0.6255(4) 0.3880(4) 0.063(4) Uani 1 1 d . U . . .
+C12A C 0.5296(4) 0.7686(4) 0.0985(4) 0.068(4) Uani 1 1 d . U . . .
+C10B C 0.5800(4) 0.5376(4) 0.0896(4) 0.063(4) Uani 1 1 d . U . . .
+C39D C 0.3604(4) 0.6895(4) 0.3035(4) 0.064(4) Uani 1 1 d . U . . .
+C17C C 0.5904(3) 0.7593(3) 0.2618(4) 0.055(4) Uani 1 1 d . U . . .
+C22A C 0.5254(3) 0.7431(3) 0.2096(4) 0.058(4) Uani 1 1 d . U . . .
+H22A H 0.530087 0.737485 0.230362 0.069 Uiso 1 1 calc R U . . .
+C40D C 0.3841(3) 0.6704(4) 0.3100(4) 0.057(4) Uani 1 1 d . U . . .
+C54D C 0.4134(4) 0.5325(4) 0.3969(4) 0.057(4) Uani 1 1 d . U . . .
+N3D N 0.2436(3) 0.4706(3) 0.3494(3) 0.080(4) Uani 1 1 d D U . . .
+H3DA H 0.235079 0.486372 0.360149 0.096 Uiso 1 1 calc R U . . .
+H3DB H 0.261571 0.467131 0.358286 0.096 Uiso 1 1 calc R U . . .
+C51B C 0.6272(3) 0.4576(3) 0.1963(3) 0.057(4) Uani 1 1 d . U . . .
+C43D C 0.4345(3) 0.6346(3) 0.3202(4) 0.064(4) Uani 1 1 d . U . . .
+H43D H 0.451885 0.623105 0.324389 0.077 Uiso 1 1 calc R U . . .
+C13A C 0.5589(4) 0.7613(3) 0.1074(4) 0.058(4) Uani 1 1 d . U . . .
+C13B C 0.5046(4) 0.5542(3) 0.0845(4) 0.060(4) Uani 1 1 d . U . . .
+C65C C 0.6165(3) 0.5634(4) 0.3695(4) 0.067(5) Uani 1 1 d . U . . .
+H65C H 0.615122 0.541999 0.362548 0.081 Uiso 1 1 calc R U . . .
+C44D C 0.4343(3) 0.6668(3) 0.3157(4) 0.061(4) Uani 1 1 d . U . . .
+H44D H 0.452516 0.677186 0.315890 0.073 Uiso 1 1 calc R U . . .
+N2D N 0.3045(3) 0.3966(3) 0.3600(3) 0.090(4) Uani 1 1 d D U . . .
+H2DA H 0.300667 0.417546 0.363519 0.108 Uiso 1 1 calc R U . . .
+H2DB H 0.296160 0.391416 0.341402 0.108 Uiso 1 1 calc R U . . .
+N4D N 0.2951(3) 0.4637(3) 0.4302(3) 0.088(4) Uani 1 1 d D U . . .
+H4D H 0.3089(4) 0.4504(4) 0.4387(5) 0.105 Uiso 1 1 d D U . . .
+C11D C 0.3989(3) 0.4893(3) 0.2207(4) 0.055(4) Uani 1 1 d . U . . .
+N6A N 0.3521(3) 0.6890(3) 0.0922(4) 0.097(5) Uani 1 1 d . U . . .
+H6A H 0.334374 0.683904 0.085679 0.117 Uiso 1 1 calc R U . . .
+C20A C 0.4887(4) 0.7592(3) 0.1705(4) 0.063(4) Uani 1 1 d . U . . .
+H20A H 0.469338 0.765205 0.164793 0.076 Uiso 1 1 calc R U . . .
+C56B C 0.5992(3) 0.5171(3) 0.2454(4) 0.054(4) Uani 1 1 d . U . . .
+C55B C 0.5965(3) 0.4906(3) 0.2630(4) 0.055(4) Uani 1 1 d . U . . .
+C39C C 0.43671(18) 0.7457(2) 0.3661(2) 0.053(4) Uani 1 1 d G U . . .
+N14C N 0.4093(2) 0.74005(19) 0.35275(16) 0.058(3) Uani 1 1 d G U . . .
+C38C C 0.38536(17) 0.7393(2) 0.3709(2) 0.069(4) Uani 1 1 d G U . . .
+H38C H 0.366638 0.735457 0.361755 0.083 Uiso 1 1 calc R U . . .
+C37C C 0.38880(19) 0.7442(2) 0.4024(2) 0.072(5) Uani 1 1 d G U . . .
+H37C H 0.372434 0.743734 0.414754 0.087 Uiso 1 1 calc R U . . .
+C36C C 0.4162(2) 0.7499(2) 0.41572(16) 0.064(4) Uani 1 1 d G U . . .
+H36C H 0.418551 0.753242 0.437234 0.077 Uiso 1 1 calc R U . . .
+C35C C 0.44015(17) 0.7506(2) 0.3976(2) 0.061(4) Uani 1 1 d G U . . .
+C58B C 0.5942(3) 0.5771(3) 0.2400(3) 0.057(4) Uani 1 1 d . U . . .
+H58B H 0.601930 0.577646 0.220179 0.068 Uiso 1 1 calc R U . . .
+F28 F 0.6747(3) 0.4521(3) 0.3652(4) 0.176(6) Uani 1 1 d . . . . .
+C38A C 0.3779(4) 0.5701(4) 0.1194(4) 0.079(5) Uani 1 1 d . U . . .
+H38A H 0.379203 0.547730 0.122700 0.094 Uiso 1 1 calc R U . . .
+C49B C 0.6456(4) 0.4093(4) 0.1751(4) 0.075(5) Uani 1 1 d . U . . .
+H49B H 0.650904 0.387682 0.178491 0.090 Uiso 1 1 calc R U . . .
+C66C C 0.5969(3) 0.6145(4) 0.3726(4) 0.055(4) Uani 1 1 d . U . . .
+C17B C 0.4887(3) 0.5602(3) 0.1101(4) 0.055(4) Uani 1 1 d . U . . .
+C13C C 0.5876(4) 0.7605(4) 0.2931(4) 0.064(4) Uani 1 1 d . U . . .
+C37A C 0.3526(4) 0.5829(4) 0.1064(4) 0.080(5) Uani 1 1 d . U . . .
+H37A H 0.336872 0.569132 0.100993 0.096 Uiso 1 1 calc R U . . .
+C61B C 0.5796(3) 0.5498(3) 0.2845(4) 0.048(4) Uani 1 1 d . U . . .
+C29C C 0.5300(2) 0.7731(3) 0.4610(2) 0.063(4) Uani 1 1 d G U . . .
+C28C C 0.51987(19) 0.7764(3) 0.4904(3) 0.094(5) Uani 1 1 d G U . . .
+H28C H 0.499812 0.773968 0.493622 0.113 Uiso 1 1 calc R U . . .
+C27C C 0.5390(3) 0.7833(3) 0.51496(19) 0.098(6) Uani 1 1 d G U . . .
+H27C H 0.532080 0.785620 0.535012 0.117 Uiso 1 1 calc R U . . .
+C26C C 0.5684(3) 0.7869(3) 0.5102(2) 0.079(5) Uani 1 1 d G U . . .
+C31C C 0.57856(18) 0.7835(3) 0.4809(3) 0.079(5) Uani 1 1 d G U . . .
+H31C H 0.598621 0.785986 0.477638 0.094 Uiso 1 1 calc DR U . . .
+C30C C 0.5594(2) 0.7766(3) 0.4563(2) 0.073(4) Uani 1 1 d G U . . .
+H30C H 0.566353 0.774334 0.436247 0.087 Uiso 1 1 calc R U . . .
+C7D C 0.3706(2) 0.4517(2) 0.2877(2) 0.062(4) Uani 1 1 d G U . . .
+C8D C 0.3687(2) 0.46335(19) 0.3174(3) 0.072(5) Uani 1 1 d G U . . .
+H8D H 0.375037 0.484376 0.322205 0.086 Uiso 1 1 calc R U . . .
+C9D C 0.3574(2) 0.4443(3) 0.3400(2) 0.081(5) Uani 1 1 d G U . . .
+H9D H 0.356067 0.452253 0.360291 0.097 Uiso 1 1 calc DR U . . .
+C4D C 0.3481(2) 0.4135(2) 0.3330(2) 0.074(4) Uani 1 1 d G U . . .
+C5D C 0.3501(2) 0.40183(19) 0.3033(3) 0.081(5) Uani 1 1 d G U . . .
+H5DA H 0.343708 0.380808 0.298493 0.098 Uiso 1 1 calc R U . . .
+C6D C 0.3613(2) 0.4209(2) 0.2807(2) 0.077(5) Uani 1 1 d G U . . .
+H6DA H 0.362677 0.412931 0.260406 0.093 Uiso 1 1 calc R U . . .
+C57C C 0.5500(3) 0.6851(4) 0.3645(3) 0.060(4) Uani 1 1 d . U . . .
+H57C H 0.549301 0.706994 0.369899 0.072 Uiso 1 1 calc R U . . .
+N3B N 0.7530(3) 0.4783(3) 0.1238(3) 0.084(4) Uani 1 1 d D U . . .
+H3BA H 0.759223 0.493638 0.110830 0.100 Uiso 1 1 calc R U . . .
+H3BB H 0.734315 0.473558 0.118223 0.100 Uiso 1 1 calc DR U . . .
+C54C C 0.6317(4) 0.7050(4) 0.4150(4) 0.070(5) Uani 1 1 d . U . . .
+C62B C 0.5762(3) 0.5208(3) 0.3033(4) 0.055(4) Uani 1 1 d . U . . .
+C51A C 0.4050(3) 0.8589(2) 0.1455(2) 0.069(4) Uani 1 1 d G U . . .
+C50A C 0.4150(2) 0.8476(2) 0.1180(3) 0.094(6) Uani 1 1 d G U . . .
+H50A H 0.422191 0.826448 0.116803 0.113 Uiso 1 1 calc DR U . . .
+C49A C 0.4145(2) 0.8672(3) 0.0923(2) 0.097(6) Uani 1 1 d G U . . .
+H49A H 0.421372 0.859458 0.073508 0.116 Uiso 1 1 calc DR U . . .
+C48A C 0.4040(3) 0.8982(3) 0.0941(2) 0.088(5) Uani 1 1 d G U . . .
+C53A C 0.3940(3) 0.90951(19) 0.1216(3) 0.097(6) Uani 1 1 d G U . . .
+H53A H 0.386767 0.930668 0.122860 0.116 Uiso 1 1 calc R U . . .
+C52A C 0.3944(3) 0.8899(2) 0.1473(2) 0.089(5) Uani 1 1 d G U . . .
+H52A H 0.387586 0.897659 0.166156 0.107 Uiso 1 1 calc R U . . .
+N1C N 0.6490(3) 0.8756(3) 0.5332(4) 0.093(4) Uani 1 1 d . U . . .
+C10C C 0.5950(4) 0.8336(4) 0.3382(4) 0.066(4) Uani 1 1 d . U . . .
+C62A C 0.4093(3) 0.7615(3) 0.2442(4) 0.057(4) Uani 1 1 d . U . . .
+C8B C 0.6100(4) 0.5296(4) 0.0779(4) 0.066(4) Uani 1 1 d . U . . .
+C65D C 0.4742(3) 0.5587(3) 0.2888(3) 0.054(4) Uani 1 1 d . U . . .
+H65D H 0.467422 0.559554 0.267951 0.064 Uiso 1 1 calc R U . . .
+C16C C 0.5838(3) 0.7046(4) 0.2611(3) 0.055(4) Uani 1 1 d . U . . .
+H16C H 0.581532 0.685064 0.250245 0.066 Uiso 1 1 calc R U . . .
+C43A C 0.4703(4) 0.6751(4) 0.1494(4) 0.069(5) Uani 1 1 d . U . . .
+H43A H 0.487021 0.686600 0.156415 0.082 Uiso 1 1 calc R U . . .
+C18D C 0.4195(3) 0.5226(3) 0.1826(4) 0.050(4) Uani 1 1 d . U . . .
+C60A C 0.3996(3) 0.8056(4) 0.3150(4) 0.067(4) Uani 1 1 d . U . . .
+H60A H 0.400001 0.801037 0.336396 0.080 Uiso 1 1 calc R U . . .
+C66D C 0.5028(3) 0.5656(3) 0.2960(4) 0.054(4) Uani 1 1 d . U . . .
+H66D H 0.515117 0.571090 0.280002 0.064 Uiso 1 1 calc R U . . .
+F30 F 0.6483(4) 0.5111(3) 0.3277(4) 0.203(7) Uani 1 1 d . . . . .
+C65A C 0.4192(3) 0.7089(3) 0.2111(4) 0.064(4) Uani 1 1 d . U . . .
+H65A H 0.422520 0.690031 0.199724 0.077 Uiso 1 1 calc R U . . .
+C44B C 0.5635(4) 0.6724(4) 0.1823(4) 0.068(5) Uani 1 1 d . U . . .
+H44B H 0.545161 0.682535 0.183558 0.081 Uiso 1 1 calc R U . . .
+C61A C 0.4043(3) 0.7882(4) 0.2639(4) 0.058(4) Uani 1 1 d . U . . .
+C43B C 0.5643(4) 0.6413(4) 0.1755(3) 0.066(4) Uani 1 1 d . U . . .
+H43B H 0.546764 0.629423 0.173630 0.079 Uiso 1 1 calc R U . . .
+N3A N 0.3753(3) 0.9139(3) 0.0448(3) 0.108(5) Uani 1 1 d D U . . .
+H3AA H 0.375080 0.893145 0.038560 0.130 Uiso 1 1 calc R U . . .
+H3AB H 0.359136 0.917279 0.055420 0.130 Uiso 1 1 calc R U . . .
+C63A C 0.4126(3) 0.7646(3) 0.2134(4) 0.057(4) Uani 1 1 d . U . . .
+C37D C 0.3154(4) 0.7308(4) 0.2927(4) 0.069(5) Uani 1 1 d . U . . .
+H37D H 0.299712 0.745217 0.289417 0.083 Uiso 1 1 calc R U . . .
+C32B C 0.6831(4) 0.5999(4) 0.1715(5) 0.088(5) Uani 1 1 d . U . . .
+F32 F 0.4701(3) 0.6663(4) 0.3752(3) 0.199(7) Uani 1 1 d . . . . .
+C48B C 0.6488(4) 0.4220(4) 0.1469(4) 0.070(4) Uani 1 1 d . U . . .
+C34A C 0.3729(4) 0.6686(4) 0.1044(4) 0.071(4) Uani 1 1 d . U . . .
+C59C C 0.5276(3) 0.6388(4) 0.3409(4) 0.060(4) Uani 1 1 d . U . . .
+H59C H 0.511583 0.629395 0.329829 0.073 Uiso 1 1 calc R U . . .
+C21B C 0.5215(3) 0.5630(3) 0.1999(4) 0.062(4) Uani 1 1 d . U . . .
+H21B H 0.528032 0.564850 0.220816 0.074 Uiso 1 1 calc R U . . .
+C11C C 0.5906(3) 0.7911(4) 0.3068(4) 0.060(4) Uani 1 1 d . U . . .
+C42A C 0.4481(3) 0.6911(4) 0.1354(4) 0.065(4) Uani 1 1 d . U . . .
+H42A H 0.449530 0.713314 0.131357 0.078 Uiso 1 1 calc R U . . .
+C21D C 0.4255(4) 0.4744(4) 0.1419(4) 0.068(5) Uani 1 1 d . U . . .
+H21D H 0.429178 0.457956 0.127540 0.082 Uiso 1 1 calc R U . . .
+C6B C 0.6618(4) 0.5284(4) 0.0836(4) 0.076(5) Uani 1 1 d . U . . .
+H6BA H 0.679251 0.531949 0.095442 0.091 Uiso 1 1 calc R U . . .
+F34 F 0.5016(3) 0.4739(4) 0.3861(4) 0.171(6) Uani 1 1 d . . . . .
+C64A C 0.4165(3) 0.7387(3) 0.1956(4) 0.059(4) Uani 1 1 d . U . . .
+H64A H 0.417419 0.740253 0.173956 0.071 Uiso 1 1 calc R U . . .
+N1D N 0.2529(3) 0.4168(3) 0.3980(4) 0.097(4) Uani 1 1 d D U . . .
+C41B C 0.6156(4) 0.6424(4) 0.1777(4) 0.067(4) Uani 1 1 d . U . . .
+C52C C 0.6388(2) 0.7627(3) 0.4241(2) 0.077(5) Uani 1 1 d G U . . .
+H52C H 0.622785 0.766842 0.410279 0.092 Uiso 1 1 calc R U . . .
+C53C C 0.6475(2) 0.7314(2) 0.4299(3) 0.075(5) Uani 1 1 d G U . . .
+C51C C 0.6710(3) 0.7253(2) 0.4501(3) 0.117(7) Uani 1 1 d G U . . .
+H51C H 0.676870 0.703979 0.454140 0.140 Uiso 1 1 calc R U . . .
+C50C C 0.6858(2) 0.7504(3) 0.4645(3) 0.132(7) Uani 1 1 d G U . . .
+H50C H 0.701836 0.746272 0.478271 0.158 Uiso 1 1 calc R U . . .
+C48C C 0.6771(3) 0.7817(3) 0.4586(3) 0.088(5) Uani 1 1 d G U . . .
+C49C C 0.6537(3) 0.7878(2) 0.4384(3) 0.085(5) Uani 1 1 d G U . . .
+H49C H 0.647751 0.809135 0.434410 0.102 Uiso 1 1 calc DR U . . .
+C22D C 0.4322(3) 0.5046(4) 0.1349(4) 0.064(4) Uani 1 1 d . U . . .
+H22D H 0.438899 0.509055 0.115097 0.076 Uiso 1 1 calc R U . . .
+C59B C 0.5851(3) 0.6049(4) 0.2534(4) 0.066(4) Uani 1 1 d . U . . .
+H59B H 0.586543 0.624552 0.242677 0.079 Uiso 1 1 calc R U . . .
+C51D C 0.38495(19) 0.5238(3) 0.4088(3) 0.073(4) Uani 1 1 d G U . . .
+C52D C 0.3598(2) 0.5294(3) 0.3909(2) 0.103(6) Uani 1 1 d G U . . .
+H52D H 0.360863 0.539470 0.371494 0.124 Uiso 1 1 calc R U . . .
+C53D C 0.3331(2) 0.5202(3) 0.4014(3) 0.098(6) Uani 1 1 d G U . . .
+H53D H 0.315949 0.524002 0.389194 0.117 Uiso 1 1 calc DR U . . .
+C48D C 0.3316(2) 0.5054(3) 0.4298(3) 0.074(4) Uani 1 1 d DG U . . .
+C49D C 0.3567(3) 0.4998(3) 0.4477(2) 0.089(5) Uani 1 1 d G U . . .
+H49D H 0.355675 0.489668 0.467136 0.106 Uiso 1 1 calc R U . . .
+C50D C 0.3834(2) 0.5090(3) 0.4372(2) 0.088(5) Uani 1 1 d G U . . .
+H50D H 0.400590 0.505136 0.449438 0.106 Uiso 1 1 calc R U . . .
+C33B C 0.6452(4) 0.6310(4) 0.1773(4) 0.073(4) Uani 1 1 d . U . . .
+C58C C 0.5267(4) 0.6699(4) 0.3479(3) 0.063(4) Uani 1 1 d . U . . .
+H58C H 0.510218 0.682102 0.341469 0.075 Uiso 1 1 calc R U . . .
+C42D C 0.4070(4) 0.6195(4) 0.3181(4) 0.079(5) Uani 1 1 d . U . . .
+H42D H 0.405667 0.597090 0.320536 0.095 Uiso 1 1 calc R U . . .
+N2A N 0.3996(4) 0.8495(3) -0.0230(4) 0.121(6) Uani 1 1 d D U . . .
+H2AA H 0.389372 0.851661 -0.005788 0.145 Uiso 1 1 calc R U . . .
+H2AB H 0.415973 0.861413 -0.020428 0.145 Uiso 1 1 calc R U . . .
+C15D C 0.4080(4) 0.6020(4) 0.2372(4) 0.074(5) Uani 1 1 d . U . . .
+H15D H 0.404833 0.620780 0.248625 0.088 Uiso 1 1 calc R U . . .
+C42B C 0.5902(3) 0.6265(4) 0.1710(3) 0.064(4) Uani 1 1 d . U . . .
+H42B H 0.590514 0.605289 0.163365 0.077 Uiso 1 1 calc R U . . .
+C66B C 0.5581(3) 0.4999(4) 0.3481(4) 0.064(4) Uani 1 1 d . U . . .
+H66B H 0.548615 0.502392 0.366804 0.077 Uiso 1 1 calc R U . . .
+C32A C 0.3642(4) 0.7182(4) 0.0921(4) 0.078(4) Uani 1 1 d . U . . .
+C17A C 0.5628(4) 0.7537(3) 0.1386(4) 0.058(4) Uani 1 1 d . U . . .
+C63C C 0.6444(4) 0.6022(4) 0.3951(4) 0.082(5) Uani 1 1 d . U . . .
+H63C H 0.661538 0.608325 0.406359 0.098 Uiso 1 1 calc R U . . .
+C33D C 0.3300(4) 0.6447(4) 0.3040(4) 0.068(4) Uani 1 1 d . U . . .
+C15B C 0.4619(4) 0.5631(4) 0.0532(4) 0.077(5) Uani 1 1 d . U . . .
+H15B H 0.452371 0.563818 0.033410 0.093 Uiso 1 1 calc R U . . .
+C60D C 0.5462(4) 0.5659(4) 0.4092(4) 0.075(5) Uani 1 1 d . U . . .
+H60D H 0.566051 0.571660 0.411766 0.091 Uiso 1 1 calc R U . . .
+C46B C 0.7040(3) 0.3891(3) 0.0925(3) 0.070(4) Uani 1 1 d D U . . .
+H46A H 0.701146 0.366210 0.097143 0.084 Uiso 1 1 calc DR U . . .
+H46B H 0.693437 0.393826 0.072778 0.084 Uiso 1 1 calc R U . . .
+C64B C 0.5781(4) 0.4646(4) 0.3103(4) 0.078(5) Uani 1 1 d . U . . .
+H64B H 0.582715 0.443585 0.303899 0.093 Uiso 1 1 calc R U . . .
+C34B C 0.6695(4) 0.6492(4) 0.1830(4) 0.080(5) Uani 1 1 d . U . . .
+C16A C 0.6122(4) 0.7476(4) 0.1333(4) 0.065(4) Uani 1 1 d . U . . .
+H16A H 0.631094 0.742958 0.141640 0.078 Uiso 1 1 calc R U . . .
+F36 F 0.7313(4) 0.5693(4) 0.0304(4) 0.197(6) Uani 1 1 d . U . . .
+C14D C 0.4010(3) 0.5733(4) 0.2482(4) 0.060(4) Uani 1 1 d . U . . .
+H14D H 0.393175 0.571953 0.267955 0.073 Uiso 1 1 calc R U . . .
+C3D C 0.3361(3) 0.3925(4) 0.3588(4) 0.092(5) Uani 1 1 d D U . . .
+H3DC H 0.340658 0.369865 0.354856 0.111 Uiso 1 1 calc R U . . .
+H3DD H 0.345581 0.398607 0.378757 0.111 Uiso 1 1 calc R U . . .
+C36A C 0.3498(4) 0.6148(4) 0.1013(4) 0.077(5) Uani 1 1 d . U . . .
+H36A H 0.332429 0.623195 0.091992 0.092 Uiso 1 1 calc R U . . .
+C38D C 0.3426(3) 0.7414(4) 0.2956(4) 0.066(5) Uani 1 1 d . U . . .
+H38D H 0.346008 0.763712 0.294221 0.079 Uiso 1 1 calc R U . . .
+N3C N 0.6778(3) 0.8229(3) 0.4998(4) 0.105(5) Uani 1 1 d D U . . .
+H3C H 0.6770(6) 0.8076(6) 0.5145(5) 0.126 Uiso 1 1 d D U . . .
+C4B C 0.6367(4) 0.5071(4) 0.0388(4) 0.074(5) Uani 1 1 d . U . . .
+H4B H 0.637167 0.496205 0.019712 0.089 Uiso 1 1 calc R U . . .
+C18C C 0.5930(3) 0.7881(4) 0.2430(4) 0.058(4) Uani 1 1 d . U . . .
+C14C C 0.5850(4) 0.7322(3) 0.3094(4) 0.072(5) Uani 1 1 d . U . . .
+H14C H 0.583688 0.732089 0.331123 0.087 Uiso 1 1 calc R U . . .
+C15C C 0.5843(4) 0.7041(4) 0.2925(4) 0.076(5) Uani 1 1 d . U . . .
+H15C H 0.584260 0.684215 0.302950 0.092 Uiso 1 1 calc R U . . .
+C47B C 0.6596(3) 0.4025(3) 0.1203(4) 0.070(4) Uani 1 1 d D U . . .
+H47A H 0.656365 0.379505 0.124053 0.085 Uiso 1 1 calc DR U . . .
+H47B H 0.648830 0.408491 0.101003 0.085 Uiso 1 1 calc R U . . .
+F38 F 0.3506(4) 0.6895(4) 0.2225(4) 0.191(6) Uani 1 1 d . . . . .
+C22C C 0.5972(4) 0.8093(4) 0.1953(4) 0.072(5) Uani 1 1 d . U . . .
+H22C H 0.597745 0.806737 0.173653 0.086 Uiso 1 1 calc R U . . .
+C30A C 0.3617(4) 0.7758(4) 0.0839(4) 0.092(5) Uani 1 1 d . U . . .
+H30A H 0.379919 0.778166 0.094532 0.111 Uiso 1 1 calc R U . . .
+C59A C 0.3955(4) 0.8372(4) 0.3050(4) 0.078(5) Uani 1 1 d . U . . .
+H59A H 0.392596 0.853870 0.319328 0.094 Uiso 1 1 calc R U . . .
+C54B C 0.6149(4) 0.4762(4) 0.2206(4) 0.066(4) Uani 1 1 d . U . . .
+C58D C 0.5027(4) 0.5521(4) 0.4319(4) 0.076(5) Uani 1 1 d . U . . .
+H58D H 0.491978 0.547109 0.449382 0.092 Uiso 1 1 calc R U . . .
+C23B C 0.7717(4) 0.4359(4) 0.0876(4) 0.089(5) Uani 1 1 d . U . . .
+H23A H 0.779019 0.452488 0.073873 0.107 Uiso 1 1 calc R U . . .
+H23B H 0.784195 0.416813 0.086362 0.107 Uiso 1 1 calc R U . . .
+C35B C 0.6674(4) 0.6819(4) 0.1919(4) 0.084(5) Uani 1 1 d . U . . .
+F40 F 0.6984(4) 0.8267(4) 0.2925(4) 0.206(7) Uani 1 1 d . . . . .
+C10A C 0.4882(4) 0.7793(4) 0.0716(4) 0.065(4) Uani 1 1 d . U . . .
+F42 F 0.4892(3) 0.4318(4) 0.4150(5) 0.218(9) Uani 1 1 d . . . . .
+C7E C 0.3252(3) 0.4642(2) 0.1827(3) 0.096(5) Uani 1 1 d G U . . .
+C8E C 0.3136(3) 0.4417(4) 0.2021(2) 0.107(5) Uani 1 1 d G U . . .
+C11E C 0.3097(3) 0.4104(3) 0.1923(3) 0.118(6) Uani 1 1 d G U . . .
+H11E H 0.301790 0.395095 0.205529 0.142 Uiso 1 1 calc R U . . .
+C12E C 0.3175(3) 0.4016(2) 0.1630(3) 0.116(6) Uani 1 1 d G U . . .
+H12E H 0.314843 0.380177 0.156331 0.139 Uiso 1 1 calc R U . . .
+C13E C 0.3291(3) 0.4240(3) 0.1436(3) 0.112(6) Uani 1 1 d G U . . .
+H13E H 0.334365 0.417965 0.123644 0.134 Uiso 1 1 calc R U . . .
+C14E C 0.3329(3) 0.4553(3) 0.1534(3) 0.111(6) Uani 1 1 d G U . . .
+H14E H 0.340832 0.470671 0.140156 0.133 Uiso 1 1 calc R U . . .
+C64C C 0.6408(4) 0.5715(4) 0.3859(4) 0.081(5) Uani 1 1 d . U . . .
+H64C H 0.655180 0.555909 0.390914 0.098 Uiso 1 1 calc R U . . .
+C7B C 0.6342(4) 0.5365(4) 0.0942(4) 0.076(5) Uani 1 1 d . U . . .
+H7B H 0.632984 0.547217 0.113289 0.091 Uiso 1 1 calc R U . . .
+C29B C 0.7012(4) 0.5733(4) 0.1658(5) 0.087(5) Uani 1 1 d . U . . .
+F44 F 0.5414(4) 0.4826(4) 0.4190(3) 0.177(6) Uani 1 1 d . . . . .
+C24D C 0.2257(3) 0.4403(3) 0.3512(4) 0.082(5) Uani 1 1 d D U . . .
+H24A H 0.205858 0.444201 0.342666 0.098 Uiso 1 1 calc R U . . .
+H24B H 0.234506 0.423235 0.338960 0.098 Uiso 1 1 calc R U . . .
+F46 F 0.4982(4) 0.6350(4) 0.4086(4) 0.192(6) Uani 1 1 d . . . . .
+F48 F 0.5330(4) 0.4351(4) 0.3972(4) 0.199(7) Uani 1 1 d . . . . .
+C29A C 0.3504(4) 0.7467(4) 0.0794(5) 0.096(5) Uani 1 1 d . U . . .
+C1B C 0.7363(4) 0.4289(4) 0.0437(4) 0.080(5) Uani 1 1 d . U . . .
+H1BA H 0.721064 0.413690 0.036460 0.096 Uiso 1 1 calc R U . . .
+H1BB H 0.754551 0.423111 0.034104 0.096 Uiso 1 1 calc R U . . .
+F3 F 0.6630(4) 0.8226(4) 0.2286(4) 0.209(7) Uani 1 1 d . U . . .
+C14B C 0.4902(4) 0.5551(4) 0.0556(4) 0.076(5) Uani 1 1 d . U . . .
+H14B H 0.500297 0.550202 0.037697 0.091 Uiso 1 1 calc R U . . .
+C32D C 0.3159(4) 0.5936(4) 0.3100(4) 0.082(5) Uani 1 1 d . U . . .
+C5B C 0.6615(4) 0.5143(4) 0.0537(4) 0.070(4) Uani 1 1 d . U . . .
+C20C C 0.5982(4) 0.8451(4) 0.2389(4) 0.089(5) Uani 1 1 d . U . . .
+H20C H 0.599114 0.866025 0.247373 0.107 Uiso 1 1 calc R U . . .
+C3C C 0.6006(4) 0.9066(4) 0.4491(4) 0.081(5) Uani 1 1 d D U . . .
+H3CA H 0.602478 0.929340 0.443468 0.097 Uiso 1 1 calc R U . . .
+H3CB H 0.582277 0.904148 0.459735 0.097 Uiso 1 1 calc R U . . .
+F25 F 0.4280(4) 0.6605(4) 0.3978(4) 0.226(8) Uani 1 1 d . U . . .
+F13 F 0.5259(4) 0.4439(4) 0.4496(3) 0.203(7) Uani 1 1 d . . . . .
+C52B C 0.6314(4) 0.4717(4) 0.1676(4) 0.080(5) Uani 1 1 d . U . . .
+H52B H 0.628103 0.493804 0.164449 0.096 Uiso 1 1 calc R U . . .
+C36D C 0.3105(3) 0.6994(4) 0.2944(4) 0.077(5) Uani 1 1 d . U . . .
+H36D H 0.291303 0.691755 0.290753 0.092 Uiso 1 1 calc R U . . .
+C7A C 0.4682(4) 0.7883(4) 0.0468(4) 0.078(5) Uani 1 1 d . U . . .
+N4A N 0.3232(4) 0.8440(4) 0.0155(4) 0.130(6) Uani 1 1 d D U . . .
+C15A C 0.6090(4) 0.7543(4) 0.1035(4) 0.080(5) Uani 1 1 d . U . . .
+H15A H 0.625566 0.753232 0.091380 0.095 Uiso 1 1 calc R U . . .
+C14A C 0.5824(4) 0.7628(4) 0.0890(4) 0.072(5) Uani 1 1 d . U . . .
+H14A H 0.580620 0.769135 0.068117 0.086 Uiso 1 1 calc R U . . .
+C9B C 0.6096(4) 0.5150(4) 0.0505(4) 0.068(4) Uani 1 1 d . U . . .
+H9BA H 0.591880 0.510214 0.039550 0.081 Uiso 1 1 calc R U . . .
+C26B C 0.7366(4) 0.5203(4) 0.1580(4) 0.087(5) Uani 1 1 d D U . . .
+C50B C 0.6347(4) 0.4269(4) 0.1998(4) 0.083(5) Uani 1 1 d . U . . .
+H50B H 0.632763 0.416823 0.219107 0.100 Uiso 1 1 calc R U . . .
+C23D C 0.2247(4) 0.4298(4) 0.3841(4) 0.099(5) Uani 1 1 d D U . . .
+H23C H 0.209563 0.413248 0.385575 0.119 Uiso 1 1 calc R U . . .
+H23D H 0.218764 0.448268 0.396593 0.119 Uiso 1 1 calc R U . . .
+N1A N 0.3511(4) 0.8948(4) -0.0178(4) 0.131(5) Uani 1 1 d D U . . .
+F27 F 0.7019(4) 0.8524(3) 0.2501(4) 0.229(9) Uani 1 1 d . . . . .
+C23C C 0.6287(4) 0.8738(4) 0.5579(4) 0.094(5) Uani 1 1 d . U . . .
+H23E H 0.612028 0.888050 0.553098 0.112 Uiso 1 1 calc R U . . .
+H23F H 0.638397 0.881276 0.577326 0.112 Uiso 1 1 calc R U . . .
+C24C C 0.6176(4) 0.8394(4) 0.5622(4) 0.096(5) Uani 1 1 d . U . . .
+H24C H 0.634173 0.824482 0.564467 0.116 Uiso 1 1 calc R U . . .
+H24D H 0.606315 0.838049 0.580925 0.116 Uiso 1 1 calc R U . . .
+C53B C 0.6404(4) 0.4523(4) 0.1437(4) 0.102(6) Uani 1 1 d . U . . .
+H53B H 0.640553 0.461440 0.123786 0.122 Uiso 1 1 calc R U . . .
+F7 F 0.3382(4) 0.6793(4) 0.1725(4) 0.227(8) Uani 1 1 d . . . . .
+C16B C 0.4467(4) 0.5702(4) 0.0779(4) 0.075(5) Uani 1 1 d . U . . .
+H16B H 0.426910 0.576150 0.075181 0.090 Uiso 1 1 calc R U . . .
+C6A C 0.4396(4) 0.7889(4) 0.0514(4) 0.082(5) Uani 1 1 d . U . . .
+H6AA H 0.432649 0.782967 0.070742 0.098 Uiso 1 1 calc R U . . .
+C58A C 0.3957(4) 0.8437(4) 0.2737(4) 0.078(5) Uani 1 1 d . U . . .
+H58A H 0.392114 0.864720 0.266244 0.094 Uiso 1 1 calc R U . . .
+C3B C 0.6909(4) 0.5058(4) 0.0406(4) 0.083(5) Uani 1 1 d . U . . .
+H3BC H 0.689633 0.508540 0.018022 0.100 Uiso 1 1 calc R U . . .
+H3BD H 0.705850 0.520601 0.049131 0.100 Uiso 1 1 calc R U . . .
+F29 F 0.6604(4) 0.7926(4) 0.2726(4) 0.220(8) Uani 1 1 d . . . . .
+C45B C 0.7355(4) 0.3954(4) 0.0894(4) 0.083(5) Uani 1 1 d . U . . .
+H45A H 0.745775 0.392916 0.109692 0.099 Uiso 1 1 calc R U . . .
+H45B H 0.743482 0.379613 0.075224 0.099 Uiso 1 1 calc R U . . .
+C38B C 0.6551(4) 0.7449(4) 0.2086(4) 0.086(5) Uani 1 1 d . U . . .
+H38B H 0.651457 0.766098 0.215101 0.103 Uiso 1 1 calc R U . . .
+C1E C 0.3390(2) 0.5216(3) 0.1750(2) 0.084(5) Uani 1 1 d G U . . .
+H1E H 0.345504 0.516891 0.155177 0.101 Uiso 1 1 calc R U . . .
+C2E C 0.3396(2) 0.5528(3) 0.1858(3) 0.098(5) Uani 1 1 d G U . . .
+H2E H 0.346635 0.569384 0.173359 0.117 Uiso 1 1 calc R U . . .
+C3E C 0.3300(3) 0.5596(2) 0.2148(3) 0.107(6) Uani 1 1 d G U . . .
+H3E H 0.330501 0.580923 0.222226 0.129 Uiso 1 1 calc R U . . .
+C4E C 0.3198(3) 0.5353(4) 0.2331(2) 0.118(6) Uani 1 1 d G U . . .
+H4E H 0.313236 0.539970 0.252910 0.141 Uiso 1 1 calc R U . . .
+C5E C 0.3191(3) 0.5041(3) 0.2223(3) 0.107(6) Uani 1 1 d G U . . .
+C6E C 0.3287(3) 0.4972(2) 0.1932(3) 0.090(5) Uani 1 1 d G U . . .
+C24B C 0.7719(3) 0.4483(4) 0.1212(4) 0.087(5) Uani 1 1 d . U . . .
+H24E H 0.764578 0.431454 0.134673 0.104 Uiso 1 1 calc R U . . .
+H24F H 0.792021 0.453361 0.128247 0.104 Uiso 1 1 calc R U . . .
+C31B C 0.7064(4) 0.5161(4) 0.1632(4) 0.095(5) Uani 1 1 d . U . . .
+H31B H 0.698368 0.495307 0.164501 0.114 Uiso 1 1 calc R U . . .
+C2B C 0.7274(4) 0.4633(4) 0.0347(4) 0.092(5) Uani 1 1 d . U . . .
+H2BA H 0.742649 0.478363 0.042070 0.110 Uiso 1 1 calc R U . . .
+H2BB H 0.725310 0.465069 0.012057 0.110 Uiso 1 1 calc R U . . .
+C37B C 0.6830(4) 0.7340(5) 0.2071(4) 0.098(5) Uani 1 1 d . U . . .
+H37B H 0.698435 0.748772 0.210397 0.117 Uiso 1 1 calc R U . . .
+F15 F 0.3423(4) 0.6361(4) 0.2312(4) 0.211(7) Uani 1 1 d . . . . .
+C5A C 0.4203(4) 0.7981(4) 0.0278(4) 0.090(5) Uani 1 1 d . U . . .
+H5A H 0.400227 0.799712 0.031352 0.109 Uiso 1 1 calc DR U . . .
+C59D C 0.5315(4) 0.5605(5) 0.4356(4) 0.090(5) Uani 1 1 d . U . . .
+H59D H 0.540854 0.562367 0.455403 0.108 Uiso 1 1 calc R U . . .
+C65B C 0.5649(4) 0.4705(4) 0.3389(4) 0.076(5) Uani 1 1 d . U . . .
+H65B H 0.560846 0.452885 0.351769 0.092 Uiso 1 1 calc R U . . .
+F31 F 0.6583(4) 0.8491(4) 0.2718(4) 0.208(7) Uani 1 1 d . U . . .
+C25D C 0.2464(4) 0.4810(4) 0.3172(4) 0.097(6) Uani 1 1 d D U . . .
+H25A H 0.256039 0.464087 0.305533 0.117 Uiso 1 1 calc R U . . .
+H25B H 0.226976 0.484712 0.307433 0.117 Uiso 1 1 calc R U . . .
+C47A C 0.4016(4) 0.9191(4) 0.0661(4) 0.092(5) Uani 1 1 d D U . . .
+H47C H 0.419159 0.915846 0.054275 0.110 Uiso 1 1 calc R U . . .
+H47D H 0.401654 0.941590 0.072967 0.110 Uiso 1 1 calc R U . . .
+F2 F 0.3124(4) 0.6699(5) 0.2124(6) 0.261(10) Uani 1 1 d . . . . .
+F33 F 0.5090(4) 0.4292(4) 0.0735(5) 0.242(10) Uani 1 1 d . . . . .
+C6G C 0.3235(3) 0.8470(5) 0.2174(3) 0.122(6) Uani 1 1 d DG U . . .
+C7G C 0.3301(3) 0.8172(4) 0.2058(4) 0.125(6) Uani 1 1 d DG U . . .
+C12G C 0.3342(4) 0.8133(3) 0.1746(5) 0.143(7) Uani 1 1 d G U . . .
+C14G C 0.3316(4) 0.8394(5) 0.1550(3) 0.174(8) Uani 1 1 d DG U . . .
+H14G H 0.334357 0.836799 0.133709 0.209 Uiso 1 1 calc R U . . .
+C13G C 0.3249(4) 0.8693(4) 0.1666(4) 0.163(8) Uani 1 1 d DG U . . .
+H13G H 0.323186 0.887091 0.153153 0.196 Uiso 1 1 calc R U . . .
+C1G C 0.3209(3) 0.8731(3) 0.1977(5) 0.149(7) Uani 1 1 d G U . . .
+C2G C 0.3120(5) 0.9052(6) 0.2077(6) 0.138(7) Uani 1 1 d . U . . .
+H2G H 0.308537 0.921951 0.193323 0.166 Uiso 1 1 calc R U . . .
+C3G C 0.3092(5) 0.9095(7) 0.2377(6) 0.151(7) Uani 1 1 d . U . . .
+H3G H 0.304745 0.929910 0.245718 0.181 Uiso 1 1 calc R U . . .
+C4G C 0.3133(5) 0.8816(6) 0.2582(6) 0.147(7) Uani 1 1 d . U . . .
+H4G H 0.310944 0.884587 0.279572 0.177 Uiso 1 1 calc R U . . .
+C5G C 0.3201(5) 0.8518(7) 0.2483(6) 0.141(7) Uani 1 1 d . U . . .
+H5G H 0.322582 0.834675 0.262425 0.169 Uiso 1 1 calc R U . . .
+F17 F 0.4923(5) 0.4811(5) 0.4354(5) 0.247(8) Uani 1 1 d . U . . .
+F35 F 0.4541(5) 0.6189(5) 0.3859(4) 0.244(8) Uani 1 1 d . U . . .
+C27D C 0.25045(17) 0.5397(3) 0.3088(3) 0.119(7) Uani 1 1 d G U . . .
+H27D H 0.230069 0.540643 0.305016 0.143 Uiso 1 1 calc R U . . .
+C26D C 0.2637(2) 0.5109(2) 0.3163(3) 0.083(5) Uani 1 1 d G U . . .
+C31D C 0.2936(2) 0.5096(2) 0.3218(3) 0.082(5) Uani 1 1 d G U . . .
+H31D H 0.302663 0.489847 0.326941 0.099 Uiso 1 1 calc DR U . . .
+C30D C 0.31011(17) 0.5371(3) 0.3197(3) 0.084(5) Uani 1 1 d G U . . .
+H30D H 0.330493 0.536196 0.323500 0.100 Uiso 1 1 calc R U . . .
+C29D C 0.2968(2) 0.5660(2) 0.3122(3) 0.080(5) Uani 1 1 d G U . . .
+C28D C 0.2670(2) 0.5673(2) 0.3067(3) 0.111(6) Uani 1 1 d G U . . .
+H28D H 0.257899 0.586993 0.301575 0.134 Uiso 1 1 calc R U . . .
+C27B C 0.7481(4) 0.5510(4) 0.1580(5) 0.101(6) Uani 1 1 d . U . . .
+H27B H 0.768005 0.554429 0.154780 0.121 Uiso 1 1 calc R U . . .
+C25C C 0.5890(4) 0.7982(4) 0.5356(4) 0.088(5) Uani 1 1 d . U . . .
+H25C H 0.579630 0.795236 0.555354 0.106 Uiso 1 1 calc R U . . .
+H25D H 0.606330 0.784280 0.535984 0.106 Uiso 1 1 calc R U . . .
+F9 F 0.750000 0.6071(5) 0.000000 0.208(9) Uani 1 2 d S TU P . .
+C2C C 0.6254(4) 0.9166(4) 0.4994(4) 0.105(6) Uani 1 1 d D U . . .
+H2CC H 0.607796 0.911939 0.510578 0.126 Uiso 1 1 calc R U . . .
+H2CD H 0.625486 0.939646 0.494484 0.126 Uiso 1 1 calc R U . . .
+C47C C 0.6931(4) 0.8105(4) 0.4728(4) 0.092(5) Uani 1 1 d D U . . .
+H47E H 0.713082 0.804199 0.479450 0.110 Uiso 1 1 calc DR U . . .
+H47F H 0.694364 0.827535 0.457248 0.110 Uiso 1 1 calc R U . . .
+F37 F 0.7212(4) 0.5692(4) -0.0193(4) 0.204(7) Uani 1 1 d . U . . .
+C47D C 0.3018(3) 0.4967(3) 0.4412(4) 0.078(5) Uani 1 1 d D U . . .
+H47G H 0.302028 0.497505 0.463901 0.094 Uiso 1 1 calc DR U . . .
+H47H H 0.286980 0.511788 0.432901 0.094 Uiso 1 1 calc R U . . .
+C36B C 0.6900(4) 0.7019(4) 0.2008(4) 0.090(5) Uani 1 1 d . U . . .
+H36B H 0.709347 0.694362 0.202617 0.107 Uiso 1 1 calc R U . . .
+F19 F 0.7028(4) 0.7966(4) 0.2493(5) 0.238(9) Uani 1 1 d . . . . .
+C4A C 0.4302(4) 0.8050(4) -0.0012(4) 0.087(5) Uani 1 1 d D U . . .
+F39 F 0.4768(6) 0.4391(5) 0.0354(5) 0.310(14) Uani 1 1 d . . . . .
+C8A C 0.4780(4) 0.7929(4) 0.0160(4) 0.097(6) Uani 1 1 d . U . . .
+H8AA H 0.497737 0.789507 0.011872 0.116 Uiso 1 1 calc R U . . .
+F5 F 0.4555(6) 0.6321(5) 0.4344(4) 0.310(13) Uani 1 1 d . . . . .
+C30B C 0.6889(4) 0.5431(4) 0.1664(4) 0.090(5) Uani 1 1 d . U . . .
+H30B H 0.668749 0.540805 0.168947 0.108 Uiso 1 1 calc R U . . .
+C1C C 0.6521(4) 0.9086(4) 0.5198(4) 0.111(6) Uani 1 1 d D U . . .
+H1CA H 0.669598 0.909588 0.507584 0.134 Uiso 1 1 calc R U . . .
+H1CB H 0.654239 0.924457 0.536564 0.134 Uiso 1 1 calc R U . . .
+F41 F 0.3292(6) 0.6316(4) 0.1817(4) 0.299(14) Uani 1 1 d . . . . .
+C45D C 0.2576(4) 0.4194(4) 0.4315(4) 0.089(5) Uani 1 1 d . U . . .
+H45C H 0.273205 0.404638 0.438683 0.107 Uiso 1 1 calc R U . . .
+H45D H 0.239690 0.413440 0.441715 0.107 Uiso 1 1 calc R U . . .
+C21C C 0.5992(4) 0.8403(4) 0.2076(4) 0.096(6) Uani 1 1 d . U . . .
+H21C H 0.601208 0.857988 0.194275 0.115 Uiso 1 1 calc R U . . .
+C25B C 0.7549(4) 0.4902(4) 0.1557(4) 0.093(5) Uani 1 1 d D U . . .
+H25E H 0.775305 0.495050 0.161858 0.112 Uiso 1 1 calc R U . . .
+H25F H 0.747820 0.473718 0.169729 0.112 Uiso 1 1 calc R U . . .
+F21 F 0.4736(5) 0.6784(5) 0.4195(4) 0.251(8) Uani 1 1 d . U . . .
+C1A C 0.3720(5) 0.8954(5) -0.0435(5) 0.128(6) Uani 1 1 d D U . . .
+H1AA H 0.362359 0.904313 -0.062321 0.154 Uiso 1 1 calc R U . . .
+H1AB H 0.388820 0.909183 -0.037653 0.154 Uiso 1 1 calc R U . . .
+C46D C 0.2661(3) 0.4540(4) 0.4400(4) 0.095(5) Uani 1 1 d D U . . .
+H46C H 0.251455 0.468610 0.430502 0.114 Uiso 1 1 calc R U . . .
+H46D H 0.265579 0.456505 0.462546 0.114 Uiso 1 1 calc DR U . . .
+F43 F 0.4911(5) 0.4705(6) 0.1020(6) 0.295(12) Uani 1 1 d . . . . .
+C9A C 0.4594(5) 0.8018(5) -0.0063(4) 0.105(6) Uani 1 1 d . U . . .
+H9A H 0.466244 0.806141 -0.026061 0.126 Uiso 1 1 calc R U . . .
+C46C C 0.6944(4) 0.8516(4) 0.5144(4) 0.096(5) Uani 1 1 d D U . . .
+H46E H 0.714454 0.844861 0.520113 0.115 Uiso 1 1 calc DR U . . .
+H46F H 0.695460 0.868743 0.498898 0.115 Uiso 1 1 calc R U . . .
+C45C C 0.6810(4) 0.8646(4) 0.5420(4) 0.102(5) Uani 1 1 d D U . . .
+H45E H 0.692429 0.882952 0.550128 0.122 Uiso 1 1 calc R U . . .
+H45F H 0.680756 0.848062 0.558203 0.122 Uiso 1 1 calc R U . . .
+C9E C 0.3059(5) 0.4505(6) 0.2329(5) 0.130(7) Uani 1 1 d . U . . .
+H9E H 0.299672 0.434344 0.246300 0.156 Uiso 1 1 calc R U . . .
+C2D C 0.2910(3) 0.3774(4) 0.3837(5) 0.101(6) Uani 1 1 d D U . . .
+H2DC H 0.301406 0.381577 0.403654 0.121 Uiso 1 1 calc R U . . .
+H2DD H 0.293731 0.354598 0.378787 0.121 Uiso 1 1 calc R U . . .
+C1D C 0.2600(3) 0.3831(3) 0.3874(5) 0.096(5) Uani 1 1 d D U . . .
+H1DA H 0.252884 0.367601 0.402424 0.116 Uiso 1 1 calc R U . . .
+H1DB H 0.249453 0.378993 0.367465 0.116 Uiso 1 1 calc R U . . .
+C28B C 0.7298(4) 0.5761(4) 0.1626(5) 0.103(6) Uani 1 1 d . U . . .
+H28B H 0.737964 0.596886 0.163555 0.123 Uiso 1 1 calc R U . . .
+F11 F 0.3710(5) 0.6523(5) 0.1957(5) 0.269(9) Uani 1 1 d . U . . .
+C45A C 0.3490(5) 0.9269(4) -0.0036(5) 0.133(6) Uani 1 1 d D U . . .
+H45G H 0.346890 0.943034 -0.020125 0.159 Uiso 1 1 calc R U . . .
+H45H H 0.331350 0.927739 0.008404 0.159 Uiso 1 1 calc R U . . .
+C10E C 0.3073(5) 0.4798(6) 0.2427(5) 0.120(6) Uani 1 1 d . U . . .
+H10E H 0.300995 0.485382 0.262417 0.144 Uiso 1 1 calc R U . . .
+C46A C 0.3743(5) 0.9352(5) 0.0167(4) 0.124(6) Uani 1 1 d D U . . .
+H46G H 0.372936 0.957740 0.023047 0.149 Uiso 1 1 calc R U . . .
+H46H H 0.392226 0.932484 0.005417 0.149 Uiso 1 1 calc R U . . .
+C2A C 0.3821(5) 0.8623(5) -0.0494(5) 0.145(8) Uani 1 1 d D U . . .
+H2AC H 0.365111 0.848316 -0.053537 0.174 Uiso 1 1 calc R U . . .
+H2AD H 0.393841 0.862150 -0.067824 0.174 Uiso 1 1 calc R U . . .
+C8G C 0.3336(5) 0.7901(6) 0.2242(6) 0.130(7) Uani 1 1 d . U . . .
+H8G H 0.332167 0.792059 0.245792 0.157 Uiso 1 1 calc R U . . .
+C9G C 0.3393(5) 0.7599(6) 0.2115(7) 0.144(7) Uani 1 1 d . U . . .
+H9G H 0.340173 0.741408 0.224108 0.173 Uiso 1 1 calc R U . . .
+C10G C 0.3435(6) 0.7576(6) 0.1803(7) 0.147(8) Uani 1 1 d . U . . .
+H10G H 0.348190 0.737916 0.170994 0.176 Uiso 1 1 calc R U . . .
+C11G C 0.3409(6) 0.7830(6) 0.1646(6) 0.147(8) Uani 1 1 d . U . . .
+H11G H 0.344014 0.780996 0.143312 0.177 Uiso 1 1 calc R U . . .
+F45 F 0.4571(5) 0.4805(4) 0.0648(6) 0.268(11) Uani 1 1 d . . . . .
+C31A C 0.3458(5) 0.8041(5) 0.0721(5) 0.119(7) Uani 1 1 d . U . . .
+H31A H 0.353156 0.824601 0.077624 0.143 Uiso 1 1 calc DR U . . .
+F23 F 0.4597(4) 0.4313(5) 0.0870(5) 0.266(10) Uani 1 1 d . . . . .
+F47 F 0.5070(5) 0.4768(5) 0.0543(5) 0.268(9) Uani 1 1 d . U . . .
+C25A C 0.3064(5) 0.8286(5) 0.0393(5) 0.133(6) Uani 1 1 d D U . . .
+H25G H 0.288247 0.819812 0.029732 0.160 Uiso 1 1 calc DR U . . .
+H25H H 0.301066 0.844705 0.054654 0.160 Uiso 1 1 calc R U . . .
+C26A C 0.3230(5) 0.8024(6) 0.0551(5) 0.121(6) Uani 1 1 d . U . . .
+C3A C 0.4078(4) 0.8155(4) -0.0265(4) 0.103(5) Uani 1 1 d D U . . .
+H3AC H 0.416007 0.812294 -0.046848 0.123 Uiso 1 1 calc R U . . .
+H3AD H 0.390305 0.801993 -0.025521 0.123 Uiso 1 1 calc R U . . .
+C24A C 0.3079(4) 0.8728(4) 0.0006(5) 0.127(6) Uani 1 1 d D U . . .
+H24G H 0.287770 0.866720 -0.005633 0.152 Uiso 1 1 calc DR U . . .
+H24H H 0.306990 0.890119 0.015908 0.152 Uiso 1 1 calc R U . . .
+C11F C 0.4922(4) 0.4470(5) 0.1757(5) 0.227(9) Uani 1 1 d G U . . .
+H11F H 0.503011 0.460408 0.163023 0.272 Uiso 1 1 calc R U . . .
+C12F C 0.4897(5) 0.4544(4) 0.2066(6) 0.222(8) Uani 1 1 d DG U . . .
+C7F C 0.4738(5) 0.4347(6) 0.2252(4) 0.221(8) Uani 1 1 d DG U . . .
+C8F C 0.4604(4) 0.4076(5) 0.2129(6) 0.217(8) Uani 1 1 d G U . . .
+H8F H 0.449576 0.394113 0.225622 0.260 Uiso 1 1 calc R U . . .
+C9F C 0.4629(4) 0.4001(4) 0.1821(6) 0.216(9) Uani 1 1 d G U . . .
+H9F H 0.453794 0.381576 0.173722 0.259 Uiso 1 1 calc R U . . .
+C10F C 0.4788(5) 0.4198(6) 0.1635(4) 0.238(9) Uani 1 1 d G U . . .
+H10F H 0.480511 0.414724 0.142422 0.286 Uiso 1 1 calc R U . . .
+C4F C 0.4874(5) 0.4645(6) 0.2695(6) 0.232(8) Uani 1 1 d DG U . . .
+C5F C 0.4700(5) 0.4401(6) 0.2575(4) 0.229(8) Uani 1 1 d DG U . . .
+C6F C 0.4523(5) 0.4231(5) 0.2765(7) 0.247(9) Uani 1 1 d G U . . .
+H6F H 0.440436 0.406364 0.268333 0.297 Uiso 1 1 calc R U . . .
+C1F C 0.4521(5) 0.4304(6) 0.3076(6) 0.261(10) Uani 1 1 d G U . . .
+H1F H 0.440046 0.418721 0.320647 0.314 Uiso 1 1 calc R U . . .
+C2F C 0.4695(6) 0.4548(7) 0.3196(4) 0.275(10) Uani 1 1 d G U . . .
+H2F H 0.469357 0.459821 0.340850 0.330 Uiso 1 1 calc R U . . .
+C3F C 0.4872(5) 0.4719(5) 0.3005(6) 0.251(9) Uani 1 1 d G U . . .
+H3F H 0.499059 0.488564 0.308738 0.301 Uiso 1 1 calc R U . . .
+C13F C 0.5046(7) 0.4801(8) 0.2243(8) 0.222(9) Uani 1 1 d D U . . .
+H13F H 0.516635 0.493646 0.213015 0.267 Uiso 1 1 calc R U . . .
+C23A C 0.3225(5) 0.8847(6) -0.0265(5) 0.137(6) Uani 1 1 d . U . . .
+H23G H 0.323266 0.867623 -0.042116 0.165 Uiso 1 1 calc R U . . .
+H23H H 0.311380 0.902804 -0.035695 0.165 Uiso 1 1 calc R U . . .
+C28A C 0.3244(5) 0.7441(5) 0.0619(5) 0.132(6) Uani 1 1 d . U . . .
+H28A H 0.315104 0.723993 0.059267 0.158 Uiso 1 1 calc R U . . .
+C14F C 0.5035(7) 0.4861(7) 0.2517(8) 0.221(9) Uani 1 1 d D U . . .
+H14F H 0.512906 0.504230 0.260634 0.265 Uiso 1 1 calc R U . . .
+O1 O 0.4278(2) 0.7680(2) 0.1249(2) 0.071(3) Uani 1 1 d G U . . .
+H1A H 0.415462 0.779767 0.134291 0.107 Uiso 1 1 d DG U . . .
+H1B H 0.417064 0.754170 0.114654 0.107 Uiso 1 1 d DG U . . .
+C27A C 0.3120(5) 0.7726(6) 0.0479(5) 0.141(6) Uani 1 1 d . U . . .
+H27A H 0.295994 0.770771 0.033562 0.169 Uiso 1 1 calc R U . . .
+O4 O 0.3823(2) 0.5417(2) 0.3163(2) 0.061(3) Uani 1 1 d G U . . .
+H4C H 0.371822 0.558842 0.317045 0.092 Uiso 1 1 d DG U . . .
+H4F H 0.395907 0.544451 0.330512 0.092 Uiso 1 1 d DG U . . .
+O8 O 0.29739(19) 0.4589(2) 0.3707(2) 0.050(3) Uani 1 1 d G U . . .
+H8E H 0.296034 0.458708 0.390489 0.075 Uiso 1 1 d DG U . . .
+H8H H 0.313316 0.469246 0.367709 0.075 Uiso 1 1 d DG U . . .
+O2 O 0.5727(2) 0.7584(2) 0.3820(2) 0.064(3) Uani 1 1 d G U . . .
+H2A H 0.578303 0.770978 0.367621 0.096 Uiso 1 1 d DG U . . .
+H2C H 0.554108 0.760367 0.383776 0.096 Uiso 1 1 d DG U . . .
+O5 O 0.69934(17) 0.4691(2) 0.10834(19) 0.038(2) Uani 1 1 d G U . . .
+H5E H 0.695302 0.451214 0.117213 0.057 Uiso 1 1 d DG U . . .
+H5F H 0.689570 0.483357 0.117890 0.057 Uiso 1 1 d G U . . .
+O3 O 0.6142(2) 0.5501(2) 0.1702(2) 0.064(3) Uani 1 1 d G U . . .
+H3A H 0.628282 0.563412 0.167296 0.096 Uiso 1 1 d DG U . . .
+H3B H 0.614842 0.546882 0.189898 0.096 Uiso 1 1 d DG U . . .
+O7 O 0.3754(2) 0.8546(3) 0.0303(2) 0.078(3) Uani 1 1 d G U . . .
+H7E H 0.357563 0.853761 0.035866 0.118 Uiso 1 1 d DG U . . .
+H7F H 0.385371 0.845355 0.045155 0.118 Uiso 1 1 d DG U . . .
+O6 O 0.6249(2) 0.8366(2) 0.48306(19) 0.052(3) Uani 1 1 d G . . . .
+H6E H 0.641221 0.827186 0.488159 0.078 Uiso 1 1 d DG U . . .
+H6G H 0.618743 0.826895 0.466400 0.078 Uiso 1 1 d DG U . . .
+H4A H 0.3254(6) 0.8307(6) -0.0004(7) 0.12(8) Uiso 1 1 d D . . . .
+
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Ru3 0.0597(10) 0.0368(9) 0.0782(10) -0.0073(7) 0.0189(8) -0.0022(7)
+Ru2 0.0576(9) 0.0363(9) 0.0830(10) 0.0008(7) 0.0135(8) -0.0009(7)
+Ru1 0.0609(10) 0.0315(8) 0.0823(10) -0.0034(7) 0.0100(8) 0.0025(7)
+Ru4 0.0692(10) 0.0390(9) 0.0805(10) -0.0101(7) 0.0125(8) -0.0054(7)
+P1 0.058(4) 0.030(4) 0.082(5) -0.002(2) 0.012(3) -0.004(2)
+P4 0.101(6) 0.092(6) 0.141(7) 0.000 0.030(6) 0.000
+P6 0.113(5) 0.083(5) 0.176(6) -0.024(5) 0.046(5) -0.008(5)
+P8 0.228(11) 0.096(5) 0.119(7) -0.033(5) 0.056(6) 0.009(6)
+P2 0.089(6) 0.134(7) 0.187(8) 0.009(8) 0.017(5) 0.022(5)
+P5 0.165(8) 0.126(7) 0.203(10) -0.021(6) -0.033(8) 0.000(7)
+P3 0.165(8) 0.168(8) 0.159(9) 0.010(7) 0.060(7) 0.032(9)
+P7 0.183(9) 0.162(9) 0.205(11) 0.017(8) 0.018(8) -0.010(9)
+N13C 0.058(8) 0.028(7) 0.062(6) -0.004(6) 0.014(5) -0.008(6)
+C40C 0.058(7) 0.031(8) 0.061(7) -0.006(8) 0.016(5) -0.002(8)
+C41C 0.059(7) 0.024(8) 0.061(6) -0.003(7) 0.011(5) -0.002(7)
+C42C 0.051(7) 0.037(7) 0.062(6) 0.001(6) 0.010(5) -0.002(6)
+C43C 0.057(8) 0.044(9) 0.064(7) 0.001(8) 0.019(7) -0.008(8)
+C44C 0.065(8) 0.032(9) 0.062(9) -0.006(8) 0.018(6) -0.017(8)
+F6 0.127(9) 0.155(11) 0.063(8) -0.007(6) 0.034(6) -0.003(8)
+N12D 0.051(7) 0.041(8) 0.081(9) -0.017(7) -0.007(7) -0.007(7)
+N12B 0.051(8) 0.034(6) 0.065(8) -0.006(5) 0.015(6) -0.003(6)
+N15B 0.057(8) 0.031(7) 0.060(7) -0.010(7) 0.013(6) -0.013(6)
+F8 0.137(10) 0.177(12) 0.070(8) -0.002(7) 0.040(7) -0.022(8)
+N13A 0.057(8) 0.025(6) 0.086(9) -0.006(5) 0.040(7) 0.010(6)
+N12C 0.059(8) 0.036(6) 0.066(8) -0.007(5) 0.014(7) 0.004(6)
+N16A 0.053(8) 0.035(7) 0.071(7) 0.000(7) 0.017(6) -0.005(6)
+N11D 0.043(7) 0.035(7) 0.069(7) -0.015(7) 0.019(6) -0.001(6)
+N6D 0.060(8) 0.040(6) 0.073(8) -0.009(6) 0.023(7) -0.002(7)
+F10 0.066(8) 0.125(10) 0.186(12) -0.001(8) 0.002(8) -0.032(7)
+N14D 0.049(6) 0.035(6) 0.076(7) -0.001(5) 0.006(6) -0.003(5)
+N11A 0.062(7) 0.033(7) 0.069(9) 0.005(6) -0.001(7) -0.002(5)
+N10D 0.054(7) 0.077(9) 0.058(7) -0.005(7) 0.024(6) -0.003(7)
+N6B 0.060(7) 0.072(9) 0.053(7) -0.005(7) 0.011(6) 0.010(7)
+N9D 0.049(7) 0.038(7) 0.074(7) -0.004(7) 0.014(6) -0.004(6)
+N15A 0.066(7) 0.038(7) 0.074(9) -0.006(7) 0.036(6) -0.009(7)
+N8D 0.049(7) 0.039(6) 0.101(10) -0.002(7) 0.026(8) -0.004(6)
+N16C 0.048(8) 0.038(8) 0.079(9) -0.007(6) 0.011(6) -0.003(5)
+N10B 0.096(10) 0.033(6) 0.061(8) -0.014(6) 0.022(7) -0.004(7)
+N15D 0.064(8) 0.043(7) 0.093(9) -0.007(7) 0.018(8) 0.016(6)
+F12 0.071(9) 0.161(11) 0.138(10) -0.010(8) 0.003(7) -0.018(7)
+F14 0.099(12) 0.058(11) 0.241(19) 0.000 0.087(12) 0.000
+N16D 0.049(7) 0.029(7) 0.086(9) -0.002(7) 0.011(7) 0.004(5)
+N5C 0.083(7) 0.031(7) 0.061(6) -0.006(6) 0.000(6) -0.002(7)
+C34C 0.060(7) 0.029(8) 0.060(6) 0.003(8) 0.014(5) 0.002(8)
+C33C 0.075(7) 0.051(9) 0.065(7) -0.005(8) 0.017(5) -0.001(8)
+N6C 0.081(7) 0.059(8) 0.072(7) -0.011(7) 0.014(6) -0.004(8)
+C32C 0.077(7) 0.045(9) 0.065(7) -0.001(8) 0.008(6) -0.006(9)
+N9C 0.049(8) 0.035(6) 0.094(10) -0.007(6) 0.010(7) 0.002(6)
+N13D 0.067(9) 0.035(7) 0.073(8) -0.002(6) 0.016(7) 0.011(7)
+N5B 0.056(7) 0.061(8) 0.062(7) 0.001(7) -0.001(6) -0.001(7)
+N16B 0.057(7) 0.057(8) 0.074(8) -0.005(8) 0.013(7) 0.000(7)
+N14B 0.056(7) 0.064(9) 0.075(9) -0.017(7) 0.023(8) -0.009(6)
+N5D 0.078(9) 0.026(6) 0.080(8) -0.004(6) 0.015(7) -0.001(6)
+N14A 0.067(8) 0.028(7) 0.081(7) -0.004(6) 0.001(8) -0.007(6)
+N11C 0.107(10) 0.019(7) 0.067(7) -0.001(6) 0.018(8) 0.000(7)
+N12A 0.061(8) 0.041(6) 0.071(9) 0.005(7) 0.000(7) -0.003(6)
+F16 0.223(15) 0.072(10) 0.169(12) 0.003(7) 0.004(11) 0.010(8)
+N9A 0.075(9) 0.033(6) 0.103(8) 0.014(6) 0.020(8) 0.009(7)
+C54A 0.097(12) 0.034(7) 0.095(8) 0.012(6) 0.024(10) 0.012(8)
+N10A 0.104(10) 0.038(7) 0.095(8) 0.012(6) 0.010(9) 0.022(7)
+C56A 0.063(10) 0.030(7) 0.089(7) 0.009(6) -0.003(9) -0.003(8)
+C55A 0.077(11) 0.031(6) 0.097(8) 0.004(6) 0.010(9) -0.012(8)
+N7C 0.090(9) 0.041(6) 0.063(7) -0.001(6) 0.009(7) -0.003(7)
+N15C 0.040(8) 0.048(7) 0.087(9) -0.016(7) 0.015(7) -0.001(6)
+N7D 0.058(7) 0.057(7) 0.150(12) -0.001(9) 0.019(9) -0.001(6)
+N11B 0.054(8) 0.033(7) 0.087(8) -0.007(6) 0.041(7) 0.009(6)
+N9B 0.104(10) 0.024(7) 0.086(9) -0.006(6) 0.042(8) 0.004(7)
+N1B 0.061(7) 0.057(8) 0.097(8) 0.022(7) 0.026(8) 0.003(7)
+N2B 0.069(7) 0.046(8) 0.083(9) -0.008(6) 0.019(7) 0.007(7)
+N5A 0.085(8) 0.044(7) 0.103(10) -0.007(7) -0.009(8) 0.005(7)
+N10C 0.044(8) 0.058(7) 0.101(10) -0.020(7) -0.004(7) 0.001(6)
+N8A 0.089(8) 0.058(8) 0.072(8) 0.016(7) 0.022(7) -0.008(8)
+C63D 0.042(7) 0.026(8) 0.058(7) -0.007(7) 0.012(6) -0.002(7)
+C13D 0.044(9) 0.033(6) 0.082(9) -0.009(6) 0.018(8) -0.007(7)
+C63B 0.075(11) 0.027(6) 0.075(9) -0.007(6) 0.030(8) 0.003(8)
+N13B 0.085(9) 0.050(7) 0.103(10) -0.024(8) 0.020(8) -0.024(7)
+C18A 0.056(7) 0.046(9) 0.067(8) -0.005(8) 0.015(6) -0.014(8)
+N7B 0.059(7) 0.049(7) 0.121(11) -0.009(7) 0.023(8) -0.002(6)
+C19B 0.051(7) 0.039(9) 0.069(7) -0.002(8) 0.011(6) -0.004(8)
+C41A 0.059(8) 0.040(7) 0.057(10) -0.003(7) 0.013(7) -0.001(6)
+C22B 0.053(8) 0.041(9) 0.058(8) -0.019(8) 0.013(7) -0.001(8)
+C57B 0.055(10) 0.038(6) 0.073(9) -0.001(6) 0.020(8) 0.009(8)
+F18 0.172(12) 0.061(9) 0.201(13) -0.013(7) 0.013(10) 0.005(7)
+C56D 0.055(7) 0.040(9) 0.058(8) -0.004(8) 0.017(6) -0.003(7)
+N8B 0.057(8) 0.060(8) 0.152(12) -0.027(9) 0.022(9) -0.008(6)
+C61D 0.050(7) 0.025(8) 0.063(7) -0.012(8) 0.010(6) -0.010(7)
+C11B 0.051(7) 0.047(9) 0.067(7) -0.003(8) 0.012(6) 0.000(8)
+C64D 0.057(9) 0.037(9) 0.059(8) 0.004(8) 0.010(6) 0.004(8)
+N2C 0.125(12) 0.044(9) 0.093(10) -0.029(7) 0.003(8) 0.000(8)
+C57D 0.059(7) 0.036(9) 0.060(8) -0.002(8) 0.010(6) -0.007(8)
+C11A 0.074(8) 0.046(9) 0.060(7) -0.004(8) 0.017(6) 0.008(9)
+C55C 0.043(8) 0.038(7) 0.092(11) -0.010(7) 0.012(7) -0.004(6)
+C12D 0.049(9) 0.035(6) 0.065(8) -0.011(6) 0.011(7) -0.014(7)
+C19C 0.060(10) 0.033(7) 0.069(7) -0.006(6) 0.006(8) -0.016(8)
+F20 0.171(11) 0.118(9) 0.233(12) -0.035(9) 0.117(10) -0.005(8)
+N4B 0.070(9) 0.072(8) 0.099(10) 0.026(8) 0.031(8) 0.009(7)
+C56C 0.049(8) 0.039(7) 0.062(10) -0.009(7) 0.017(7) -0.008(6)
+C55D 0.052(7) 0.024(8) 0.057(7) -0.004(7) 0.013(6) -0.003(7)
+C39B 0.057(7) 0.055(8) 0.101(12) -0.034(9) 0.013(9) -0.012(6)
+C18B 0.047(7) 0.026(8) 0.063(7) 0.008(7) 0.015(6) -0.004(7)
+F22 0.136(10) 0.095(8) 0.244(13) -0.060(9) 0.018(10) -0.010(8)
+C12B 0.061(7) 0.052(9) 0.059(8) 0.007(8) 0.014(6) 0.016(8)
+F24 0.139(11) 0.136(11) 0.262(17) -0.097(12) 0.042(11) -0.004(10)
+C17D 0.042(9) 0.030(6) 0.071(8) -0.005(6) 0.003(7) -0.007(7)
+N7A 0.082(8) 0.040(8) 0.075(8) 0.008(7) 0.013(7) 0.003(7)
+C40B 0.053(7) 0.052(8) 0.065(10) -0.018(8) 0.018(8) -0.013(6)
+C41D 0.058(7) 0.031(7) 0.113(12) 0.001(9) 0.020(9) -0.005(6)
+C34D 0.053(7) 0.026(7) 0.093(11) -0.002(8) 0.019(9) 0.003(5)
+N8C 0.122(11) 0.021(7) 0.071(7) -0.002(5) 0.002(8) -0.002(7)
+C21A 0.066(8) 0.053(10) 0.076(9) -0.001(9) 0.032(8) 0.011(9)
+C61C 0.040(8) 0.041(7) 0.083(11) -0.007(7) 0.009(7) -0.008(6)
+C44A 0.051(7) 0.048(6) 0.067(8) 0.007(7) 0.012(6) -0.009(6)
+C35D 0.053(8) 0.044(7) 0.110(12) 0.013(9) 0.015(9) 0.017(6)
+C35A 0.042(8) 0.043(7) 0.093(11) -0.011(8) 0.006(8) 0.007(6)
+C16D 0.060(11) 0.033(8) 0.099(11) -0.005(7) 0.030(9) 0.000(8)
+C66A 0.052(10) 0.027(8) 0.078(9) -0.003(7) 0.019(9) 0.010(8)
+C62D 0.042(7) 0.023(8) 0.060(7) -0.019(7) 0.014(5) -0.002(7)
+C19A 0.059(8) 0.043(9) 0.066(8) 0.009(8) 0.013(6) -0.019(8)
+F26 0.145(10) 0.110(9) 0.244(13) -0.012(9) 0.112(10) 0.005(8)
+C19D 0.063(10) 0.027(6) 0.075(8) -0.002(6) 0.017(8) 0.007(7)
+C57A 0.077(11) 0.031(7) 0.086(8) 0.001(6) 0.006(9) 0.001(8)
+N4C 0.103(11) 0.074(8) 0.065(9) -0.016(8) 0.018(7) -0.020(8)
+C33A 0.061(8) 0.045(7) 0.076(11) -0.004(8) 0.008(8) 0.003(6)
+C20B 0.049(9) 0.051(10) 0.071(8) 0.000(9) 0.015(6) 0.002(8)
+C12C 0.073(10) 0.027(7) 0.067(7) -0.005(5) 0.009(8) 0.008(8)
+C60B 0.058(10) 0.042(8) 0.071(10) 0.004(7) 0.019(8) 0.004(8)
+C10D 0.073(10) 0.035(7) 0.069(8) -0.002(6) 0.004(8) -0.002(8)
+C40A 0.050(8) 0.039(7) 0.058(10) -0.005(7) 0.008(7) -0.001(6)
+C60C 0.044(8) 0.039(7) 0.057(9) -0.002(7) 0.018(7) -0.005(6)
+C20D 0.081(11) 0.035(8) 0.077(10) -0.006(7) 0.030(9) -0.002(8)
+C8C 0.100(12) 0.033(7) 0.062(7) -0.006(6) 0.011(9) 0.007(8)
+C9C 0.118(13) 0.032(8) 0.089(10) -0.009(7) 0.012(10) 0.003(9)
+C5C 0.115(13) 0.033(9) 0.090(9) -0.011(6) 0.016(10) -0.025(9)
+C4C 0.083(11) 0.042(8) 0.088(8) -0.016(7) 0.017(9) -0.009(9)
+C6C 0.124(14) 0.051(8) 0.076(9) -0.010(7) 0.035(11) -0.027(10)
+C7C 0.176(16) 0.059(10) 0.064(9) -0.006(7) 0.013(11) -0.023(11)
+C39A 0.054(8) 0.044(7) 0.100(11) 0.004(8) -0.004(8) -0.003(6)
+C62C 0.041(8) 0.044(7) 0.105(12) -0.018(8) 0.005(8) -0.005(6)
+C12A 0.082(8) 0.061(10) 0.063(8) -0.003(9) 0.018(7) -0.008(9)
+C10B 0.063(6) 0.062(8) 0.066(7) 0.004(7) 0.012(5) 0.004(7)
+C39D 0.053(7) 0.041(7) 0.101(11) 0.003(9) 0.018(9) 0.015(6)
+C17C 0.065(10) 0.038(6) 0.063(7) -0.010(6) 0.016(8) 0.003(8)
+C22A 0.068(9) 0.034(9) 0.072(10) 0.002(8) 0.022(7) -0.003(9)
+C40D 0.044(7) 0.034(7) 0.093(11) -0.004(8) 0.014(9) 0.003(6)
+C54D 0.051(7) 0.048(9) 0.074(9) -0.002(8) 0.016(6) 0.003(8)
+N3D 0.045(8) 0.058(8) 0.140(11) -0.021(8) 0.043(9) -0.001(6)
+C51B 0.085(11) 0.025(7) 0.063(8) -0.012(6) 0.023(8) -0.017(8)
+C43D 0.057(8) 0.028(7) 0.108(12) -0.011(9) 0.017(9) 0.002(7)
+C13A 0.072(8) 0.041(9) 0.063(8) -0.015(8) 0.018(6) -0.026(8)
+C13B 0.068(8) 0.053(10) 0.062(8) 0.000(9) 0.010(6) 0.018(8)
+C65C 0.049(9) 0.061(10) 0.093(12) -0.024(9) 0.019(8) 0.012(7)
+C44D 0.046(8) 0.028(7) 0.110(12) -0.003(9) 0.011(9) 0.003(7)
+N2D 0.094(9) 0.048(9) 0.132(12) 0.010(8) 0.044(9) -0.014(8)
+N4D 0.075(8) 0.055(8) 0.133(12) 0.007(8) 0.016(9) 0.001(7)
+C11D 0.068(10) 0.027(7) 0.071(8) -0.008(6) 0.012(7) -0.003(8)
+N6A 0.068(9) 0.058(7) 0.163(13) 0.009(9) -0.025(9) 0.008(6)
+C20A 0.073(10) 0.046(10) 0.072(9) -0.006(9) 0.027(7) 0.008(9)
+C56B 0.063(10) 0.031(6) 0.071(9) -0.007(6) 0.028(8) -0.008(7)
+C55B 0.065(10) 0.026(7) 0.076(9) -0.014(6) 0.027(8) -0.009(8)
+C39C 0.063(7) 0.032(8) 0.065(7) -0.006(7) 0.020(5) -0.001(8)
+N14C 0.064(7) 0.024(7) 0.088(9) -0.005(6) 0.011(6) 0.006(7)
+C38C 0.067(9) 0.057(10) 0.083(9) -0.011(9) 0.008(7) 0.001(9)
+C37C 0.064(8) 0.074(11) 0.079(9) -0.003(9) 0.012(8) -0.003(9)
+C36C 0.065(6) 0.063(8) 0.065(7) 0.000(7) 0.013(5) 0.000(7)
+C35C 0.069(6) 0.047(7) 0.068(6) -0.001(6) 0.018(5) 0.004(6)
+C58B 0.070(11) 0.039(7) 0.064(10) -0.003(6) 0.022(8) 0.000(8)
+F28 0.159(13) 0.099(10) 0.271(17) 0.014(10) 0.007(12) 0.047(9)
+C38A 0.074(10) 0.043(9) 0.116(13) 0.013(9) -0.028(10) -0.009(7)
+C49B 0.101(13) 0.040(10) 0.088(10) -0.008(7) 0.038(10) -0.006(9)
+C66C 0.038(8) 0.043(7) 0.084(11) -0.016(7) 0.013(7) -0.003(6)
+C17B 0.053(7) 0.050(9) 0.064(7) 0.001(8) 0.016(6) -0.003(8)
+C13C 0.089(11) 0.040(7) 0.065(7) -0.010(6) 0.021(9) -0.007(8)
+C37A 0.064(10) 0.043(8) 0.129(14) -0.006(10) -0.024(10) -0.003(8)
+C61B 0.036(9) 0.032(6) 0.077(9) -0.008(6) 0.019(7) -0.010(7)
+C29C 0.075 0.060(10) 0.054(7) -0.005(9) 0.006(6) -0.006(9)
+C28C 0.108(11) 0.117(14) 0.060(8) -0.015(10) 0.016(7) -0.026(11)
+C27C 0.117(11) 0.109(14) 0.067(10) -0.025(11) 0.010(8) -0.022(12)
+C26C 0.111(10) 0.053(10) 0.071(9) 0.000(9) -0.012(8) -0.013(10)
+C31C 0.091(10) 0.066(11) 0.079(9) -0.017(10) -0.002(7) -0.019(10)
+C30C 0.076(7) 0.080(11) 0.062(9) -0.003(9) 0.006(7) -0.011(10)
+C7D 0.063(10) 0.037(8) 0.088(9) 0.009(6) 0.017(8) 0.009(8)
+C8D 0.091(12) 0.038(9) 0.088(9) 0.010(7) 0.027(10) 0.004(8)
+C9D 0.101(13) 0.058(9) 0.087(10) 0.008(8) 0.027(10) -0.009(9)
+C4D 0.075(10) 0.053(9) 0.094(9) 0.006(7) 0.023(9) -0.005(8)
+C5D 0.087(12) 0.058(10) 0.101(10) 0.001(7) 0.030(10) -0.007(9)
+C6D 0.086(12) 0.050(9) 0.098(11) -0.006(7) 0.028(10) -0.008(8)
+C57C 0.054(9) 0.051(9) 0.076(11) -0.006(8) 0.025(7) -0.004(6)
+N3B 0.054(9) 0.073(9) 0.126(9) 0.000(8) 0.029(8) 0.007(7)
+C54C 0.057(9) 0.053(7) 0.098(12) -0.020(8) -0.003(8) 0.000(7)
+C62B 0.056(10) 0.032(6) 0.080(9) -0.004(6) 0.035(8) 0.005(7)
+C51A 0.074(11) 0.032(8) 0.102(9) 0.022(7) 0.031(9) -0.001(8)
+C50A 0.142(15) 0.044(10) 0.098(10) 0.009(7) 0.027(11) 0.013(10)
+C49A 0.138(15) 0.058(9) 0.097(11) 0.008(8) 0.037(11) -0.001(10)
+C48A 0.118(13) 0.051(9) 0.096(9) 0.013(8) 0.027(9) -0.006(9)
+C53A 0.147(16) 0.043(10) 0.104(11) 0.021(8) 0.038(11) 0.011(10)
+C52A 0.145(15) 0.032(8) 0.092(10) 0.010(7) 0.019(11) 0.007(9)
+N1C 0.113(10) 0.054(8) 0.111(11) -0.026(8) 0.008(8) 0.003(8)
+C10C 0.092(11) 0.039(7) 0.067(7) -0.009(6) 0.015(9) 0.006(8)
+C62A 0.060(10) 0.025(6) 0.086(8) -0.008(6) 0.014(9) -0.010(7)
+C8B 0.064(7) 0.072(11) 0.064(10) 0.012(8) 0.013(7) 0.015(8)
+C65D 0.060(9) 0.052(10) 0.050(9) -0.002(8) 0.006(7) -0.003(8)
+C16C 0.067(8) 0.038(6) 0.061(7) -0.005(6) 0.014(7) 0.002(6)
+C43A 0.065(10) 0.046(7) 0.094(12) 0.009(8) -0.002(9) -0.009(7)
+C18D 0.047(9) 0.034(6) 0.069(8) -0.006(6) 0.007(7) -0.002(7)
+C60A 0.078(8) 0.049(7) 0.075(7) -0.009(6) 0.008(7) 0.004(7)
+C66D 0.056(8) 0.037(9) 0.069(8) -0.002(8) 0.013(8) 0.001(8)
+F30 0.252(18) 0.074(9) 0.290(19) 0.055(11) 0.072(15) 0.077(10)
+C65A 0.093(12) 0.024(7) 0.077(9) -0.012(7) 0.015(10) 0.005(8)
+C44B 0.052(9) 0.053(8) 0.100(12) -0.027(9) 0.019(10) -0.005(7)
+C61A 0.061(10) 0.030(7) 0.083(7) -0.001(6) 0.017(9) 0.007(8)
+C43B 0.061(7) 0.056(7) 0.082(8) -0.013(7) 0.012(7) -0.004(6)
+N3A 0.112(11) 0.084(11) 0.130(11) 0.036(9) 0.017(8) 0.012(9)
+C63A 0.068(10) 0.022(6) 0.083(8) -0.003(6) 0.007(9) -0.004(8)
+C37D 0.052(8) 0.036(7) 0.121(13) -0.001(9) 0.020(10) 0.011(8)
+C32B 0.057(8) 0.058(8) 0.152(14) -0.027(10) 0.022(10) 0.001(7)
+F32 0.194(15) 0.29(2) 0.119(11) 0.053(12) 0.057(10) -0.055(13)
+C48B 0.089(11) 0.034(8) 0.091(10) -0.003(7) 0.037(9) -0.012(8)
+C34A 0.053(9) 0.046(7) 0.112(12) -0.001(8) -0.002(9) 0.007(6)
+C59C 0.056(9) 0.043(8) 0.083(11) -0.004(8) 0.007(8) 0.002(7)
+C21B 0.057(9) 0.058(10) 0.071(9) -0.003(8) 0.017(7) 0.002(9)
+C11C 0.086(11) 0.031(6) 0.064(8) -0.003(6) 0.010(9) 0.002(8)
+C42A 0.065(9) 0.047(9) 0.083(12) 0.012(8) 0.003(8) -0.008(6)
+C21D 0.096(12) 0.039(8) 0.071(10) -0.014(8) 0.026(9) -0.010(9)
+C6B 0.062(8) 0.073(12) 0.096(10) -0.005(9) 0.020(8) -0.010(9)
+F34 0.171(14) 0.185(14) 0.156(13) 0.042(11) -0.007(11) 0.007(11)
+C64A 0.073(11) 0.026(7) 0.078(9) -0.005(6) 0.001(9) -0.002(8)
+N1D 0.093(9) 0.060(8) 0.138(10) 0.001(8) 0.012(9) -0.021(7)
+C41B 0.059(7) 0.055(8) 0.088(11) -0.025(9) 0.017(9) -0.009(6)
+C52C 0.080(11) 0.054(8) 0.095(12) -0.021(8) 0.000(9) -0.001(8)
+C53C 0.065(10) 0.055(7) 0.104(12) -0.030(8) -0.004(8) 0.002(7)
+C51C 0.096(13) 0.068(10) 0.180(17) -0.020(11) -0.056(11) -0.006(9)
+C50C 0.135(15) 0.083(9) 0.169(17) -0.016(11) -0.078(13) -0.014(10)
+C48C 0.086(8) 0.078(7) 0.101(9) -0.017(7) 0.001(7) -0.011(7)
+C49C 0.100(12) 0.057(9) 0.099(12) -0.024(9) 0.001(8) -0.006(8)
+C22D 0.087(12) 0.032(8) 0.074(10) -0.001(7) 0.031(9) 0.012(9)
+C59B 0.085(12) 0.037(8) 0.078(10) 0.000(8) 0.028(9) -0.001(8)
+C51D 0.059(7) 0.087(12) 0.075(10) 0.002(8) 0.022(7) -0.003(9)
+C52D 0.056(8) 0.165(16) 0.089(12) 0.041(11) 0.022(8) 0.001(11)
+C53D 0.067(9) 0.136(15) 0.091(12) 0.029(10) 0.021(9) -0.021(11)
+C48D 0.074(8) 0.070(11) 0.081(11) -0.002(8) 0.036(8) 0.004(8)
+C49D 0.083(9) 0.104(13) 0.082(12) 0.011(10) 0.030(8) -0.002(11)
+C50D 0.072(9) 0.117(14) 0.079(11) 0.015(9) 0.021(8) 0.004(10)
+C33B 0.060(7) 0.053(8) 0.109(12) -0.019(9) 0.031(9) -0.005(6)
+C58C 0.065(7) 0.050(7) 0.074(8) -0.006(7) 0.010(6) 0.003(6)
+C42D 0.063(8) 0.042(9) 0.134(14) 0.013(10) 0.024(10) -0.008(6)
+N2A 0.148(14) 0.104(10) 0.109(12) 0.030(9) -0.002(10) 0.043(10)
+C15D 0.092(12) 0.029(7) 0.103(11) -0.002(8) 0.038(9) 0.005(8)
+C42B 0.059(8) 0.050(9) 0.083(11) -0.035(9) 0.016(9) -0.004(6)
+C66B 0.068(11) 0.041(8) 0.087(11) 0.004(7) 0.033(9) 0.003(8)
+C32A 0.080(8) 0.059(6) 0.093(9) 0.007(7) -0.002(7) 0.003(6)
+C17A 0.072(8) 0.039(9) 0.064(8) -0.010(8) 0.024(6) -0.015(8)
+C63C 0.054(10) 0.064(9) 0.127(14) -0.033(10) -0.012(9) 0.007(7)
+C33D 0.054(8) 0.047(7) 0.105(12) 0.007(9) 0.016(9) 0.006(6)
+C15B 0.084(10) 0.080(12) 0.068(10) 0.003(10) 0.000(8) 0.035(10)
+C60D 0.050(10) 0.097(12) 0.079(9) -0.010(11) 0.001(7) -0.012(10)
+C46B 0.084(9) 0.047(10) 0.082(11) 0.006(8) 0.042(9) 0.000(8)
+C64B 0.096(13) 0.033(8) 0.108(11) 0.010(7) 0.044(9) 0.008(9)
+C34B 0.062(8) 0.058(8) 0.120(13) -0.023(9) 0.027(10) -0.007(6)
+C16A 0.068(9) 0.062(10) 0.068(9) -0.011(9) 0.033(8) -0.027(9)
+F36 0.192(12) 0.166(12) 0.241(14) -0.054(10) 0.089(12) -0.021(10)
+C14D 0.067(8) 0.041(6) 0.073(8) -0.005(6) 0.009(7) -0.010(7)
+C3D 0.090(9) 0.061(10) 0.130(12) 0.023(9) 0.048(11) 0.004(10)
+C36A 0.063(10) 0.049(8) 0.115(13) -0.005(10) -0.025(10) 0.003(7)
+C38D 0.053(8) 0.044(9) 0.103(12) -0.002(9) 0.017(10) 0.010(6)
+N3C 0.113(12) 0.078(10) 0.126(11) -0.031(8) 0.016(9) -0.023(8)
+C4B 0.075(7) 0.077(9) 0.072(8) 0.009(7) 0.022(6) 0.004(7)
+C18C 0.069(10) 0.037(6) 0.068(7) -0.009(6) 0.011(8) -0.005(8)
+C14C 0.111(13) 0.036(7) 0.072(9) -0.009(6) 0.020(10) -0.016(9)
+C15C 0.124(13) 0.043(8) 0.065(8) -0.007(7) 0.022(10) -0.019(10)
+C47B 0.080(8) 0.036(9) 0.099(10) 0.000(8) 0.039(9) 0.001(8)
+F38 0.195(16) 0.149(13) 0.226(16) -0.006(12) -0.016(13) -0.041(12)
+C22C 0.103(12) 0.035(8) 0.079(10) 0.004(6) 0.028(10) 0.002(9)
+C30A 0.108(13) 0.057(8) 0.111(13) 0.005(10) -0.004(11) 0.009(8)
+C59A 0.096(12) 0.044(8) 0.097(9) -0.001(8) 0.023(11) 0.005(9)
+C54B 0.089(11) 0.038(7) 0.072(9) -0.017(7) 0.028(8) -0.009(8)
+C58D 0.064(9) 0.096(12) 0.070(9) 0.008(10) 0.005(8) -0.016(10)
+C23B 0.066(9) 0.079(11) 0.124(11) 0.003(9) 0.018(10) 0.021(9)
+C35B 0.058(8) 0.066(8) 0.129(13) -0.024(9) 0.020(9) -0.012(6)
+F40 0.208(16) 0.254(19) 0.147(13) 0.027(12) -0.076(13) -0.062(14)
+C10A 0.085(8) 0.044(10) 0.068(8) 0.002(9) 0.012(7) -0.001(9)
+F42 0.120(11) 0.118(11) 0.42(3) -0.004(13) 0.023(14) -0.036(10)
+C7E 0.094(13) 0.079(8) 0.117(12) 0.025(8) 0.013(11) 0.027(10)
+C8E 0.103(13) 0.104(10) 0.115(12) 0.017(8) 0.007(11) -0.008(11)
+C11E 0.115(10) 0.111(8) 0.128(9) 0.015(7) 0.002(8) -0.008(8)
+C12E 0.112(10) 0.105(9) 0.130(9) 0.007(7) 0.004(8) 0.004(8)
+C13E 0.099(14) 0.097(11) 0.139(13) 0.013(9) 0.006(11) 0.024(12)
+C14E 0.117(15) 0.098(11) 0.117(12) 0.016(10) 0.010(12) 0.018(12)
+C64C 0.071(11) 0.045(8) 0.127(14) -0.007(9) -0.021(10) 0.010(9)
+C7B 0.069(8) 0.087(12) 0.072(11) 0.010(9) 0.009(8) 0.020(9)
+C29B 0.046(8) 0.052(8) 0.162(14) -0.026(10) 0.004(10) 0.002(7)
+F44 0.189(14) 0.168(13) 0.175(13) 0.008(10) 0.029(11) -0.067(12)
+C24D 0.048(10) 0.064(10) 0.136(11) 0.002(9) 0.028(9) -0.008(8)
+F46 0.220(17) 0.165(14) 0.192(15) 0.012(11) 0.027(13) 0.023(13)
+F48 0.241(17) 0.157(13) 0.210(15) 0.001(11) 0.136(14) 0.034(12)
+C29A 0.093(11) 0.060(8) 0.134(13) 0.007(10) -0.014(10) 0.010(8)
+C1B 0.071(11) 0.071(10) 0.100(9) 0.015(9) 0.024(9) 0.001(8)
+F3 0.264(15) 0.162(12) 0.198(13) -0.010(10) -0.038(13) -0.007(11)
+C14B 0.087(10) 0.075(11) 0.065(8) -0.003(9) 0.004(8) 0.028(10)
+C32D 0.053(7) 0.062(7) 0.132(13) 0.006(10) 0.017(10) -0.008(6)
+C5B 0.073(8) 0.060(10) 0.080(10) 0.016(8) 0.023(7) 0.003(8)
+C20C 0.138(15) 0.046(9) 0.083(9) 0.011(7) 0.003(11) -0.020(10)
+C3C 0.106(13) 0.049(10) 0.088(10) -0.016(8) 0.009(8) 0.000(10)
+F25 0.208(14) 0.199(13) 0.275(16) 0.019(12) 0.044(12) 0.076(12)
+F13 0.30(2) 0.187(15) 0.127(12) 0.051(11) 0.027(13) -0.003(14)
+C52B 0.140(15) 0.032(9) 0.070(9) -0.004(7) 0.031(10) -0.004(9)
+C36D 0.045(9) 0.041(8) 0.143(14) 0.007(10) -0.001(10) 0.005(7)
+C7A 0.088(9) 0.076(11) 0.070(9) 0.009(9) 0.007(8) 0.005(10)
+N4A 0.125(14) 0.117(13) 0.149(14) 0.028(10) 0.018(10) 0.052(10)
+C15A 0.070(9) 0.102(13) 0.070(10) -0.004(10) 0.041(9) -0.039(10)
+C14A 0.087(9) 0.064(11) 0.067(10) -0.013(9) 0.029(7) -0.027(10)
+C9B 0.074(9) 0.060(11) 0.071(10) 0.013(8) 0.019(8) 0.010(8)
+C26B 0.071(9) 0.079(8) 0.108(12) -0.018(10) -0.010(10) 0.013(7)
+C50B 0.139(15) 0.030(8) 0.086(10) 0.001(8) 0.049(10) 0.001(9)
+C23D 0.087(8) 0.083(9) 0.128(9) 0.001(7) 0.015(7) -0.014(7)
+N1A 0.142(11) 0.095(10) 0.154(14) 0.056(10) -0.007(9) 0.020(10)
+F27 0.259(19) 0.118(12) 0.32(2) -0.024(12) 0.112(17) -0.104(13)
+C23C 0.106(12) 0.080(10) 0.094(12) -0.033(10) -0.004(9) 0.005(9)
+C24C 0.100(13) 0.100(11) 0.089(11) -0.030(10) 0.003(9) -0.015(10)
+C53B 0.179(17) 0.055(9) 0.075(10) -0.004(8) 0.043(11) 0.027(11)
+F7 0.28(2) 0.187(16) 0.213(17) 0.092(14) 0.001(16) 0.011(14)
+C16B 0.067(11) 0.084(12) 0.074(9) -0.011(10) 0.000(7) 0.013(10)
+C6A 0.086(9) 0.085(12) 0.075(10) 0.014(10) 0.011(8) 0.005(11)
+C58A 0.101(13) 0.033(8) 0.102(9) -0.001(7) 0.017(11) 0.010(9)
+C3B 0.082(9) 0.064(9) 0.107(12) 0.019(9) 0.041(9) 0.008(8)
+F29 0.178(15) 0.197(17) 0.28(2) -0.063(14) -0.025(14) -0.072(13)
+C45B 0.091(9) 0.065(9) 0.095(12) 0.013(9) 0.045(10) 0.012(9)
+C38B 0.081(9) 0.057(10) 0.120(14) -0.033(10) 0.006(10) -0.019(7)
+C1E 0.074(12) 0.071(9) 0.106(12) 0.007(8) 0.008(10) 0.010(10)
+C2E 0.062(12) 0.083(9) 0.147(14) -0.016(10) -0.001(11) 0.003(10)
+C3E 0.089(14) 0.077(11) 0.155(15) -0.030(10) 0.007(12) 0.016(11)
+C4E 0.086(14) 0.109(11) 0.160(15) -0.009(10) 0.023(12) 0.034(12)
+C5E 0.096(13) 0.100(10) 0.128(12) 0.014(9) 0.025(11) 0.026(11)
+C6E 0.069(12) 0.080(8) 0.123(12) 0.020(8) 0.023(10) 0.023(10)
+C24B 0.048(10) 0.080(11) 0.132(12) -0.002(9) 0.013(10) 0.011(8)
+C31B 0.078(9) 0.063(9) 0.143(15) -0.018(11) 0.002(12) 0.008(8)
+C2B 0.094(12) 0.079(10) 0.106(12) 0.012(10) 0.046(10) 0.025(9)
+C37B 0.087(8) 0.083(7) 0.122(10) -0.029(8) 0.005(8) -0.012(7)
+F15 0.30(2) 0.163(14) 0.171(15) 0.021(12) 0.073(14) -0.034(14)
+C5A 0.094(11) 0.093(13) 0.085(10) 0.014(11) 0.013(8) 0.018(11)
+C59D 0.059(9) 0.126(14) 0.085(11) 0.004(11) 0.004(8) -0.005(10)
+C65B 0.093(9) 0.050(7) 0.088(8) 0.001(7) 0.023(7) 0.002(7)
+F31 0.163(12) 0.195(13) 0.266(15) -0.057(12) 0.012(11) 0.007(11)
+C25D 0.085(12) 0.062(9) 0.148(13) -0.001(10) 0.040(12) -0.026(8)
+C47A 0.104(9) 0.078(8) 0.094(8) 0.012(7) 0.024(7) 0.012(8)
+F2 0.129(15) 0.26(2) 0.39(3) -0.06(2) 0.035(17) 0.054(15)
+F33 0.197(16) 0.110(12) 0.42(3) -0.003(14) 0.005(18) 0.064(12)
+C6G 0.084(13) 0.116(10) 0.167(13) 0.005(10) 0.027(14) -0.014(12)
+C7G 0.099(14) 0.120(10) 0.158(12) 0.011(9) 0.022(13) -0.003(12)
+C12G 0.146(16) 0.127(13) 0.159(13) 0.008(10) 0.027(15) -0.006(15)
+C14G 0.19(2) 0.154(15) 0.181(16) 0.030(11) 0.077(17) 0.014(18)
+C13G 0.168(19) 0.135(14) 0.191(14) 0.025(12) 0.057(17) -0.015(16)
+C1G 0.144(16) 0.121(11) 0.184(14) 0.005(10) 0.015(16) -0.004(13)
+C2G 0.129(11) 0.130(9) 0.155(9) 0.008(8) 0.003(9) 0.008(8)
+C3G 0.141(11) 0.154(10) 0.158(10) -0.004(8) -0.002(9) 0.000(9)
+C4G 0.133(17) 0.154(15) 0.154(14) -0.006(11) 0.002(15) 0.035(15)
+C5G 0.097(15) 0.159(14) 0.166(13) -0.013(13) 0.006(15) 0.045(15)
+F17 0.258(16) 0.251(16) 0.238(15) 0.036(13) 0.078(14) -0.011(14)
+F35 0.320(17) 0.175(13) 0.233(15) 0.003(12) -0.041(13) 0.042(13)
+C27D 0.067(11) 0.050(9) 0.240(19) 0.012(12) -0.003(13) -0.014(7)
+C26D 0.059(8) 0.062(8) 0.125(13) 0.011(9) -0.009(10) -0.016(7)
+C31D 0.056(8) 0.068(9) 0.122(13) 0.016(10) -0.004(10) -0.009(7)
+C30D 0.066(10) 0.058(8) 0.128(14) 0.000(10) 0.009(11) -0.005(6)
+C29D 0.061(8) 0.054(8) 0.124(13) -0.011(9) 0.005(10) -0.012(6)
+C28D 0.056(8) 0.057(9) 0.220(18) -0.004(12) -0.006(12) -0.022(8)
+C27B 0.049(10) 0.084(9) 0.169(16) -0.037(12) 0.001(11) 0.016(7)
+C25C 0.111(12) 0.075(9) 0.076(10) 0.002(10) -0.012(9) -0.016(9)
+F9 0.186(16) 0.142(15) 0.298(19) 0.000 0.040(15) 0.000
+C2C 0.172(16) 0.047(11) 0.096(12) -0.035(8) -0.013(10) 0.008(11)
+C47C 0.084(9) 0.082(8) 0.110(9) -0.013(7) 0.003(7) -0.011(7)
+F37 0.183(13) 0.161(12) 0.265(15) 0.027(11) -0.024(12) 0.022(10)
+C47D 0.079(9) 0.061(9) 0.098(12) -0.011(9) 0.054(9) 0.004(8)
+C36B 0.073(8) 0.075(7) 0.121(9) -0.020(7) -0.001(7) -0.013(6)
+F19 0.199(16) 0.146(13) 0.37(2) -0.107(15) -0.010(16) 0.082(13)
+C4A 0.104(10) 0.087(12) 0.069(9) 0.000(9) -0.002(8) 0.007(10)
+F39 0.45(4) 0.26(2) 0.209(19) -0.126(18) -0.10(2) 0.00(2)
+C8A 0.087(11) 0.120(15) 0.083(10) 0.034(11) 0.013(8) 0.002(11)
+F5 0.50(4) 0.31(3) 0.128(14) 0.103(15) 0.076(18) -0.09(2)
+C30B 0.080(11) 0.051(8) 0.137(14) -0.021(11) -0.004(11) 0.002(7)
+C1C 0.169(16) 0.051(9) 0.112(13) -0.025(9) -0.017(10) -0.002(11)
+F41 0.56(4) 0.114(13) 0.220(18) -0.084(13) -0.03(2) -0.092(18)
+C45D 0.065(11) 0.078(9) 0.128(10) 0.013(10) 0.034(10) -0.002(9)
+C21C 0.162(16) 0.032(8) 0.094(9) 0.007(8) 0.025(12) -0.024(10)
+C25B 0.080(8) 0.088(8) 0.112(8) -0.002(7) 0.003(8) 0.017(7)
+F21 0.310(17) 0.235(16) 0.203(14) -0.019(13) -0.035(13) 0.035(14)
+C1A 0.146(15) 0.100(12) 0.136(15) 0.045(12) -0.013(11) 0.007(12)
+C46D 0.083(8) 0.093(8) 0.111(9) -0.004(7) 0.023(7) -0.007(7)
+F43 0.33(3) 0.28(3) 0.26(2) -0.07(2) -0.06(2) -0.12(2)
+C9A 0.113(11) 0.131(15) 0.071(11) 0.020(11) 0.011(9) 0.028(13)
+C46C 0.094(9) 0.084(8) 0.111(9) -0.014(7) 0.006(7) -0.015(7)
+C45C 0.108(11) 0.078(12) 0.120(12) -0.011(9) 0.007(10) -0.002(10)
+C9E 0.135(16) 0.129(12) 0.130(13) 0.025(11) 0.034(13) 0.017(15)
+C2D 0.092(10) 0.064(11) 0.150(15) 0.032(10) 0.037(11) -0.026(9)
+C1D 0.091(10) 0.050(8) 0.151(14) 0.010(9) 0.028(11) -0.025(9)
+C28B 0.056(9) 0.069(10) 0.184(17) -0.019(12) 0.020(12) 0.010(8)
+F11 0.212(15) 0.271(17) 0.325(18) 0.022(15) 0.028(14) 0.028(14)
+C45A 0.151(17) 0.088(11) 0.158(15) 0.057(11) -0.009(11) 0.030(12)
+C10E 0.111(15) 0.129(12) 0.121(14) 0.020(10) 0.037(12) 0.023(14)
+C46A 0.138(16) 0.098(13) 0.137(14) 0.048(10) 0.009(11) 0.030(12)
+C2A 0.180(18) 0.123(14) 0.128(15) 0.030(13) -0.039(12) 0.041(13)
+C8G 0.124(10) 0.125(9) 0.141(10) 0.005(8) 0.002(9) -0.001(9)
+C9G 0.125(17) 0.127(12) 0.181(17) 0.002(13) 0.021(17) 0.000(14)
+C10G 0.147(18) 0.114(14) 0.181(18) -0.018(13) 0.019(18) 0.007(16)
+C11G 0.145(18) 0.133(15) 0.163(17) -0.005(12) 0.006(16) 0.002(17)
+F45 0.25(2) 0.135(14) 0.42(3) 0.046(16) -0.06(2) 0.063(15)
+C31A 0.130(14) 0.071(10) 0.154(16) 0.003(11) -0.022(11) 0.021(10)
+F23 0.23(2) 0.24(2) 0.34(3) 0.005(18) 0.067(19) -0.078(17)
+F47 0.285(17) 0.233(16) 0.291(17) 0.034(14) 0.078(15) -0.033(14)
+C25A 0.128(10) 0.128(9) 0.143(10) 0.024(8) -0.006(8) 0.017(8)
+C26A 0.114(9) 0.109(8) 0.139(10) 0.013(7) -0.007(8) 0.013(7)
+C3A 0.116(9) 0.093(8) 0.097(9) 0.014(8) -0.008(7) 0.016(8)
+C24A 0.121(9) 0.117(9) 0.141(10) 0.017(8) -0.003(8) 0.023(8)
+C11F 0.222(13) 0.228(12) 0.230(10) -0.001(9) 0.009(9) 0.001(9)
+C12F 0.218(12) 0.218(11) 0.230(10) 0.001(8) 0.007(8) 0.004(8)
+C7F 0.219(12) 0.215(11) 0.229(9) 0.001(8) 0.005(8) 0.010(8)
+C8F 0.212(12) 0.212(11) 0.225(11) 0.003(8) 0.001(9) 0.005(9)
+C9F 0.211(12) 0.214(12) 0.222(11) 0.006(8) 0.000(9) 0.004(9)
+C10F 0.239(13) 0.236(12) 0.240(12) 0.004(8) 0.011(9) -0.005(9)
+C4F 0.231(12) 0.229(11) 0.238(10) -0.003(8) 0.011(8) 0.003(8)
+C5F 0.228(12) 0.226(11) 0.231(9) -0.001(8) 0.003(8) 0.007(8)
+C6F 0.243(13) 0.250(13) 0.249(11) 0.007(9) 0.012(9) -0.003(9)
+C1F 0.262(13) 0.264(13) 0.259(12) 0.001(9) 0.013(9) -0.005(9)
+C2F 0.283(14) 0.275(13) 0.266(12) 0.001(9) 0.012(9) -0.014(9)
+C3F 0.255(13) 0.252(13) 0.246(11) -0.008(9) 0.007(9) -0.006(9)
+C13F 0.220(13) 0.219(12) 0.227(10) 0.002(8) 0.005(9) 0.002(9)
+C23A 0.142(10) 0.130(10) 0.140(10) 0.025(8) -0.003(8) 0.016(8)
+C28A 0.124(9) 0.117(8) 0.152(10) 0.010(8) -0.034(8) 0.001(7)
+C14F 0.218(13) 0.217(12) 0.229(10) -0.003(8) 0.007(9) 0.014(9)
+O1 0.089(8) 0.048(7) 0.078(8) 0.008(5) 0.006(6) 0.005(6)
+C27A 0.133(10) 0.127(8) 0.159(11) 0.013(8) -0.035(8) 0.004(7)
+O4 0.069(8) 0.040(6) 0.074(8) -0.002(5) -0.002(6) -0.010(5)
+O8 0.042(6) 0.036(6) 0.076(7) 0.003(6) 0.035(5) -0.012(5)
+O2 0.071(7) 0.048(7) 0.074(8) -0.003(5) 0.019(6) -0.003(6)
+O5 0.031(6) 0.031(5) 0.054(6) 0.005(5) 0.021(5) 0.014(5)
+O3 0.069(7) 0.046(6) 0.078(7) 0.010(6) 0.017(6) -0.010(5)
+O7 0.084(8) 0.068(7) 0.083(8) 0.018(6) -0.004(6) 0.018(7)
+O6 0.060(7) 0.042(6) 0.054(6) -0.018(5) 0.003(5) -0.020(5)
+
+_geom_special_details
+;
+ All esds (except the esd in the dihedral angle between two l.s. planes)
+ are estimated using the full covariance matrix.  The cell esds are taken
+ into account individually in the estimation of esds in distances, angles
+ and torsion angles; correlations between esds in cell parameters are only
+ used when they are defined by crystal symmetry.  An approximate (isotropic)
+ treatment of cell esds is used for estimating esds involving l.s. planes.
+;
+
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Ru3 N12D 2.041(13) . ?
+Ru3 N12B 2.052(11) . ?
+Ru3 N11D 2.017(11) . ?
+Ru3 N16C 2.065(11) . ?
+Ru3 N15C 2.022(12) . ?
+Ru3 N11B 2.044(11) . ?
+Ru2 N15B 2.054(12) . ?
+Ru2 N14D 2.025(12) . ?
+Ru2 N11A 2.095(11) . ?
+Ru2 N13D 2.084(12) . ?
+Ru2 N16B 2.077(13) . ?
+Ru2 N12A 2.032(12) . ?
+Ru1 N13C 2.059(7) . ?
+Ru1 N13A 2.041(12) . ?
+Ru1 N15D 2.079(13) . ?
+Ru1 N16D 2.080(11) . ?
+Ru1 N14A 2.076(11) . ?
+Ru1 N14C 2.054(7) . ?
+Ru4 N12C 2.075(12) . ?
+Ru4 N16A 2.015(12) . ?
+Ru4 N15A 2.048(12) . ?
+Ru4 N14B 2.064(13) . ?
+Ru4 N11C 2.074(11) . ?
+Ru4 N13B 2.067(14) . ?
+P1 F6 1.549(10) . ?
+P1 F8 1.555(11) . ?
+P1 F10 1.514(11) . ?
+P1 F12 1.547(11) . ?
+P1 F16 1.545(12) . ?
+P1 F18 1.577(12) . ?
+P4 F14 1.513(15) . ?
+P4 F36 1.615(16) . ?
+P4 F36 1.615(16) 2_655 ?
+P4 F9 1.59(2) . ?
+P4 F37 1.542(17) . ?
+P4 F37 1.542(18) 2_655 ?
+P6 F20 1.589(13) . ?
+P6 F22 1.599(14) . ?
+P6 F24 1.553(14) . ?
+P6 F26 1.567(13) . ?
+P6 F28 1.638(15) . ?
+P6 F30 1.544(14) . ?
+P8 F32 1.545(15) . ?
+P8 F46 1.747(19) . ?
+P8 F25 1.686(19) . ?
+P8 F35 1.51(2) . ?
+P8 F5 1.514(16) . ?
+P8 F21 1.50(2) . ?
+P2 F38 1.653(17) . ?
+P2 F7 1.564(17) . ?
+P2 F15 1.572(18) . ?
+P2 F2 1.446(18) . ?
+P2 F41 1.491(16) . ?
+P2 F11 1.50(2) . ?
+P5 F40 1.542(15) . ?
+P5 F3 1.633(18) . ?
+P5 F27 1.601(15) . ?
+P5 F29 1.732(19) . ?
+P5 F31 1.615(18) . ?
+P5 F19 1.585(16) . ?
+P3 F34 1.571(16) . ?
+P3 F42 1.557(16) . ?
+P3 F44 1.667(16) . ?
+P3 F48 1.563(15) . ?
+P3 F13 1.631(17) . ?
+P3 F17 1.65(2) . ?
+P7 F33 1.624(18) . ?
+P7 F39 1.606(19) . ?
+P7 F43 1.62(2) . ?
+P7 F45 1.604(19) . ?
+P7 F23 1.68(2) . ?
+P7 F47 1.60(2) . ?
+N13C C40C 1.3900 . ?
+N13C C44C 1.3900 . ?
+C40C C41C 1.3900 . ?
+C40C C39C 1.375(9) . ?
+C41C C42C 1.3900 . ?
+C41C C34C 1.374(9) . ?
+C42C H42C 0.9500 . ?
+C42C C43C 1.3900 . ?
+C43C H43C 0.9500 . ?
+C43C C44C 1.3900 . ?
+C44C H44C 0.9500 . ?
+N12D C61D 1.386(17) . ?
+N12D C60D 1.271(17) . ?
+N12B C60B 1.349(16) . ?
+N12B C61B 1.363(16) . ?
+N15B C22B 1.302(16) . ?
+N15B C18B 1.379(17) . ?
+N13A C66A 1.339(16) . ?
+N13A C62A 1.393(18) . ?
+N12C C17C 1.385(17) . ?
+N12C C16C 1.334(16) . ?
+N16A C18A 1.383(17) . ?
+N16A C22A 1.375(17) . ?
+N11D C62D 1.442(17) . ?
+N11D C66D 1.353(17) . ?
+N6D H6D 0.8800 . ?
+N6D C12D 1.366(17) . ?
+N6D C10D 1.348(17) . ?
+N14D C17D 1.364(16) . ?
+N14D C16D 1.359(17) . ?
+N11A C44A 1.339(17) . ?
+N11A C40A 1.359(17) . ?
+N10D H10D 0.8800 . ?
+N10D C56D 1.412(17) . ?
+N10D C54D 1.352(18) . ?
+N6B H6B 0.8800 . ?
+N6B C12B 1.376(17) . ?
+N6B C10B 1.318(18) . ?
+N9D C55D 1.368(17) . ?
+N9D C54D 1.302(18) . ?
+N15A C17A 1.391(18) . ?
+N15A C16A 1.346(17) . ?
+N8D C34D 1.371(17) . ?
+N8D C32D 1.340(19) . ?
+N16C C60C 1.348(17) . ?
+N16C C59C 1.333(17) . ?
+N10B C56B 1.363(17) . ?
+N10B C54B 1.373(17) . ?
+N15D C39D 1.371(18) . ?
+N15D C38D 1.357(18) . ?
+N16D C40D 1.390(17) . ?
+N16D C44D 1.309(17) . ?
+N5C C34C 1.4200 . ?
+N5C C32C 1.4200 . ?
+C34C C33C 1.4200 . ?
+C33C N6C 1.4200 . ?
+C33C C35C 1.396(10) . ?
+N6C H6C 0.8800 . ?
+N6C C32C 1.4200 . ?
+C32C C29C 1.394(10) . ?
+N9C H9C 0.8800 . ?
+N9C C55C 1.398(17) . ?
+N9C C54C 1.307(17) . ?
+N13D C18D 1.360(17) . ?
+N13D C22D 1.318(17) . ?
+N5B H5B 0.8800 . ?
+N5B C11B 1.360(17) . ?
+N5B C10B 1.363(18) . ?
+N16B C17B 1.437(18) . ?
+N16B C16B 1.322(18) . ?
+N14B C40B 1.386(18) . ?
+N14B C44B 1.284(17) . ?
+N5D H5D 0.8800 . ?
+N5D C10D 1.347(17) . ?
+N5D C11D 1.389(17) . ?
+N14A C60A 1.336(17) . ?
+N14A C61A 1.396(18) . ?
+N11C C18C 1.349(17) . ?
+N11C C22C 1.318(17) . ?
+N12A C39A 1.417(18) . ?
+N12A C38A 1.377(18) . ?
+N9A C54A 1.4200 . ?
+N9A C55A 1.4200 . ?
+C54A N10A 1.4200 . ?
+C54A C51A 1.373(10) . ?
+N10A H10A 0.8800 . ?
+N10A C56A 1.4200 . ?
+C56A C55A 1.4200 . ?
+C56A C57A 1.402(17) . ?
+C55A C63A 1.386(15) . ?
+N7C C10C 1.417(17) . ?
+N7C C11C 1.391(17) . ?
+N15C C65C 1.351(18) . ?
+N15C C66C 1.420(17) . ?
+N7D H7D 0.8800 . ?
+N7D C33D 1.403(19) . ?
+N7D C32D 1.411(19) . ?
+N11B C62B 1.400(17) . ?
+N11B C66B 1.341(17) . ?
+N9B H9B 0.8800 . ?
+N9B C55B 1.341(17) . ?
+N9B C54B 1.353(18) . ?
+N1B C23B 1.54(2) . ?
+N1B C1B 1.494(19) . ?
+N1B C45B 1.450(18) . ?
+N2B H2B 0.908(10) . ?
+N2B C46B 1.508(17) . ?
+N2B C47B 1.511(18) . ?
+N5A C33A 1.373(18) . ?
+N5A C32A 1.331(19) . ?
+N10C H10C 0.8800 . ?
+N10C C61C 1.381(17) . ?
+N10C C54C 1.362(18) . ?
+N8A H8A 0.8800 . ?
+N8A C12A 1.404(19) . ?
+N8A C10A 1.361(19) . ?
+C63D C64D 1.389(18) . ?
+C63D C55D 1.468(19) . ?
+C63D C62D 1.369(18) . ?
+C13D C12D 1.451(19) . ?
+C13D C17D 1.419(19) . ?
+C13D C14D 1.334(18) . ?
+C63B C55B 1.44(2) . ?
+C63B C62B 1.408(19) . ?
+C63B C64B 1.357(19) . ?
+N13B C39B 1.385(19) . ?
+N13B C38B 1.319(19) . ?
+C18A C19A 1.38(2) . ?
+C18A C17A 1.47(2) . ?
+N7B C32B 1.375(19) . ?
+N7B C33B 1.416(18) . ?
+C19B C11B 1.45(2) . ?
+C19B C18B 1.382(19) . ?
+C19B C20B 1.424(19) . ?
+C41A C33A 1.41(2) . ?
+C41A C40A 1.394(18) . ?
+C41A C42A 1.46(2) . ?
+C22B H22B 0.9500 . ?
+C22B C21B 1.366(19) . ?
+C57B C56B 1.433(19) . ?
+C57B C58B 1.384(19) . ?
+C57B C61B 1.414(19) . ?
+C56D C57D 1.47(2) . ?
+C56D C55D 1.342(18) . ?
+N8B H8B 0.8800 . ?
+N8B C32B 1.388(19) . ?
+N8B C34B 1.339(19) . ?
+C61D C57D 1.390(19) . ?
+C61D C62D 1.419(18) . ?
+C11B C12B 1.381(19) . ?
+C64D H64D 0.9500 . ?
+C64D C65D 1.347(18) . ?
+N2C H2CA 0.9100 . ?
+N2C H2CB 0.9100 . ?
+N2C C3C 1.465(14) . ?
+N2C C2C 1.484(19) . ?
+C57D C58D 1.320(19) . ?
+C11A N7A 1.386(18) . ?
+C11A C19A 1.44(2) . ?
+C11A C12A 1.35(2) . ?
+C55C C56C 1.394(19) . ?
+C55C C61C 1.394(19) . ?
+C12D C11D 1.339(18) . ?
+C19C C12C 1.415(19) . ?
+C19C C18C 1.444(19) . ?
+C19C C20C 1.37(2) . ?
+N4B H4BA 0.9100 . ?
+N4B H4BB 0.9100 . ?
+N4B C3B 1.519(18) . ?
+N4B C2B 1.482(19) . ?
+C56C C60C 1.407(19) . ?
+C56C C57C 1.406(19) . ?
+C39B C40B 1.40(2) . ?
+C39B C35B 1.46(2) . ?
+C18B C17B 1.437(19) . ?
+C12B C13B 1.41(2) . ?
+C17D C18D 1.434(19) . ?
+N7A H7A 0.8800 . ?
+N7A C10A 1.316(18) . ?
+C40B C41B 1.42(2) . ?
+C41D C34D 1.40(2) . ?
+C41D C40D 1.378(19) . ?
+C41D C42D 1.42(2) . ?
+C34D C33D 1.392(19) . ?
+N8C H8C 0.8800 . ?
+N8C C12C 1.404(17) . ?
+N8C C10C 1.326(18) . ?
+C21A H21A 0.9500 . ?
+C21A C22A 1.39(2) . ?
+C21A C20A 1.41(2) . ?
+C61C C62C 1.367(19) . ?
+C44A H44A 0.9500 . ?
+C44A C43A 1.413(19) . ?
+C35D C39D 1.42(2) . ?
+C35D C33D 1.42(2) . ?
+C35D C36D 1.319(19) . ?
+C35A C39A 1.39(2) . ?
+C35A C34A 1.47(2) . ?
+C35A C36A 1.324(19) . ?
+C16D H16D 0.9500 . ?
+C16D C15D 1.40(2) . ?
+C66A H66A 0.9500 . ?
+C66A C65A 1.347(18) . ?
+C19A C20A 1.39(2) . ?
+C19D C20D 1.427(19) . ?
+C19D C11D 1.42(2) . ?
+C19D C18D 1.427(19) . ?
+C57A C61A 1.346(19) . ?
+C57A C58A 1.46(2) . ?
+N4C H4CA 0.9100 . ?
+N4C H4CB 0.9100 . ?
+N4C C24C 1.524(19) . ?
+N4C C25C 1.448(18) . ?
+C33A C34A 1.39(2) . ?
+C20B H20B 0.9500 . ?
+C20B C21B 1.360(19) . ?
+C12C C11C 1.383(19) . ?
+C60B H60B 0.9500 . ?
+C60B C59B 1.398(19) . ?
+C10D C7D 1.452(18) . ?
+C40A C39A 1.44(2) . ?
+C60C C66C 1.377(19) . ?
+C20D H20D 0.9500 . ?
+C20D C21D 1.377(19) . ?
+C8C C9C 1.3900 . ?
+C8C C7C 1.3900 . ?
+C8C C10C 1.446(17) . ?
+C9C H9CA 0.9500 . ?
+C9C C5C 1.3900 . ?
+C5C H5C 0.9500 . ?
+C5C C4C 1.3900 . ?
+C4C C6C 1.3900 . ?
+C4C C3C 1.490(16) . ?
+C6C H6CA 0.9500 . ?
+C6C C7C 1.3900 . ?
+C7C H7C 0.9500 . ?
+C62C C66C 1.410(19) . ?
+C62C C63C 1.43(2) . ?
+C12A C13A 1.43(2) . ?
+C10B C8B 1.54(2) . ?
+C39D C40D 1.37(2) . ?
+C17C C13C 1.381(19) . ?
+C17C C18C 1.47(2) . ?
+C22A H22A 0.9500 . ?
+C54D C51D 1.484(18) . ?
+N3D H3DA 0.9100 . ?
+N3D H3DB 0.9100 . ?
+N3D C24D 1.523(14) . ?
+N3D C25D 1.484(15) . ?
+C51B C54B 1.45(2) . ?
+C51B C52B 1.41(2) . ?
+C51B C50B 1.339(19) . ?
+C43D H43D 0.9500 . ?
+C43D C44D 1.361(18) . ?
+C43D C42D 1.42(2) . ?
+C13A C17A 1.40(2) . ?
+C13A C14A 1.38(2) . ?
+C13B C17B 1.39(2) . ?
+C13B C14B 1.40(2) . ?
+C65C H65C 0.9500 . ?
+C65C C64C 1.35(2) . ?
+C44D H44D 0.9500 . ?
+N2D H2DA 0.9100 . ?
+N2D H2DB 0.9100 . ?
+N2D C3D 1.476(14) . ?
+N2D C2D 1.471(19) . ?
+N4D H4D 0.913(10) . ?
+N4D C47D 1.490(14) . ?
+N4D C46D 1.485(14) . ?
+N6A H6A 0.8800 . ?
+N6A C34A 1.374(18) . ?
+N6A C32A 1.347(19) . ?
+C20A H20A 0.9500 . ?
+C56B C55B 1.361(19) . ?
+C39C N14C 1.3900 . ?
+C39C C35C 1.3900 . ?
+N14C C38C 1.3900 . ?
+C38C H38C 0.9500 . ?
+C38C C37C 1.3900 . ?
+C37C H37C 0.9500 . ?
+C37C C36C 1.3900 . ?
+C36C H36C 0.9500 . ?
+C36C C35C 1.3900 . ?
+C58B H58B 0.9500 . ?
+C58B C59B 1.377(19) . ?
+C38A H38A 0.9500 . ?
+C38A C37A 1.38(2) . ?
+C49B H49B 0.9500 . ?
+C49B C48B 1.36(2) . ?
+C49B C50B 1.42(2) . ?
+C13C C11C 1.42(2) . ?
+C13C C14C 1.39(2) . ?
+C37A H37A 0.9500 . ?
+C37A C36A 1.36(2) . ?
+C61B C62B 1.479(19) . ?
+C29C C28C 1.3900 . ?
+C29C C30C 1.3900 . ?
+C28C H28C 0.9500 . ?
+C28C C27C 1.3900 . ?
+C27C H27C 0.9500 . ?
+C27C C26C 1.3900 . ?
+C26C C31C 1.3900 . ?
+C26C C25C 1.505(17) . ?
+C31C H31C 0.9500 . ?
+C31C C30C 1.3900 . ?
+C30C H30C 0.9500 . ?
+C7D C8D 1.3900 . ?
+C7D C6D 1.3900 . ?
+C8D H8D 0.9500 . ?
+C8D C9D 1.3900 . ?
+C9D H9D 0.9500 . ?
+C9D C4D 1.3900 . ?
+C4D C5D 1.3900 . ?
+C4D C3D 1.550(17) . ?
+C5D H5DA 0.9500 . ?
+C5D C6D 1.3900 . ?
+C6D H6DA 0.9500 . ?
+C57C H57C 0.9500 . ?
+C57C C58C 1.420(19) . ?
+N3B H3BA 0.9100 . ?
+N3B H3BB 0.9100 . ?
+N3B C24B 1.537(19) . ?
+N3B C25B 1.479(14) . ?
+C54C C53C 1.465(18) . ?
+C51A C50A 1.3900 . ?
+C51A C52A 1.3900 . ?
+C50A H50A 0.9500 . ?
+C50A C49A 1.3900 . ?
+C49A H49A 0.9500 . ?
+C49A C48A 1.3900 . ?
+C48A C53A 1.3900 . ?
+C48A C47A 1.503(17) . ?
+C53A H53A 0.9500 . ?
+C53A C52A 1.3900 . ?
+C52A H52A 0.9500 . ?
+N1C C23C 1.47(2) . ?
+N1C C1C 1.51(2) . ?
+N1C C45C 1.58(2) . ?
+C62A C61A 1.44(2) . ?
+C62A C63A 1.37(2) . ?
+C8B C7B 1.33(2) . ?
+C8B C9B 1.34(2) . ?
+C65D H65D 0.9500 . ?
+C65D C66D 1.378(19) . ?
+C16C H16C 0.9500 . ?
+C16C C15C 1.372(19) . ?
+C43A H43A 0.9500 . ?
+C43A C42A 1.352(19) . ?
+C60A H60A 0.9500 . ?
+C60A C59A 1.41(2) . ?
+C66D H66D 0.9500 . ?
+C65A H65A 0.9500 . ?
+C65A C64A 1.424(19) . ?
+C44B H44B 0.9500 . ?
+C44B C43B 1.340(19) . ?
+C43B H43B 0.9500 . ?
+C43B C42B 1.371(19) . ?
+N3A H3AA 0.9100 . ?
+N3A H3AB 0.9100 . ?
+N3A C47A 1.513(15) . ?
+N3A C46A 1.517(15) . ?
+C63A C64A 1.353(19) . ?
+C37D H37D 0.9500 . ?
+C37D C38D 1.34(2) . ?
+C37D C36D 1.339(19) . ?
+C32B C29B 1.42(2) . ?
+C48B C47B 1.52(2) . ?
+C48B C53B 1.34(2) . ?
+C59C H59C 0.9500 . ?
+C59C C58C 1.342(18) . ?
+C21B H21B 0.9500 . ?
+C42A H42A 0.9500 . ?
+C21D H21D 0.9500 . ?
+C21D C22D 1.344(19) . ?
+C6B H6BA 0.9500 . ?
+C6B C7B 1.42(2) . ?
+C6B C5B 1.43(2) . ?
+C64A H64A 0.9500 . ?
+N1D C23D 1.516(15) . ?
+N1D C45D 1.47(2) . ?
+N1D C1D 1.528(15) . ?
+C41B C33B 1.45(2) . ?
+C41B C42B 1.372(19) . ?
+C52C H52C 0.9500 . ?
+C52C C53C 1.3900 . ?
+C52C C49C 1.3900 . ?
+C53C C51C 1.3900 . ?
+C51C H51C 0.9500 . ?
+C51C C50C 1.3900 . ?
+C50C H50C 0.9500 . ?
+C50C C48C 1.3900 . ?
+C48C C49C 1.3900 . ?
+C48C C47C 1.533(17) . ?
+C49C H49C 0.9500 . ?
+C22D H22D 0.9500 . ?
+C59B H59B 0.9500 . ?
+C51D C52D 1.3900 . ?
+C51D C50D 1.3900 . ?
+C52D H52D 0.9500 . ?
+C52D C53D 1.3900 . ?
+C53D H53D 0.9500 . ?
+C53D C48D 1.3900 . ?
+C48D C49D 1.3900 . ?
+C48D C47D 1.529(13) . ?
+C49D H49D 0.9500 . ?
+C49D C50D 1.3900 . ?
+C50D H50D 0.9500 . ?
+C33B C34B 1.37(2) . ?
+C58C H58C 0.9500 . ?
+C42D H42D 0.9500 . ?
+N2A H2AA 0.9100 . ?
+N2A H2AB 0.9100 . ?
+N2A C2A 1.47(2) . ?
+N2A C3A 1.488(15) . ?
+C15D H15D 0.9500 . ?
+C15D C14D 1.340(19) . ?
+C42B H42B 0.9500 . ?
+C66B H66B 0.9500 . ?
+C66B C65B 1.339(19) . ?
+C32A C29A 1.45(2) . ?
+C63C H63C 0.9500 . ?
+C63C C64C 1.36(2) . ?
+C15B H15B 0.9500 . ?
+C15B C14B 1.35(2) . ?
+C15B C16B 1.35(2) . ?
+C60D H60D 0.9500 . ?
+C60D C59D 1.38(2) . ?
+C46B H46A 0.9900 . ?
+C46B H46B 0.9900 . ?
+C46B C45B 1.49(2) . ?
+C64B H64B 0.9500 . ?
+C64B C65B 1.44(2) . ?
+C34B C35B 1.43(2) . ?
+C16A H16A 0.9500 . ?
+C16A C15A 1.33(2) . ?
+C14D H14D 0.9500 . ?
+C3D H3DC 0.9900 . ?
+C3D H3DD 0.9900 . ?
+C36A H36A 0.9500 . ?
+C38D H38D 0.9500 . ?
+N3C H3C 0.910(10) . ?
+N3C C47C 1.50(2) . ?
+N3C C46C 1.55(2) . ?
+C4B H4B 0.9500 . ?
+C4B C5B 1.33(2) . ?
+C4B C9B 1.42(2) . ?
+C14C H14C 0.9500 . ?
+C14C C15C 1.389(19) . ?
+C15C H15C 0.9500 . ?
+C47B H47A 0.9900 . ?
+C47B H47B 0.9900 . ?
+C22C H22C 0.9500 . ?
+C22C C21C 1.41(2) . ?
+C30A H30A 0.9500 . ?
+C30A C29A 1.34(2) . ?
+C30A C31A 1.48(2) . ?
+C59A H59A 0.9500 . ?
+C59A C58A 1.39(2) . ?
+C58D H58D 0.9500 . ?
+C58D C59D 1.38(2) . ?
+C23B H23A 0.9900 . ?
+C23B H23B 0.9900 . ?
+C23B C24B 1.55(2) . ?
+C35B C36B 1.38(2) . ?
+C10A C7A 1.44(2) . ?
+C7E C8E 1.3900 . ?
+C7E C14E 1.3900 . ?
+C7E C6E 1.468(13) . ?
+C8E C11E 1.3900 . ?
+C8E C9E 1.45(2) . ?
+C11E H11E 0.9500 . ?
+C11E C12E 1.3900 . ?
+C12E H12E 0.9500 . ?
+C12E C13E 1.3900 . ?
+C13E H13E 0.9500 . ?
+C13E C14E 1.3900 . ?
+C14E H14E 0.9500 . ?
+C64C H64C 0.9500 . ?
+C7B H7B 0.9500 . ?
+C29B C30B 1.39(2) . ?
+C29B C28B 1.34(2) . ?
+C24D H24A 0.9900 . ?
+C24D H24B 0.9900 . ?
+C24D C23D 1.50(2) . ?
+C29A C28A 1.40(2) . ?
+C1B H1BA 0.9900 . ?
+C1B H1BB 0.9900 . ?
+C1B C2B 1.55(2) . ?
+C14B H14B 0.9500 . ?
+C32D C29D 1.463(18) . ?
+C5B C3B 1.54(2) . ?
+C20C H20C 0.9500 . ?
+C20C C21C 1.39(2) . ?
+C3C H3CA 0.9900 . ?
+C3C H3CB 0.9900 . ?
+C52B H52B 0.9500 . ?
+C52B C53B 1.40(2) . ?
+C36D H36D 0.9500 . ?
+C7A C6A 1.35(2) . ?
+C7A C8A 1.45(2) . ?
+N4A C25A 1.474(16) . ?
+N4A C24A 1.527(16) . ?
+N4A H4A 0.901(19) . ?
+C15A H15A 0.9500 . ?
+C15A C14A 1.40(2) . ?
+C14A H14A 0.9500 . ?
+C9B H9BA 0.9500 . ?
+C26B C31B 1.44(2) . ?
+C26B C27B 1.39(2) . ?
+C26B C25B 1.523(16) . ?
+C50B H50B 0.9500 . ?
+C23D H23C 0.9900 . ?
+C23D H23D 0.9900 . ?
+N1A C1A 1.52(3) . ?
+N1A C45A 1.483(16) . ?
+N1A C23A 1.42(2) . ?
+C23C H23E 0.9900 . ?
+C23C H23F 0.9900 . ?
+C23C C24C 1.54(2) . ?
+C24C H24C 0.9900 . ?
+C24C H24D 0.9900 . ?
+C53B H53B 0.9500 . ?
+C16B H16B 0.9500 . ?
+C6A H6AA 0.9500 . ?
+C6A C5A 1.39(2) . ?
+C58A H58A 0.9500 . ?
+C3B H3BC 0.9900 . ?
+C3B H3BD 0.9900 . ?
+C45B H45A 0.9900 . ?
+C45B H45B 0.9900 . ?
+C38B H38B 0.9500 . ?
+C38B C37B 1.37(2) . ?
+C1E H1E 0.9500 . ?
+C1E C2E 1.3900 . ?
+C1E C6E 1.3900 . ?
+C2E H2E 0.9500 . ?
+C2E C3E 1.3900 . ?
+C3E H3E 0.9500 . ?
+C3E C4E 1.3900 . ?
+C4E H4E 0.9500 . ?
+C4E C5E 1.3900 . ?
+C5E C6E 1.3900 . ?
+C5E C10E 1.47(2) . ?
+C24B H24E 0.9900 . ?
+C24B H24F 0.9900 . ?
+C31B H31B 0.9500 . ?
+C31B C30B 1.40(2) . ?
+C2B H2BA 0.9900 . ?
+C2B H2BB 0.9900 . ?
+C37B H37B 0.9500 . ?
+C37B C36B 1.42(2) . ?
+C5A H5A 0.9500 . ?
+C5A C4A 1.39(2) . ?
+C59D H59D 0.9500 . ?
+C65B H65B 0.9500 . ?
+C25D H25A 0.9900 . ?
+C25D H25B 0.9900 . ?
+C25D C26D 1.488(17) . ?
+C47A H47C 0.9900 . ?
+C47A H47D 0.9900 . ?
+C6G C7G 1.3900 . ?
+C6G C1G 1.3900 . ?
+C6G C5G 1.38(3) . ?
+C7G C12G 1.3900 . ?
+C7G C8G 1.39(2) . ?
+C12G C14G 1.3900 . ?
+C12G C11G 1.39(3) . ?
+C14G H14G 0.9500 . ?
+C14G C13G 1.3900 . ?
+C13G H13G 0.9500 . ?
+C13G C1G 1.3900 . ?
+C1G C2G 1.48(2) . ?
+C2G H2G 0.9500 . ?
+C2G C3G 1.34(3) . ?
+C3G H3G 0.9500 . ?
+C3G C4G 1.48(3) . ?
+C4G H4G 0.9500 . ?
+C4G C5G 1.36(3) . ?
+C5G H5G 0.9500 . ?
+C27D H27D 0.9500 . ?
+C27D C26D 1.3900 . ?
+C27D C28D 1.3900 . ?
+C26D C31D 1.3900 . ?
+C31D H31D 0.9500 . ?
+C31D C30D 1.3900 . ?
+C30D H30D 0.9500 . ?
+C30D C29D 1.3900 . ?
+C29D C28D 1.3900 . ?
+C28D H28D 0.9500 . ?
+C27B H27B 0.9500 . ?
+C27B C28B 1.37(2) . ?
+C25C H25C 0.9900 . ?
+C25C H25D 0.9900 . ?
+C2C H2CC 0.9900 . ?
+C2C H2CD 0.9900 . ?
+C2C C1C 1.523(16) . ?
+C47C H47E 0.9900 . ?
+C47C H47F 0.9900 . ?
+C47D H47G 0.9900 . ?
+C47D H47H 0.9900 . ?
+C36B H36B 0.9500 . ?
+C4A C9A 1.39(2) . ?
+C4A C3A 1.542(16) . ?
+C8A H8AA 0.9500 . ?
+C8A C9A 1.32(2) . ?
+C30B H30B 0.9500 . ?
+C1C H1CA 0.9900 . ?
+C1C H1CB 0.9900 . ?
+C45D H45C 0.9900 . ?
+C45D H45D 0.9900 . ?
+C45D C46D 1.54(2) . ?
+C21C H21C 0.9500 . ?
+C25B H25E 0.9900 . ?
+C25B H25F 0.9900 . ?
+C1A H1AA 0.9900 . ?
+C1A H1AB 0.9900 . ?
+C1A C2A 1.494(17) . ?
+C46D H46C 0.9900 . ?
+C46D H46D 0.9900 . ?
+C9A H9A 0.9500 . ?
+C46C H46E 0.9900 . ?
+C46C H46F 0.9900 . ?
+C46C C45C 1.483(16) . ?
+C45C H45E 0.9900 . ?
+C45C H45F 0.9900 . ?
+C9E H9E 0.9500 . ?
+C9E C10E 1.30(3) . ?
+C2D H2DC 0.9900 . ?
+C2D H2DD 0.9900 . ?
+C2D C1D 1.468(15) . ?
+C1D H1DA 0.9900 . ?
+C1D H1DB 0.9900 . ?
+C28B H28B 0.9500 . ?
+C45A H45G 0.9900 . ?
+C45A H45H 0.9900 . ?
+C45A C46A 1.474(17) . ?
+C10E H10E 0.9500 . ?
+C46A H46G 0.9900 . ?
+C46A H46H 0.9900 . ?
+C2A H2AC 0.9900 . ?
+C2A H2AD 0.9900 . ?
+C8G H8G 0.9500 . ?
+C8G C9G 1.41(3) . ?
+C9G H9G 0.9500 . ?
+C9G C10G 1.39(3) . ?
+C10G H10G 0.9500 . ?
+C10G C11G 1.27(3) . ?
+C11G H11G 0.9500 . ?
+C31A H31A 0.9500 . ?
+C31A C26A 1.27(2) . ?
+C25A H25G 0.9900 . ?
+C25A H25H 0.9900 . ?
+C25A C26A 1.49(3) . ?
+C26A C27A 1.38(3) . ?
+C3A H3AC 0.9900 . ?
+C3A H3AD 0.9900 . ?
+C24A H24G 0.9900 . ?
+C24A H24H 0.9900 . ?
+C24A C23A 1.48(3) . ?
+C11F H11F 0.9500 . ?
+C11F C12F 1.3900 . ?
+C11F C10F 1.3900 . ?
+C12F C7F 1.3900 . ?
+C12F C13F 1.48(3) . ?
+C7F C8F 1.3900 . ?
+C7F C5F 1.45(2) . ?
+C8F H8F 0.9500 . ?
+C8F C9F 1.3900 . ?
+C9F H9F 0.9500 . ?
+C9F C10F 1.3900 . ?
+C10F H10F 0.9500 . ?
+C4F C5F 1.3900 . ?
+C4F C3F 1.3900 . ?
+C4F C14F 1.42(3) . ?
+C5F C6F 1.3900 . ?
+C6F H6F 0.9500 . ?
+C6F C1F 1.3900 . ?
+C1F H1F 0.9500 . ?
+C1F C2F 1.3900 . ?
+C2F H2F 0.9500 . ?
+C2F C3F 1.3900 . ?
+C3F H3F 0.9500 . ?
+C13F H13F 0.9500 . ?
+C13F C14F 1.22(3) . ?
+C23A H23G 0.9900 . ?
+C23A H23H 0.9900 . ?
+C28A H28A 0.9500 . ?
+C28A C27A 1.45(3) . ?
+C14F H14F 0.9500 . ?
+O1 H1A 0.8699 . ?
+O1 H1B 0.8729 . ?
+C27A H27A 0.9500 . ?
+O4 H4C 0.8702 . ?
+O4 H4F 0.8694 . ?
+O8 H8E 0.8685 . ?
+O8 H8H 0.8702 . ?
+O2 H2A 0.8689 . ?
+O2 H2C 0.8706 . ?
+O5 H5E 0.8696 . ?
+O5 H5F 0.8665 . ?
+O3 H3A 0.8717 . ?
+O3 H3B 0.8692 . ?
+O7 H7E 0.8696 . ?
+O7 H7F 0.8703 . ?
+O6 H6E 0.8697 . ?
+O6 H6G 0.8694 . ?
+
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+N12D Ru3 N12B 173.4(5) . . ?
+N12D Ru3 N16C 88.4(5) . . ?
+N12D Ru3 N11B 96.6(5) . . ?
+N11D Ru3 N12D 80.4(5) . . ?
+N11D Ru3 N12B 94.1(5) . . ?
+N11D Ru3 N16C 96.2(5) . . ?
+N11D Ru3 N15C 172.8(5) . . ?
+N11D Ru3 N11B 89.2(4) . . ?
+N16C Ru3 N12B 95.9(5) . . ?
+N15C Ru3 N12D 93.8(5) . . ?
+N15C Ru3 N12B 91.9(5) . . ?
+N15C Ru3 N16C 79.3(5) . . ?
+N15C Ru3 N11B 95.7(5) . . ?
+N11B Ru3 N12B 79.5(5) . . ?
+N11B Ru3 N16C 173.1(5) . . ?
+N15B Ru2 N11A 93.8(5) . . ?
+N15B Ru2 N13D 90.3(4) . . ?
+N15B Ru2 N16B 81.2(5) . . ?
+N14D Ru2 N15B 94.3(5) . . ?
+N14D Ru2 N11A 95.7(5) . . ?
+N14D Ru2 N13D 78.9(5) . . ?
+N14D Ru2 N16B 172.4(5) . . ?
+N14D Ru2 N12A 91.9(5) . . ?
+N13D Ru2 N11A 173.5(5) . . ?
+N13D Ru2 N16B 94.8(5) . . ?
+N16B Ru2 N11A 90.8(5) . . ?
+N12A Ru2 N15B 171.4(5) . . ?
+N12A Ru2 N11A 79.7(5) . . ?
+N12A Ru2 N13D 96.7(5) . . ?
+N12A Ru2 N16B 93.2(5) . . ?
+N13C Ru1 N15D 172.6(4) . . ?
+N13C Ru1 N16D 95.1(4) . . ?
+N13C Ru1 N14A 90.5(4) . . ?
+N13A Ru1 N13C 95.6(4) . . ?
+N13A Ru1 N15D 89.5(5) . . ?
+N13A Ru1 N16D 94.1(5) . . ?
+N13A Ru1 N14A 79.6(5) . . ?
+N13A Ru1 N14C 172.8(4) . . ?
+N16D Ru1 N15D 79.1(5) . . ?
+N14A Ru1 N15D 95.8(5) . . ?
+N14A Ru1 N16D 171.9(5) . . ?
+N14C Ru1 N13C 79.0(4) . . ?
+N14C Ru1 N15D 96.4(5) . . ?
+N14C Ru1 N16D 91.1(4) . . ?
+N14C Ru1 N14A 95.7(4) . . ?
+N16A Ru4 N12C 94.9(5) . . ?
+N16A Ru4 N15A 80.1(5) . . ?
+N16A Ru4 N14B 92.9(5) . . ?
+N16A Ru4 N11C 89.8(5) . . ?
+N16A Ru4 N13B 171.7(5) . . ?
+N15A Ru4 N12C 172.8(5) . . ?
+N15A Ru4 N14B 89.3(5) . . ?
+N15A Ru4 N11C 95.4(5) . . ?
+N15A Ru4 N13B 93.6(5) . . ?
+N14B Ru4 N12C 96.1(5) . . ?
+N14B Ru4 N11C 174.9(5) . . ?
+N14B Ru4 N13B 81.7(5) . . ?
+N11C Ru4 N12C 79.3(5) . . ?
+N11C Ru4 N13B 96.1(5) . . ?
+N13B Ru4 N12C 91.9(5) . . ?
+F6 P1 F8 177.0(7) . . ?
+F6 P1 F12 88.6(6) . . ?
+F6 P1 F18 92.6(7) . . ?
+F8 P1 F18 89.9(7) . . ?
+F10 P1 F6 89.1(7) . . ?
+F10 P1 F8 89.1(7) . . ?
+F10 P1 F12 176.4(7) . . ?
+F10 P1 F16 86.5(7) . . ?
+F10 P1 F18 92.4(7) . . ?
+F12 P1 F8 93.1(6) . . ?
+F12 P1 F18 90.5(6) . . ?
+F16 P1 F6 89.3(7) . . ?
+F16 P1 F8 88.2(7) . . ?
+F16 P1 F12 90.7(7) . . ?
+F16 P1 F18 177.8(8) . . ?
+F14 P4 F36 90.1(6) . . ?
+F14 P4 F36 90.1(6) . 2_655 ?
+F14 P4 F9 180.0 . . ?
+F14 P4 F37 89.8(7) . 2_655 ?
+F14 P4 F37 89.8(7) . . ?
+F36 P4 F36 179.9(14) . 2_655 ?
+F9 P4 F36 89.9(6) . 2_655 ?
+F9 P4 F36 89.9(6) . . ?
+F37 P4 F36 91.9(9) 2_655 . ?
+F37 P4 F36 88.1(9) 2_655 2_655 ?
+F37 P4 F36 88.1(9) . . ?
+F37 P4 F36 91.9(9) . 2_655 ?
+F37 P4 F9 90.2(7) . . ?
+F37 P4 F9 90.2(7) 2_655 . ?
+F37 P4 F37 179.7(13) . 2_655 ?
+F20 P6 F22 88.9(8) . . ?
+F20 P6 F28 88.7(8) . . ?
+F22 P6 F28 88.2(9) . . ?
+F24 P6 F20 90.7(8) . . ?
+F24 P6 F22 177.6(10) . . ?
+F24 P6 F26 90.5(8) . . ?
+F24 P6 F28 89.4(8) . . ?
+F26 P6 F20 178.1(11) . . ?
+F26 P6 F22 89.8(8) . . ?
+F26 P6 F28 89.8(8) . . ?
+F30 P6 F20 89.3(9) . . ?
+F30 P6 F22 90.1(9) . . ?
+F30 P6 F24 92.2(10) . . ?
+F30 P6 F26 92.2(9) . . ?
+F30 P6 F28 177.5(10) . . ?
+F32 P8 F46 89.1(9) . . ?
+F32 P8 F25 87.4(10) . . ?
+F25 P8 F46 175.5(10) . . ?
+F35 P8 F32 90.9(10) . . ?
+F35 P8 F46 90.7(10) . . ?
+F35 P8 F25 86.4(11) . . ?
+F35 P8 F5 92.3(12) . . ?
+F5 P8 F32 176.8(13) . . ?
+F5 P8 F46 90.6(12) . . ?
+F5 P8 F25 93.0(13) . . ?
+F21 P8 F32 81.8(11) . . ?
+F21 P8 F46 85.4(11) . . ?
+F21 P8 F25 97.0(11) . . ?
+F21 P8 F35 171.8(14) . . ?
+F21 P8 F5 95.0(12) . . ?
+F7 P2 F38 89.6(10) . . ?
+F7 P2 F15 177.6(12) . . ?
+F15 P2 F38 91.3(10) . . ?
+F2 P2 F38 79.0(10) . . ?
+F2 P2 F7 93.1(12) . . ?
+F2 P2 F15 89.2(13) . . ?
+F2 P2 F41 100.1(14) . . ?
+F2 P2 F11 166.6(14) . . ?
+F41 P2 F38 175.6(12) . . ?
+F41 P2 F7 86.2(11) . . ?
+F41 P2 F15 92.9(11) . . ?
+F41 P2 F11 93.4(14) . . ?
+F11 P2 F38 87.5(12) . . ?
+F11 P2 F7 87.0(12) . . ?
+F11 P2 F15 90.8(11) . . ?
+F40 P5 F3 175.5(12) . . ?
+F40 P5 F27 86.6(10) . . ?
+F40 P5 F29 94.0(10) . . ?
+F40 P5 F31 90.0(11) . . ?
+F40 P5 F19 93.7(11) . . ?
+F3 P5 F29 86.2(9) . . ?
+F27 P5 F3 93.2(11) . . ?
+F27 P5 F29 179.4(13) . . ?
+F27 P5 F31 89.8(10) . . ?
+F31 P5 F3 85.5(10) . . ?
+F31 P5 F29 90.1(10) . . ?
+F19 P5 F3 90.7(10) . . ?
+F19 P5 F27 94.5(11) . . ?
+F19 P5 F29 85.5(10) . . ?
+F19 P5 F31 174.4(11) . . ?
+F34 P3 F44 91.0(9) . . ?
+F34 P3 F13 173.9(11) . . ?
+F34 P3 F17 87.6(10) . . ?
+F42 P3 F34 92.4(11) . . ?
+F42 P3 F44 175.8(11) . . ?
+F42 P3 F48 90.0(10) . . ?
+F42 P3 F13 91.2(11) . . ?
+F42 P3 F17 89.3(10) . . ?
+F48 P3 F34 90.1(10) . . ?
+F48 P3 F44 87.6(9) . . ?
+F48 P3 F13 94.9(10) . . ?
+F48 P3 F17 177.5(13) . . ?
+F13 P3 F44 85.6(10) . . ?
+F13 P3 F17 87.5(10) . . ?
+F17 P3 F44 93.3(11) . . ?
+F33 P7 F23 92.0(12) . . ?
+F39 P7 F33 86.7(13) . . ?
+F39 P7 F43 176.4(16) . . ?
+F39 P7 F23 95.5(14) . . ?
+F43 P7 F33 90.4(13) . . ?
+F43 P7 F23 86.6(13) . . ?
+F45 P7 F33 178.6(15) . . ?
+F45 P7 F39 94.7(13) . . ?
+F45 P7 F43 88.2(14) . . ?
+F45 P7 F23 87.6(12) . . ?
+F47 P7 F33 84.4(12) . . ?
+F47 P7 F39 88.9(14) . . ?
+F47 P7 F43 88.8(13) . . ?
+F47 P7 F45 95.8(12) . . ?
+F47 P7 F23 174.2(15) . . ?
+C40C N13C Ru1 114.2(5) . . ?
+C40C N13C C44C 120.0 . . ?
+C44C N13C Ru1 125.8(5) . . ?
+N13C C40C C41C 120.0 . . ?
+C39C C40C N13C 116.0(8) . . ?
+C39C C40C C41C 124.0(8) . . ?
+C40C C41C C42C 120.0 . . ?
+C34C C41C C40C 113.8(8) . . ?
+C34C C41C C42C 126.2(8) . . ?
+C41C C42C H42C 120.0 . . ?
+C41C C42C C43C 120.0 . . ?
+C43C C42C H42C 120.0 . . ?
+C42C C43C H43C 120.0 . . ?
+C44C C43C C42C 120.0 . . ?
+C44C C43C H43C 120.0 . . ?
+N13C C44C H44C 120.0 . . ?
+C43C C44C N13C 120.0 . . ?
+C43C C44C H44C 120.0 . . ?
+C61D N12D Ru3 114.9(10) . . ?
+C60D N12D Ru3 129.9(12) . . ?
+C60D N12D C61D 115.0(15) . . ?
+C60B N12B Ru3 126.5(10) . . ?
+C60B N12B C61B 116.6(13) . . ?
+C61B N12B Ru3 116.9(9) . . ?
+C22B N15B Ru2 130.4(11) . . ?
+C22B N15B C18B 115.3(13) . . ?
+C18B N15B Ru2 114.3(10) . . ?
+C66A N13A Ru1 128.2(10) . . ?
+C66A N13A C62A 115.8(13) . . ?
+C62A N13A Ru1 116.0(10) . . ?
+C17C N12C Ru4 114.5(10) . . ?
+C16C N12C Ru4 128.6(10) . . ?
+C16C N12C C17C 116.6(13) . . ?
+C18A N16A Ru4 116.9(10) . . ?
+C22A N16A Ru4 127.7(11) . . ?
+C22A N16A C18A 115.3(13) . . ?
+C62D N11D Ru3 114.4(9) . . ?
+C66D N11D Ru3 129.1(10) . . ?
+C66D N11D C62D 116.5(12) . . ?
+C12D N6D H6D 125.5 . . ?
+C10D N6D H6D 125.5 . . ?
+C10D N6D C12D 109.0(13) . . ?
+C17D N14D Ru2 116.9(10) . . ?
+C17D N14D C16D 115.2(13) . . ?
+C16D N14D Ru2 128.0(10) . . ?
+C44A N11A Ru2 125.8(10) . . ?
+C44A N11A C40A 121.5(13) . . ?
+C40A N11A Ru2 112.6(10) . . ?
+C56D N10D H10D 127.5 . . ?
+C54D N10D H10D 127.5 . . ?
+C54D N10D C56D 105.1(14) . . ?
+C12B N6B H6B 126.6 . . ?
+C10B N6B H6B 126.6 . . ?
+C10B N6B C12B 106.9(14) . . ?
+C54D N9D C55D 107.6(14) . . ?
+C17A N15A Ru4 114.4(10) . . ?
+C16A N15A Ru4 129.3(12) . . ?
+C16A N15A C17A 116.2(14) . . ?
+C32D N8D C34D 107.2(13) . . ?
+C60C N16C Ru3 112.8(10) . . ?
+C59C N16C Ru3 126.8(11) . . ?
+C59C N16C C60C 120.3(13) . . ?
+C56B N10B C54B 104.8(13) . . ?
+C39D N15D Ru1 113.6(10) . . ?
+C39D N15D C38D 119.0(14) . . ?
+C38D N15D Ru1 127.3(11) . . ?
+C40D N16D Ru1 112.3(9) . . ?
+C44D N16D Ru1 128.5(10) . . ?
+C44D N16D C40D 119.2(13) . . ?
+C32C N5C C34C 108.0 . . ?
+C41C C34C N5C 128.9(8) . . ?
+C41C C34C C33C 123.1(8) . . ?
+C33C C34C N5C 108.0 . . ?
+C34C C33C N6C 108.0 . . ?
+C35C C33C C34C 121.9(9) . . ?
+C35C C33C N6C 130.0(9) . . ?
+C33C N6C H6C 126.0 . . ?
+C32C N6C C33C 108.0 . . ?
+C32C N6C H6C 126.0 . . ?
+N6C C32C N5C 108.0 . . ?
+C29C C32C N5C 126.2(8) . . ?
+C29C C32C N6C 125.7(8) . . ?
+C55C N9C H9C 125.6 . . ?
+C54C N9C H9C 125.6 . . ?
+C54C N9C C55C 108.7(14) . . ?
+C18D N13D Ru2 112.8(10) . . ?
+C22D N13D Ru2 127.9(11) . . ?
+C22D N13D C18D 119.2(13) . . ?
+C11B N5B H5B 128.1 . . ?
+C11B N5B C10B 103.9(14) . . ?
+C10B N5B H5B 128.1 . . ?
+C17B N16B Ru2 111.6(10) . . ?
+C16B N16B Ru2 129.0(12) . . ?
+C16B N16B C17B 119.4(14) . . ?
+C40B N14B Ru4 111.2(10) . . ?
+C44B N14B Ru4 128.4(12) . . ?
+C44B N14B C40B 120.4(14) . . ?
+C10D N5D H5D 126.7 . . ?
+C10D N5D C11D 106.6(13) . . ?
+C11D N5D H5D 126.7 . . ?
+C60A N14A Ru1 126.5(11) . . ?
+C60A N14A C61A 119.9(13) . . ?
+C61A N14A Ru1 113.6(10) . . ?
+C18C N11C Ru4 114.7(10) . . ?
+C22C N11C Ru4 127.5(11) . . ?
+C22C N11C C18C 117.6(13) . . ?
+C39A N12A Ru2 115.7(10) . . ?
+C38A N12A Ru2 128.3(10) . . ?
+C38A N12A C39A 115.8(13) . . ?
+C54A N9A C55A 108.0 . . ?
+N10A C54A N9A 108.0 . . ?
+C51A C54A N9A 124.6(8) . . ?
+C51A C54A N10A 127.4(8) . . ?
+C54A N10A H10A 126.0 . . ?
+C54A N10A C56A 108.0 . . ?
+C56A N10A H10A 126.0 . . ?
+N10A C56A C57A 130.6(10) . . ?
+C55A C56A N10A 108.0 . . ?
+C55A C56A C57A 121.4(10) . . ?
+C56A C55A N9A 108.0 . . ?
+C63A C55A N9A 130.7(10) . . ?
+C63A C55A C56A 121.2(10) . . ?
+C11C N7C C10C 106.7(12) . . ?
+C65C N15C Ru3 130.3(11) . . ?
+C65C N15C C66C 114.6(13) . . ?
+C66C N15C Ru3 114.8(10) . . ?
+C33D N7D H7D 126.5 . . ?
+C33D N7D C32D 106.9(14) . . ?
+C32D N7D H7D 126.5 . . ?
+C62B N11B Ru3 114.9(9) . . ?
+C66B N11B Ru3 128.1(10) . . ?
+C66B N11B C62B 116.6(12) . . ?
+C55B N9B H9B 126.8 . . ?
+C55B N9B C54B 106.3(13) . . ?
+C54B N9B H9B 126.8 . . ?
+C1B N1B C23B 109.7(13) . . ?
+C45B N1B C23B 106.1(13) . . ?
+C45B N1B C1B 112.0(13) . . ?
+C46B N2B H2B 109.3(15) . . ?
+C47B N2B H2B 109.2(15) . . ?
+C47B N2B C46B 111.5(11) . . ?
+C32A N5A C33A 105.3(15) . . ?
+C61C N10C H10C 126.2 . . ?
+C54C N10C H10C 126.2 . . ?
+C54C N10C C61C 107.6(13) . . ?
+C12A N8A H8A 125.9 . . ?
+C10A N8A H8A 125.9 . . ?
+C10A N8A C12A 108.2(15) . . ?
+C64D C63D C55D 124.3(14) . . ?
+C62D C63D C64D 121.8(15) . . ?
+C62D C63D C55D 113.9(14) . . ?
+C17D C13D C12D 112.6(13) . . ?
+C14D C13D C12D 128.9(15) . . ?
+C14D C13D C17D 118.2(14) . . ?
+C62B C63B C55B 113.9(14) . . ?
+C64B C63B C55B 127.4(14) . . ?
+C64B C63B C62B 118.7(15) . . ?
+C39B N13B Ru4 110.8(10) . . ?
+C38B N13B Ru4 127.0(12) . . ?
+C38B N13B C39B 122.2(15) . . ?
+N16A C18A C19A 124.8(15) . . ?
+N16A C18A C17A 113.3(15) . . ?
+C19A C18A C17A 121.7(16) . . ?
+C32B N7B C33B 104.8(13) . . ?
+C18B C19B C11B 116.1(15) . . ?
+C18B C19B C20B 118.0(15) . . ?
+C20B C19B C11B 125.9(14) . . ?
+C33A C41A C42A 124.4(14) . . ?
+C40A C41A C33A 118.8(14) . . ?
+C40A C41A C42A 116.8(14) . . ?
+N15B C22B H22B 117.0 . . ?
+N15B C22B C21B 125.9(16) . . ?
+C21B C22B H22B 117.0 . . ?
+C58B C57B C56B 128.8(15) . . ?
+C58B C57B C61B 116.3(14) . . ?
+C61B C57B C56B 114.8(14) . . ?
+N10D C56D C57D 126.8(14) . . ?
+C55D C56D N10D 106.8(14) . . ?
+C55D C56D C57D 126.3(15) . . ?
+C32B N8B H8B 125.2 . . ?
+C34B N8B H8B 125.2 . . ?
+C34B N8B C32B 109.5(15) . . ?
+N12D C61D C57D 122.6(15) . . ?
+N12D C61D C62D 116.0(14) . . ?
+C57D C61D C62D 121.4(15) . . ?
+N5B C11B C19B 127.9(15) . . ?
+N5B C11B C12B 110.2(15) . . ?
+C12B C11B C19B 121.9(15) . . ?
+C63D C64D H64D 121.5 . . ?
+C65D C64D C63D 117.1(15) . . ?
+C65D C64D H64D 121.5 . . ?
+H2CA N2C H2CB 107.7 . . ?
+C3C N2C H2CA 108.9 . . ?
+C3C N2C H2CB 108.9 . . ?
+C3C N2C C2C 113.5(13) . . ?
+C2C N2C H2CA 108.9 . . ?
+C2C N2C H2CB 108.9 . . ?
+C61D C57D C56D 112.5(14) . . ?
+C58D C57D C56D 128.8(16) . . ?
+C58D C57D C61D 118.7(16) . . ?
+N7A C11A C19A 128.1(16) . . ?
+C12A C11A N7A 107.9(16) . . ?
+C12A C11A C19A 123.5(17) . . ?
+C56C C55C N9C 132.2(14) . . ?
+C56C C55C C61C 121.5(14) . . ?
+C61C C55C N9C 106.4(14) . . ?
+N6D C12D C13D 128.7(14) . . ?
+C11D C12D N6D 106.9(14) . . ?
+C11D C12D C13D 124.4(15) . . ?
+C12C C19C C18C 114.5(14) . . ?
+C20C C19C C12C 127.3(15) . . ?
+C20C C19C C18C 118.1(15) . . ?
+H4BA N4B H4BB 108.0 . . ?
+C3B N4B H4BA 109.4 . . ?
+C3B N4B H4BB 109.4 . . ?
+C2B N4B H4BA 109.4 . . ?
+C2B N4B H4BB 109.4 . . ?
+C2B N4B C3B 111.3(12) . . ?
+C55C C56C C60C 117.3(14) . . ?
+C55C C56C C57C 124.0(14) . . ?
+C60C C56C C57C 118.8(14) . . ?
+N9D C55D C63D 131.1(14) . . ?
+C56D C55D N9D 108.8(14) . . ?
+C56D C55D C63D 120.0(14) . . ?
+N13B C39B C40B 118.4(15) . . ?
+N13B C39B C35B 119.2(14) . . ?
+C40B C39B C35B 122.3(15) . . ?
+N15B C18B C19B 123.4(15) . . ?
+N15B C18B C17B 116.6(14) . . ?
+C19B C18B C17B 119.9(15) . . ?
+N6B C12B C11B 106.1(15) . . ?
+N6B C12B C13B 130.8(15) . . ?
+C11B C12B C13B 122.9(16) . . ?
+N14D C17D C13D 123.0(13) . . ?
+N14D C17D C18D 113.6(14) . . ?
+C13D C17D C18D 123.2(14) . . ?
+C11A N7A H7A 125.3 . . ?
+C10A N7A C11A 109.4(16) . . ?
+C10A N7A H7A 125.3 . . ?
+N14B C40B C41B 119.5(14) . . ?
+C39B C40B N14B 117.6(14) . . ?
+C39B C40B C41B 122.8(15) . . ?
+C34D C41D C42D 124.0(14) . . ?
+C40D C41D C34D 117.4(15) . . ?
+C40D C41D C42D 118.5(15) . . ?
+N8D C34D C41D 129.5(14) . . ?
+N8D C34D C33D 110.7(14) . . ?
+C33D C34D C41D 119.8(14) . . ?
+C12C N8C H8C 126.2 . . ?
+C10C N8C H8C 126.2 . . ?
+C10C N8C C12C 107.6(13) . . ?
+C22A C21A H21A 119.3 . . ?
+C22A C21A C20A 121.3(16) . . ?
+C20A C21A H21A 119.3 . . ?
+N10C C61C C55C 107.0(14) . . ?
+C62C C61C N10C 130.2(15) . . ?
+C62C C61C C55C 122.8(15) . . ?
+N11A C44A H44A 120.7 . . ?
+N11A C44A C43A 118.6(14) . . ?
+C43A C44A H44A 120.7 . . ?
+C33D C35D C39D 110.9(14) . . ?
+C36D C35D C39D 118.6(15) . . ?
+C36D C35D C33D 130.3(16) . . ?
+C39A C35A C34A 111.9(14) . . ?
+C36A C35A C39A 121.3(15) . . ?
+C36A C35A C34A 126.7(15) . . ?
+N14D C16D H16D 118.4 . . ?
+N14D C16D C15D 123.1(14) . . ?
+C15D C16D H16D 118.4 . . ?
+N13A C66A H66A 118.4 . . ?
+N13A C66A C65A 123.3(14) . . ?
+C65A C66A H66A 118.4 . . ?
+C63D C62D N11D 119.9(13) . . ?
+C63D C62D C61D 125.8(15) . . ?
+C61D C62D N11D 114.3(13) . . ?
+C18A C19A C11A 113.8(16) . . ?
+C20A C19A C18A 119.5(15) . . ?
+C20A C19A C11A 126.6(16) . . ?
+C11D C19D C20D 127.9(14) . . ?
+C18D C19D C20D 117.2(14) . . ?
+C18D C19D C11D 114.8(13) . . ?
+C56A C57A C58A 124.8(14) . . ?
+C61A C57A C56A 117.2(14) . . ?
+C61A C57A C58A 118.0(16) . . ?
+H4CA N4C H4CB 108.1 . . ?
+C24C N4C H4CA 109.6 . . ?
+C24C N4C H4CB 109.6 . . ?
+C25C N4C H4CA 109.6 . . ?
+C25C N4C H4CB 109.6 . . ?
+C25C N4C C24C 110.3(13) . . ?
+N5A C33A C41A 130.5(15) . . ?
+N5A C33A C34A 109.0(15) . . ?
+C34A C33A C41A 120.4(15) . . ?
+C19B C20B H20B 121.3 . . ?
+C21B C20B C19B 117.4(15) . . ?
+C21B C20B H20B 121.3 . . ?
+C19C C12C N8C 127.3(14) . . ?
+C11C C12C C19C 123.8(14) . . ?
+C11C C12C N8C 108.9(14) . . ?
+N12B C60B H60B 119.0 . . ?
+N12B C60B C59B 121.9(14) . . ?
+C59B C60B H60B 119.0 . . ?
+N6D C10D C7D 122.8(14) . . ?
+N5D C10D N6D 108.5(14) . . ?
+N5D C10D C7D 128.7(13) . . ?
+N11A C40A C41A 122.1(14) . . ?
+N11A C40A C39A 118.9(14) . . ?
+C41A C40A C39A 119.0(14) . . ?
+N16C C60C C56C 121.3(14) . . ?
+N16C C60C C66C 119.6(14) . . ?
+C66C C60C C56C 119.1(15) . . ?
+C19D C20D H20D 121.3 . . ?
+C21D C20D C19D 117.4(14) . . ?
+C21D C20D H20D 121.3 . . ?
+C9C C8C C7C 120.0 . . ?
+C9C C8C C10C 118.9(9) . . ?
+C7C C8C C10C 121.1(9) . . ?
+C8C C9C H9CA 120.0 . . ?
+C8C C9C C5C 120.0 . . ?
+C5C C9C H9CA 120.0 . . ?
+C9C C5C H5C 120.0 . . ?
+C4C C5C C9C 120.0 . . ?
+C4C C5C H5C 120.0 . . ?
+C5C C4C C6C 120.0 . . ?
+C5C C4C C3C 119.3(10) . . ?
+C6C C4C C3C 120.7(9) . . ?
+C4C C6C H6CA 120.0 . . ?
+C7C C6C C4C 120.0 . . ?
+C7C C6C H6CA 120.0 . . ?
+C8C C7C H7C 120.0 . . ?
+C6C C7C C8C 120.0 . . ?
+C6C C7C H7C 120.0 . . ?
+C35A C39A N12A 120.9(14) . . ?
+C35A C39A C40A 125.9(15) . . ?
+C40A C39A N12A 112.7(14) . . ?
+C61C C62C C66C 114.7(14) . . ?
+C61C C62C C63C 128.2(15) . . ?
+C66C C62C C63C 116.8(14) . . ?
+N8A C12A C13A 129.3(16) . . ?
+C11A C12A N8A 106.1(17) . . ?
+C11A C12A C13A 124.2(17) . . ?
+N6B C10B N5B 112.8(15) . . ?
+N6B C10B C8B 124.9(16) . . ?
+N5B C10B C8B 122.2(16) . . ?
+N15D C39D C35D 118.2(14) . . ?
+N15D C39D C40D 117.0(15) . . ?
+C40D C39D C35D 124.7(15) . . ?
+N12C C17C C18C 114.4(14) . . ?
+C13C C17C N12C 122.5(14) . . ?
+C13C C17C C18C 122.4(14) . . ?
+N16A C22A C21A 122.2(15) . . ?
+N16A C22A H22A 118.9 . . ?
+C21A C22A H22A 118.9 . . ?
+C41D C40D N16D 120.2(14) . . ?
+C39D C40D N16D 117.9(14) . . ?
+C39D C40D C41D 121.6(15) . . ?
+N10D C54D C51D 122.6(14) . . ?
+N9D C54D N10D 111.5(15) . . ?
+N9D C54D C51D 125.9(15) . . ?
+H3DA N3D H3DB 108.0 . . ?
+C24D N3D H3DA 109.3 . . ?
+C24D N3D H3DB 109.3 . . ?
+C25D N3D H3DA 109.3 . . ?
+C25D N3D H3DB 109.3 . . ?
+C25D N3D C24D 111.4(13) . . ?
+C52B C51B C54B 119.8(14) . . ?
+C50B C51B C54B 122.8(15) . . ?
+C50B C51B C52B 117.4(15) . . ?
+C44D C43D H43D 122.2 . . ?
+C44D C43D C42D 115.6(15) . . ?
+C42D C43D H43D 122.2 . . ?
+C17A C13A C12A 113.0(16) . . ?
+C14A C13A C12A 126.6(17) . . ?
+C14A C13A C17A 120.3(17) . . ?
+C17B C13B C12B 114.4(15) . . ?
+C14B C13B C12B 127.5(16) . . ?
+C14B C13B C17B 118.2(16) . . ?
+N15C C65C H65C 116.6 . . ?
+N15C C65C C64C 126.8(16) . . ?
+C64C C65C H65C 116.6 . . ?
+N16D C44D C43D 126.1(15) . . ?
+N16D C44D H44D 117.0 . . ?
+C43D C44D H44D 117.0 . . ?
+H2DA N2D H2DB 107.6 . . ?
+C3D N2D H2DA 108.6 . . ?
+C3D N2D H2DB 108.6 . . ?
+C2D N2D H2DA 108.6 . . ?
+C2D N2D H2DB 108.6 . . ?
+C2D N2D C3D 114.6(13) . . ?
+C47D N4D H4D 108.0(13) . . ?
+C46D N4D H4D 109.7(14) . . ?
+C46D N4D C47D 109.8(12) . . ?
+N5D C11D C19D 127.3(14) . . ?
+C12D C11D N5D 109.0(15) . . ?
+C12D C11D C19D 123.7(15) . . ?
+C34A N6A H6A 126.8 . . ?
+C32A N6A H6A 126.8 . . ?
+C32A N6A C34A 106.4(15) . . ?
+C21A C20A H20A 121.7 . . ?
+C19A C20A C21A 116.6(16) . . ?
+C19A C20A H20A 121.7 . . ?
+N10B C56B C57B 127.6(14) . . ?
+N10B C56B C55B 109.0(13) . . ?
+C55B C56B C57B 123.2(15) . . ?
+N9B C55B C63B 126.5(14) . . ?
+N9B C55B C56B 109.1(14) . . ?
+C56B C55B C63B 124.3(14) . . ?
+C40C C39C N14C 117.0(8) . . ?
+C40C C39C C35C 123.0(8) . . ?
+N14C C39C C35C 120.0 . . ?
+C39C N14C Ru1 113.9(6) . . ?
+C38C N14C Ru1 126.1(6) . . ?
+C38C N14C C39C 120.0 . . ?
+N14C C38C H38C 120.0 . . ?
+N14C C38C C37C 120.0 . . ?
+C37C C38C H38C 120.0 . . ?
+C38C C37C H37C 120.0 . . ?
+C36C C37C C38C 120.0 . . ?
+C36C C37C H37C 120.0 . . ?
+C37C C36C H36C 120.0 . . ?
+C35C C36C C37C 120.0 . . ?
+C35C C36C H36C 120.0 . . ?
+C39C C35C C33C 114.1(8) . . ?
+C36C C35C C33C 125.9(8) . . ?
+C36C C35C C39C 120.0 . . ?
+C57B C58B H58B 120.0 . . ?
+C59B C58B C57B 119.9(15) . . ?
+C59B C58B H58B 120.0 . . ?
+N12A C38A H38A 119.5 . . ?
+N12A C38A C37A 121.1(15) . . ?
+C37A C38A H38A 119.5 . . ?
+C48B C49B H49B 118.5 . . ?
+C48B C49B C50B 122.9(16) . . ?
+C50B C49B H49B 118.5 . . ?
+C60C C66C N15C 113.2(14) . . ?
+C60C C66C C62C 124.6(15) . . ?
+C62C C66C N15C 122.1(14) . . ?
+C18B C17B N16B 116.0(14) . . ?
+C13B C17B N16B 119.2(14) . . ?
+C13B C17B C18B 124.6(15) . . ?
+C17C C13C C11C 115.8(15) . . ?
+C17C C13C C14C 119.3(15) . . ?
+C14C C13C C11C 124.6(15) . . ?
+C38A C37A H37A 119.3 . . ?
+C36A C37A C38A 121.4(16) . . ?
+C36A C37A H37A 119.3 . . ?
+N12B C61B C57B 124.9(13) . . ?
+N12B C61B C62B 113.7(13) . . ?
+C57B C61B C62B 121.4(13) . . ?
+C28C C29C C32C 119.9(9) . . ?
+C28C C29C C30C 120.0 . . ?
+C30C C29C C32C 120.1(9) . . ?
+C29C C28C H28C 120.0 . . ?
+C27C C28C C29C 120.0 . . ?
+C27C C28C H28C 120.0 . . ?
+C28C C27C H27C 120.0 . . ?
+C28C C27C C26C 120.0 . . ?
+C26C C27C H27C 120.0 . . ?
+C27C C26C C25C 121.0(11) . . ?
+C31C C26C C27C 120.0 . . ?
+C31C C26C C25C 118.6(11) . . ?
+C26C C31C H31C 120.0 . . ?
+C26C C31C C30C 120.0 . . ?
+C30C C31C H31C 120.0 . . ?
+C29C C30C H30C 120.0 . . ?
+C31C C30C C29C 120.0 . . ?
+C31C C30C H30C 120.0 . . ?
+C8D C7D C10D 121.6(10) . . ?
+C8D C7D C6D 120.0 . . ?
+C6D C7D C10D 118.4(9) . . ?
+C7D C8D H8D 120.0 . . ?
+C7D C8D C9D 120.0 . . ?
+C9D C8D H8D 120.0 . . ?
+C8D C9D H9D 120.0 . . ?
+C4D C9D C8D 120.0 . . ?
+C4D C9D H9D 120.0 . . ?
+C9D C4D C5D 120.0 . . ?
+C9D C4D C3D 118.9(10) . . ?
+C5D C4D C3D 121.1(10) . . ?
+C4D C5D H5DA 120.0 . . ?
+C4D C5D C6D 120.0 . . ?
+C6D C5D H5DA 120.0 . . ?
+C7D C6D H6DA 120.0 . . ?
+C5D C6D C7D 120.0 . . ?
+C5D C6D H6DA 120.0 . . ?
+C56C C57C H57C 121.7 . . ?
+C56C C57C C58C 116.5(14) . . ?
+C58C C57C H57C 121.7 . . ?
+H3BA N3B H3BB 108.2 . . ?
+C24B N3B H3BA 109.7 . . ?
+C24B N3B H3BB 109.7 . . ?
+C25B N3B H3BA 109.7 . . ?
+C25B N3B H3BB 109.7 . . ?
+C25B N3B C24B 109.7(13) . . ?
+N9C C54C N10C 110.3(15) . . ?
+N9C C54C C53C 125.5(15) . . ?
+N10C C54C C53C 124.1(14) . . ?
+N11B C62B C63B 122.9(13) . . ?
+N11B C62B C61B 115.0(12) . . ?
+C63B C62B C61B 122.1(14) . . ?
+C54A C51A C50A 120.2(9) . . ?
+C54A C51A C52A 119.8(9) . . ?
+C50A C51A C52A 120.0 . . ?
+C51A C50A H50A 120.0 . . ?
+C51A C50A C49A 120.0 . . ?
+C49A C50A H50A 120.0 . . ?
+C50A C49A H49A 120.0 . . ?
+C48A C49A C50A 120.0 . . ?
+C48A C49A H49A 120.0 . . ?
+C49A C48A C53A 120.0 . . ?
+C49A C48A C47A 120.8(10) . . ?
+C53A C48A C47A 119.1(10) . . ?
+C48A C53A H53A 120.0 . . ?
+C48A C53A C52A 120.0 . . ?
+C52A C53A H53A 120.0 . . ?
+C51A C52A H52A 120.0 . . ?
+C53A C52A C51A 120.0 . . ?
+C53A C52A H52A 120.0 . . ?
+C23C N1C C1C 113.9(14) . . ?
+C23C N1C C45C 115.4(15) . . ?
+C1C N1C C45C 105.1(14) . . ?
+N7C C10C C8C 122.3(14) . . ?
+N8C C10C N7C 109.8(13) . . ?
+N8C C10C C8C 127.9(14) . . ?
+N13A C62A C61A 114.4(15) . . ?
+C63A C62A N13A 122.9(14) . . ?
+C63A C62A C61A 122.6(15) . . ?
+C7B C8B C10B 121.8(17) . . ?
+C9B C8B C10B 114.6(17) . . ?
+C9B C8B C7B 123.7(18) . . ?
+C64D C65D H65D 118.6 . . ?
+C64D C65D C66D 122.8(15) . . ?
+C66D C65D H65D 118.6 . . ?
+N12C C16C H16C 118.6 . . ?
+N12C C16C C15C 122.7(14) . . ?
+C15C C16C H16C 118.6 . . ?
+C44A C43A H43A 118.8 . . ?
+C42A C43A C44A 122.3(15) . . ?
+C42A C43A H43A 118.8 . . ?
+N13D C18D C17D 117.5(14) . . ?
+N13D C18D C19D 121.3(14) . . ?
+C19D C18D C17D 120.9(14) . . ?
+N14A C60A H60A 119.2 . . ?
+N14A C60A C59A 121.5(16) . . ?
+C59A C60A H60A 119.2 . . ?
+N11D C66D C65D 121.8(15) . . ?
+N11D C66D H66D 119.1 . . ?
+C65D C66D H66D 119.1 . . ?
+C66A C65A H65A 119.6 . . ?
+C66A C65A C64A 120.8(14) . . ?
+C64A C65A H65A 119.6 . . ?
+N14B C44B H44B 118.8 . . ?
+N14B C44B C43B 122.4(16) . . ?
+C43B C44B H44B 118.8 . . ?
+N14A C61A C62A 116.5(14) . . ?
+C57A C61A N14A 122.4(15) . . ?
+C57A C61A C62A 121.1(16) . . ?
+C44B C43B H43B 119.8 . . ?
+C44B C43B C42B 120.4(16) . . ?
+C42B C43B H43B 119.8 . . ?
+H3AA N3A H3AB 107.6 . . ?
+C47A N3A H3AA 108.7 . . ?
+C47A N3A H3AB 108.7 . . ?
+C46A N3A H3AA 108.7 . . ?
+C46A N3A H3AB 108.7 . . ?
+C46A N3A C47A 114.1(14) . . ?
+C62A C63A C55A 116.4(14) . . ?
+C64A C63A C55A 123.0(15) . . ?
+C64A C63A C62A 120.6(15) . . ?
+C38D C37D H37D 120.5 . . ?
+C38D C37D C36D 119.0(16) . . ?
+C36D C37D H37D 120.5 . . ?
+N7B C32B N8B 108.8(15) . . ?
+N7B C32B C29B 125.2(16) . . ?
+N8B C32B C29B 126.0(16) . . ?
+C49B C48B C47B 122.2(15) . . ?
+C53B C48B C49B 115.1(16) . . ?
+C53B C48B C47B 122.6(16) . . ?
+C33A C34A C35A 123.9(15) . . ?
+N6A C34A C35A 129.6(15) . . ?
+N6A C34A C33A 106.4(15) . . ?
+N16C C59C H59C 119.2 . . ?
+C58C C59C N16C 121.7(15) . . ?
+C58C C59C H59C 119.2 . . ?
+C22B C21B H21B 120.1 . . ?
+C20B C21B C22B 119.9(16) . . ?
+C20B C21B H21B 120.1 . . ?
+N7C C11C C12C 107.0(13) . . ?
+N7C C11C C13C 130.2(14) . . ?
+C12C C11C C13C 122.8(15) . . ?
+C41A C42A H42A 120.8 . . ?
+C43A C42A C41A 118.3(15) . . ?
+C43A C42A H42A 120.8 . . ?
+C20D C21D H21D 119.1 . . ?
+C22D C21D C20D 121.8(15) . . ?
+C22D C21D H21D 119.1 . . ?
+C7B C6B H6BA 122.5 . . ?
+C7B C6B C5B 115.1(17) . . ?
+C5B C6B H6BA 122.5 . . ?
+C65A C64A H64A 121.8 . . ?
+C63A C64A C65A 116.5(15) . . ?
+C63A C64A H64A 121.8 . . ?
+C23D N1D C1D 113.9(14) . . ?
+C45D N1D C23D 117.0(15) . . ?
+C45D N1D C1D 110.3(14) . . ?
+C40B C41B C33B 113.4(15) . . ?
+C42B C41B C40B 117.0(15) . . ?
+C42B C41B C33B 129.6(15) . . ?
+C53C C52C H52C 120.0 . . ?
+C53C C52C C49C 120.0 . . ?
+C49C C52C H52C 120.0 . . ?
+C52C C53C C54C 120.0(10) . . ?
+C51C C53C C54C 120.0(10) . . ?
+C51C C53C C52C 120.0 . . ?
+C53C C51C H51C 120.0 . . ?
+C53C C51C C50C 120.0 . . ?
+C50C C51C H51C 120.0 . . ?
+C51C C50C H50C 120.0 . . ?
+C48C C50C C51C 120.0 . . ?
+C48C C50C H50C 120.0 . . ?
+C50C C48C C49C 120.0 . . ?
+C50C C48C C47C 122.6(11) . . ?
+C49C C48C C47C 117.3(11) . . ?
+C52C C49C H49C 120.0 . . ?
+C48C C49C C52C 120.0 . . ?
+C48C C49C H49C 120.0 . . ?
+N13D C22D H22D 118.5 . . ?
+C21D C22D N13D 122.9(15) . . ?
+C21D C22D H22D 118.5 . . ?
+C60B C59B H59B 119.8 . . ?
+C58B C59B C60B 120.4(15) . . ?
+C58B C59B H59B 119.8 . . ?
+C52D C51D C54D 119.6(10) . . ?
+C52D C51D C50D 120.0 . . ?
+C50D C51D C54D 120.4(10) . . ?
+C51D C52D H52D 120.0 . . ?
+C51D C52D C53D 120.0 . . ?
+C53D C52D H52D 120.0 . . ?
+C52D C53D H53D 120.0 . . ?
+C52D C53D C48D 120.0 . . ?
+C48D C53D H53D 120.0 . . ?
+C53D C48D C47D 118.6(10) . . ?
+C49D C48D C53D 120.0 . . ?
+C49D C48D C47D 121.3(10) . . ?
+C48D C49D H49D 120.0 . . ?
+C48D C49D C50D 120.0 . . ?
+C50D C49D H49D 120.0 . . ?
+C51D C50D H50D 120.0 . . ?
+C49D C50D C51D 120.0 . . ?
+C49D C50D H50D 120.0 . . ?
+N7B C33B C41B 125.0(15) . . ?
+C34B C33B N7B 109.6(15) . . ?
+C34B C33B C41B 125.4(16) . . ?
+C57C C58C H58C 119.3 . . ?
+C59C C58C C57C 121.4(16) . . ?
+C59C C58C H58C 119.3 . . ?
+C41D C42D H42D 119.8 . . ?
+C43D C42D C41D 120.3(15) . . ?
+C43D C42D H42D 119.8 . . ?
+H2AA N2A H2AB 107.7 . . ?
+C2A N2A H2AA 108.8 . . ?
+C2A N2A H2AB 108.8 . . ?
+C2A N2A C3A 113.7(14) . . ?
+C3A N2A H2AA 108.8 . . ?
+C3A N2A H2AB 108.8 . . ?
+C16D C15D H15D 120.6 . . ?
+C14D C15D C16D 118.8(15) . . ?
+C14D C15D H15D 120.6 . . ?
+C43B C42B H42B 120.1 . . ?
+C41B C42B C43B 119.8(15) . . ?
+C41B C42B H42B 120.1 . . ?
+N11B C66B H66B 118.9 . . ?
+C65B C66B N11B 122.2(15) . . ?
+C65B C66B H66B 118.9 . . ?
+N5A C32A N6A 112.7(16) . . ?
+N5A C32A C29A 122.3(17) . . ?
+N6A C32A C29A 125.0(18) . . ?
+N15A C17A C18A 115.3(15) . . ?
+N15A C17A C13A 122.0(15) . . ?
+C13A C17A C18A 122.8(16) . . ?
+C62C C63C H63C 119.7 . . ?
+C64C C63C C62C 120.6(16) . . ?
+C64C C63C H63C 119.7 . . ?
+N7D C33D C35D 129.2(15) . . ?
+C34D C33D N7D 105.4(14) . . ?
+C34D C33D C35D 125.3(15) . . ?
+C14B C15B H15B 118.9 . . ?
+C16B C15B H15B 119.0 . . ?
+C16B C15B C14B 122.1(18) . . ?
+N12D C60D H60D 116.8 . . ?
+N12D C60D C59D 126.4(18) . . ?
+C59D C60D H60D 116.8 . . ?
+N2B C46B H46A 109.2 . . ?
+N2B C46B H46B 109.2 . . ?
+H46A C46B H46B 107.9 . . ?
+C45B C46B N2B 112.0(13) . . ?
+C45B C46B H46A 109.2 . . ?
+C45B C46B H46B 109.2 . . ?
+C63B C64B H64B 121.5 . . ?
+C63B C64B C65B 117.0(15) . . ?
+C65B C64B H64B 121.5 . . ?
+N8B C34B C33B 107.3(16) . . ?
+N8B C34B C35B 131.5(16) . . ?
+C33B C34B C35B 121.2(16) . . ?
+N15A C16A H16A 118.5 . . ?
+C15A C16A N15A 122.9(17) . . ?
+C15A C16A H16A 118.5 . . ?
+C13D C14D C15D 121.5(16) . . ?
+C13D C14D H14D 119.2 . . ?
+C15D C14D H14D 119.2 . . ?
+N2D C3D C4D 110.4(13) . . ?
+N2D C3D H3DC 109.6 . . ?
+N2D C3D H3DD 109.6 . . ?
+C4D C3D H3DC 109.6 . . ?
+C4D C3D H3DD 109.6 . . ?
+H3DC C3D H3DD 108.1 . . ?
+C35A C36A C37A 119.2(16) . . ?
+C35A C36A H36A 120.4 . . ?
+C37A C36A H36A 120.4 . . ?
+N15D C38D H38D 118.9 . . ?
+C37D C38D N15D 122.1(15) . . ?
+C37D C38D H38D 118.9 . . ?
+C47C N3C H3C 110.0(19) . . ?
+C47C N3C C46C 110.4(13) . . ?
+C46C N3C H3C 107(2) . . ?
+C5B C4B H4B 119.0 . . ?
+C5B C4B C9B 121.9(18) . . ?
+C9B C4B H4B 119.0 . . ?
+N11C C18C C19C 122.8(14) . . ?
+N11C C18C C17C 116.7(13) . . ?
+C19C C18C C17C 120.4(14) . . ?
+C13C C14C H14C 121.5 . . ?
+C15C C14C C13C 116.9(16) . . ?
+C15C C14C H14C 121.5 . . ?
+C16C C15C C14C 121.1(15) . . ?
+C16C C15C H15C 119.5 . . ?
+C14C C15C H15C 119.5 . . ?
+N2B C47B C48B 108.5(12) . . ?
+N2B C47B H47A 110.0 . . ?
+N2B C47B H47B 110.0 . . ?
+C48B C47B H47A 110.0 . . ?
+C48B C47B H47B 110.0 . . ?
+H47A C47B H47B 108.4 . . ?
+N11C C22C H22C 118.7 . . ?
+N11C C22C C21C 122.6(16) . . ?
+C21C C22C H22C 118.7 . . ?
+C29A C30A H30A 120.0 . . ?
+C29A C30A C31A 120.0(19) . . ?
+C31A C30A H30A 120.0 . . ?
+C60A C59A H59A 120.6 . . ?
+C58A C59A C60A 118.8(16) . . ?
+C58A C59A H59A 120.6 . . ?
+N10B C54B C51B 122.5(15) . . ?
+N9B C54B N10B 110.8(14) . . ?
+N9B C54B C51B 126.7(14) . . ?
+C57D C58D H58D 119.9 . . ?
+C57D C58D C59D 120.2(17) . . ?
+C59D C58D H58D 119.9 . . ?
+N1B C23B H23A 110.2 . . ?
+N1B C23B H23B 110.2 . . ?
+N1B C23B C24B 107.7(14) . . ?
+H23A C23B H23B 108.5 . . ?
+C24B C23B H23A 110.2 . . ?
+C24B C23B H23B 110.2 . . ?
+C34B C35B C39B 114.8(15) . . ?
+C36B C35B C39B 118.4(16) . . ?
+C36B C35B C34B 126.8(17) . . ?
+N8A C10A C7A 124.9(17) . . ?
+N7A C10A N8A 108.4(17) . . ?
+N7A C10A C7A 126.7(18) . . ?
+C8E C7E C14E 120.0 . . ?
+C8E C7E C6E 119.3(12) . . ?
+C14E C7E C6E 120.7(12) . . ?
+C7E C8E C11E 120.0 . . ?
+C7E C8E C9E 120.6(15) . . ?
+C11E C8E C9E 119.4(15) . . ?
+C8E C11E H11E 120.0 . . ?
+C12E C11E C8E 120.0 . . ?
+C12E C11E H11E 120.0 . . ?
+C11E C12E H12E 120.0 . . ?
+C13E C12E C11E 120.0 . . ?
+C13E C12E H12E 120.0 . . ?
+C12E C13E H13E 120.0 . . ?
+C14E C13E C12E 120.0 . . ?
+C14E C13E H13E 120.0 . . ?
+C7E C14E H14E 120.0 . . ?
+C13E C14E C7E 120.0 . . ?
+C13E C14E H14E 120.0 . . ?
+C65C C64C H64C 120.6 . . ?
+C63C C64C C65C 118.7(16) . . ?
+C63C C64C H64C 120.6 . . ?
+C8B C7B C6B 121.4(18) . . ?
+C8B C7B H7B 119.3 . . ?
+C6B C7B H7B 119.3 . . ?
+C30B C29B C32B 118.0(17) . . ?
+C28B C29B C32B 122.6(17) . . ?
+C28B C29B C30B 119.1(17) . . ?
+N3D C24D H24A 109.8 . . ?
+N3D C24D H24B 109.8 . . ?
+H24A C24D H24B 108.2 . . ?
+C23D C24D N3D 109.5(14) . . ?
+C23D C24D H24A 109.8 . . ?
+C23D C24D H24B 109.8 . . ?
+C30A C29A C32A 122.3(18) . . ?
+C30A C29A C28A 118.1(19) . . ?
+C28A C29A C32A 119.6(19) . . ?
+N1B C1B H1BA 110.0 . . ?
+N1B C1B H1BB 110.0 . . ?
+N1B C1B C2B 108.3(14) . . ?
+H1BA C1B H1BB 108.4 . . ?
+C2B C1B H1BA 110.0 . . ?
+C2B C1B H1BB 110.0 . . ?
+C13B C14B H14B 120.1 . . ?
+C15B C14B C13B 119.8(17) . . ?
+C15B C14B H14B 120.1 . . ?
+N8D C32D N7D 109.7(15) . . ?
+N8D C32D C29D 127.2(15) . . ?
+N7D C32D C29D 123.1(14) . . ?
+C6B C5B C3B 117.4(17) . . ?
+C4B C5B C6B 121.0(17) . . ?
+C4B C5B C3B 121.5(17) . . ?
+C19C C20C H20C 121.0 . . ?
+C19C C20C C21C 118.1(17) . . ?
+C21C C20C H20C 121.0 . . ?
+N2C C3C C4C 114.5(13) . . ?
+N2C C3C H3CA 108.6 . . ?
+N2C C3C H3CB 108.6 . . ?
+C4C C3C H3CA 108.6 . . ?
+C4C C3C H3CB 108.6 . . ?
+H3CA C3C H3CB 107.6 . . ?
+C51B C52B H52B 120.8 . . ?
+C53B C52B C51B 118.5(15) . . ?
+C53B C52B H52B 120.8 . . ?
+C35D C36D C37D 122.8(16) . . ?
+C35D C36D H36D 118.6 . . ?
+C37D C36D H36D 118.6 . . ?
+C10A C7A C8A 120.9(18) . . ?
+C6A C7A C10A 119.7(18) . . ?
+C6A C7A C8A 119.0(18) . . ?
+C25A N4A C24A 113.5(17) . . ?
+C25A N4A H4A 111(2) . . ?
+C24A N4A H4A 103.2(18) . . ?
+C16A C15A H15A 118.4 . . ?
+C16A C15A C14A 123.2(18) . . ?
+C14A C15A H15A 118.4 . . ?
+C13A C14A C15A 115.2(17) . . ?
+C13A C14A H14A 122.4 . . ?
+C15A C14A H14A 122.4 . . ?
+C8B C9B C4B 116.7(18) . . ?
+C8B C9B H9BA 121.6 . . ?
+C4B C9B H9BA 121.6 . . ?
+C31B C26B C25B 117.1(17) . . ?
+C27B C26B C31B 119.1(16) . . ?
+C27B C26B C25B 123.6(17) . . ?
+C51B C50B C49B 120.8(16) . . ?
+C51B C50B H50B 119.6 . . ?
+C49B C50B H50B 119.6 . . ?
+N1D C23D H23C 108.6 . . ?
+N1D C23D H23D 108.6 . . ?
+C24D C23D N1D 114.9(16) . . ?
+C24D C23D H23C 108.6 . . ?
+C24D C23D H23D 108.6 . . ?
+H23C C23D H23D 107.5 . . ?
+C45A N1A C1A 110.4(18) . . ?
+C23A N1A C1A 115(2) . . ?
+C23A N1A C45A 107.7(19) . . ?
+N1C C23C H23E 109.3 . . ?
+N1C C23C H23F 109.3 . . ?
+N1C C23C C24C 111.4(14) . . ?
+H23E C23C H23F 108.0 . . ?
+C24C C23C H23E 109.3 . . ?
+C24C C23C H23F 109.3 . . ?
+N4C C24C C23C 107.5(14) . . ?
+N4C C24C H24C 110.2 . . ?
+N4C C24C H24D 110.2 . . ?
+C23C C24C H24C 110.2 . . ?
+C23C C24C H24D 110.2 . . ?
+H24C C24C H24D 108.5 . . ?
+C48B C53B C52B 124.8(17) . . ?
+C48B C53B H53B 117.6 . . ?
+C52B C53B H53B 117.6 . . ?
+N16B C16B C15B 121.3(17) . . ?
+N16B C16B H16B 119.4 . . ?
+C15B C16B H16B 119.4 . . ?
+C7A C6A H6AA 120.0 . . ?
+C7A C6A C5A 120.0(18) . . ?
+C5A C6A H6AA 120.0 . . ?
+C57A C58A H58A 120.4 . . ?
+C59A C58A C57A 119.2(15) . . ?
+C59A C58A H58A 120.4 . . ?
+N4B C3B C5B 111.5(12) . . ?
+N4B C3B H3BC 109.3 . . ?
+N4B C3B H3BD 109.3 . . ?
+C5B C3B H3BC 109.3 . . ?
+C5B C3B H3BD 109.3 . . ?
+H3BC C3B H3BD 108.0 . . ?
+N1B C45B C46B 111.1(13) . . ?
+N1B C45B H45A 109.4 . . ?
+N1B C45B H45B 109.4 . . ?
+C46B C45B H45A 109.4 . . ?
+C46B C45B H45B 109.4 . . ?
+H45A C45B H45B 108.0 . . ?
+N13B C38B H38B 120.4 . . ?
+N13B C38B C37B 119.2(17) . . ?
+C37B C38B H38B 120.4 . . ?
+C2E C1E H1E 120.0 . . ?
+C2E C1E C6E 120.0 . . ?
+C6E C1E H1E 120.0 . . ?
+C1E C2E H2E 120.0 . . ?
+C1E C2E C3E 120.0 . . ?
+C3E C2E H2E 120.0 . . ?
+C2E C3E H3E 120.0 . . ?
+C4E C3E C2E 120.0 . . ?
+C4E C3E H3E 120.0 . . ?
+C3E C4E H4E 120.0 . . ?
+C3E C4E C5E 120.0 . . ?
+C5E C4E H4E 120.0 . . ?
+C4E C5E C6E 120.0 . . ?
+C4E C5E C10E 116.6(14) . . ?
+C6E C5E C10E 123.3(14) . . ?
+C1E C6E C7E 123.3(11) . . ?
+C5E C6E C7E 116.5(11) . . ?
+C5E C6E C1E 120.0 . . ?
+N3B C24B C23B 111.4(14) . . ?
+N3B C24B H24E 109.3 . . ?
+N3B C24B H24F 109.3 . . ?
+C23B C24B H24E 109.3 . . ?
+C23B C24B H24F 109.3 . . ?
+H24E C24B H24F 108.0 . . ?
+C26B C31B H31B 120.5 . . ?
+C30B C31B C26B 119.0(17) . . ?
+C30B C31B H31B 120.5 . . ?
+N4B C2B C1B 110.3(13) . . ?
+N4B C2B H2BA 109.6 . . ?
+N4B C2B H2BB 109.6 . . ?
+C1B C2B H2BA 109.6 . . ?
+C1B C2B H2BB 109.6 . . ?
+H2BA C2B H2BB 108.1 . . ?
+C38B C37B H37B 118.4 . . ?
+C38B C37B C36B 123.3(18) . . ?
+C36B C37B H37B 118.4 . . ?
+C6A C5A H5A 119.9 . . ?
+C6A C5A C4A 120.2(18) . . ?
+C4A C5A H5A 119.9 . . ?
+C60D C59D H59D 121.5 . . ?
+C58D C59D C60D 116.9(17) . . ?
+C58D C59D H59D 121.5 . . ?
+C66B C65B C64B 122.2(16) . . ?
+C66B C65B H65B 118.9 . . ?
+C64B C65B H65B 118.9 . . ?
+N3D C25D H25A 109.7 . . ?
+N3D C25D H25B 109.7 . . ?
+H25A C25D H25B 108.2 . . ?
+C26D C25D N3D 110.0(13) . . ?
+C26D C25D H25A 109.7 . . ?
+C26D C25D H25B 109.7 . . ?
+C48A C47A N3A 116.2(13) . . ?
+C48A C47A H47C 108.2 . . ?
+C48A C47A H47D 108.2 . . ?
+N3A C47A H47C 108.2 . . ?
+N3A C47A H47D 108.2 . . ?
+H47C C47A H47D 107.4 . . ?
+C7G C6G C1G 120.0 . . ?
+C5G C6G C7G 121(2) . . ?
+C5G C6G C1G 119(2) . . ?
+C6G C7G C12G 120.0 . . ?
+C8G C7G C6G 123.2(19) . . ?
+C8G C7G C12G 116.8(19) . . ?
+C7G C12G C11G 117(2) . . ?
+C14G C12G C7G 120.0 . . ?
+C14G C12G C11G 123(2) . . ?
+C12G C14G H14G 120.0 . . ?
+C13G C14G C12G 120.0 . . ?
+C13G C14G H14G 120.0 . . ?
+C14G C13G H13G 120.0 . . ?
+C14G C13G C1G 120.0 . . ?
+C1G C13G H13G 120.0 . . ?
+C6G C1G C2G 123.6(18) . . ?
+C13G C1G C6G 120.0 . . ?
+C13G C1G C2G 116.3(18) . . ?
+C1G C2G H2G 121.6 . . ?
+C3G C2G C1G 117(2) . . ?
+C3G C2G H2G 121.6 . . ?
+C2G C3G H3G 121.0 . . ?
+C2G C3G C4G 118(3) . . ?
+C4G C3G H3G 121.0 . . ?
+C3G C4G H4G 118.1 . . ?
+C5G C4G C3G 124(3) . . ?
+C5G C4G H4G 118.0 . . ?
+C6G C5G H5G 120.6 . . ?
+C4G C5G C6G 119(3) . . ?
+C4G C5G H5G 120.6 . . ?
+C26D C27D H27D 120.0 . . ?
+C28D C27D H27D 120.0 . . ?
+C28D C27D C26D 120.0 . . ?
+C27D C26D C25D 120.4(10) . . ?
+C31D C26D C25D 119.5(10) . . ?
+C31D C26D C27D 120.0 . . ?
+C26D C31D H31D 120.0 . . ?
+C30D C31D C26D 120.0 . . ?
+C30D C31D H31D 120.0 . . ?
+C31D C30D H30D 120.0 . . ?
+C31D C30D C29D 120.0 . . ?
+C29D C30D H30D 120.0 . . ?
+C30D C29D C32D 116.3(10) . . ?
+C28D C29D C32D 123.7(10) . . ?
+C28D C29D C30D 120.0 . . ?
+C27D C28D H28D 120.0 . . ?
+C29D C28D C27D 120.0 . . ?
+C29D C28D H28D 120.0 . . ?
+C26B C27B H27B 120.8 . . ?
+C28B C27B C26B 118.3(17) . . ?
+C28B C27B H27B 120.8 . . ?
+N4C C25C C26C 116.6(13) . . ?
+N4C C25C H25C 108.1 . . ?
+N4C C25C H25D 108.1 . . ?
+C26C C25C H25C 108.1 . . ?
+C26C C25C H25D 108.1 . . ?
+H25C C25C H25D 107.3 . . ?
+N2C C2C H2CC 109.3 . . ?
+N2C C2C H2CD 109.3 . . ?
+N2C C2C C1C 111.6(15) . . ?
+H2CC C2C H2CD 108.0 . . ?
+C1C C2C H2CC 109.3 . . ?
+C1C C2C H2CD 109.3 . . ?
+C48C C47C H47E 109.5 . . ?
+C48C C47C H47F 109.5 . . ?
+N3C C47C C48C 110.8(13) . . ?
+N3C C47C H47E 109.5 . . ?
+N3C C47C H47F 109.5 . . ?
+H47E C47C H47F 108.1 . . ?
+N4D C47D C48D 107.0(10) . . ?
+N4D C47D H47G 110.3 . . ?
+N4D C47D H47H 110.3 . . ?
+C48D C47D H47G 110.3 . . ?
+C48D C47D H47H 110.3 . . ?
+H47G C47D H47H 108.6 . . ?
+C35B C36B C37B 117.2(17) . . ?
+C35B C36B H36B 121.4 . . ?
+C37B C36B H36B 121.4 . . ?
+C5A C4A C3A 118.0(18) . . ?
+C9A C4A C5A 119.2(17) . . ?
+C9A C4A C3A 122.8(18) . . ?
+C7A C8A H8AA 120.0 . . ?
+C9A C8A C7A 120.0(19) . . ?
+C9A C8A H8AA 120.0 . . ?
+C29B C30B C31B 119.9(18) . . ?
+C29B C30B H30B 120.0 . . ?
+C31B C30B H30B 120.0 . . ?
+N1C C1C C2C 109.9(15) . . ?
+N1C C1C H1CA 109.7 . . ?
+N1C C1C H1CB 109.7 . . ?
+C2C C1C H1CA 109.7 . . ?
+C2C C1C H1CB 109.7 . . ?
+H1CA C1C H1CB 108.2 . . ?
+N1D C45D H45C 109.8 . . ?
+N1D C45D H45D 109.8 . . ?
+N1D C45D C46D 109.4(14) . . ?
+H45C C45D H45D 108.2 . . ?
+C46D C45D H45C 109.8 . . ?
+C46D C45D H45D 109.8 . . ?
+C22C C21C H21C 119.7 . . ?
+C20C C21C C22C 120.6(16) . . ?
+C20C C21C H21C 119.7 . . ?
+N3B C25B C26B 109.6(13) . . ?
+N3B C25B H25E 109.8 . . ?
+N3B C25B H25F 109.8 . . ?
+C26B C25B H25E 109.8 . . ?
+C26B C25B H25F 109.8 . . ?
+H25E C25B H25F 108.2 . . ?
+N1A C1A H1AA 109.9 . . ?
+N1A C1A H1AB 109.9 . . ?
+H1AA C1A H1AB 108.3 . . ?
+C2A C1A N1A 109.1(18) . . ?
+C2A C1A H1AA 109.9 . . ?
+C2A C1A H1AB 109.9 . . ?
+N4D C46D C45D 114.4(13) . . ?
+N4D C46D H46C 108.7 . . ?
+N4D C46D H46D 108.7 . . ?
+C45D C46D H46C 108.7 . . ?
+C45D C46D H46D 108.7 . . ?
+H46C C46D H46D 107.6 . . ?
+C4A C9A H9A 119.5 . . ?
+C8A C9A C4A 121.0(19) . . ?
+C8A C9A H9A 119.5 . . ?
+N3C C46C H46E 108.8 . . ?
+N3C C46C H46F 108.8 . . ?
+H46E C46C H46F 107.7 . . ?
+C45C C46C N3C 113.6(15) . . ?
+C45C C46C H46E 108.8 . . ?
+C45C C46C H46F 108.8 . . ?
+N1C C45C H45E 109.8 . . ?
+N1C C45C H45F 109.8 . . ?
+C46C C45C N1C 109.3(15) . . ?
+C46C C45C H45E 109.8 . . ?
+C46C C45C H45F 109.8 . . ?
+H45E C45C H45F 108.3 . . ?
+C8E C9E H9E 118.9 . . ?
+C10E C9E C8E 122(2) . . ?
+C10E C9E H9E 118.9 . . ?
+N2D C2D H2DC 108.3 . . ?
+N2D C2D H2DD 108.3 . . ?
+N2D C2D C1D 115.8(15) . . ?
+H2DC C2D H2DD 107.4 . . ?
+C1D C2D H2DC 108.3 . . ?
+C1D C2D H2DD 108.3 . . ?
+N1D C1D H1DA 108.8 . . ?
+N1D C1D H1DB 108.8 . . ?
+C2D C1D N1D 113.9(14) . . ?
+C2D C1D H1DA 108.8 . . ?
+C2D C1D H1DB 108.8 . . ?
+H1DA C1D H1DB 107.7 . . ?
+C29B C28B C27B 124.4(18) . . ?
+C29B C28B H28B 117.8 . . ?
+C27B C28B H28B 117.8 . . ?
+N1A C45A H45G 108.9 . . ?
+N1A C45A H45H 108.9 . . ?
+H45G C45A H45H 107.7 . . ?
+C46A C45A N1A 113.4(18) . . ?
+C46A C45A H45G 108.9 . . ?
+C46A C45A H45H 108.9 . . ?
+C5E C10E H10E 121.1 . . ?
+C9E C10E C5E 118(2) . . ?
+C9E C10E H10E 121.1 . . ?
+N3A C46A H46G 109.7 . . ?
+N3A C46A H46H 109.7 . . ?
+C45A C46A N3A 110.0(17) . . ?
+C45A C46A H46G 109.7 . . ?
+C45A C46A H46H 109.7 . . ?
+H46G C46A H46H 108.2 . . ?
+N2A C2A C1A 111.5(17) . . ?
+N2A C2A H2AC 109.3 . . ?
+N2A C2A H2AD 109.3 . . ?
+C1A C2A H2AC 109.3 . . ?
+C1A C2A H2AD 109.3 . . ?
+H2AC C2A H2AD 108.0 . . ?
+C7G C8G H8G 119.2 . . ?
+C7G C8G C9G 122(2) . . ?
+C9G C8G H8G 119.2 . . ?
+C8G C9G H9G 120.6 . . ?
+C10G C9G C8G 119(3) . . ?
+C10G C9G H9G 120.6 . . ?
+C9G C10G H10G 121.4 . . ?
+C11G C10G C9G 117(3) . . ?
+C11G C10G H10G 121.4 . . ?
+C12G C11G H11G 115.9 . . ?
+C10G C11G C12G 128(3) . . ?
+C10G C11G H11G 115.9 . . ?
+C30A C31A H31A 118.5 . . ?
+C26A C31A C30A 123(2) . . ?
+C26A C31A H31A 118.5 . . ?
+N4A C25A H25G 109.2 . . ?
+N4A C25A H25H 109.2 . . ?
+N4A C25A C26A 111.9(18) . . ?
+H25G C25A H25H 107.9 . . ?
+C26A C25A H25G 109.2 . . ?
+C26A C25A H25H 109.2 . . ?
+C31A C26A C25A 129(2) . . ?
+C31A C26A C27A 118(2) . . ?
+C27A C26A C25A 113(2) . . ?
+N2A C3A C4A 111.6(14) . . ?
+N2A C3A H3AC 109.3 . . ?
+N2A C3A H3AD 109.3 . . ?
+C4A C3A H3AC 109.3 . . ?
+C4A C3A H3AD 109.3 . . ?
+H3AC C3A H3AD 108.0 . . ?
+N4A C24A H24G 109.0 . . ?
+N4A C24A H24H 109.0 . . ?
+H24G C24A H24H 107.8 . . ?
+C23A C24A N4A 113.0(18) . . ?
+C23A C24A H24G 109.0 . . ?
+C23A C24A H24H 109.0 . . ?
+C12F C11F H11F 120.0 . . ?
+C12F C11F C10F 120.0 . . ?
+C10F C11F H11F 120.0 . . ?
+C11F C12F C13F 128(3) . . ?
+C7F C12F C11F 120.0 . . ?
+C7F C12F C13F 112(3) . . ?
+C12F C7F C8F 120.0 . . ?
+C12F C7F C5F 124(3) . . ?
+C8F C7F C5F 116(3) . . ?
+C7F C8F H8F 120.0 . . ?
+C7F C8F C9F 120.0 . . ?
+C9F C8F H8F 120.0 . . ?
+C8F C9F H9F 120.0 . . ?
+C10F C9F C8F 120.0 . . ?
+C10F C9F H9F 120.0 . . ?
+C11F C10F H10F 120.0 . . ?
+C9F C10F C11F 120.0 . . ?
+C9F C10F H10F 120.0 . . ?
+C5F C4F C3F 120.0 . . ?
+C5F C4F C14F 125(3) . . ?
+C3F C4F C14F 115(3) . . ?
+C4F C5F C7F 113(3) . . ?
+C4F C5F C6F 120.0 . . ?
+C6F C5F C7F 127(3) . . ?
+C5F C6F H6F 120.0 . . ?
+C1F C6F C5F 120.0 . . ?
+C1F C6F H6F 120.0 . . ?
+C6F C1F H1F 120.0 . . ?
+C2F C1F C6F 120.0 . . ?
+C2F C1F H1F 120.0 . . ?
+C1F C2F H2F 120.0 . . ?
+C1F C2F C3F 120.0 . . ?
+C3F C2F H2F 120.0 . . ?
+C4F C3F H3F 120.0 . . ?
+C2F C3F C4F 120.0 . . ?
+C2F C3F H3F 120.0 . . ?
+C12F C13F H13F 115.7 . . ?
+C14F C13F C12F 129(3) . . ?
+C14F C13F H13F 115.7 . . ?
+N1A C23A C24A 110(2) . . ?
+N1A C23A H23G 109.7 . . ?
+N1A C23A H23H 109.7 . . ?
+C24A C23A H23G 109.7 . . ?
+C24A C23A H23H 109.7 . . ?
+H23G C23A H23H 108.2 . . ?
+C29A C28A H28A 120.7 . . ?
+C29A C28A C27A 119(2) . . ?
+C27A C28A H28A 120.7 . . ?
+C4F C14F H14F 121.8 . . ?
+C13F C14F C4F 116(3) . . ?
+C13F C14F H14F 121.8 . . ?
+H1A O1 H1B 104.4 . . ?
+C26A C27A C28A 121(2) . . ?
+C26A C27A H27A 119.4 . . ?
+C28A C27A H27A 119.4 . . ?
+H4C O4 H4F 104.4 . . ?
+H8E O8 H8H 104.6 . . ?
+H2A O2 H2C 109.5 . . ?
+H5E O5 H5F 104.7 . . ?
+H3A O3 H3B 104.5 . . ?
+H7E O7 H7F 104.6 . . ?
+H6E O6 H6G 104.5 . . ?
+
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion
+_geom_torsion_site_symmetry_1
+_geom_torsion_site_symmetry_2
+_geom_torsion_site_symmetry_3
+_geom_torsion_site_symmetry_4
+_geom_torsion_publ_flag
+Ru3 N12D C61D C57D -179.6(10) . . . . ?
+Ru3 N12D C61D C62D -0.9(15) . . . . ?
+Ru3 N12D C60D C59D 178.5(14) . . . . ?
+Ru3 N12B C60B C59B 179.9(11) . . . . ?
+Ru3 N12B C61B C57B -178.0(11) . . . . ?
+Ru3 N12B C61B C62B -0.3(15) . . . . ?
+Ru3 N11D C62D C63D -178.7(9) . . . . ?
+Ru3 N11D C62D C61D 0.7(13) . . . . ?
+Ru3 N11D C66D C65D 177.4(10) . . . . ?
+Ru3 N16C C60C C56C -178.0(10) . . . . ?
+Ru3 N16C C60C C66C 0.6(17) . . . . ?
+Ru3 N16C C59C C58C 178.6(11) . . . . ?
+Ru3 N15C C65C C64C -172.9(14) . . . . ?
+Ru3 N15C C66C C60C -5.8(16) . . . . ?
+Ru3 N15C C66C C62C 178.7(12) . . . . ?
+Ru3 N11B C62B C63B -179.4(12) . . . . ?
+Ru3 N11B C62B C61B -0.8(16) . . . . ?
+Ru3 N11B C66B C65B 178.3(12) . . . . ?
+Ru2 N15B C22B C21B -177.4(11) . . . . ?
+Ru2 N15B C18B C19B -179.2(10) . . . . ?
+Ru2 N15B C18B C17B -2.7(15) . . . . ?
+Ru2 N14D C17D C13D 176.6(11) . . . . ?
+Ru2 N14D C17D C18D 1.7(15) . . . . ?
+Ru2 N14D C16D C15D 178.3(11) . . . . ?
+Ru2 N11A C44A C43A 179.9(10) . . . . ?
+Ru2 N11A C40A C41A 180.0(11) . . . . ?
+Ru2 N11A C40A C39A 1.3(17) . . . . ?
+Ru2 N13D C18D C17D 5.1(16) . . . . ?
+Ru2 N13D C18D C19D 178.8(10) . . . . ?
+Ru2 N13D C22D C21D 178.4(12) . . . . ?
+Ru2 N16B C17B C18B -6.3(15) . . . . ?
+Ru2 N16B C17B C13B 179.5(11) . . . . ?
+Ru2 N16B C16B C15B -176.7(12) . . . . ?
+Ru2 N12A C39A C35A 178.7(12) . . . . ?
+Ru2 N12A C39A C40A 6.3(17) . . . . ?
+Ru2 N12A C38A C37A 178.2(13) . . . . ?
+Ru1 N13C C40C C41C -179.5(5) . . . . ?
+Ru1 N13C C40C C39C 0.6(7) . . . . ?
+Ru1 N13C C44C C43C 179.4(6) . . . . ?
+Ru1 N13A C66A C65A -179.0(12) . . . . ?
+Ru1 N13A C62A C61A -0.3(16) . . . . ?
+Ru1 N13A C62A C63A 176.1(12) . . . . ?
+Ru1 N15D C39D C35D 178.1(12) . . . . ?
+Ru1 N15D C39D C40D 1.1(18) . . . . ?
+Ru1 N15D C38D C37D -179.3(12) . . . . ?
+Ru1 N16D C40D C41D 178.7(12) . . . . ?
+Ru1 N16D C40D C39D 5.0(18) . . . . ?
+Ru1 N16D C44D C43D 177.1(12) . . . . ?
+Ru1 N14A C60A C59A -179.1(11) . . . . ?
+Ru1 N14A C61A C57A -179.3(12) . . . . ?
+Ru1 N14A C61A C62A 0.2(17) . . . . ?
+Ru1 N14C C38C C37C -179.3(6) . . . . ?
+Ru4 N12C C17C C13C 177.1(12) . . . . ?
+Ru4 N12C C17C C18C 6.5(16) . . . . ?
+Ru4 N12C C16C C15C 174.0(12) . . . . ?
+Ru4 N16A C18A C19A -176.1(11) . . . . ?
+Ru4 N16A C18A C17A -2.1(15) . . . . ?
+Ru4 N16A C22A C21A 178.8(10) . . . . ?
+Ru4 N15A C17A C18A -0.7(15) . . . . ?
+Ru4 N15A C17A C13A 179.8(10) . . . . ?
+Ru4 N15A C16A C15A 178.9(12) . . . . ?
+Ru4 N14B C40B C39B 5.1(18) . . . . ?
+Ru4 N14B C40B C41B -178.7(11) . . . . ?
+Ru4 N14B C44B C43B 179.7(12) . . . . ?
+Ru4 N11C C18C C19C -179.7(11) . . . . ?
+Ru4 N11C C18C C17C 4.9(18) . . . . ?
+Ru4 N11C C22C C21C 177.1(13) . . . . ?
+Ru4 N13B C39B C40B -0.7(19) . . . . ?
+Ru4 N13B C39B C35B 176.0(13) . . . . ?
+Ru4 N13B C38B C37B -175.1(13) . . . . ?
+N13C C40C C41C C42C 0.0 . . . . ?
+N13C C40C C41C C34C -179.8(8) . . . . ?
+N13C C40C C39C N14C -0.9(9) . . . . ?
+N13C C40C C39C C35C -179.4(5) . . . . ?
+C40C N13C C44C C43C 0.0 . . . . ?
+C40C C41C C42C C43C 0.0 . . . . ?
+C40C C41C C34C N5C 178.8(7) . . . . ?
+C40C C41C C34C C33C -2.1(9) . . . . ?
+C40C C39C N14C Ru1 0.8(8) . . . . ?
+C40C C39C N14C C38C -178.6(8) . . . . ?
+C40C C39C C35C C33C 0.5(9) . . . . ?
+C40C C39C C35C C36C 178.5(9) . . . . ?
+C41C C40C C39C N14C 179.2(5) . . . . ?
+C41C C40C C39C C35C 0.7(10) . . . . ?
+C41C C42C C43C C44C 0.0 . . . . ?
+C41C C34C C33C N6C -179.3(10) . . . . ?
+C41C C34C C33C C35C 3.4(11) . . . . ?
+C42C C41C C34C N5C -0.9(13) . . . . ?
+C42C C41C C34C C33C 178.2(5) . . . . ?
+C42C C43C C44C N13C 0.0 . . . . ?
+C44C N13C C40C C41C 0.0 . . . . ?
+C44C N13C C40C C39C -179.9(8) . . . . ?
+N12D C61D C57D C56D -179.6(12) . . . . ?
+N12D C61D C57D C58D 1(2) . . . . ?
+N12D C61D C62D N11D 0.1(16) . . . . ?
+N12D C61D C62D C63D 179.5(12) . . . . ?
+N12D C60D C59D C58D 0(3) . . . . ?
+N12B C60B C59B C58B -1(2) . . . . ?
+N12B C61B C62B N11B 0.7(18) . . . . ?
+N12B C61B C62B C63B 179.4(13) . . . . ?
+N15B C22B C21B C20B -5(2) . . . . ?
+N15B C18B C17B N16B 6.1(18) . . . . ?
+N15B C18B C17B C13B 179.9(13) . . . . ?
+N13A C66A C65A C64A 1(2) . . . . ?
+N13A C62A C61A N14A 0(2) . . . . ?
+N13A C62A C61A C57A 179.6(14) . . . . ?
+N13A C62A C63A C55A -177.8(13) . . . . ?
+N13A C62A C63A C64A 5(2) . . . . ?
+N12C C17C C13C C11C -176.3(14) . . . . ?
+N12C C17C C13C C14C 10(2) . . . . ?
+N12C C17C C18C N11C -8(2) . . . . ?
+N12C C17C C18C C19C 176.9(13) . . . . ?
+N12C C16C C15C C14C 6(3) . . . . ?
+N16A C18A C19A C11A -179.2(13) . . . . ?
+N16A C18A C19A C20A -3(2) . . . . ?
+N16A C18A C17A N15A 1.8(18) . . . . ?
+N16A C18A C17A C13A -178.7(13) . . . . ?
+N6D C12D C11D N5D 0.9(17) . . . . ?
+N6D C12D C11D C19D -176.2(14) . . . . ?
+N6D C10D C7D C8D -10.5(18) . . . . ?
+N6D C10D C7D C6D 167.9(11) . . . . ?
+N14D C17D C18D N13D -4.6(19) . . . . ?
+N14D C17D C18D C19D -178.3(13) . . . . ?
+N14D C16D C15D C14D 4(2) . . . . ?
+N11A C44A C43A C42A 0(2) . . . . ?
+N11A C40A C39A N12A -5(2) . . . . ?
+N11A C40A C39A C35A -176.9(15) . . . . ?
+N10D C56D C57D C61D -178.2(13) . . . . ?
+N10D C56D C57D C58D 1(2) . . . . ?
+N10D C56D C55D N9D -3.3(15) . . . . ?
+N10D C56D C55D C63D 178.4(11) . . . . ?
+N10D C54D C51D C52D 157.2(11) . . . . ?
+N10D C54D C51D C50D -25.2(18) . . . . ?
+N6B C12B C13B C17B -178.6(15) . . . . ?
+N6B C12B C13B C14B 2(3) . . . . ?
+N6B C10B C8B C7B 158.0(16) . . . . ?
+N6B C10B C8B C9B -23(2) . . . . ?
+N9D C54D C51D C52D -20.6(19) . . . . ?
+N9D C54D C51D C50D 157.0(12) . . . . ?
+N15A C16A C15A C14A 3(3) . . . . ?
+N8D C34D C33D N7D 1.8(18) . . . . ?
+N8D C34D C33D C35D 177.3(15) . . . . ?
+N8D C32D C29D C30D 3(2) . . . . ?
+N8D C32D C29D C28D -175.6(14) . . . . ?
+N16C C60C C66C N15C 3.4(19) . . . . ?
+N16C C60C C66C C62C 178.8(14) . . . . ?
+N16C C59C C58C C57C 0(2) . . . . ?
+N10B C56B C55B N9B -1.3(18) . . . . ?
+N10B C56B C55B C63B -178.4(14) . . . . ?
+N15D C39D C40D N16D -4(2) . . . . ?
+N15D C39D C40D C41D -177.7(15) . . . . ?
+N5C C34C C33C N6C 0.0 . . . . ?
+N5C C34C C33C C35C -177.4(11) . . . . ?
+N5C C32C C29C C28C 178.8(6) . . . . ?
+N5C C32C C29C C30C -0.4(12) . . . . ?
+C34C C41C C42C C43C 179.7(9) . . . . ?
+C34C N5C C32C N6C 0.0 . . . . ?
+C34C N5C C32C C29C -178.8(11) . . . . ?
+C34C C33C N6C C32C 0.0 . . . . ?
+C34C C33C C35C C39C -2.3(10) . . . . ?
+C34C C33C C35C C36C 179.8(6) . . . . ?
+C33C N6C C32C N5C 0.0 . . . . ?
+C33C N6C C32C C29C 178.8(11) . . . . ?
+N6C C33C C35C C39C -179.1(7) . . . . ?
+N6C C33C C35C C36C 3.1(14) . . . . ?
+N6C C32C C29C C28C 0.2(12) . . . . ?
+N6C C32C C29C C30C -179.0(6) . . . . ?
+C32C N5C C34C C41C 179.2(11) . . . . ?
+C32C N5C C34C C33C 0.0 . . . . ?
+C32C C29C C28C C27C -179.2(10) . . . . ?
+C32C C29C C30C C31C 179.2(10) . . . . ?
+N9C C55C C56C C60C -178.8(15) . . . . ?
+N9C C55C C56C C57C 1(3) . . . . ?
+N9C C55C C61C N10C 0.6(17) . . . . ?
+N9C C55C C61C C62C -179.4(14) . . . . ?
+N9C C54C C53C C52C -14(2) . . . . ?
+N9C C54C C53C C51C 165.5(14) . . . . ?
+N5B C11B C12B N6B 0.2(17) . . . . ?
+N5B C11B C12B C13B -175.0(13) . . . . ?
+N5B C10B C8B C7B -19(2) . . . . ?
+N5B C10B C8B C9B 160.1(14) . . . . ?
+N14B C40B C41B C33B -178.6(14) . . . . ?
+N14B C40B C41B C42B 3(2) . . . . ?
+N14B C44B C43B C42B -5(3) . . . . ?
+N5D C10D C7D C8D 168.6(13) . . . . ?
+N5D C10D C7D C6D -13(2) . . . . ?
+N14A C60A C59A C58A -2(2) . . . . ?
+N11C C22C C21C C20C -1(3) . . . . ?
+N12A C38A C37A C36A 0(3) . . . . ?
+N9A C54A N10A C56A 0.0 . . . . ?
+N9A C54A C51A C50A -12.9(13) . . . . ?
+N9A C54A C51A C52A 168.5(7) . . . . ?
+N9A C55A C63A C62A -177.6(11) . . . . ?
+N9A C55A C63A C64A -1(2) . . . . ?
+C54A N9A C55A C56A 0.0 . . . . ?
+C54A N9A C55A C63A 176.6(14) . . . . ?
+C54A N10A C56A C55A 0.0 . . . . ?
+C54A N10A C56A C57A 179.9(15) . . . . ?
+C54A C51A C50A C49A -178.6(11) . . . . ?
+C54A C51A C52A C53A 178.6(11) . . . . ?
+N10A C54A C51A C50A 168.5(7) . . . . ?
+N10A C54A C51A C52A -10.1(14) . . . . ?
+N10A C56A C55A N9A 0.0 . . . . ?
+N10A C56A C55A C63A -177.0(13) . . . . ?
+N10A C56A C57A C61A 178.5(11) . . . . ?
+N10A C56A C57A C58A -1(2) . . . . ?
+C56A C55A C63A C62A -1.4(18) . . . . ?
+C56A C55A C63A C64A 175.3(12) . . . . ?
+C56A C57A C61A N14A 178.0(13) . . . . ?
+C56A C57A C61A C62A -1(2) . . . . ?
+C56A C57A C58A C59A -175.8(15) . . . . ?
+C55A N9A C54A N10A 0.0 . . . . ?
+C55A N9A C54A C51A -178.8(13) . . . . ?
+C55A C56A C57A C61A -1.6(19) . . . . ?
+C55A C56A C57A C58A 178.6(12) . . . . ?
+C55A C63A C64A C65A 178.7(14) . . . . ?
+N15C C65C C64C C63C -3(3) . . . . ?
+N7D C32D C29D C30D -177.0(14) . . . . ?
+N7D C32D C29D C28D 4(2) . . . . ?
+N11B C66B C65B C64B -3(3) . . . . ?
+N1B C23B C24B N3B -60.9(17) . . . . ?
+N1B C1B C2B N4B -61.2(19) . . . . ?
+N2B C46B C45B N1B -68.1(17) . . . . ?
+N5A C33A C34A C35A -179.9(15) . . . . ?
+N5A C33A C34A N6A -3.1(19) . . . . ?
+N5A C32A C29A C30A -8(3) . . . . ?
+N5A C32A C29A C28A 171.6(19) . . . . ?
+N10C C61C C62C C66C 176.8(15) . . . . ?
+N10C C61C C62C C63C 2(3) . . . . ?
+N10C C54C C53C C52C 162.0(13) . . . . ?
+N10C C54C C53C C51C -18(2) . . . . ?
+N8A C12A C13A C17A -179.0(14) . . . . ?
+N8A C12A C13A C14A 5(3) . . . . ?
+N8A C10A C7A C6A 177.4(16) . . . . ?
+N8A C10A C7A C8A 5(3) . . . . ?
+C63D C64D C65D C66D 4(2) . . . . ?
+C13D C12D C11D N5D -178.3(13) . . . . ?
+C13D C12D C11D C19D 5(2) . . . . ?
+C13D C17D C18D N13D -179.4(13) . . . . ?
+C13D C17D C18D C19D 7(2) . . . . ?
+C63B C64B C65B C66B 1(3) . . . . ?
+N13B C39B C40B N14B -3(2) . . . . ?
+N13B C39B C40B C41B -179.0(15) . . . . ?
+N13B C39B C35B C34B -178.5(15) . . . . ?
+N13B C39B C35B C36B 5(3) . . . . ?
+N13B C38B C37B C36B -7(3) . . . . ?
+C18A N16A C22A C21A -2.4(19) . . . . ?
+C18A C19A C20A C21A -2(2) . . . . ?
+N7B C32B C29B C30B -18(3) . . . . ?
+N7B C32B C29B C28B 168(2) . . . . ?
+N7B C33B C34B N8B -1(2) . . . . ?
+N7B C33B C34B C35B -178.6(16) . . . . ?
+C19B C11B C12B N6B -179.3(13) . . . . ?
+C19B C11B C12B C13B 5(2) . . . . ?
+C19B C18B C17B N16B -177.3(12) . . . . ?
+C19B C18B C17B C13B -3(2) . . . . ?
+C19B C20B C21B C22B 3(2) . . . . ?
+C41A C33A C34A C35A 4(3) . . . . ?
+C41A C33A C34A N6A -179.0(14) . . . . ?
+C41A C40A C39A N12A 176.3(13) . . . . ?
+C41A C40A C39A C35A 4(2) . . . . ?
+C22B N15B C18B C19B 0.8(19) . . . . ?
+C22B N15B C18B C17B 177.3(12) . . . . ?
+C57B C56B C55B N9B -177.2(14) . . . . ?
+C57B C56B C55B C63B 6(2) . . . . ?
+C57B C58B C59B C60B 0(2) . . . . ?
+C57B C61B C62B N11B 178.5(13) . . . . ?
+C57B C61B C62B C63B -3(2) . . . . ?
+C56D N10D C54D N9D -4.0(16) . . . . ?
+C56D N10D C54D C51D 177.9(12) . . . . ?
+C56D C57D C58D C59D -176.9(15) . . . . ?
+N8B C32B C29B C30B 161.9(18) . . . . ?
+N8B C32B C29B C28B -12(3) . . . . ?
+N8B C34B C35B C39B -178.8(19) . . . . ?
+N8B C34B C35B C36B -3(3) . . . . ?
+C61D N12D C60D C59D 3(2) . . . . ?
+C61D C57D C58D C59D 3(2) . . . . ?
+C11B N5B C10B N6B 3.6(17) . . . . ?
+C11B N5B C10B C8B -178.7(14) . . . . ?
+C11B C19B C18B N15B 179.9(12) . . . . ?
+C11B C19B C18B C17B 3.6(19) . . . . ?
+C11B C19B C20B C21B 177.7(14) . . . . ?
+C11B C12B C13B C17B -5(2) . . . . ?
+C11B C12B C13B C14B 176.0(15) . . . . ?
+C64D C63D C55D N9D -1(2) . . . . ?
+C64D C63D C55D C56D 176.9(13) . . . . ?
+C64D C63D C62D N11D 2.7(19) . . . . ?
+C64D C63D C62D C61D -176.7(13) . . . . ?
+C64D C65D C66D N11D 0(2) . . . . ?
+N2C C2C C1C N1C -72(2) . . . . ?
+C57D C56D C55D N9D 179.6(13) . . . . ?
+C57D C56D C55D C63D 1(2) . . . . ?
+C57D C61D C62D N11D 178.9(11) . . . . ?
+C57D C61D C62D C63D -2(2) . . . . ?
+C57D C58D C59D C60D -3(3) . . . . ?
+C11A N7A C10A N8A -1.6(17) . . . . ?
+C11A N7A C10A C7A -179.7(15) . . . . ?
+C11A C19A C20A C21A 173.7(14) . . . . ?
+C11A C12A C13A C17A -6(2) . . . . ?
+C11A C12A C13A C14A 177.4(15) . . . . ?
+C55C N9C C54C N10C 1.7(18) . . . . ?
+C55C N9C C54C C53C 178.3(15) . . . . ?
+C55C C56C C60C N16C 179.3(13) . . . . ?
+C55C C56C C60C C66C 1(2) . . . . ?
+C55C C56C C57C C58C 179.0(14) . . . . ?
+C55C C61C C62C C66C -3(2) . . . . ?
+C55C C61C C62C C63C -177.8(16) . . . . ?
+C12D N6D C10D N5D -0.2(17) . . . . ?
+C12D N6D C10D C7D 179.1(13) . . . . ?
+C12D C13D C17D N14D -179.3(12) . . . . ?
+C12D C13D C17D C18D -5(2) . . . . ?
+C12D C13D C14D C15D -176.6(15) . . . . ?
+C19C C12C C11C N7C 179.1(14) . . . . ?
+C19C C12C C11C C13C -1(3) . . . . ?
+C19C C20C C21C C22C 1(3) . . . . ?
+C56C C55C C61C N10C -178.2(14) . . . . ?
+C56C C55C C61C C62C 2(2) . . . . ?
+C56C C60C C66C N15C -178.1(12) . . . . ?
+C56C C60C C66C C62C -3(2) . . . . ?
+C56C C57C C58C C59C 1(2) . . . . ?
+C55D N9D C54D N10D 2.1(17) . . . . ?
+C55D N9D C54D C51D -179.9(13) . . . . ?
+C55D C63D C64D C65D 177.5(12) . . . . ?
+C55D C63D C62D N11D -179.5(11) . . . . ?
+C55D C63D C62D C61D 1.2(19) . . . . ?
+C55D C56D C57D C61D -2(2) . . . . ?
+C55D C56D C57D C58D 177.9(16) . . . . ?
+C39B N13B C38B C37B 4(3) . . . . ?
+C39B C40B C41B C33B -3(2) . . . . ?
+C39B C40B C41B C42B 179.0(15) . . . . ?
+C39B C35B C36B C37B -8(3) . . . . ?
+C18B N15B C22B C21B 3(2) . . . . ?
+C18B C19B C11B N5B 175.9(14) . . . . ?
+C18B C19B C11B C12B -5(2) . . . . ?
+C18B C19B C20B C21B 0(2) . . . . ?
+C12B N6B C10B N5B -3.6(17) . . . . ?
+C12B N6B C10B C8B 178.8(14) . . . . ?
+C12B C13B C17B N16B 177.4(13) . . . . ?
+C12B C13B C17B C18B 4(2) . . . . ?
+C12B C13B C14B C15B -178.1(16) . . . . ?
+C17D N14D C16D C15D -1(2) . . . . ?
+C17D C13D C12D N6D -179.7(14) . . . . ?
+C17D C13D C12D C11D -1(2) . . . . ?
+C17D C13D C14D C15D -3(2) . . . . ?
+N7A C11A C19A C18A 178.6(14) . . . . ?
+N7A C11A C19A C20A 2(2) . . . . ?
+N7A C11A C12A N8A -2.8(17) . . . . ?
+N7A C11A C12A C13A -176.8(14) . . . . ?
+N7A C10A C7A C6A -5(3) . . . . ?
+N7A C10A C7A C8A -177.0(16) . . . . ?
+C40B N14B C44B C43B 1(2) . . . . ?
+C40B C39B C35B C34B -2(3) . . . . ?
+C40B C39B C35B C36B -178.2(16) . . . . ?
+C40B C41B C33B N7B -178.6(15) . . . . ?
+C40B C41B C33B C34B -1(3) . . . . ?
+C40B C41B C42B C43B -7(2) . . . . ?
+C41D C34D C33D N7D -179.1(14) . . . . ?
+C41D C34D C33D C35D -4(3) . . . . ?
+C34D N8D C32D N7D 2.3(19) . . . . ?
+C34D N8D C32D C29D -177.8(16) . . . . ?
+C34D C41D C40D N16D -178.3(14) . . . . ?
+C34D C41D C40D C39D -5(2) . . . . ?
+C34D C41D C42D C43D -179.5(16) . . . . ?
+N8C C12C C11C N7C 0.8(18) . . . . ?
+N8C C12C C11C C13C -178.9(15) . . . . ?
+C61C N10C C54C N9C -1.4(19) . . . . ?
+C61C N10C C54C C53C -178.0(14) . . . . ?
+C61C C55C C56C C60C 0(2) . . . . ?
+C61C C55C C56C C57C 179.8(14) . . . . ?
+C61C C62C C66C N15C 178.8(14) . . . . ?
+C61C C62C C66C C60C 4(2) . . . . ?
+C61C C62C C63C C64C 177.5(17) . . . . ?
+C44A N11A C40A C41A 3(2) . . . . ?
+C44A N11A C40A C39A -175.5(13) . . . . ?
+C44A C43A C42A C41A 5(2) . . . . ?
+C35D C39D C40D N16D 179.1(15) . . . . ?
+C35D C39D C40D C41D 6(3) . . . . ?
+C16D N14D C17D C13D -4(2) . . . . ?
+C16D N14D C17D C18D -178.9(12) . . . . ?
+C16D C15D C14D C13D -2(2) . . . . ?
+C66A N13A C62A C61A -179.2(13) . . . . ?
+C66A N13A C62A C63A -3(2) . . . . ?
+C66A C65A C64A C63A 2(2) . . . . ?
+C62D N11D C66D C65D -2.1(19) . . . . ?
+C62D C63D C64D C65D -5(2) . . . . ?
+C62D C63D C55D N9D -178.8(13) . . . . ?
+C62D C63D C55D C56D -0.9(18) . . . . ?
+C62D C61D C57D C56D 1.8(19) . . . . ?
+C62D C61D C57D C58D -177.9(14) . . . . ?
+C19A C18A C17A N15A 176.0(13) . . . . ?
+C19A C18A C17A C13A -4(2) . . . . ?
+C19A C11A N7A C10A 174.9(14) . . . . ?
+C19A C11A C12A N8A -175.4(13) . . . . ?
+C19A C11A C12A C13A 11(2) . . . . ?
+C19D C20D C21D C22D -6(2) . . . . ?
+C57A C56A C55A N9A -179.9(13) . . . . ?
+C57A C56A C55A C63A 3.1(14) . . . . ?
+C33A N5A C32A N6A 3(2) . . . . ?
+C33A N5A C32A C29A -178.3(17) . . . . ?
+C33A C41A C40A N11A 179.6(14) . . . . ?
+C33A C41A C40A C39A -2(2) . . . . ?
+C33A C41A C42A C43A 176.7(15) . . . . ?
+C20B C19B C11B N5B -2(2) . . . . ?
+C20B C19B C11B C12B 177.3(14) . . . . ?
+C20B C19B C18B N15B -2(2) . . . . ?
+C20B C19B C18B C17B -178.2(12) . . . . ?
+C12C C19C C18C N11C -178.0(14) . . . . ?
+C12C C19C C18C C17C -3(2) . . . . ?
+C12C C19C C20C C21C -179.8(17) . . . . ?
+C12C N8C C10C N7C -0.5(18) . . . . ?
+C12C N8C C10C C8C 179.1(15) . . . . ?
+C60B N12B C61B C57B 1(2) . . . . ?
+C60B N12B C61B C62B 179.0(12) . . . . ?
+C10D N6D C12D C13D 178.7(14) . . . . ?
+C10D N6D C12D C11D -0.4(17) . . . . ?
+C10D N5D C11D C12D -1.0(17) . . . . ?
+C10D N5D C11D C19D 175.9(15) . . . . ?
+C10D C7D C8D C9D 178.4(11) . . . . ?
+C10D C7D C6D C5D -178.5(11) . . . . ?
+C40A N11A C44A C43A -4(2) . . . . ?
+C40A C41A C33A N5A -177.2(15) . . . . ?
+C40A C41A C33A C34A -2(2) . . . . ?
+C40A C41A C42A C43A -5(2) . . . . ?
+C60C N16C C59C C58C -1(2) . . . . ?
+C60C C56C C57C C58C -1(2) . . . . ?
+C20D C19D C11D N5D 4(3) . . . . ?
+C20D C19D C11D C12D -179.2(15) . . . . ?
+C20D C19D C18D N13D 1(2) . . . . ?
+C20D C19D C18D C17D 174.1(13) . . . . ?
+C20D C21D C22D N13D 5(3) . . . . ?
+C8C C9C C5C C4C 0.0 . . . . ?
+C9C C8C C7C C6C 0.0 . . . . ?
+C9C C8C C10C N7C 171.0(11) . . . . ?
+C9C C8C C10C N8C -8(2) . . . . ?
+C9C C5C C4C C6C 0.0 . . . . ?
+C9C C5C C4C C3C 178.2(12) . . . . ?
+C5C C4C C6C C7C 0.0 . . . . ?
+C5C C4C C3C N2C -107.3(13) . . . . ?
+C4C C6C C7C C8C 0.0 . . . . ?
+C6C C4C C3C N2C 70.9(16) . . . . ?
+C7C C8C C9C C5C 0.0 . . . . ?
+C7C C8C C10C N7C -11.6(19) . . . . ?
+C7C C8C C10C N8C 168.9(14) . . . . ?
+C39A N12A C38A C37A 3(2) . . . . ?
+C39A C35A C34A C33A -2(2) . . . . ?
+C39A C35A C34A N6A -177.8(17) . . . . ?
+C39A C35A C36A C37A -1(3) . . . . ?
+C62C C63C C64C C65C 1(3) . . . . ?
+C12A N8A C10A N7A -0.2(17) . . . . ?
+C12A N8A C10A C7A 178.0(15) . . . . ?
+C12A C11A N7A C10A 2.8(17) . . . . ?
+C12A C11A C19A C18A -10(2) . . . . ?
+C12A C11A C19A C20A 173.3(15) . . . . ?
+C12A C13A C17A N15A -177.2(13) . . . . ?
+C12A C13A C17A C18A 3(2) . . . . ?
+C12A C13A C14A C15A 179.9(15) . . . . ?
+C10B N6B C12B C11B 2.0(16) . . . . ?
+C10B N6B C12B C13B 176.7(16) . . . . ?
+C10B N5B C11B C19B 177.3(14) . . . . ?
+C10B N5B C11B C12B -2.2(16) . . . . ?
+C10B C8B C7B C6B 178.5(14) . . . . ?
+C10B C8B C9B C4B -179.9(13) . . . . ?
+C39D N15D C38D C37D -2(2) . . . . ?
+C39D C35D C33D N7D 178.0(16) . . . . ?
+C39D C35D C33D C34D 4(2) . . . . ?
+C39D C35D C36D C37D -6(3) . . . . ?
+C17C N12C C16C C15C 1(2) . . . . ?
+C17C C13C C11C N7C -175.9(16) . . . . ?
+C17C C13C C11C C12C 4(2) . . . . ?
+C17C C13C C14C C15C -2(2) . . . . ?
+C22A N16A C18A C19A 5(2) . . . . ?
+C22A N16A C18A C17A 179.0(11) . . . . ?
+C22A C21A C20A C19A 5(2) . . . . ?
+C40D N16D C44D C43D -1(2) . . . . ?
+C40D C41D C34D N8D -177.1(15) . . . . ?
+C40D C41D C34D C33D 4(2) . . . . ?
+C40D C41D C42D C43D -2(3) . . . . ?
+C54D N10D C56D C57D -178.6(13) . . . . ?
+C54D N10D C56D C55D 4.4(15) . . . . ?
+C54D N9D C55D C63D 178.9(14) . . . . ?
+C54D N9D C55D C56D 0.8(16) . . . . ?
+C54D C51D C52D C53D 177.6(12) . . . . ?
+C54D C51D C50D C49D -177.6(12) . . . . ?
+N3D C24D C23D N1D -71.1(18) . . . . ?
+N3D C25D C26D C27D -107.9(13) . . . . ?
+N3D C25D C26D C31D 74.8(15) . . . . ?
+C51B C52B C53B C48B -9(3) . . . . ?
+C65C N15C C66C C60C -180.0(13) . . . . ?
+C65C N15C C66C C62C 4(2) . . . . ?
+C44D N16D C40D C41D -3(2) . . . . ?
+C44D N16D C40D C39D -176.3(14) . . . . ?
+C44D C43D C42D C41D -1(2) . . . . ?
+N2D C2D C1D N1D -64(2) . . . . ?
+C11D N5D C10D N6D 0.7(16) . . . . ?
+C11D N5D C10D C7D -178.5(14) . . . . ?
+C11D C19D C20D C21D 179.2(15) . . . . ?
+C11D C19D C18D N13D -176.3(13) . . . . ?
+C11D C19D C18D C17D -3(2) . . . . ?
+N6A C32A C29A C30A 170.2(19) . . . . ?
+N6A C32A C29A C28A -10(3) . . . . ?
+C20A C21A C22A N16A -2(2) . . . . ?
+C56B N10B C54B N9B -1.8(18) . . . . ?
+C56B N10B C54B C51B 179.5(15) . . . . ?
+C56B C57B C58B C59B 177.8(15) . . . . ?
+C56B C57B C61B N12B -179.3(13) . . . . ?
+C56B C57B C61B C62B 3(2) . . . . ?
+C55B N9B C54B N10B 1.0(18) . . . . ?
+C55B N9B C54B C51B 179.7(15) . . . . ?
+C55B C63B C62B N11B -178.3(14) . . . . ?
+C55B C63B C62B C61B 3(2) . . . . ?
+C55B C63B C64B C65B -179.0(16) . . . . ?
+C39C C40C C41C C42C 179.9(9) . . . . ?
+C39C C40C C41C C34C 0.1(9) . . . . ?
+C39C N14C C38C C37C 0.0 . . . . ?
+N14C C39C C35C C33C -178.0(9) . . . . ?
+N14C C39C C35C C36C 0.0 . . . . ?
+N14C C38C C37C C36C 0.0 . . . . ?
+C38C C37C C36C C35C 0.0 . . . . ?
+C37C C36C C35C C33C 177.7(10) . . . . ?
+C37C C36C C35C C39C 0.0 . . . . ?
+C35C C33C N6C C32C 177.1(12) . . . . ?
+C35C C39C N14C Ru1 179.4(5) . . . . ?
+C35C C39C N14C C38C 0.0 . . . . ?
+C58B C57B C56B N10B 4(3) . . . . ?
+C58B C57B C56B C55B 178.9(16) . . . . ?
+C58B C57B C61B N12B -2(2) . . . . ?
+C58B C57B C61B C62B -179.8(13) . . . . ?
+C38A N12A C39A C35A -6(2) . . . . ?
+C38A N12A C39A C40A -178.2(14) . . . . ?
+C38A C37A C36A C35A -1(3) . . . . ?
+C49B C48B C47B N2B -98.7(18) . . . . ?
+C49B C48B C53B C52B 6(3) . . . . ?
+C66C N15C C65C C64C 0(2) . . . . ?
+C66C C62C C63C C64C 3(3) . . . . ?
+C17B N16B C16B C15B 1(2) . . . . ?
+C17B C13B C14B C15B 3(2) . . . . ?
+C13C C17C C18C N11C -178.2(15) . . . . ?
+C13C C17C C18C C19C 6(2) . . . . ?
+C13C C14C C15C C16C -5(3) . . . . ?
+C61B N12B C60B C59B 1(2) . . . . ?
+C61B C57B C56B N10B -179.8(14) . . . . ?
+C61B C57B C56B C55B -5(2) . . . . ?
+C61B C57B C58B C59B 1(2) . . . . ?
+C29C C28C C27C C26C 0.0 . . . . ?
+C28C C29C C30C C31C 0.0 . . . . ?
+C28C C27C C26C C31C 0.0 . . . . ?
+C28C C27C C26C C25C 172.6(11) . . . . ?
+C27C C26C C31C C30C 0.0 . . . . ?
+C27C C26C C25C N4C -103.8(15) . . . . ?
+C26C C31C C30C C29C 0.0 . . . . ?
+C31C C26C C25C N4C 68.9(17) . . . . ?
+C30C C29C C28C C27C 0.0 . . . . ?
+C7D C8D C9D C4D 0.0 . . . . ?
+C8D C7D C6D C5D 0.0 . . . . ?
+C8D C9D C4D C5D 0.0 . . . . ?
+C8D C9D C4D C3D 178.9(11) . . . . ?
+C9D C4D C5D C6D 0.0 . . . . ?
+C9D C4D C3D N2D 90.9(14) . . . . ?
+C4D C5D C6D C7D 0.0 . . . . ?
+C5D C4D C3D N2D -90.2(14) . . . . ?
+C6D C7D C8D C9D 0.0 . . . . ?
+C57C C56C C60C N16C -1(2) . . . . ?
+C57C C56C C60C C66C -179.4(13) . . . . ?
+C54C N9C C55C C56C 177.2(17) . . . . ?
+C54C N9C C55C C61C -1.4(17) . . . . ?
+C54C N10C C61C C55C 0.4(17) . . . . ?
+C54C N10C C61C C62C -179.6(17) . . . . ?
+C54C C53C C51C C50C -179.6(13) . . . . ?
+C62B N11B C66B C65B 5(2) . . . . ?
+C62B C63B C55B N9B 178.8(15) . . . . ?
+C62B C63B C55B C56B -5(2) . . . . ?
+C62B C63B C64B C65B -1(2) . . . . ?
+C51A C54A N10A C56A 178.8(13) . . . . ?
+C51A C50A C49A C48A 0.0 . . . . ?
+C50A C51A C52A C53A 0.0 . . . . ?
+C50A C49A C48A C53A 0.0 . . . . ?
+C50A C49A C48A C47A -176.3(12) . . . . ?
+C49A C48A C53A C52A 0.0 . . . . ?
+C49A C48A C47A N3A 80.9(16) . . . . ?
+C48A C53A C52A C51A 0.0 . . . . ?
+C53A C48A C47A N3A -95.5(15) . . . . ?
+C52A C51A C50A C49A 0.0 . . . . ?
+N1C C23C C24C N4C -68.3(19) . . . . ?
+C10C N7C C11C C12C -1.0(17) . . . . ?
+C10C N7C C11C C13C 178.6(17) . . . . ?
+C10C N8C C12C C19C -178.4(16) . . . . ?
+C10C N8C C12C C11C -0.2(18) . . . . ?
+C10C C8C C9C C5C 177.4(12) . . . . ?
+C10C C8C C7C C6C -177.3(12) . . . . ?
+C62A N13A C66A C65A 0(2) . . . . ?
+C62A C63A C64A C65A -5(2) . . . . ?
+C16C N12C C17C C13C -9(2) . . . . ?
+C16C N12C C17C C18C -179.8(13) . . . . ?
+C18D N13D C22D C21D -1(2) . . . . ?
+C18D C19D C20D C21D 3(2) . . . . ?
+C18D C19D C11D N5D -179.2(14) . . . . ?
+C18D C19D C11D C12D -3(2) . . . . ?
+C60A N14A C61A C57A -2(2) . . . . ?
+C60A N14A C61A C62A 177.5(13) . . . . ?
+C60A C59A C58A C57A -3(3) . . . . ?
+C66D N11D C62D C63D 0.9(17) . . . . ?
+C66D N11D C62D C61D -179.7(11) . . . . ?
+C44B N14B C40B C39B -175.7(15) . . . . ?
+C44B N14B C40B C41B 0(2) . . . . ?
+C44B C43B C42B C41B 9(2) . . . . ?
+C61A N14A C60A C59A 4(2) . . . . ?
+C61A C57A C58A C59A 4(2) . . . . ?
+C61A C62A C63A C55A -2(2) . . . . ?
+C61A C62A C63A C64A -178.4(14) . . . . ?
+C63A C62A C61A N14A -176.3(14) . . . . ?
+C63A C62A C61A C57A 3(2) . . . . ?
+C32B N7B C33B C41B 178.3(17) . . . . ?
+C32B N7B C33B C34B 1(2) . . . . ?
+C32B N8B C34B C33B 1(2) . . . . ?
+C32B N8B C34B C35B 178(2) . . . . ?
+C32B C29B C30B C31B -175.3(18) . . . . ?
+C32B C29B C28B C27B 178(2) . . . . ?
+C48B C49B C50B C51B 0(3) . . . . ?
+C34A C35A C39A N12A -173.9(14) . . . . ?
+C34A C35A C39A C40A -3(2) . . . . ?
+C34A C35A C36A C37A 177.4(16) . . . . ?
+C34A N6A C32A N5A -5(2) . . . . ?
+C34A N6A C32A C29A 176.4(18) . . . . ?
+C59C N16C C60C C56C 2(2) . . . . ?
+C59C N16C C60C C66C -179.5(14) . . . . ?
+C11C N7C C10C N8C 0.9(18) . . . . ?
+C11C N7C C10C C8C -178.6(14) . . . . ?
+C11C C13C C14C C15C -175.6(16) . . . . ?
+C42A C41A C33A N5A 1(3) . . . . ?
+C42A C41A C33A C34A 175.9(15) . . . . ?
+C42A C41A C40A N11A 1(2) . . . . ?
+C42A C41A C40A C39A 180.0(14) . . . . ?
+C6B C5B C3B N4B 91.8(18) . . . . ?
+N1D C45D C46D N4D -69.0(18) . . . . ?
+C41B C33B C34B N8B -178.7(16) . . . . ?
+C41B C33B C34B C35B 4(3) . . . . ?
+C52C C53C C51C C50C 0.0 . . . . ?
+C53C C52C C49C C48C 0.0 . . . . ?
+C53C C51C C50C C48C 0.0 . . . . ?
+C51C C50C C48C C49C 0.0 . . . . ?
+C51C C50C C48C C47C -178.0(13) . . . . ?
+C50C C48C C49C C52C 0.0 . . . . ?
+C50C C48C C47C N3C -99.8(14) . . . . ?
+C49C C52C C53C C54C 179.6(13) . . . . ?
+C49C C52C C53C C51C 0.0 . . . . ?
+C49C C48C C47C N3C 82.1(14) . . . . ?
+C22D N13D C18D C17D -175.1(13) . . . . ?
+C22D N13D C18D C19D -1(2) . . . . ?
+C51D C52D C53D C48D 0.0 . . . . ?
+C52D C51D C50D C49D 0.0 . . . . ?
+C52D C53D C48D C49D 0.0 . . . . ?
+C52D C53D C48D C47D 177.8(11) . . . . ?
+C53D C48D C49D C50D 0.0 . . . . ?
+C53D C48D C47D N4D 90.3(12) . . . . ?
+C48D C49D C50D C51D 0.0 . . . . ?
+C49D C48D C47D N4D -91.9(12) . . . . ?
+C50D C51D C52D C53D 0.0 . . . . ?
+C33B N7B C32B N8B 0(2) . . . . ?
+C33B N7B C32B C29B 179.6(19) . . . . ?
+C33B C41B C42B C43B 174.4(17) . . . . ?
+C33B C34B C35B C39B -2(3) . . . . ?
+C33B C34B C35B C36B 173.9(19) . . . . ?
+C42D C41D C34D N8D 0(3) . . . . ?
+C42D C41D C34D C33D -178.7(16) . . . . ?
+C42D C41D C40D N16D 4(2) . . . . ?
+C42D C41D C40D C39D 177.6(16) . . . . ?
+C42D C43D C44D N16D 3(2) . . . . ?
+C42B C41B C33B N7B 0(3) . . . . ?
+C42B C41B C33B C34B 176.7(18) . . . . ?
+C66B N11B C62B C63B -5(2) . . . . ?
+C66B N11B C62B C61B 173.4(13) . . . . ?
+C32A N5A C33A C41A 175.5(17) . . . . ?
+C32A N5A C33A C34A 0.1(19) . . . . ?
+C32A N6A C34A C35A -178.6(17) . . . . ?
+C32A N6A C34A C33A 4.8(19) . . . . ?
+C32A C29A C28A C27A -176(2) . . . . ?
+C17A N15A C16A C15A 1(2) . . . . ?
+C17A C18A C19A C11A 7(2) . . . . ?
+C17A C18A C19A C20A -176.2(13) . . . . ?
+C17A C13A C14A C15A 4(2) . . . . ?
+C63C C62C C66C N15C -6(2) . . . . ?
+C63C C62C C66C C60C 178.9(15) . . . . ?
+C33D N7D C32D N8D -1(2) . . . . ?
+C33D N7D C32D C29D 178.9(15) . . . . ?
+C33D C35D C39D N15D 178.8(14) . . . . ?
+C33D C35D C39D C40D -4(2) . . . . ?
+C33D C35D C36D C37D 179.5(18) . . . . ?
+C60D N12D C61D C57D -4(2) . . . . ?
+C60D N12D C61D C62D 175.1(13) . . . . ?
+C46B N2B C47B C48B 177.3(12) . . . . ?
+C64B C63B C55B N9B -3(3) . . . . ?
+C64B C63B C55B C56B 173.8(17) . . . . ?
+C64B C63B C62B N11B 3(2) . . . . ?
+C64B C63B C62B C61B -175.4(15) . . . . ?
+C34B N8B C32B N7B -1(2) . . . . ?
+C34B N8B C32B C29B 179.6(19) . . . . ?
+C34B C35B C36B C37B 176.7(18) . . . . ?
+C16A N15A C17A C18A 177.7(12) . . . . ?
+C16A N15A C17A C13A -2(2) . . . . ?
+C16A C15A C14A C13A -5(2) . . . . ?
+C14D C13D C12D N6D -6(3) . . . . ?
+C14D C13D C12D C11D 173.0(16) . . . . ?
+C14D C13D C17D N14D 6(2) . . . . ?
+C14D C13D C17D C18D -179.3(13) . . . . ?
+C3D N2D C2D C1D 174.8(16) . . . . ?
+C3D C4D C5D C6D -178.9(11) . . . . ?
+C36A C35A C39A N12A 5(3) . . . . ?
+C36A C35A C39A C40A 176.3(16) . . . . ?
+C36A C35A C34A C33A 179.5(17) . . . . ?
+C36A C35A C34A N6A 3(3) . . . . ?
+C38D N15D C39D C35D 0(2) . . . . ?
+C38D N15D C39D C40D -176.6(14) . . . . ?
+C38D C37D C36D C35D 5(3) . . . . ?
+N3C C46C C45C N1C -59(2) . . . . ?
+C4B C5B C3B N4B -84(2) . . . . ?
+C18C N11C C22C C21C 2(2) . . . . ?
+C18C C19C C12C N8C 178.1(14) . . . . ?
+C18C C19C C12C C11C 0(2) . . . . ?
+C18C C19C C20C C21C -3(3) . . . . ?
+C18C C17C C13C C11C -6(2) . . . . ?
+C18C C17C C13C C14C 179.5(15) . . . . ?
+C14C C13C C11C N7C -2(3) . . . . ?
+C14C C13C C11C C12C 177.4(16) . . . . ?
+C47B N2B C46B C45B 179.6(12) . . . . ?
+C47B C48B C53B C52B -177.6(17) . . . . ?
+C22C N11C C18C C19C -4(2) . . . . ?
+C22C N11C C18C C17C -179.8(14) . . . . ?
+C30A C29A C28A C27A 4(3) . . . . ?
+C30A C31A C26A C25A -174(2) . . . . ?
+C30A C31A C26A C27A 2(4) . . . . ?
+C54B N10B C56B C57B 177.6(15) . . . . ?
+C54B N10B C56B C55B 1.8(17) . . . . ?
+C54B N9B C55B C63B 177.2(15) . . . . ?
+C54B N9B C55B C56B 0.1(18) . . . . ?
+C54B C51B C52B C53B -173.6(16) . . . . ?
+C54B C51B C50B C49B 177.7(16) . . . . ?
+C23B N1B C1B C2B -88.9(15) . . . . ?
+C23B N1B C45B C46B 157.9(14) . . . . ?
+C35B C39B C40B N14B -179.6(15) . . . . ?
+C35B C39B C40B C41B 4(3) . . . . ?
+C10A N8A C12A C11A 1.9(17) . . . . ?
+C10A N8A C12A C13A 175.5(15) . . . . ?
+C10A C7A C6A C5A 178.8(15) . . . . ?
+C10A C7A C8A C9A -178.5(18) . . . . ?
+C7E C8E C11E C12E 0.0 . . . . ?
+C7E C8E C9E C10E 6(3) . . . . ?
+C8E C7E C14E C13E 0.0 . . . . ?
+C8E C7E C6E C1E -177.2(7) . . . . ?
+C8E C7E C6E C5E -2.0(12) . . . . ?
+C8E C11E C12E C13E 0.0 . . . . ?
+C8E C9E C10E C5E -4(3) . . . . ?
+C11E C8E C9E C10E -175.7(19) . . . . ?
+C11E C12E C13E C14E 0.0 . . . . ?
+C12E C13E C14E C7E 0.0 . . . . ?
+C14E C7E C8E C11E 0.0 . . . . ?
+C14E C7E C8E C9E 178.7(15) . . . . ?
+C14E C7E C6E C1E 1.9(13) . . . . ?
+C14E C7E C6E C5E 177.2(7) . . . . ?
+C7B C8B C9B C4B 0(2) . . . . ?
+C7B C6B C5B C4B -6(2) . . . . ?
+C7B C6B C5B C3B 178.3(14) . . . . ?
+C24D N3D C25D C26D 179.4(12) . . . . ?
+C29A C30A C31A C26A -7(3) . . . . ?
+C29A C28A C27A C26A -9(4) . . . . ?
+C1B N1B C23B C24B 155.6(13) . . . . ?
+C1B N1B C45B C46B -82.5(16) . . . . ?
+C14B C13B C17B N16B -3(2) . . . . ?
+C14B C13B C17B C18B -176.9(14) . . . . ?
+C14B C15B C16B N16B -1(3) . . . . ?
+C32D N8D C34D C41D 178.4(17) . . . . ?
+C32D N8D C34D C33D -2.5(19) . . . . ?
+C32D N7D C33D C34D -0.4(18) . . . . ?
+C32D N7D C33D C35D -175.6(17) . . . . ?
+C32D C29D C28D C27D 178.7(14) . . . . ?
+C5B C6B C7B C8B 4(2) . . . . ?
+C5B C4B C9B C8B -2(2) . . . . ?
+C20C C19C C12C N8C -5(3) . . . . ?
+C20C C19C C12C C11C 177.2(17) . . . . ?
+C20C C19C C18C N11C 5(2) . . . . ?
+C20C C19C C18C C17C 179.9(15) . . . . ?
+C3C N2C C2C C1C -175.8(16) . . . . ?
+C3C C4C C6C C7C -178.2(12) . . . . ?
+C52B C51B C54B N10B -11(2) . . . . ?
+C52B C51B C54B N9B 170.8(16) . . . . ?
+C52B C51B C50B C49B -2(3) . . . . ?
+C36D C35D C39D N15D 4(2) . . . . ?
+C36D C35D C39D C40D -179.7(16) . . . . ?
+C36D C35D C33D N7D -8(3) . . . . ?
+C36D C35D C33D C34D 178.0(18) . . . . ?
+C36D C37D C38D N15D 0(3) . . . . ?
+C7A C6A C5A C4A 4(3) . . . . ?
+C7A C8A C9A C4A -4(3) . . . . ?
+N4A C25A C26A C31A 66(3) . . . . ?
+N4A C25A C26A C27A -110(2) . . . . ?
+N4A C24A C23A N1A -61(3) . . . . ?
+C14A C13A C17A N15A -1(2) . . . . ?
+C14A C13A C17A C18A 179.8(13) . . . . ?
+C9B C8B C7B C6B -1(3) . . . . ?
+C9B C4B C5B C6B 5(3) . . . . ?
+C9B C4B C5B C3B -179.5(14) . . . . ?
+C26B C31B C30B C29B -3(3) . . . . ?
+C26B C27B C28B C29B -3(3) . . . . ?
+C50B C51B C54B N10B 169.7(16) . . . . ?
+C50B C51B C54B N9B -9(3) . . . . ?
+C50B C51B C52B C53B 6(3) . . . . ?
+C50B C49B C48B C47B -177.8(15) . . . . ?
+C50B C49B C48B C53B -1(3) . . . . ?
+C23D N1D C45D C46D -76.9(18) . . . . ?
+C23D N1D C1D C2D 144.2(17) . . . . ?
+N1A C1A C2A N2A -66(3) . . . . ?
+N1A C45A C46A N3A -67(2) . . . . ?
+C23C N1C C1C C2C -74.8(19) . . . . ?
+C23C N1C C45C C46C 150.7(15) . . . . ?
+C24C N4C C25C C26C 176.1(14) . . . . ?
+C53B C48B C47B N2B 85(2) . . . . ?
+C16B N16B C17B C18B 175.8(13) . . . . ?
+C16B N16B C17B C13B 2(2) . . . . ?
+C16B C15B C14B C13B 0(3) . . . . ?
+C6A C7A C8A C9A 9(3) . . . . ?
+C6A C5A C4A C9A 1(3) . . . . ?
+C6A C5A C4A C3A -179.4(16) . . . . ?
+C58A C57A C61A N14A -2(2) . . . . ?
+C58A C57A C61A C62A 178.4(14) . . . . ?
+C3B N4B C2B C1B 178.3(14) . . . . ?
+C45B N1B C23B C24B -83.3(16) . . . . ?
+C45B N1B C1B C2B 153.6(13) . . . . ?
+C38B N13B C39B C40B 179.7(16) . . . . ?
+C38B N13B C39B C35B -4(3) . . . . ?
+C38B C37B C36B C35B 9(3) . . . . ?
+C1E C2E C3E C4E 0.0 . . . . ?
+C2E C1E C6E C7E 175.1(12) . . . . ?
+C2E C1E C6E C5E 0.0 . . . . ?
+C2E C3E C4E C5E 0.0 . . . . ?
+C3E C4E C5E C6E 0.0 . . . . ?
+C3E C4E C5E C10E -178.7(14) . . . . ?
+C4E C5E C6E C7E -175.4(11) . . . . ?
+C4E C5E C6E C1E 0.0 . . . . ?
+C4E C5E C10E C9E 178.6(18) . . . . ?
+C6E C7E C8E C11E 179.2(12) . . . . ?
+C6E C7E C8E C9E -2.1(16) . . . . ?
+C6E C7E C14E C13E -179.2(12) . . . . ?
+C6E C1E C2E C3E 0.0 . . . . ?
+C6E C5E C10E C9E 0(3) . . . . ?
+C24B N3B C25B C26B 179.0(14) . . . . ?
+C31B C26B C27B C28B -1(3) . . . . ?
+C31B C26B C25B N3B 86(2) . . . . ?
+C2B N4B C3B C5B 177.9(15) . . . . ?
+C5A C4A C9A C8A -1(3) . . . . ?
+C5A C4A C3A N2A 79(2) . . . . ?
+C25D N3D C24D C23D 177.4(14) . . . . ?
+C25D C26D C31D C30D 177.3(13) . . . . ?
+C47A C48A C53A C52A 176.4(12) . . . . ?
+C47A N3A C46A C45A 176.3(17) . . . . ?
+C6G C7G C12G C14G 0.0 . . . . ?
+C6G C7G C12G C11G 179.5(18) . . . . ?
+C6G C7G C8G C9G 177.6(17) . . . . ?
+C6G C1G C2G C3G 7(3) . . . . ?
+C7G C6G C1G C13G 0.0 . . . . ?
+C7G C6G C1G C2G 175.9(18) . . . . ?
+C7G C6G C5G C4G -179.2(18) . . . . ?
+C7G C12G C14G C13G 0.0 . . . . ?
+C7G C12G C11G C10G 1(4) . . . . ?
+C7G C8G C9G C10G 5(4) . . . . ?
+C12G C7G C8G C9G -4(3) . . . . ?
+C12G C14G C13G C1G 0.0 . . . . ?
+C14G C12G C11G C10G -179(3) . . . . ?
+C14G C13G C1G C6G 0.0 . . . . ?
+C14G C13G C1G C2G -176.2(16) . . . . ?
+C13G C1G C2G C3G -177.3(18) . . . . ?
+C1G C6G C7G C12G 0.0 . . . . ?
+C1G C6G C7G C8G 178.6(18) . . . . ?
+C1G C6G C5G C4G 3(3) . . . . ?
+C1G C2G C3G C4G -4(4) . . . . ?
+C2G C3G C4G C5G 1(4) . . . . ?
+C3G C4G C5G C6G 0(4) . . . . ?
+C5G C6G C7G C12G -178.1(18) . . . . ?
+C5G C6G C7G C8G 1(2) . . . . ?
+C5G C6G C1G C13G 178.1(18) . . . . ?
+C5G C6G C1G C2G -6(2) . . . . ?
+C27D C26D C31D C30D 0.0 . . . . ?
+C26D C27D C28D C29D 0.0 . . . . ?
+C26D C31D C30D C29D 0.0 . . . . ?
+C31D C30D C29D C32D -178.8(13) . . . . ?
+C31D C30D C29D C28D 0.0 . . . . ?
+C30D C29D C28D C27D 0.0 . . . . ?
+C28D C27D C26D C25D -177.3(13) . . . . ?
+C28D C27D C26D C31D 0.0 . . . . ?
+C27B C26B C31B C30B 3(3) . . . . ?
+C27B C26B C25B N3B -100(2) . . . . ?
+C25C N4C C24C C23C 176.4(15) . . . . ?
+C25C C26C C31C C30C -172.8(11) . . . . ?
+C2C N2C C3C C4C -177.5(14) . . . . ?
+C47C C48C C49C C52C 178.1(12) . . . . ?
+C47C N3C C46C C45C -178.1(15) . . . . ?
+C47D N4D C46D C45D -176.5(14) . . . . ?
+C47D C48D C49D C50D -177.8(11) . . . . ?
+C8A C7A C6A C5A -9(3) . . . . ?
+C30B C29B C28B C27B 4(3) . . . . ?
+C1C N1C C23C C24C 158.4(14) . . . . ?
+C1C N1C C45C C46C -82.9(17) . . . . ?
+C45D N1D C23D C24D 153.8(15) . . . . ?
+C45D N1D C1D C2D -81.8(19) . . . . ?
+C25B N3B C24B C23B -177.4(14) . . . . ?
+C25B C26B C31B C30B 178.2(16) . . . . ?
+C25B C26B C27B C28B -175.0(18) . . . . ?
+C1A N1A C45A C46A -76(2) . . . . ?
+C1A N1A C23A C24A 157.3(17) . . . . ?
+C46D N4D C47D C48D -178.9(12) . . . . ?
+C9A C4A C3A N2A -102(2) . . . . ?
+C46C N3C C47C C48C 178.9(13) . . . . ?
+C45C N1C C23C C24C -79.8(18) . . . . ?
+C45C N1C C1C C2C 157.9(15) . . . . ?
+C9E C8E C11E C12E -178.7(15) . . . . ?
+C2D N2D C3D C4D 179.5(14) . . . . ?
+C1D N1D C23D C24D -75.4(19) . . . . ?
+C1D N1D C45D C46D 150.7(13) . . . . ?
+C28B C29B C30B C31B -1(3) . . . . ?
+C45A N1A C1A C2A 159.3(17) . . . . ?
+C45A N1A C23A C24A -79(2) . . . . ?
+C10E C5E C6E C7E 3.2(15) . . . . ?
+C10E C5E C6E C1E 178.6(15) . . . . ?
+C46A N3A C47A C48A -179.0(15) . . . . ?
+C2A N2A C3A C4A 170.2(18) . . . . ?
+C8G C7G C12G C14G -178.7(17) . . . . ?
+C8G C7G C12G C11G 1(2) . . . . ?
+C8G C9G C10G C11G -3(4) . . . . ?
+C9G C10G C11G C12G 0(5) . . . . ?
+C11G C12G C14G C13G -180(2) . . . . ?
+C31A C30A C29A C32A -176.2(18) . . . . ?
+C31A C30A C29A C28A 4(3) . . . . ?
+C31A C26A C27A C28A 6(4) . . . . ?
+C25A N4A C24A C23A -170(2) . . . . ?
+C25A C26A C27A C28A -177(2) . . . . ?
+C3A N2A C2A C1A 174.5(19) . . . . ?
+C3A C4A C9A C8A 179.7(18) . . . . ?
+C24A N4A C25A C26A -175.3(19) . . . . ?
+C11F C12F C7F C8F 0.0 . . . . ?
+C11F C12F C7F C5F 180(2) . . . . ?
+C11F C12F C13F C14F -177(3) . . . . ?
+C12F C11F C10F C9F 0.0 . . . . ?
+C12F C7F C8F C9F 0.0 . . . . ?
+C12F C7F C5F C4F -9(2) . . . . ?
+C12F C7F C5F C6F 173.7(13) . . . . ?
+C12F C13F C14F C4F 5(6) . . . . ?
+C7F C12F C13F C14F -3(5) . . . . ?
+C7F C8F C9F C10F 0.0 . . . . ?
+C7F C5F C6F C1F 177(2) . . . . ?
+C8F C7F C5F C4F 170.5(11) . . . . ?
+C8F C7F C5F C6F -7(2) . . . . ?
+C8F C9F C10F C11F 0.0 . . . . ?
+C10F C11F C12F C7F 0.0 . . . . ?
+C10F C11F C12F C13F 173(3) . . . . ?
+C4F C5F C6F C1F 0.0 . . . . ?
+C5F C7F C8F C9F -179.6(19) . . . . ?
+C5F C4F C3F C2F 0.0 . . . . ?
+C5F C4F C14F C13F -9(5) . . . . ?
+C5F C6F C1F C2F 0.0 . . . . ?
+C6F C1F C2F C3F 0.0 . . . . ?
+C1F C2F C3F C4F 0.0 . . . . ?
+C3F C4F C5F C7F -177.4(19) . . . . ?
+C3F C4F C5F C6F 0.0 . . . . ?
+C3F C4F C14F C13F 179(3) . . . . ?
+C13F C12F C7F C8F -174(2) . . . . ?
+C13F C12F C7F C5F 5(2) . . . . ?
+C23A N1A C1A C2A -79(2) . . . . ?
+C23A N1A C45A C46A 158.1(19) . . . . ?
+C14F C4F C5F C7F 11(3) . . . . ?
+C14F C4F C5F C6F -172(3) . . . . ?
+C14F C4F C3F C2F 173(2) . . . . ?
+
+_platon_squeeze_details ?
+_platon_squeeze_special_details ?
+
+loop_
+_platon_squeeze_void_nr
+_platon_squeeze_void_average_x
+_platon_squeeze_void_average_y
+_platon_squeeze_void_average_z
+_platon_squeeze_void_volume
+_platon_squeeze_void_count_electrons
+_platon_squeeze_void_content
+1 0.000 0.000 -0.005 37405 11446 ' '
+2 0.376 0.405 0.204 15 8 ' '
+3 0.876 0.595 0.204 15 8 ' '
+4 0.375 0.906 0.223 14 6 ' '
+5 0.875 0.094 0.223 14 7 ' '
+6 0.125 0.594 0.277 13 6 ' '
+7 0.625 0.406 0.277 14 7 ' '
+8 0.124 0.095 0.296 14 8 ' '
+9 0.624 0.905 0.296 15 8 ' '
+10 0.376 0.095 0.704 15 8 ' '
+11 0.876 0.905 0.704 15 8 ' '
+12 0.375 0.594 0.723 14 7 ' '
+13 0.875 0.406 0.723 14 6 ' '
+14 0.125 0.906 0.777 14 7 ' '
+15 0.625 0.094 0.777 13 6 ' '
+16 0.124 0.405 0.796 15 8 ' '
+17 0.624 0.595 0.796 14 8 ' '
+
+_platon_squeeze_void_probe_radius 1.20
+_olex2_submission_special_instructions 'No special instructions were received'
+_oxdiff_exptl_absorpt_empirical_details
+;
+Empirical correction (ABSPACK) includes:
+- Absorption correction using spherical harmonics
+- Frame scaling
+;
+_oxdiff_exptl_absorpt_empirical_full_max 1.609
+_oxdiff_exptl_absorpt_empirical_full_min 0.652

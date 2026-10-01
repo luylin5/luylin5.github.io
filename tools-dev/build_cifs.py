@@ -8,8 +8,9 @@ Output  structures/cif/<ccdc>.json  unit cell: whole molecules, bonds, cell vect
         structures/cif/<ccdc>.cif   the data block without embedded hkl/res/fab data
         structures/cif/manifest.json  { doi: [ {ccdc, label, ...} ] } read by js/cif-viewer.js
 
-A block is matched to a paper through its CCDC number (_database_code_depnum_ccdc_archive);
-blocks without one can be mapped by file name in FILE_TO_CCDC below.
+A block is matched to a paper by its _citation_doi (CCDC downloads carry it), else by its
+CCDC number (_database_code_depnum_ccdc_archive) via PAPERS; blocks without either can be
+mapped by file name in FILE_TO_CCDC below.
 Disorder: PART 0 and PART 1 are kept; other parts (incl. negative, special-position
 parts) are dropped. Labels come from LABELS, else the data-block name.
 """
@@ -27,7 +28,9 @@ PAPERS = {  # doi: CCDC numbers cited in the paper
     "10.1021/jacs.5c03074": [2372338, 2372339, 2390659, 2390660, 2390661],
     "10.1021/jacs.4c05758": [2324469, 2324470, 2324471],
     "10.1021/jacs.2c02692": [2142981],
-    "10.1021/jacs.4c06102": [2206002, 2206003, 2206005, 2206006, 2206007, 2206008, 2206009, 2348552],
+    "10.1021/jacs.4c06102": [2206002, 2206003, 2206005, 2206006, 2206007, 2206008, 2206009, 2348552,
+                             2072298, 2460079],
+    "10.1021/acscatal.3c04593": [2274984, 2274475, 2279965],
     "10.1002/anie.202315053": [2246600, 2233283, 2233397, 2233394, 2246587, 2246586, 2233278, 2233282, 2233396,
                                2233281, 2233395, 2246585, 2246588, 2246589, 2246594, 2246593, 2246590, 2292830,
                                2292826, 2292827, 2233384, 2246598, 2292829, 2292828, 2246592, 2246601, 2246591,
@@ -47,7 +50,24 @@ LABELS = {  # names as given in the papers
     2246588: "rac-Δ₈/Λ₈-Ni₈Pd₆·PF₆", 2246589: "rac-Δ₈/Λ₈-Ni₈Pd₆·SbF₆", 2246594: "Δ₈-Ru₈Pd₆",
     2246593: "Λ₈-Ru₈Pd₆", 2246590: "Δ₈-Fe₈Pd₆", 2292830: "Λ₈-Fe₈Pd₆",
     2246599: "rac-Ru₈Pd₆ (with R-BINOL)", 2246604: "rac-Ru₈Pd₆ (with S-BINOL)",
+    2274984: "MOC-68·Cl (P6₂22)", 2274475: "MOC-68·Cl (P6₄22)", 2279965: "MOC-68·PF₆",
+    2324469: "MOC-70-Zn", 2324470: "MOC-70-Zn ⊃ calix[4]arene", 2324471: "MOC-70-Zn ⊃ DB24C8",
+    2372338: "Photoproduct C₂₁H₁₉ClO₃", 2372339: "Photoproduct C₂₅H₂₇NO₃",
+    2390659: "MOC-68·PF₆ ⊃ phenanthrene", 2390660: "Δ-MOC-68·CB[10]", 2390661: "Λ-MOC-68·CB[10]",
+    2072298: "Δ-Co₈Pd₆ (S-BINOL)", 2460079: "rac-Co₈Pd₆·BF₄",
 }
+SUB = str.maketrans("0123456789", "₀₁₂₃₄₅₆₇₈₉")
+
+
+def label_for(n, block):
+    if n in LABELS: return LABELS[n]
+    # Angew BINOL series, e.g. M16Ru_Sbr_Delta_Ether → Δ₈-Ru₈Pd₆·S-BINOL (ether)
+    m = re.match(r"M16([A-Z][a-z]?)[_-]([RS])br[_-](Delta|Lambda)[_-](\w+)", block.name)
+    if m:
+        metal, hand, sense, solv = m.groups()
+        solv = {"CH3OH": "MeOH", "MeOH": "MeOH", "THF": "THF", "Ether": "ether"}.get(solv, solv)
+        return f"{'Δ₈' if sense == 'Delta' else 'Λ₈'}-{metal}₈Pd₆·{hand}-BINOL ({solv})"
+    return block.name.replace("_", " ").translate(SUB)
 FILE_TO_CCDC = {"TAHPMe_N12Cl12_heptane": 2515985}  # local files lacking a CCDC number
 
 # covalent radii (Å) for bond detection; anything else falls back to 1.5
@@ -61,6 +81,13 @@ STRIP = ("_shelx_hkl_file", "_shelx_res_file", "_shelx_fab_file", "_shelx_hkl_ch
          "_iucr_refine_reflections_details", "_olex2_refinement_description")
 
 
+def doi_of(block, n):
+    for d in block.find_values("_citation_doi"):
+        d = gemmi.cif.as_string(d).strip().lower()
+        if d in PAPERS: return d
+    return CCDC_TO_DOI.get(n)
+
+
 def ccdc_of(block, path):
     v = block.find_value("_database_code_depnum_ccdc_archive")
     m = re.search(r"\d{7}", v or "")
@@ -70,22 +97,48 @@ def ccdc_of(block, path):
 
 def unit_cell(block):
     st = gemmi.make_small_structure_from_block(block)
-    groups = list(block.find_values("_atom_site_disorder_group")) or ["."] * len(st.sites)
-    keep = [s for s, g in zip(st.sites, groups) if g in (".", "?", "0", "1")]
-    el = np.array([s.element.name for s in keep])
-    frac0 = np.array([[s.fract.x, s.fract.y, s.fract.z] for s in keep])
+    groups = [gemmi.cif.as_string(g) for g in block.find_values("_atom_site_disorder_group")]
+    if len(groups) != len(st.sites): groups = ["."] * len(st.sites)
+    # PART 0/1 kept, PART ≥2 dropped; negative PARTs (molecules disordered about a special
+    # position) are kept and resolved to one orientation below
+    keep = [(s, g.startswith("-")) for s, g in zip(st.sites, groups) if g in ("", ".", "?", "0", "1") or g.startswith("-")]
+    el = np.array([s.element.name for s, _ in keep])
+    neg0 = np.array([n for _, n in keep])
+    frac0 = np.array([[s.fract.x, s.fract.y, s.fract.z] for s, _ in keep])
     orth = np.array(st.cell.orth.mat.tolist())
 
     # all symmetry images in the 3×3×3 block of cells around the origin cell
-    fr, els = [], []
-    for op in st.spacegroup.operations():
+    # (identity image first, so the greedy clash removal below favours the deposited orientation)
+    shifts = sorted(itertools.product((-1, 0, 1), repeat=3), key=lambda t: t != (0, 0, 0))
+    fr, els, neg, copy = [], [], [], []
+    for o, op in enumerate(st.spacegroup.operations()):
         f = np.array([op.apply_to_xyz(list(x)) for x in frac0]) % 1.0
-        for t in itertools.product((-1, 0, 1), repeat=3):
-            fr.append(f + t); els.append(el)
-    fr, els = np.vstack(fr), np.concatenate(els)
+        for s, t in enumerate(shifts):
+            fr.append(f + t); els.append(el); neg.append(neg0); copy.append(np.full(len(el), o * 27 + s))
+    fr, els, neg, copy = np.vstack(fr), np.concatenate(els), np.concatenate(neg), np.concatenate(copy)
     cart = fr @ orth.T
-    _, idx = np.unique(np.round(cart, 1), axis=0, return_index=True)  # merge special-position copies
-    idx.sort(); fr, cart, els = fr[idx], cart[idx], els[idx]
+    dropped = np.zeros(len(cart), bool)
+    tree = cKDTree(cart)
+    # 1) the same atom generated twice (special positions): keep one
+    for i, j in sorted(tree.query_pairs(0.3)):
+        if not dropped[i]: dropped[j] = True
+    # 2) negative PART: a symmetry copy overlapping an earlier copy is the other disorder
+    #    orientation → drop that whole copy (its negative-PART atoms)
+    pairs = np.array(sorted(tree.query_pairs(0.8)))
+    if len(pairs):
+        a, b = pairs[:, 0], pairs[:, 1]
+        m = neg[a] & neg[b] & (copy[a] != copy[b]) & ~dropped[a] & ~dropped[b]
+        m &= np.linalg.norm(cart[a] - cart[b], axis=1) >= 0.3
+        clash = {}
+        for x, y in zip(copy[a[m]], copy[b[m]]):
+            lo, hi = min(x, y), max(x, y)
+            clash.setdefault(hi, set()).add(lo)
+        rejected = set()
+        for c in sorted(clash):  # greedy in copy order: identity image first
+            if any(o not in rejected for o in clash[c]): rejected.add(c)
+        if rejected: dropped |= neg & np.isin(copy, list(rejected))
+    idx = np.where(~dropped)[0]
+    fr, cart, els = fr[idx], cart[idx], els[idx]
 
     rad = np.array([COV.get(e, 1.5) for e in els])
     pairs = np.array(sorted(cKDTree(cart).query_pairs(2 * rad.max() + 0.45)))
@@ -103,10 +156,20 @@ def unit_cell(block):
     sel = np.zeros(n, bool)
     for k in range(ncomp):
         m = lab == k
-        if np.any(np.abs(fr[m]) >= 1.4) or np.any(fr[m] >= 2.4):
+        if fr[m].min() < -0.95 or fr[m].max() > 1.95:  # reaches the edge of the 3×3×3 block
             sel |= m & np.all((fr >= 0) & (fr < 1), axis=1)
-        elif np.all((fr[m].mean(0) >= 0) & (fr[m].mean(0) < 1)):
-            sel |= m
+        else:
+            # molecules on special positions at a cell face have centroids at exactly 0 or 1;
+            # a small tolerance makes exactly one lattice copy count as "inside"
+            cen = fr[m].mean(0)
+            if np.all((cen >= -1e-4) & (cen < 1 - 1e-4)):
+                sel |= m
+    # safety net: no atom may appear twice modulo a lattice translation (fragments joined by
+    # spurious contacts can otherwise be counted from two neighbouring cells)
+    si = np.where(sel)[0]
+    wrapped = (fr[si] % 1.0) @ orth.T
+    for i, j in sorted(cKDTree(wrapped, boxsize=None).query_pairs(0.3)):
+        if sel[si[i]]: sel[si[j]] = False
     new = -np.ones(n, int); new[sel] = np.arange(sel.sum())
     keep_b = sel[bonds[:, 0]] & sel[bonds[:, 1]]
     return st, els[sel], cart[sel], new[bonds[keep_b]], orth
@@ -127,7 +190,7 @@ def main():
         for block in gemmi.cif.read(path):
             if not block.find_values("_atom_site_label"): continue
             n = ccdc_of(block, path)
-            doi = CCDC_TO_DOI.get(n)
+            doi = doi_of(block, n)
             if not doi:
                 print(f"skip {os.path.basename(path)}:{block.name} (CCDC {n} not in PAPERS)"); continue
             st, els, cart, bonds, orth = unit_cell(block)
@@ -138,7 +201,7 @@ def main():
             }, open(f"{OUT}/{n}.json", "w"), separators=(",", ":"))
             open(f"{OUT}/{n}.cif", "w", encoding="utf-8").write(clean_block_text(block))
             entry = {
-                "ccdc": n, "label": LABELS.get(n, block.name), "sg": st.spacegroup.hm,
+                "ccdc": n, "label": label_for(n, block), "sg": st.spacegroup.hm,
                 "cell": [round(c.a, 3), round(c.b, 3), round(c.c, 3), round(c.alpha, 2), round(c.beta, 2), round(c.gamma, 2)],
                 "atoms": int(len(els)), "data": f"{OUT}/{n}.json", "cif": f"{OUT}/{n}.cif",
             }

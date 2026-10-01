@@ -1,5 +1,815 @@
 {
+ "10.1021/jacs.4c06102": [
+  {
+   "ccdc": 2072298,
+   "label": "Δ-Co₈Pd₆ (S-BINOL)",
+   "sg": "I 4 2 2",
+   "cell": [
+    33.256,
+    33.256,
+    36.845,
+    90.0,
+    90.0,
+    90.0
+   ],
+   "atoms": 1948,
+   "data": "structures/cif/2072298.json",
+   "cif": "structures/cif/2072298.cif"
+  },
+  {
+   "ccdc": 2460079,
+   "label": "rac-Co₈Pd₆·BF₄",
+   "sg": "P 4/n",
+   "cell": [
+    29.748,
+    29.748,
+    42.623,
+    90.0,
+    90.0,
+    90.0
+   ],
+   "atoms": 1660,
+   "data": "structures/cif/2460079.json",
+   "cif": "structures/cif/2460079.cif"
+  }
+ ],
+ "10.1002/anie.202315053": [
+  {
+   "ccdc": 2233278,
+   "label": "rac-Δ₈/Λ₈-Ru₈Pd₆·PF₆",
+   "sg": "P 4/n",
+   "cell": [
+    30.278,
+    30.278,
+    42.609,
+    90.0,
+    90.0,
+    90.0
+   ],
+   "atoms": 1898,
+   "data": "structures/cif/2233278.json",
+   "cif": "structures/cif/2233278.cif"
+  },
+  {
+   "ccdc": 2233282,
+   "label": "rac-Δ₈/Λ₈-Ru₈Pd₆·PF₆ (2)",
+   "sg": "P 4/n",
+   "cell": [
+    30.317,
+    30.317,
+    42.649,
+    90.0,
+    90.0,
+    90.0
+   ],
+   "atoms": 1954,
+   "data": "structures/cif/2233282.json",
+   "cif": "structures/cif/2233282.cif"
+  },
+  {
+   "ccdc": 2233283,
+   "label": "meso-Δ₄Λ₄-Zn₈Pd₆·PF₆",
+   "sg": "P 1 21/c 1",
+   "cell": [
+    30.146,
+    55.614,
+    30.024,
+    90.0,
+    116.22,
+    90.0
+   ],
+   "atoms": 2012,
+   "data": "structures/cif/2233283.json",
+   "cif": "structures/cif/2233283.cif"
+  },
+  {
+   "ccdc": 2233384,
+   "label": "Δ₈-Ni₈Pd₆·R-BINOL (MeOH)",
+   "sg": "I 4 3 2",
+   "cell": [
+    37.912,
+    37.912,
+    37.912,
+    90.0,
+    90.0,
+    90.0
+   ],
+   "atoms": 3472,
+   "data": "structures/cif/2233384.json",
+   "cif": "structures/cif/2233384.cif"
+  },
+  {
+   "ccdc": 2233394,
+   "label": "meso-Δ₄Λ₄-Zn₈Pd₆·SbF₆",
+   "sg": "P n n m",
+   "cell": [
+    31.642,
+    37.546,
+    38.3,
+    90.0,
+    90.0,
+    90.0
+   ],
+   "atoms": 1908,
+   "data": "structures/cif/2233394.json",
+   "cif": "structures/cif/2233394.cif"
+  },
+  {
+   "ccdc": 2233395,
+   "label": "rac-Δ₈/Λ₈-Fe₈Pd₆·SbF₆",
+   "sg": "P 4/n",
+   "cell": [
+    30.322,
+    30.322,
+    42.152,
+    90.0,
+    90.0,
+    90.0
+   ],
+   "atoms": 1800,
+   "data": "structures/cif/2233395.json",
+   "cif": "structures/cif/2233395.cif"
+  },
+  {
+   "ccdc": 2233396,
+   "label": "rac-Δ₈/Λ₈-Ru₈Pd₆·SbF₆",
+   "sg": "P 4/n",
+   "cell": [
+    30.672,
+    30.672,
+    42.808,
+    90.0,
+    90.0,
+    90.0
+   ],
+   "atoms": 1772,
+   "data": "structures/cif/2233396.json",
+   "cif": "structures/cif/2233396.cif"
+  },
+  {
+   "ccdc": 2233397,
+   "label": "rac-Δ₈/Λ₈-Zn₈Pd₆·SbF₆",
+   "sg": "P 4/n",
+   "cell": [
+    31.753,
+    31.753,
+    35.683,
+    90.0,
+    90.0,
+    90.0
+   ],
+   "atoms": 1898,
+   "data": "structures/cif/2233397.json",
+   "cif": "structures/cif/2233397.cif"
+  },
+  {
+   "ccdc": 2246585,
+   "label": "rac-Δ₈/Λ₈-Fe₈Pd₆·ClO₄",
+   "sg": "P 4/n",
+   "cell": [
+    29.878,
+    29.878,
+    42.682,
+    90.0,
+    90.0,
+    90.0
+   ],
+   "atoms": 1660,
+   "data": "structures/cif/2246585.json",
+   "cif": "structures/cif/2246585.cif"
+  },
+  {
+   "ccdc": 2246586,
+   "label": "meso-Δ₄Λ₄-Zn₈Pd₆·ClO₄",
+   "sg": "P -1",
+   "cell": [
+    29.767,
+    29.962,
+    30.284,
+    109.17,
+    98.61,
+    117.63
+   ],
+   "atoms": 938,
+   "data": "structures/cif/2246586.json",
+   "cif": "structures/cif/2246586.cif"
+  },
+  {
+   "ccdc": 2246587,
+   "label": "rac-Δ₈/Λ₈-Zn₈Pd₆·ClO₄",
+   "sg": "P 4/n",
+   "cell": [
+    31.053,
+    31.053,
+    35.626,
+    90.0,
+    90.0,
+    90.0
+   ],
+   "atoms": 1984,
+   "data": "structures/cif/2246587.json",
+   "cif": "structures/cif/2246587.cif"
+  },
+  {
+   "ccdc": 2246588,
+   "label": "rac-Δ₈/Λ₈-Ni₈Pd₆·PF₆",
+   "sg": "P 4/n",
+   "cell": [
+    30.358,
+    30.358,
+    42.19,
+    90.0,
+    90.0,
+    90.0
+   ],
+   "atoms": 1940,
+   "data": "structures/cif/2246588.json",
+   "cif": "structures/cif/2246588.cif"
+  },
+  {
+   "ccdc": 2246589,
+   "label": "rac-Δ₈/Λ₈-Ni₈Pd₆·SbF₆",
+   "sg": "P 4/n",
+   "cell": [
+    30.709,
+    30.709,
+    42.876,
+    90.0,
+    90.0,
+    90.0
+   ],
+   "atoms": 1772,
+   "data": "structures/cif/2246589.json",
+   "cif": "structures/cif/2246589.cif"
+  },
+  {
+   "ccdc": 2246591,
+   "label": "Λ₈-Ni₈Pd₆·R-BINOL (ether)",
+   "sg": "I 4 2 2",
+   "cell": [
+    33.116,
+    33.116,
+    38.475,
+    90.0,
+    90.0,
+    90.0
+   ],
+   "atoms": 1948,
+   "data": "structures/cif/2246591.json",
+   "cif": "structures/cif/2246591.cif"
+  },
+  {
+   "ccdc": 2246592,
+   "label": "Λ₈-Ru₈Pd₆·R-BINOL (ether)",
+   "sg": "I 4 2 2",
+   "cell": [
+    32.815,
+    32.815,
+    38.73,
+    90.0,
+    90.0,
+    90.0
+   ],
+   "atoms": 1948,
+   "data": "structures/cif/2246592.json",
+   "cif": "structures/cif/2246592.cif"
+  },
+  {
+   "ccdc": 2246593,
+   "label": "Λ₈-Ru₈Pd₆",
+   "sg": "P 4 21 2",
+   "cell": [
+    37.51,
+    37.51,
+    38.08,
+    90.0,
+    90.0,
+    90.0
+   ],
+   "atoms": 1800,
+   "data": "structures/cif/2246593.json",
+   "cif": "structures/cif/2246593.cif"
+  },
+  {
+   "ccdc": 2246594,
+   "label": "Δ₈-Ru₈Pd₆",
+   "sg": "P 4 21 2",
+   "cell": [
+    37.738,
+    37.738,
+    38.143,
+    90.0,
+    90.0,
+    90.0
+   ],
+   "atoms": 1800,
+   "data": "structures/cif/2246594.json",
+   "cif": "structures/cif/2246594.cif"
+  },
+  {
+   "ccdc": 2246596,
+   "label": "Δ₈-Ni₈Pd₆·S-BINOL (ether)",
+   "sg": "I 4 2 2",
+   "cell": [
+    32.76,
+    32.76,
+    38.632,
+    90.0,
+    90.0,
+    90.0
+   ],
+   "atoms": 1948,
+   "data": "structures/cif/2246596.json",
+   "cif": "structures/cif/2246596.cif"
+  },
+  {
+   "ccdc": 2246597,
+   "label": "Λ₈-Ni₈Pd₆·R-BINOL (THF)",
+   "sg": "P 4 21 2",
+   "cell": [
+    33.287,
+    33.287,
+    35.842,
+    90.0,
+    90.0,
+    90.0
+   ],
+   "atoms": 1924,
+   "data": "structures/cif/2246597.json",
+   "cif": "structures/cif/2246597.cif"
+  },
+  {
+   "ccdc": 2246598,
+   "label": "Λ₈-Ni₈Pd₆·S-BINOL (MeOH)",
+   "sg": "I 4 3 2",
+   "cell": [
+    37.699,
+    37.699,
+    37.699,
+    90.0,
+    90.0,
+    90.0
+   ],
+   "atoms": 3472,
+   "data": "structures/cif/2246598.json",
+   "cif": "structures/cif/2246598.cif"
+  },
+  {
+   "ccdc": 2246599,
+   "label": "rac-Ru₈Pd₆ (with R-BINOL)",
+   "sg": "P -1",
+   "cell": [
+    30.415,
+    30.625,
+    45.108,
+    92.05,
+    93.29,
+    93.74
+   ],
+   "atoms": 1796,
+   "data": "structures/cif/2246599.json",
+   "cif": "structures/cif/2246599.cif"
+  },
+  {
+   "ccdc": 2246600,
+   "label": "rac-Δ₈/Λ₈-Zn₈Pd₆",
+   "sg": "P c c n",
+   "cell": [
+    47.206,
+    76.033,
+    45.105,
+    90.0,
+    90.0,
+    90.0
+   ],
+   "atoms": 7144,
+   "data": "structures/cif/2246600.json",
+   "cif": "structures/cif/2246600.cif"
+  },
+  {
+   "ccdc": 2246601,
+   "label": "Δ₈-Ru₈Pd₆·S-BINOL (ether)",
+   "sg": "I 4 2 2",
+   "cell": [
+    32.926,
+    32.926,
+    38.819,
+    90.0,
+    90.0,
+    90.0
+   ],
+   "atoms": 1948,
+   "data": "structures/cif/2246601.json",
+   "cif": "structures/cif/2246601.cif"
+  },
+  {
+   "ccdc": 2246602,
+   "label": "Δ₈-Ni₈Pd₆·S-BINOL (THF)",
+   "sg": "P 4 21 2",
+   "cell": [
+    33.775,
+    33.775,
+    34.451,
+    90.0,
+    90.0,
+    90.0
+   ],
+   "atoms": 1924,
+   "data": "structures/cif/2246602.json",
+   "cif": "structures/cif/2246602.cif"
+  },
+  {
+   "ccdc": 2246604,
+   "label": "rac-Ru₈Pd₆ (with S-BINOL)",
+   "sg": "P -1",
+   "cell": [
+    30.503,
+    30.529,
+    45.191,
+    92.86,
+    92.49,
+    94.01
+   ],
+   "atoms": 1816,
+   "data": "structures/cif/2246604.json",
+   "cif": "structures/cif/2246604.cif"
+  },
+  {
+   "ccdc": 2292826,
+   "label": "Δ₈-Ru₈Pd₆·R-BINOL (MeOH)",
+   "sg": "I 4 3 2",
+   "cell": [
+    37.922,
+    37.922,
+    37.922,
+    90.0,
+    90.0,
+    90.0
+   ],
+   "atoms": 3514,
+   "data": "structures/cif/2292826.json",
+   "cif": "structures/cif/2292826.cif"
+  },
+  {
+   "ccdc": 2292827,
+   "label": "Λ₈-Ru₈Pd₆·S-BINOL (MeOH)",
+   "sg": "I 4 3 2",
+   "cell": [
+    38.185,
+    38.185,
+    38.185,
+    90.0,
+    90.0,
+    90.0
+   ],
+   "atoms": 3514,
+   "data": "structures/cif/2292827.json",
+   "cif": "structures/cif/2292827.cif"
+  },
+  {
+   "ccdc": 2292828,
+   "label": "Λ₈-Zn₈Pd₆·S-BINOL (MeOH)",
+   "sg": "I 4 3 2",
+   "cell": [
+    38.01,
+    38.01,
+    38.01,
+    90.0,
+    90.0,
+    90.0
+   ],
+   "atoms": 3472,
+   "data": "structures/cif/2292828.json",
+   "cif": "structures/cif/2292828.cif"
+  },
+  {
+   "ccdc": 2292829,
+   "label": "Δ₈-Zn₈Pd₆·R-BINOL (MeOH)",
+   "sg": "I 4 3 2",
+   "cell": [
+    38.098,
+    38.098,
+    38.098,
+    90.0,
+    90.0,
+    90.0
+   ],
+   "atoms": 3514,
+   "data": "structures/cif/2292829.json",
+   "cif": "structures/cif/2292829.cif"
+  },
+  {
+   "ccdc": 2292830,
+   "label": "Λ₈-Fe₈Pd₆",
+   "sg": "P 4 21 2",
+   "cell": [
+    36.703,
+    36.703,
+    37.871,
+    90.0,
+    90.0,
+    90.0
+   ],
+   "atoms": 1800,
+   "data": "structures/cif/2292830.json",
+   "cif": "structures/cif/2292830.cif"
+  }
+ ],
+ "10.1021/acscatal.3c04593": [
+  {
+   "ccdc": 2274475,
+   "label": "MOC-68·Cl (P6₄22)",
+   "sg": "P 64 2 2",
+   "cell": [
+    26.037,
+    26.037,
+    66.167,
+    90.0,
+    90.0,
+    120.0
+   ],
+   "atoms": 1716,
+   "data": "structures/cif/2274475.json",
+   "cif": "structures/cif/2274475.cif"
+  },
+  {
+   "ccdc": 2274984,
+   "label": "MOC-68·Cl (P6₂22)",
+   "sg": "P 62 2 2",
+   "cell": [
+    26.053,
+    26.053,
+    66.277,
+    90.0,
+    90.0,
+    120.0
+   ],
+   "atoms": 1788,
+   "data": "structures/cif/2274984.json",
+   "cif": "structures/cif/2274984.cif"
+  },
+  {
+   "ccdc": 2279965,
+   "label": "MOC-68·PF₆",
+   "sg": "P 1 2/n 1",
+   "cell": [
+    27.47,
+    20.907,
+    33.7,
+    90.0,
+    91.41,
+    90.0
+   ],
+   "atoms": 1314,
+   "data": "structures/cif/2279965.json",
+   "cif": "structures/cif/2279965.cif"
+  }
+ ],
+ "10.1021/jacs.4c05758": [
+  {
+   "ccdc": 2324469,
+   "label": "MOC-70-Zn",
+   "sg": "P 1 2/n 1",
+   "cell": [
+    36.936,
+    29.589,
+    54.755,
+    90.0,
+    91.94,
+    90.0
+   ],
+   "atoms": 1948,
+   "data": "structures/cif/2324469.json",
+   "cif": "structures/cif/2324469.cif"
+  },
+  {
+   "ccdc": 2324470,
+   "label": "MOC-70-Zn ⊃ calix[4]arene",
+   "sg": "C 1 2/c 1",
+   "cell": [
+    59.775,
+    42.043,
+    46.562,
+    90.0,
+    97.31,
+    90.0
+   ],
+   "atoms": 4624,
+   "data": "structures/cif/2324470.json",
+   "cif": "structures/cif/2324470.cif"
+  },
+  {
+   "ccdc": 2324471,
+   "label": "MOC-70-Zn ⊃ DB24C8",
+   "sg": "P 4/n",
+   "cell": [
+    31.539,
+    31.539,
+    47.066,
+    90.0,
+    90.0,
+    90.0
+   ],
+   "atoms": 2404,
+   "data": "structures/cif/2324471.json",
+   "cif": "structures/cif/2324471.cif"
+  }
+ ],
+ "10.1021/jacs.5c03074": [
+  {
+   "ccdc": 2372338,
+   "label": "Photoproduct C₂₁H₁₉ClO₃",
+   "sg": "P 21 21 21",
+   "cell": [
+    6.269,
+    15.329,
+    17.774,
+    90.0,
+    90.0,
+    90.0
+   ],
+   "atoms": 176,
+   "data": "structures/cif/2372338.json",
+   "cif": "structures/cif/2372338.cif"
+  },
+  {
+   "ccdc": 2372339,
+   "label": "Photoproduct C₂₅H₂₇NO₃",
+   "sg": "P 21 21 21",
+   "cell": [
+    12.622,
+    12.906,
+    13.802,
+    90.0,
+    90.0,
+    90.0
+   ],
+   "atoms": 236,
+   "data": "structures/cif/2372339.json",
+   "cif": "structures/cif/2372339.cif"
+  },
+  {
+   "ccdc": 2390659,
+   "label": "MOC-68·PF₆ ⊃ phenanthrene",
+   "sg": "I 1 2/a 1",
+   "cell": [
+    46.236,
+    41.946,
+    43.601,
+    90.0,
+    92.62,
+    90.0
+   ],
+   "atoms": 5668,
+   "data": "structures/cif/2390659.json",
+   "cif": "structures/cif/2390659.cif"
+  },
+  {
+   "ccdc": 2390660,
+   "label": "Δ-MOC-68·CB[10]",
+   "sg": "I 1 2 1",
+   "cell": [
+    34.862,
+    45.881,
+    35.598,
+    90.0,
+    90.76,
+    90.0
+   ],
+   "atoms": 2618,
+   "data": "structures/cif/2390660.json",
+   "cif": "structures/cif/2390660.cif"
+  },
+  {
+   "ccdc": 2390661,
+   "label": "Λ-MOC-68·CB[10]",
+   "sg": "I 1 2 1",
+   "cell": [
+    34.893,
+    45.843,
+    35.612,
+    90.0,
+    90.68,
+    90.0
+   ],
+   "atoms": 2618,
+   "data": "structures/cif/2390661.json",
+   "cif": "structures/cif/2390661.cif"
+  }
+ ],
  "10.1038/s41557-026-02248-w": [
+  {
+   "ccdc": 2515978,
+   "label": "TAHP·Cl-α",
+   "sg": "C m c m",
+   "cell": [
+    29.173,
+    7.625,
+    7.836,
+    90.0,
+    90.0,
+    90.0
+   ],
+   "atoms": 120,
+   "data": "structures/cif/2515978.json",
+   "cif": "structures/cif/2515978.cif"
+  },
+  {
+   "ccdc": 2515979,
+   "label": "TAHP·Cl-β",
+   "sg": "C m m a",
+   "cell": [
+    32.142,
+    32.556,
+    8.074,
+    90.0,
+    90.0,
+    90.0
+   ],
+   "atoms": 624,
+   "data": "structures/cif/2515979.json",
+   "cif": "structures/cif/2515979.cif"
+  },
+  {
+   "ccdc": 2515980,
+   "label": "TAHPMe·Cl-nc",
+   "sg": "I 1 2/a 1",
+   "cell": [
+    10.184,
+    16.302,
+    29.95,
+    90.0,
+    99.73,
+    90.0
+   ],
+   "atoms": 384,
+   "data": "structures/cif/2515980.json",
+   "cif": "structures/cif/2515980.cif"
+  },
+  {
+   "ccdc": 2515981,
+   "label": "TAHPMe·N₄Cl₄",
+   "sg": "I 1 2/a 1",
+   "cell": [
+    18.679,
+    18.921,
+    19.937,
+    90.0,
+    96.04,
+    90.0
+   ],
+   "atoms": 720,
+   "data": "structures/cif/2515981.json",
+   "cif": "structures/cif/2515981.cif"
+  },
+  {
+   "ccdc": 2515982,
+   "label": "TAHPMe·N₁₂Cl₇-A",
+   "sg": "R 3 2",
+   "cell": [
+    24.504,
+    24.504,
+    21.012,
+    90.0,
+    90.0,
+    120.0
+   ],
+   "atoms": 831,
+   "data": "structures/cif/2515982.json",
+   "cif": "structures/cif/2515982.cif"
+  },
+  {
+   "ccdc": 2515983,
+   "label": "TAHPMe·N₁₂Cl₇-C",
+   "sg": "R 3 2",
+   "cell": [
+    24.495,
+    24.495,
+    20.448,
+    90.0,
+    90.0,
+    120.0
+   ],
+   "atoms": 831,
+   "data": "structures/cif/2515983.json",
+   "cif": "structures/cif/2515983.cif"
+  },
+  {
+   "ccdc": 2515984,
+   "label": "Cyclohexane@TAHPMe·N₁₂Cl₁₂",
+   "sg": "R -3 c",
+   "cell": [
+    32.027,
+    32.027,
+    44.618,
+    90.0,
+    90.0,
+    120.0
+   ],
+   "atoms": 3672,
+   "data": "structures/cif/2515984.json",
+   "cif": "structures/cif/2515984.cif"
+  },
   {
    "ccdc": 2515985,
    "label": "n-Heptane@TAHPMe·N₁₂Cl₁₂",
@@ -12,9 +822,57 @@
     90.0,
     120.0
    ],
-   "atoms": 1728,
+   "atoms": 2142,
    "data": "structures/cif/2515985.json",
    "cif": "structures/cif/2515985.cif"
+  },
+  {
+   "ccdc": 2515986,
+   "label": "TPA",
+   "sg": "P -1",
+   "cell": [
+    9.217,
+    16.538,
+    19.418,
+    110.55,
+    95.7,
+    99.42
+   ],
+   "atoms": 212,
+   "data": "structures/cif/2515986.json",
+   "cif": "structures/cif/2515986.cif"
+  },
+  {
+   "ccdc": 2515987,
+   "label": "TPA·N₆Cl₇",
+   "sg": "P 63/m m c",
+   "cell": [
+    19.741,
+    19.741,
+    20.358,
+    90.0,
+    90.0,
+    120.0
+   ],
+   "atoms": 370,
+   "data": "structures/cif/2515987.json",
+   "cif": "structures/cif/2515987.cif"
+  },
+  {
+   "ccdc": 2515988,
+   "label": "TPA·N₁₂Cl₉",
+   "sg": "P 1 21 1",
+   "cell": [
+    13.615,
+    31.87,
+    19.518,
+    90.0,
+    93.31,
+    90.0
+   ],
+   "atoms": 460,
+   "data": "structures/cif/2515988.json",
+   "cif": "structures/cif/2515988.cif"
   }
  ]
 }
