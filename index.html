@@ -130,7 +130,7 @@
     <!-- ============ Tools ============ -->
     <section id="tools" class="wrap section">
       <h2>Tools</h2>
-      <p class="muted">Software I develop for everyday lab work. Free and open source.</p>
+      <p class="muted">Software I develop for everyday lab work and desktop life. Free and open source.</p>
 
       <article class="tool" data-github-release="luylin5/xStack">
         <header class="tool-head">
@@ -170,6 +170,48 @@
         <p class="tool-note">
           The installer needs no admin rights. Builds are not code-signed, so Windows SmartScreen may ask
           you to confirm (“More info → Run anyway”).
+        </p>
+      </article>
+
+      <article class="tool" data-github-release="luylin5/Edgelet">
+        <header class="tool-head">
+          <img class="tool-icon" src="images/tools/edgelet-icon.png" alt="" width="56" height="56">
+          <div>
+            <h3>Edgelet <span class="tool-sub">Edge-docked app launcher</span></h3>
+            <p class="tool-meta"><span data-release="version">v0.2.0</span> · Windows 10/11 · MIT License<span data-release="date"></span></p>
+          </div>
+        </header>
+
+        <p class="tool-desc">
+          A small drawer of your favourite apps, files and folders tucked into the edge of the screen —
+          touch the edge or press a hotkey and it slides out; launch something and it hides again.
+        </p>
+
+        <figure class="tool-shot tool-shots">
+          <img src="images/tools/edgelet-panel.webp" alt="Edgelet panel docked to the right screen edge with app and folder tiles" loading="lazy" width="274" height="390">
+          <img src="images/tools/edgelet-icon-picker.webp" alt="Edgelet icon picker with built-in icons" loading="lazy" width="274" height="390">
+          <img src="images/tools/edgelet-layout-strip.webp" alt="Edgelet in the narrow 1×6 strip layout" loading="lazy" width="120" height="426">
+          <figcaption>Panel, icon picker and strip layout. The interface is currently in Chinese.</figcaption>
+        </figure>
+
+        <ul class="tool-features">
+          <li><b>Edge docking</b> — drag it anywhere and it snaps to the nearest edge, leaving only a thin handle when hidden; multi-monitor aware.</li>
+          <li><b>Open it your way</b> — hover the edge, press <code>Alt+`</code>, or click the tray icon.</li>
+          <li><b>Drag &amp; drop</b> apps, shortcuts, files or folders onto the panel; native 256 px icons, custom names and 50 built-in icons.</li>
+          <li><b>Layouts</b> from a 1×6 strip to a 4×6 grid, three icon sizes, optional labels; follows the system light / dark theme.</li>
+          <li><b>Memos</b> with dates and reminders — natural phrases such as 明天 or 周五下午3点 set the due time automatically.</li>
+          <li><b>Keyboard</b> — arrows to move, <code>Enter</code> to open, <code>F2</code> to rename, <code>Esc</code> to hide.</li>
+        </ul>
+
+        <div class="tool-actions">
+          <a class="btn btn-primary" data-asset="Setup" href="https://github.com/luylin5/Edgelet/releases/download/v0.2.0/Edgelet-Setup-0.2.0.exe">Download installer <span>107 MB</span></a>
+          <a class="btn" data-asset="portable" href="https://github.com/luylin5/Edgelet/releases/download/v0.2.0/Edgelet-0.2.0-portable.exe">Portable .exe <span>106 MB</span></a>
+          <span class="dl-count" data-release="downloads" hidden></span>
+          <a class="btn btn-ghost" href="https://github.com/luylin5/Edgelet" target="_blank" rel="noopener">Source &amp; docs on GitHub →</a>
+          <a class="btn btn-ghost" data-release="notes" href="https://github.com/luylin5/Edgelet/releases/latest" target="_blank" rel="noopener">What's new →</a>
+        </div>
+        <p class="tool-note">
+          Builds are not code-signed, so Windows SmartScreen may ask you to confirm (“More info → Run anyway”).
         </p>
       </article>
     </section>
