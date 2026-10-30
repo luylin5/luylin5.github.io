@@ -132,6 +132,56 @@
       <h2>Tools</h2>
       <p class="muted">Software I develop for everyday lab work and desktop life. All free to use.</p>
 
+      <article class="tool" data-github-release="luylin5/Crystery-release">
+        <header class="tool-head">
+          <img class="tool-icon" src="images/tools/crystery-icon.png" alt="" width="56" height="56">
+          <div>
+            <h3>Crystery <span class="tool-sub">Crystal structure viewer &amp; renderer</span></h3>
+            <p class="tool-meta"><span data-release="version">v0.1.0</span> · Windows 10/11 (64-bit) · Free to use<span data-release="date"></span></p>
+          </div>
+        </header>
+
+        <p class="tool-desc">
+          View crystal and molecular structures, make publication-quality structure figures,
+          simulate PXRD patterns and analyse pores — Python, PyMOL, Mitsuba 3 and Zeo++ are all bundled, nothing else to install.
+        </p>
+
+        <figure class="tool-shot">
+          <img src="images/tools/crystery-preview.webp" alt="Crystery window showing the pores of MOF-5 computed with Zeo++ and a Mitsuba render preview" loading="lazy" width="1440" height="900">
+          <figcaption>MOF-5 pores computed with Zeo++, in the Mitsuba render preview.</figcaption>
+        </figure>
+
+        <figure class="tool-shot tool-grid">
+          <img src="images/tools/crystery-hkust1.webp" alt="HKUST-1 with connected channels in blue and closed pockets in orange" loading="lazy" width="480" height="480">
+          <img src="images/tools/crystery-mof74.webp" alt="Glowing 1D hexagonal channels of Co-MOF-74 seen along c" loading="lazy" width="480" height="480">
+          <img src="images/tools/crystery-p4-cage.webp" alt="White phosphorus P4 inside an Fe4L6 tetrahedral cage" loading="lazy" width="480" height="480">
+          <img src="images/tools/crystery-glass.webp" alt="The same cage rendered in glass with Mitsuba" loading="lazy" width="480" height="480">
+          <figcaption>Rendered in Crystery: HKUST-1 channels and pockets (PyMOL), Co-MOF-74 (Mitsuba glow), P₄@Fe₄L₆ (Mitsuba), and the same cage in glass.</figcaption>
+        </figure>
+
+        <ul class="tool-features">
+          <li><b>Opens</b> CIF, SHELX RES/INS, MOL/SDF, MOL2, PDB, XYZ, VASP POSCAR, XSF, Gaussian input and CSSR, including multi-block and multi-frame files.</li>
+          <li><b>Models</b> — ball-and-stick, stick, space-filling, wireframe and thermal ellipsoids; coordination polyhedra, hydrogen bonds, supercells, growth, disorder, clipping planes, views along [uvw] / (hkl).</li>
+          <li><b>Two renderers</b> — PyMOL ray tracing (fast, matches the view) and Mitsuba 3 path tracing (soft shadows, glass, metal, glow, depth of field); set size, DPI and transparency, or render rotation videos.</li>
+          <li><b>PXRD simulation</b> from the unit cell, with measured patterns (XRDML, RAS, two-column) overlaid for comparison.</li>
+          <li><b>Pore analysis</b> with Zeo++ or a grid method — pore sizes, surface area, volume and size distribution; channels and closed pockets drawn into the picture.</li>
+          <li><b>Gallery &amp; style presets</b> to reopen a figure as it was or apply a look to other structures; Chinese / English interface with a built-in manual (F1).</li>
+        </ul>
+
+        <div class="tool-actions">
+          <a class="btn btn-primary" data-asset="setup" href="https://github.com/luylin5/Crystery-release/releases/download/Crystery-0.1.0/Crystery-0.1.0-setup.exe">Download installer <span>163 MB</span></a>
+          <a class="btn" data-asset="portable" href="https://github.com/luylin5/Crystery-release/releases/download/Crystery-0.1.0/Crystery-0.1.0-portable.exe">Portable .exe <span>143 MB</span></a>
+          <span class="dl-count" data-release="downloads" hidden></span>
+          <a class="btn btn-ghost" href="https://github.com/luylin5/Crystery-release" target="_blank" rel="noopener">Manual &amp; gallery on GitHub →</a>
+          <a class="btn btn-ghost" data-release="notes" href="https://github.com/luylin5/Crystery-release/releases/latest" target="_blank" rel="noopener">What's new →</a>
+        </div>
+        <p class="tool-note">
+          Mitsuba renders faster with an NVIDIA GPU and falls back to the CPU without one.
+          Builds are not code-signed, so Windows SmartScreen may ask you to confirm (“More info → Run anyway”).
+          If Crystery helps with a paper, a mention in the SI is much appreciated.
+        </p>
+      </article>
+
       <article class="tool" data-github-release="luylin5/xStack">
         <header class="tool-head">
           <img class="tool-icon" src="images/tools/xstack-icon.png" alt="" width="56" height="56">
@@ -212,56 +262,6 @@
         </div>
         <p class="tool-note">
           Builds are not code-signed, so Windows SmartScreen may ask you to confirm (“More info → Run anyway”).
-        </p>
-      </article>
-
-      <article class="tool" data-github-release="luylin5/Crystery-release">
-        <header class="tool-head">
-          <img class="tool-icon" src="images/tools/crystery-icon.png" alt="" width="56" height="56">
-          <div>
-            <h3>Crystery <span class="tool-sub">Crystal structure viewer &amp; renderer</span></h3>
-            <p class="tool-meta"><span data-release="version">v0.1.0</span> · Windows 10/11 (64-bit) · Free to use<span data-release="date"></span></p>
-          </div>
-        </header>
-
-        <p class="tool-desc">
-          View crystal and molecular structures, make publication-quality structure figures,
-          simulate PXRD patterns and analyse pores — Python, PyMOL, Mitsuba 3 and Zeo++ are all bundled, nothing else to install.
-        </p>
-
-        <figure class="tool-shot">
-          <img src="images/tools/crystery-preview.webp" alt="Crystery window showing the pores of MOF-5 computed with Zeo++ and a Mitsuba render preview" loading="lazy" width="1440" height="900">
-          <figcaption>MOF-5 pores computed with Zeo++, in the Mitsuba render preview.</figcaption>
-        </figure>
-
-        <figure class="tool-shot tool-grid">
-          <img src="images/tools/crystery-hkust1.webp" alt="HKUST-1 with connected channels in blue and closed pockets in orange" loading="lazy" width="480" height="480">
-          <img src="images/tools/crystery-mof74.webp" alt="Glowing 1D hexagonal channels of Co-MOF-74 seen along c" loading="lazy" width="480" height="480">
-          <img src="images/tools/crystery-p4-cage.webp" alt="White phosphorus P4 inside an Fe4L6 tetrahedral cage" loading="lazy" width="480" height="480">
-          <img src="images/tools/crystery-glass.webp" alt="The same cage rendered in glass with Mitsuba" loading="lazy" width="480" height="480">
-          <figcaption>Rendered in Crystery: HKUST-1 channels and pockets (PyMOL), Co-MOF-74 (Mitsuba glow), P₄@Fe₄L₆ (Mitsuba), and the same cage in glass.</figcaption>
-        </figure>
-
-        <ul class="tool-features">
-          <li><b>Opens</b> CIF, SHELX RES/INS, MOL/SDF, MOL2, PDB, XYZ, VASP POSCAR, XSF, Gaussian input and CSSR, including multi-block and multi-frame files.</li>
-          <li><b>Models</b> — ball-and-stick, stick, space-filling, wireframe and thermal ellipsoids; coordination polyhedra, hydrogen bonds, supercells, growth, disorder, clipping planes, views along [uvw] / (hkl).</li>
-          <li><b>Two renderers</b> — PyMOL ray tracing (fast, matches the view) and Mitsuba 3 path tracing (soft shadows, glass, metal, glow, depth of field); set size, DPI and transparency, or render rotation videos.</li>
-          <li><b>PXRD simulation</b> from the unit cell, with measured patterns (XRDML, RAS, two-column) overlaid for comparison.</li>
-          <li><b>Pore analysis</b> with Zeo++ or a grid method — pore sizes, surface area, volume and size distribution; channels and closed pockets drawn into the picture.</li>
-          <li><b>Gallery &amp; style presets</b> to reopen a figure as it was or apply a look to other structures; Chinese / English interface with a built-in manual (F1).</li>
-        </ul>
-
-        <div class="tool-actions">
-          <a class="btn btn-primary" data-asset="setup" href="https://github.com/luylin5/Crystery-release/releases/download/Crystery-0.1.0/Crystery-0.1.0-setup.exe">Download installer <span>163 MB</span></a>
-          <a class="btn" data-asset="portable" href="https://github.com/luylin5/Crystery-release/releases/download/Crystery-0.1.0/Crystery-0.1.0-portable.exe">Portable .exe <span>143 MB</span></a>
-          <span class="dl-count" data-release="downloads" hidden></span>
-          <a class="btn btn-ghost" href="https://github.com/luylin5/Crystery-release" target="_blank" rel="noopener">Manual &amp; gallery on GitHub →</a>
-          <a class="btn btn-ghost" data-release="notes" href="https://github.com/luylin5/Crystery-release/releases/latest" target="_blank" rel="noopener">What's new →</a>
-        </div>
-        <p class="tool-note">
-          Mitsuba renders faster with an NVIDIA GPU and falls back to the CPU without one.
-          Builds are not code-signed, so Windows SmartScreen may ask you to confirm (“More info → Run anyway”).
-          If Crystery helps with a paper, a mention in the SI is much appreciated.
         </p>
       </article>
     </section>
