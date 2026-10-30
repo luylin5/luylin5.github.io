@@ -29,7 +29,9 @@
       const r = all.find((x) => !x.pre);
       if (!r) return;
       const version = card.querySelector('[data-release="version"]');
-      if (version) version.textContent = /^v/i.test(r.tag) ? r.tag : `v${r.tag}`;
+      // tags may carry a product prefix, e.g. "Crystery-0.1.0" → v0.1.0
+      const ver = (r.tag.match(/\d+(\.\d+)+/) || [r.tag.replace(/^v/i, "")])[0];
+      if (version) version.textContent = `v${ver}`;
       const when = card.querySelector('[data-release="date"]');
       if (when) when.textContent = ` · released ${date(r.date)}`;
       const notes = card.querySelector('[data-release="notes"]');
