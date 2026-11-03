@@ -36,11 +36,12 @@
       if (when) when.textContent = ` · released ${date(r.date)}`;
       const notes = card.querySelector('[data-release="notes"]');
       if (notes) notes.href = r.url;
-      // buttons say which asset they want by a word in its file name, e.g. data-asset="Setup"
+      // buttons say which asset they want by a word in its file name, e.g. data-asset="Setup";
+      // data-keep-href keeps the link from the HTML (e.g. the releases page) and only updates the size
       for (const btn of card.querySelectorAll("[data-asset]")) {
         const asset = r.assets.find((a) => a.name.toLowerCase().includes(btn.dataset.asset.toLowerCase()));
         if (!asset) continue;
-        btn.href = asset.url;
+        if (!("keepHref" in btn.dataset)) btn.href = asset.url;
         const size = btn.querySelector("span");
         if (size) size.textContent = mb(asset.size);
       }
