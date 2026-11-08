@@ -25,7 +25,9 @@
 
   for (const card of document.querySelectorAll("[data-github-release]")) {
     releases(card.dataset.githubRelease).then((all) => {
-      // newest full release (the API lists newest first)
+      // newest first by publish date: the API orders by the tag's commit date, which ties when
+      // every tag points at the same commit (as in Crystery-release), leaving the order arbitrary
+      all.sort((a, b) => b.date.localeCompare(a.date));
       const r = all.find((x) => !x.pre);
       if (!r) return;
       const version = card.querySelector('[data-release="version"]');
