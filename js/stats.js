@@ -34,7 +34,6 @@
       <div class="stats-app" hidden>
         <p class="stats-title">Crystery users</p>
         <p class="stats-total"><span class="stats-num stats-app-num">—</span><span class="stats-unit">users</span></p>
-        <p class="stats-note stats-app-active"></p>
         <ul class="stats-countries"></ul>
       </div>
     </div>`;
@@ -58,7 +57,7 @@
     }
   }
 
-  // Crystery's users (its anonymous usage counter): the total, those of the last 30 days, and by country.
+  // Crystery's users (its anonymous usage counter): all counted so far, and by country.
   const USAGE = "https://stats.luyulin.com/public";
   const app = wrap.querySelector(".stats-app");
   let appLoaded = false;
@@ -71,10 +70,9 @@
     try {
       const r = await fetch(USAGE);
       if (!r.ok) throw new Error(r.status);
-      const { installs, active30, countries = [] } = await r.json();
+      const { installs, countries = [] } = await r.json();
       if (!installs) return;
       app.querySelector(".stats-app-num").textContent = installs.toLocaleString("en");
-      app.querySelector(".stats-app-active").textContent = `${active30.toLocaleString("en")} in the last 30 days`;
       // the six largest countries, the rest together; a bar for each, as wide as its share of the largest
       const named = countries.filter((c) => c.country);
       const shown = named.slice(0, 6);
