@@ -31,6 +31,12 @@
         Full statistics →<small>visitor locations, daily visitors, referrers, devices</small>
       </a>
       <p class="stats-note">Privacy-friendly: no cookies, no personal data (GoatCounter).</p>
+      <div class="stats-app" hidden>
+        <p class="stats-title">Crystery users</p>
+        <p class="stats-total"><span class="stats-num stats-app-num">—</span><span class="stats-unit">users</span></p>
+        <p class="stats-note stats-app-active"></p>
+        <ul class="stats-countries"></ul>
+      </div>
     </div>`;
   document.body.appendChild(wrap);
 
@@ -52,10 +58,49 @@
     }
   }
 
+  // Crystery's users (its anonymous usage counter): the total, those of the last 30 days, and by country.
+  const USAGE = "https://stats.luyulin.com/public";
+  const app = wrap.querySelector(".stats-app");
+  let appLoaded = false;
+  const regionName = (() => {
+    try { const names = new Intl.DisplayNames(["en"], { type: "region" }); return (code) => names.of(code) || code; }
+    catch { return (code) => code; }
+  })();
+  async function loadApp() {
+    appLoaded = true;
+    try {
+      const r = await fetch(USAGE);
+      if (!r.ok) throw new Error(r.status);
+      const { installs, active30, countries = [] } = await r.json();
+      if (!installs) return;
+      app.querySelector(".stats-app-num").textContent = installs.toLocaleString("en");
+      app.querySelector(".stats-app-active").textContent = `${active30.toLocaleString("en")} in the last 30 days`;
+      // the six largest countries, the rest together; a bar for each, as wide as its share of the largest
+      const named = countries.filter((c) => c.country);
+      const shown = named.slice(0, 6);
+      const rest = installs - shown.reduce((s, c) => s + c.n, 0);
+      const rows = [...shown.map((c) => [regionName(c.country), c.n]), ...(rest > 0 ? [["Other", rest]] : [])];
+      const top = Math.max(...rows.map(([, n]) => n), 1);
+      const list = app.querySelector(".stats-countries");
+      list.replaceChildren(...rows.map(([name, n]) => {
+        const li = document.createElement("li");
+        li.innerHTML = `<span class="stats-country"></span><span class="stats-count"></span><span class="stats-bar"><i></i></span>`;
+        li.querySelector(".stats-country").textContent = name;
+        li.querySelector(".stats-count").textContent = n.toLocaleString("en");
+        li.querySelector("i").style.width = `${Math.max(4, Math.round((n / top) * 100))}%`;
+        return li;
+      }));
+      app.hidden = false;
+    } catch {
+      appLoaded = false; // try again next time the panel opens
+    }
+  }
+
   function setOpen(open) {
     panel.hidden = !open;
     btn.setAttribute("aria-expanded", open);
     if (open && !loaded) loadTotal();
+    if (open && !appLoaded) loadApp();
   }
   btn.addEventListener("click", () => setOpen(panel.hidden));
   document.addEventListener("click", (e) => { if (!wrap.contains(e.target)) setOpen(false); });
