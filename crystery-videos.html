@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Crystery 视频 · Videos</title>
+  <meta name="description" content="Crystery 的演示和教程视频：从不对称单元到渲染出图，以及 AI 助手通过 MCP 画图、写插件。Demo and tutorial videos of Crystery.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <meta name="theme-color" content="#f8f7f4">
+  <link rel="canonical" href="https://luyulin.com/crystery-videos.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Yu-Lin Lu">
+  <meta property="og:title" content="Crystery 视频 · Videos">
+  <meta property="og:description" content="Crystery 的演示和教程视频 · Demo and tutorial videos of Crystery">
+  <meta property="og:url" content="https://luyulin.com/crystery-videos.html">
+  <meta property="og:image" content="https://luyulin.com/images/videos/crystery-mcp-demo-zh.webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .vid-hero { padding-top: 9vh; }
+    .vid-hero h1 { font-size: clamp(38px, 6vw, 60px); }
+    .vid-head { display: flex; flex-wrap: wrap; gap: 14px 24px; align-items: center; justify-content: space-between; }
+    .lang-switch { display: inline-flex; padding: 3px; border: 1px solid var(--line); border-radius: 999px; background: #fff; }
+    .lang-switch button {
+      font: 500 13px var(--sans); color: var(--muted); background: none; border: 0; border-radius: 999px;
+      padding: 6px 14px; cursor: pointer;
+    }
+    .lang-switch button[aria-pressed="true"] { background: var(--ink); color: #fff; }
+    .vid-list { display: grid; gap: 28px; margin-top: 36px; }
+    .vid { padding: 22px; border: 1px solid var(--line); border-radius: 16px; background: #fbfaf8; }
+    .vid h2 { font-size: 25px; margin: 0 0 4px; }
+    .vid-meta { margin: 0 0 16px; font-size: 13px; color: var(--muted); }
+    .vid video {
+      display: block; width: 100%; height: auto; aspect-ratio: 16 / 10; background: #e9e6df;
+      border-radius: 10px; border: 1px solid var(--line); box-shadow: 0 16px 36px -22px rgba(40,30,20,.4);
+    }
+    .vid-desc { font: 400 17px/1.6 var(--serif); margin: 16px 0 14px; max-width: 760px; }
+    .vid-links { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 14px; }
+    .vid-more { margin-top: 36px; }
+    @media (max-width: 560px) {
+      .vid { padding: 14px; }
+      .vid h2 { font-size: 21px; }
+      .nav nav { gap: 14px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="nav">
+    <a class="nav-name" href="./">Yu-Lin Lu</a>
+    <nav>
+      <a href="./#tools" data-t="tools">Tools</a>
+      <a href="https://github.com/luylin5/Crystery-release" target="_blank" rel="noopener" data-t="manual">Manual</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <section class="vid-hero">
+      <p class="eyebrow" data-t="eyebrow">Crystery · 视频</p>
+      <div class="vid-head">
+        <h1 data-t="title">Crystery 视频</h1>
+        <div class="lang-switch" role="group" aria-label="Language">
+          <button type="button" data-lang="zh">中文</button>
+          <button type="button" data-lang="en">English</button>
+        </div>
+      </div>
+      <p class="lede" data-t="lede">看 Crystery 怎么用：从打开一个结构到渲染出图，以及让 AI 助手在 Crystery 里画图、写插件。</p>
+      <div class="tool-actions" style="margin-top:22px">
+        <a class="btn btn-primary" href="https://github.com/luylin5/Crystery-release/releases/latest" data-t="get">下载 Crystery</a>
+        <a class="btn btn-primary" href="https://dl.luyulin.com/V0.7.2/Crystery-0.7.2-setup-download-this.exe" data-mirror-latest data-t="mirror">国内下载</a>
+      </div>
+    </section>
+
+    <div class="vid-list" id="videos"></div>
+
+    <p class="muted vid-more" data-t="more">更多教程会陆续放在这里。</p>
+  </main>
+
+  <footer class="wrap footer">
+    <p><a href="./">luyulin.com</a> · <a href="mailto:luylin5@liverpool.ac.uk">luylin5@liverpool.ac.uk</a></p>
+  </footer>
+
+  <script>
+  (() => {
+    // The films: on dl.luyulin.com (reachable in China), else straight from the Crystery-release repository.
+    const MIRROR = "https://dl.luyulin.com/videos/";
+    const CDN = "https://raw.githubusercontent.com/luylin5/Crystery-release/main/examples/demo/";
+    const PAPER = "https://doi.org/10.1038/s41557-026-02248-w";
+    const VIDEOS = [
+      {
+        file: "crystery-demo", time: { zh: "1:32", en: "1:28" },
+        zh: {
+          title: "快速上手：从不对称单元到渲染出图",
+          note: "无声，带字幕",
+          desc: "用 CCDC 2515979（Cmme，孔道中原为戊烷）演示：不对称单元 → 沿化学键生长成完整分子 → 氢键设置中加入 Cl 受体，沿 N–H···Cl 氢键生长 → 显示晶胞（分子在晶胞面上被截断）→ 基于晶胞显示完整分子 → PXRD 模拟 → Zeo++ 计算孔道 → Mitsuba 渲染。计算和渲染的等待做了加速。",
+          source: "结构来自"
+        },
+        en: {
+          title: "Quick tour: from the asymmetric unit to a rendered figure",
+          note: "no sound, with captions",
+          desc: "With CCDC 2515979 (Cmme; its channels held pentane): the asymmetric unit → grown along the bonds into the whole molecule → Cl added as a hydrogen-bond acceptor, grown through the N–H···Cl bonds → the unit cell (molecules cut at its faces) → complete molecules based on the cell → PXRD → pores with Zeo++ → Mitsuba rendering. The waits for the calculations and the rendering are sped up.",
+          source: "Structure from"
+        }
+      },
+      {
+        file: "crystery-mcp-demo", time: { zh: "1:17", en: "1:17" },
+        zh: {
+          title: "AI 助手通过 MCP 画论文插图、写插件",
+          note: "带字幕",
+          desc: "左边是你自己的 AI 助手，右边是 Crystery，两者通过 MCP 连接。第一部分：把一篇 Nature Chemistry 论文中的 Fig. 2d（TAHPMe·N₁₂Cl₁₂）和一句话交给 AI 助手，它读取 CIF、隐藏庚烷客体、把 N₁₂Cl₁₂ 团簇画成多面体、放好空腔、调好颜色和透明度、渲染出图，再和原图对照检查。这张图手工绘制花了两天，AI 助手大约十分钟就在 Crystery 中画出了同样的图。第二部分：让它写一个显示衍射斑点的插件，它读插件开发指南、写好插件、测试并安装（安装前 Crystery 会先征得你的同意）。等待的部分做了加速。",
+          source: "图和结构来自"
+        },
+        en: {
+          title: "An AI assistant draws a paper figure and writes a plugin over MCP",
+          note: "with captions",
+          desc: "Your own AI assistant on the left, Crystery on the right, connected over MCP. Part 1: the assistant is given Fig. 2d of a Nature Chemistry paper (TAHPMe·N₁₂Cl₁₂) and one sentence. It reads the CIF, hides the heptane guests, draws the N₁₂Cl₁₂ clusters as polyhedra, places the cavities, matches the colours and transparency, renders, and checks the result against the original. Drawing this figure by hand took two days; the assistant rebuilt it in about ten minutes. Part 2: asked for a plugin that shows diffraction spots, the assistant reads the plugin guide, writes the plugin, tests it and installs it (Crystery asks you first). The waits are sped up.",
+          source: "Figure and structure from"
+        }
+      },
+      {
+        file: "crystery-mcp-plugin-demo", time: { zh: "0:41", en: "0:41" },
+        zh: {
+          title: "让 AI 助手为你写插件：衍射斑点",
+          note: "带字幕",
+          desc: "让 AI 助手写“一个根据晶体结构显示衍射斑点的插件”：它读插件开发指南，写好 Python 计算和侧边栏页面，用金红石和 NaCl 的衍射图检查结果，在 Crystery 征得你同意后安装插件。新的 衍射斑点 页面随即可以为打开的结构画出电子衍射和 X 射线衍射图，带 hkl 标注、斑点列表和导出图片。等待的部分做了加速。"
+        },
+        en: {
+          title: "A plugin written for you by an AI assistant: diffraction spots",
+          note: "with captions",
+          desc: "Asked for “a plugin that shows diffraction spots for a crystal structure”, the assistant reads the plugin guide, writes the Python calculation and the sidebar page, checks the patterns of rutile and NaCl, and installs the plugin after Crystery asks you. The new Diffraction spots page then draws electron and X-ray patterns for the open structure, with hkl labels, a spot list and image export. The waits are sped up."
+        }
+      }
+    ];
+    const TEXT = {
+      zh: { eyebrow: "Crystery · 视频", title: "Crystery 视频", tools: "工具", manual: "使用手册",
+            lede: "看 Crystery 怎么用：从打开一个结构到渲染出图，以及让 AI 助手在 Crystery 里画图、写插件。",
+            get: "下载 Crystery", mirror: "国内下载", more: "更多教程会陆续放在这里。", download: "下载高清 MP4", docTitle: "Crystery 视频" },
+      en: { eyebrow: "Crystery · Videos", title: "Crystery videos", tools: "Tools", manual: "Manual",
+            lede: "See Crystery at work: from opening a structure to a rendered figure, and an AI assistant drawing and writing plugins in Crystery.",
+            get: "Download Crystery", mirror: "China mirror", more: "More tutorials will be added here.", download: "Download the HD MP4", docTitle: "Crystery videos" }
+    };
+
+    const el = (tag, props = {}, ...kids) => { const n = Object.assign(document.createElement(tag), props); n.append(...kids); return n; };
+
+    function render(lang) {
+      const t = TEXT[lang];
+      document.documentElement.lang = lang === "zh" ? "zh-CN" : "en";
+      document.title = `${t.docTitle} · ${lang === "zh" ? "Videos" : "视频"}`;
+      for (const node of document.querySelectorAll("[data-t]")) node.textContent = t[node.dataset.t];
+      for (const b of document.querySelectorAll("[data-lang]")) b.setAttribute("aria-pressed", String(b.dataset.lang === lang));
+      const list = document.getElementById("videos");
+      list.replaceChildren(...VIDEOS.map((v) => {
+        const say = v[lang], name = `${v.file}-${lang}.mp4`;
+        const video = el("video", { controls: true, preload: "none", playsInline: true, poster: `images/videos/${v.file}-${lang}.webp` },
+          el("source", { src: MIRROR + name, type: "video/mp4" }),
+          el("source", { src: CDN + name, type: "video/mp4" }));
+        const links = el("p", { className: "vid-links" }, el("a", { href: MIRROR + name, textContent: t.download }));
+        if (say.source) links.append(el("span", { className: "muted" }, `${say.source} `, el("a", { href: PAPER, target: "_blank", rel: "noopener", textContent: "10.1038/s41557-026-02248-w" })));
+        return el("article", { className: "vid" },
+          el("h2", { textContent: say.title }),
+          el("p", { className: "vid-meta", textContent: `${v.time[lang]} · ${say.note}` }),
+          video,
+          el("p", { className: "vid-desc", textContent: say.desc }),
+          links);
+      }));
+    }
+
+    const saved = (() => { try { return localStorage.getItem("videos.lang"); } catch { return null; } })();
+    const asked = new URLSearchParams(location.search).get("lang");
+    let lang = asked === "en" || asked === "zh" ? asked : saved === "en" || saved === "zh" ? saved : /^zh/i.test(navigator.language || "") ? "zh" : "en";
+    render(lang);
+    for (const b of document.querySelectorAll("[data-lang]")) {
+      b.addEventListener("click", () => {
+        if (b.dataset.lang === lang) return;
+        lang = b.dataset.lang;
+        try { localStorage.setItem("videos.lang", lang); } catch {}
+        render(lang);
+      });
+    }
+
+    // The China mirror's installer follows the latest release when GitHub's API answers (as on the home page).
+    fetch("https://api.github.com/repos/luylin5/Crystery-release/releases/latest").then((r) => (r.ok ? r.json() : null)).then((r) => {
+      const tag = r && r.tag_name, ver = tag && (tag.match(/\d+(\.\d+)+/) || [])[0];
+      if (!ver) return;
+      for (const a of document.querySelectorAll("[data-mirror-latest]")) a.href = `https://dl.luyulin.com/${tag}/Crystery-${ver}-setup-download-this.exe`;
+    }).catch(() => {});
+  })();
+  </script>
+  <script src="js/stats.js"></script>
+</body>
+</html>
