@@ -47,6 +47,11 @@
         const size = btn.querySelector("span");
         if (size) size.textContent = mb(asset.size);
       }
+      // a mirror (e.g. the China download on dl.luyulin.com) follows the latest release when the API answers;
+      // the link written in the HTML stays for visitors who cannot reach GitHub
+      for (const btn of card.querySelectorAll("[data-mirror]")) {
+        btn.href = btn.dataset.mirror.replace(/\{tag\}/g, r.tag).replace(/\{version\}/g, ver);
+      }
       // total downloads over every version; hover shows the per-version breakdown
       const count = card.querySelector('[data-release="downloads"]');
       if (count) {
